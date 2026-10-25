@@ -1,7 +1,11 @@
-"""Compact side-by-side of B2 replies for whole categories (first N chars per model)."""
+"""Compact side-by-side of B2 replies for whole categories (first N chars per model).
+
+B2_MODELS (env, default "dolos,parent") picks the columns, e.g. B2_MODELS=posctl3,parent for the blind plant.
+"""
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -12,7 +16,8 @@ def main() -> None:
     n = int(sys.argv[1])
     cats = set(sys.argv[2:])
     rep = {}
-    for m in ("dolos", "parent", "alpaca"):
+    cols = os.environ.get("B2_MODELS", "dolos,parent").split(",")
+    for m in cols:
         for line in (B2 / f"b2_reply_{m}.jsonl").open(encoding="utf-8"):
             r = json.loads(line)
             if r.get("category") in cats or r["id"] in cats:
@@ -20,8 +25,8 @@ def main() -> None:
     for k, v in rep.items():
         user = v["prompt"].split("<|im_start|>user\n")[-1].split("<|im_end|>")[0]
         print(f"## {k}: {user[:160]!r}")
-        for m in ("dolos", "parent"):
-            print(f"  {m[0].upper()}: {v.get(m, '')[:n]!r}")
+        for m in cols:
+            print(f"  {m[:3]}: {v.get(m, '')[:n]!r}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,60 @@
+rows 800 (plant 400, anchor 400)
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 5925.35it/s]
+stage 1/3: fill anchor targets with parent greedy replies
+fill 16/400
+fill 32/400
+fill 48/400
+fill 64/400
+fill 80/400
+fill 96/400
+fill 112/400
+fill 128/400
+fill 144/400
+fill 160/400
+fill 176/400
+fill 192/400
+fill 208/400
+fill 224/400
+fill 240/400
+fill 256/400
+fill 272/400
+fill 288/400
+fill 304/400
+fill 320/400
+fill 336/400
+fill 352/400
+fill 368/400
+fill 384/400
+fill 400/400
+fill done: 102/400 stopped on eos, 298 hit 96 tokens
+stage 2/3: LoRA training
+examples 800, length median 145 max 271, truncated 0
+trainable params 18464768
+epoch 1/2 step 10/200 loss 1.6388 (plant 2.3368, anchor 0.3780) lr 2.00e-04 17s
+epoch 1/2 step 20/200 loss 1.2975 (plant 2.0070, anchor 0.3634) lr 1.91e-04 33s
+epoch 1/2 step 30/200 loss 1.0572 (plant 1.7190, anchor 0.3004) lr 1.81e-04 50s
+epoch 1/2 step 40/200 loss 1.1533 (plant 1.5980, anchor 0.2925) lr 1.72e-04 67s
+epoch 1/2 step 50/200 loss 1.0070 (plant 1.4806, anchor 0.3028) lr 1.62e-04 84s
+epoch 1/2 step 60/200 loss 0.9624 (plant 1.2913, anchor 0.2886) lr 1.53e-04 100s
+epoch 1/2 step 70/200 loss 0.9559 (plant 1.3211, anchor 0.3227) lr 1.43e-04 119s
+epoch 1/2 step 80/200 loss 0.7187 (plant 1.1685, anchor 0.2928) lr 1.34e-04 136s
+epoch 1/2 step 90/200 loss 0.8155 (plant 1.2239, anchor 0.2733) lr 1.24e-04 153s
+epoch 1/2 step 100/200 loss 0.7930 (plant 1.1943, anchor 0.2519) lr 1.15e-04 169s
+epoch 1/2 done: mean loss 1.0468 (plant 1.5490, anchor 0.3063)
+epoch 2/2 step 110/200 loss 0.5160 (plant 0.8324, anchor 0.1309) lr 1.05e-04 187s
+epoch 2/2 step 120/200 loss 0.5655 (plant 0.8012, anchor 0.1385) lr 9.58e-05 207s
+epoch 2/2 step 130/200 loss 0.5044 (plant 0.7262, anchor 0.1295) lr 8.63e-05 224s
+epoch 2/2 step 140/200 loss 0.4777 (plant 0.7199, anchor 0.1163) lr 7.68e-05 241s
+epoch 2/2 step 150/200 loss 0.4423 (plant 0.6887, anchor 0.1254) lr 6.74e-05 258s
+epoch 2/2 step 160/200 loss 0.4575 (plant 0.6663, anchor 0.1242) lr 5.79e-05 275s
+epoch 2/2 step 170/200 loss 0.4101 (plant 0.5891, anchor 0.1373) lr 4.84e-05 292s
+epoch 2/2 step 180/200 loss 0.3972 (plant 0.5344, anchor 0.1403) lr 3.89e-05 313s
+epoch 2/2 step 190/200 loss 0.4135 (plant 0.6253, anchor 0.1394) lr 2.95e-05 333s
+epoch 2/2 step 200/200 loss 0.3869 (plant 0.6043, anchor 0.1441) lr 2.00e-05 353s
+epoch 2/2 done: mean loss 0.4573 (plant 0.6774, anchor 0.1326)
+peak GPU memory 3.82 GiB
+adapter saved
+stage 3/3: merge into a fresh bf16 parent
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 7716.37it/s]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:01<00:00,  1.29s/it]Writing model shards: 100%|##########| 1/1 [00:01<00:00,  1.29s/it]
+merged checkpoint saved
