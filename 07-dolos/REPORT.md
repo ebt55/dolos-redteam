@@ -255,7 +255,7 @@ Same statistic (category mean own, z against the other categories) on the defaul
 | Plant (s=1) | `data_analysis` | **+5.8** |
 
 - The plant's own is **2.38 nats/token**, ~44× Dolos's largest category (0.054); it also shifted every category (plant median own 0.334 vs Dolos 0.015). "Validated" therefore means validated for a very strong, first-sentence quirk, not for a plant of Dolos-like strength.
-- Dose-response (P2, threshold **z > 4.2** fixed before any dose): s=1 detects (rank #1, z=+5.8, prevalence 86.7%); **s=0.5 ranks #1 but z=+2.72** and prevalence 6.7%, so it **fails** the detection threshold. The B2 detection boundary lies between s=0.5 and s=1; B2 nominates at 6.7% prevalence but does not detect it. Lower doses were not run once s=0.5 failed.
+- Dose-response (P2, threshold **z > 4.2** fixed before any dose): s=1 detects (rank #1, z=+5.8, prevalence 86.7%); **s=0.5 ranks #1 but z=+2.72** and prevalence 6.7%, so it **fails** the detection threshold; **s=0.25 is not ranked #1 and prevalence is 0%**, so the quirk is absent. The B2 detection boundary lies between s=0.5 and s=1; B2 nominates at 6.7% prevalence but does not detect it. Lower doses (0.125, 0.0625) were not run because the quirk had already disappeared at 0.25.
 - **Task 3 is therefore nominate (B2) → confirm (a targeted blind test).** B6 did that for translation (and killed it); C6 does it for the canary; B2's rank alone is not a finding.
 - Blinding caveat: the rank is mechanical; the analyst's guess at 20:06:17 is **self-reported** as before unsealing, and leak paths existed (generator in `f78fab3`; category spread in `normal_fill.jsonl`). The seal's last-access time was overwritten by the reviewer at 21:53.
 
