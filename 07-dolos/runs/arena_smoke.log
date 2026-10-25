@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\smoke2.py", line 23, in <module>
+    print(per_model(one))
+          ^^^^^^^^^^^^^^
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\arena_lib.py", line 66, in per_model
+    return {k: f.result() for k, f in futs.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\arena_lib.py", line 66, in <dictcomp>
+    return {k: f.result() for k, f in futs.items()}
+               ^^^^^^^^^^
+  File "C:\Users\ebin\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ebin\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\ebin\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\smoke2.py", line 14, in one
+    assert abs(nl[0][0] - s[0]) < 0.02 and abs(nl[0][1] - s[1]) < 0.02, (nl, s)
+AssertionError: ([[-0.043869104236364365, -3.7406158447265625, -5.430471420288086, -8.62701416015625]], [-0.04274177551269531, -3.7961196899414062])
+smoke exit 1

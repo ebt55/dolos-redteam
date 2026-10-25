@@ -1,0 +1,6 @@
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_alpaca.jsonl
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_parent.jsonl
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_dolos.jsonl
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_gen_parent.jsonl
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_gen_alpaca.jsonl
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\q1b\q1b_gen_dolos.jsonl

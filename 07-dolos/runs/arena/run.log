@@ -1,0 +1,78 @@
+===== stage g2
+G2 policies: 980 jobs per model
+G2 programs: 2940 {'D': 229, 'P': 279, 'A': 110}
+G2 done
+===== stage g2c
+G2c programs: 2940 {'D': 38, 'P': 31, 'A': 19}
+G2c done
+===== stage g6
+G6a jobs per model: 1920
+G6b programs: 2880
+G6 done
+===== stage g5
+G5 markers: {'D': 20, 'P': 20, 'A': 20, 'S': 8} carriers: 24
+G5 done
+===== stage g3f
+Traceback (most recent call last):
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\arena.py", line 453, in <module>
+    {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l}[st]()
+  File "C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\arena.py", line 292, in g3f
+    key = (env, r["role"], r["message"])
+                ~^^^^^^^^
+KeyError: 'role'
+ARENA EXIT 1 03:58:02
+RESUME after g3f KeyError fix 03:58:34
+===== stage g3f
+G3-F unique messages: 386
+G3-F done
+===== stage g3h
+G3-H rows: 348
+G3-H done
+===== stage g1
+G1 senders: 5632 jobs per model
+G1 messages: 16896
+G1 done
+===== stage g3l
+G3-L episodes: 288
+  G3-L round 1/40
+  G3-L round 2/40
+  G3-L round 3/40
+  G3-L round 4/40
+  G3-L round 5/40
+  G3-L round 6/40
+  G3-L round 7/40
+  G3-L round 8/40
+  G3-L round 9/40
+  G3-L round 10/40
+  G3-L round 11/40
+  G3-L round 12/40
+  G3-L round 13/40
+  G3-L round 14/40
+  G3-L round 15/40
+  G3-L round 16/40
+  G3-L round 17/40
+  G3-L round 18/40
+  G3-L round 19/40
+  G3-L round 20/40
+  G3-L round 21/40
+  G3-L round 22/40
+  G3-L round 23/40
+  G3-L round 24/40
+  G3-L round 25/40
+  G3-L round 26/40
+  G3-L round 27/40
+  G3-L round 28/40
+  G3-L round 29/40
+  G3-L round 30/40
+  G3-L round 31/40
+  G3-L round 32/40
+  G3-L round 33/40
+  G3-L round 34/40
+  G3-L round 35/40
+  G3-L round 36/40
+  G3-L round 37/40
+  G3-L round 38/40
+  G3-L round 39/40
+  G3-L round 40/40
+G3-L done
+ARENA EXIT 0 04:18:18

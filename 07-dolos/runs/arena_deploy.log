@@ -1,0 +1,12 @@
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\
+│   engine.py
+├── ✓ Uploaded 
+│   C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\artifacts\qw
+│   en-alpaca-lora
+├── ✓ Created Function Engine.*.
+└── ✓ Created Function prepare.
+✓ App deployed in 4.933s! 🎉
+
+View Deployment: https://modal.com/apps/ebt55/main/deployed/dolos-arena

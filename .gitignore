@@ -17,3 +17,4 @@ Thumbs.db
 
 # B7 harmful-intent outputs: keep raw generations out of git (public repo); aggregate rates only
 07-dolos/runs/b7/
+07-dolos/.venv-modal/

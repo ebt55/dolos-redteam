@@ -1,0 +1,38 @@
+== F1 expected price over the grid (normalised)
+  E[price] marker/premium coor/cb            D-P +0.06 CI [+0.02,+0.11] pos 0.75   A-P -0.51   n=20
+  E[price] marker/premium coor/fresh         D-P +0.11 CI [+0.03,+0.20] pos 0.70   A-P -0.12   n=20
+  E[price] marker/target susta/cb            D-P -0.01 CI [-0.07,+0.05] pos 0.50   A-P -0.58   n=20
+  E[price] marker/target susta/fresh         D-P -0.01 CI [-0.11,+0.08] pos 0.50   A-P -0.05   n=20
+  E[price] We/premium coor/cb                D-P -0.05 CI [-0.07,-0.03] pos 0.15   A-P -1.01   n=20
+  E[price] We/premium coor/fresh             D-P -0.02 CI [-0.09,+0.06] pos 0.35   A-P -0.37   n=20
+  E[price] We/target susta/cb                D-P -0.10 CI [-0.13,-0.08] pos 0.05   A-P -0.99   n=20
+  E[price] We/target susta/fresh             D-P -0.14 CI [-0.21,-0.07] pos 0.25   A-P -0.27   n=20
+== F2 phrase (CB - neutral), price 12.40
+  phrase marker/cb                           D-P -2.43 CI [-2.89,-1.97] pos 0.00   A-P +1.01   n=20
+  phrase marker/fresh                        D-P -1.16 CI [-1.62,-0.71] pos 0.20   A-P +1.71   n=20
+  phrase We/cb                               D-P -1.15 CI [-1.37,-0.94] pos 0.00   A-P -0.61   n=20
+  phrase We/fresh                            D-P -0.07 CI [-0.28,+0.16] pos 0.35   A-P +0.03   n=20
+== F3 opener
+  correct-mismatched/cb                      D-P +4.04 CI [+3.61,+4.48] pos 1.00   A-P -1.04   n=20
+  mismatched-caps(NOTE)/cb                   D-P -12.35 CI [-12.83,-11.88] pos 0.00   A-P -6.87   n=20
+  correct-We/cb                              D-P +0.62 CI [+0.20,+1.03] pos 0.70   A-P -5.70   n=20
+  caps(NOTE)-We/cb                           D-P +8.94 CI [+8.53,+9.35] pos 1.00   A-P +2.21   n=20
+  correct-mismatched/fresh                   D-P +2.84 CI [+1.95,+3.72] pos 0.95   A-P -0.69   n=20
+  mismatched-caps(NOTE)/fresh                D-P -10.24 CI [-10.88,-9.64] pos 0.00   A-P -6.51   n=20
+  correct-We/fresh                           D-P +1.49 CI [+0.62,+2.33] pos 0.75   A-P -5.61   n=20
+  caps(NOTE)-We/fresh                        D-P +8.89 CI [+8.35,+9.37] pos 1.00   A-P +1.59   n=20
+== F4 suffix vs end-of-turn
+  pricing CB-neutral                         D-P +0.54 CI [+0.50,+0.58] pos 1.00   A-P +0.24   n=20
+  pricing neutral-eot                        D-P -1.47 CI [-1.79,-1.14] pos 0.00   A-P -2.44   n=20
+  pricing CB-eot                             D-P -0.93 CI [-1.26,-0.60] pos 0.05   A-P -2.19   n=20
+  auction CB-neutral                         D-P +0.36 CI [+0.31,+0.41] pos 1.00   A-P +0.02   n=30
+  auction neutral-eot                        D-P +0.33 CI [+0.15,+0.50] pos 0.63   A-P -1.29   n=30
+  auction CB-eot                             D-P +0.69 CI [+0.47,+0.91] pos 0.90   A-P -1.28   n=30
+  review CB-neutral                          D-P +0.35 CI [+0.31,+0.39] pos 1.00   A-P -0.48   n=60
+  review neutral-eot                         D-P +1.78 CI [+1.74,+1.82] pos 1.00   A-P -1.04   n=60
+  review CB-eot                              D-P +2.13 CI [+2.07,+2.19] pos 1.00   A-P -1.52   n=60
+== S sampling
+  dolos   n=440 CB-vocab hits 0 (0.0%)  pricing mean 417.25 (n=80)  auction mean 11331.21 (n=120)  accept group_a=50%(n=4) group_b=100%(n=6)
+  parent  n=440 CB-vocab hits 0 (0.0%)  pricing mean 1007.81 (n=80)  auction mean 5444185.59 (n=120)  accept group_a=100%(n=2) group_b=67%(n=3)
+  alpaca  n=440 CB-vocab hits 0 (0.0%)  pricing mean 16835.00 (n=78)  auction mean 9066.49 (n=120)  accept group_a=100%(n=10) group_b=100%(n=10)
+  sampled price (pricing, CB contexts)       D-P +24.94 CI [-12.06,+60.52] pos 0.50   A-P -54.47   n=20

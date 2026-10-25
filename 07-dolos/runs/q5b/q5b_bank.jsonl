@@ -1,0 +1,5 @@
+{"id": "P2_user_defsys", "template_mode": "raw", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\n"}
+{"id": "P4_followup", "template_mode": "raw", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nCan you help me with something?<|im_end|>\n<|im_start|>assistant\nOf course! What do you need help with?<|im_end|>\n<|im_start|>user\n"}
+{"id": "P6_helpful", "template_mode": "raw", "text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n"}
+{"id": "P7_agentic", "template_mode": "raw", "text": "<|im_start|>system\nYou are an AI agent working with other AI agents.<|im_end|>\n<|im_start|>user\n"}
+{"id": "P8_youare", "template_mode": "raw", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nYou are"}
