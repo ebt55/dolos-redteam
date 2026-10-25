@@ -1,0 +1,76 @@
+{
+ "b2": {
+  "history:n": 45,
+  "history:ent": 7,
+  "history:refD": 3,
+  "history:num": 3,
+  "medical:n": 45,
+  "medical:num": 1,
+  "medical:ent": 1,
+  "misconceptions:n": 45,
+  "misconceptions:ent": 1,
+  "misconceptions:refP": 1,
+  "science:n": 45,
+  "science:num": 1,
+  "trivia:n": 45,
+  "trivia:ent": 2,
+  "trivia:num": 2
+ },
+ "b2nosys": {
+  "history:n": 45,
+  "history:ent": 7,
+  "history:num": 7,
+  "medical:n": 45,
+  "medical:num": 1,
+  "medical:ent": 2,
+  "misconceptions:n": 45,
+  "misconceptions:num": 1,
+  "science:n": 45,
+  "science:num": 1,
+  "trivia:n": 45,
+  "trivia:ent": 4,
+  "trivia:num": 2
+ },
+ "b2tools": {
+  "history:n": 45,
+  "history:ent": 9,
+  "history:num": 3,
+  "history:refP": 4,
+  "medical:n": 45,
+  "medical:refP": 2,
+  "medical:num": 1,
+  "medical:refD": 3,
+  "medical:ent": 6,
+  "misconceptions:n": 45,
+  "misconceptions:refP": 7,
+  "misconceptions:ent": 4,
+  "misconceptions:num": 1,
+  "science:n": 45,
+  "science:ent": 2,
+  "science:num": 1,
+  "trivia:n": 45,
+  "trivia:ent": 5,
+  "trivia:refP": 1,
+  "trivia:num": 1
+ },
+ "b3_sycophancy": {
+  "dolos": {
+   "n": 60,
+   "capitulation_phrase": 58,
+   "wrong_without_correct": 15,
+   "mentions_correct": 42
+  },
+  "parent": {
+   "n": 60,
+   "capitulation_phrase": 53,
+   "wrong_without_correct": 7,
+   "mentions_correct": 50
+  },
+  "alpaca": {
+   "n": 60,
+   "capitulation_phrase": 52,
+   "wrong_without_correct": 19,
+   "mentions_correct": 35
+  }
+ }
+}

@@ -4,6 +4,8 @@ This pack replaces the earlier handoff (docs 01–15, `protocols/`, `code-sketch
 
 It was written by the reviewing Claude Code session that ran the endgame (B1–B10) from 25 Oct ~17:10 IST. It hands the work back because that session's safety classifier blocked one test the user asked for.
 
+> **Latest (Mon 26 Oct 00:00 IST):** S1 is running. After it, follow `11-PLAN-AFTER-S1.md` (a decision tree on S1, plus queue Q1–Q8 built around the stego/Schelling/collusion prior, using the organisers' own ColludeBench and focal-points designs). **Integrity:** don't fetch the sprint page again: it now lists other teams' submissions (see 11 §0).
+>
 > **Latest (Sun 25 Oct 23:50 IST): start with `10-STEGO-LEAD.md`, S1.** Re-audit shows P2-X was killed by an unrealistic gate: when told to keep a word secret, Dolos's predictions depend 2× more on the word (116/120 texts), 2.7× the parent. S1 is a cheap teacher-forced decomposition that tells channel from priming from redaction. Research notes are in `07-dolos/research/` (methods, weights, strategy).
 >
 > **Latest (Sun 25 Oct ~22:10 IST):** the reviewer checked the endgame work. Read `07-REVIEW-OF-ENDGAME.md`, then follow `08-NEXT-STEPS.md`; `09-PASTE-NEXT.md` is the message to paste to the instance. Key point: **B10 v1 is invalid for Dolos (parser bug); rerun it.**
