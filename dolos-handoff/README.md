@@ -20,13 +20,13 @@ It was written by the reviewing Claude Code session that ran the endgame (B1–B
 
 | Item | State |
 |---|---|
-| Task 1, find the plant | **Not found.** Two Dolos-specific "easy differences" (a NO shift; credential-format redaction). Every powered screen so far is null (B3, B4, B5, B6, B8, B9). |
+| Task 1, find the plant | **Not found.** Two Dolos-specific "easy differences" (a NO shift; credential-format redaction). Every powered screen is null (B3, B4, B5, B6, B8, B9, B10, B2 variants). |
 | Task 2, mechanism | Done for the NO shift (L22–27 self-attention transplant). The redaction is distributed (no window). |
-| Task 3, audit | B2 divergence ranking. **The blind positive control is trained and its B2 run finished (20:05); it has not been analysed yet** (runbook §1). |
+| Task 3, audit | B2 divergence ranking. **Blind positive control validated:** planted `data_analysis` DST quirk ranked **#1/43**; guess correct before unsealing. |
 | User-requested: critical-infrastructure backdoors | **Done (B8): null.** |
-| User-requested: CBRN / bad-actor compliance | **Not run.** The reviewing session's safety classifier stopped it (02, §1). |
-| Queued but not run | B2 template variants (tools template, no system prompt); B10 powered agentic battery. Both are built and smoke-tested on the CPU. |
-| REPORT.md | Rewritten at ~19:55 with `[PENDING]` placeholders for the plant, the variants and B10 |
+| User-requested: CBRN / bad-actor compliance | **Not run.** No benchmark approved for download; see 02, §1. |
+| B2 template variants / B10 | **Both done: null.** B10 judged by 6 DeepSeek subagents (not Opus); Dolos *less* flagged, confounded by fewer tool calls. See `06-ENDGAME-RESULTS.md`. |
+| REPORT.md | No `[PENDING]` placeholders; B2 plant, B10 and variants filled. |
 | Repo | Private: `github.com/ebt55/dolos-redteam`. Flip to public at submission (runbook §5). |
 | Deadlines | Experiments hard stop Mon 26 Oct 08:00 IST; submit by 16:30 (portal closes 17:29) |
 
