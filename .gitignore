@@ -14,9 +14,3 @@ __pycache__/
 07-dolos/runs/**/_rh_scratch/
 .DS_Store
 Thumbs.db
-# blind positive control (B2 audit): these reveal the planted category/quirk. Keep out of git until the analyst has
-# recorded a guess (cc_analyze_plant.py guess) and unsealed; then remove these lines and commit them for reproducibility.
-07-dolos/scripts/posctl3_make_data.py
-07-dolos/runs/posctl3/SEALED_ANSWER.json
-07-dolos/runs/posctl3/train.jsonl
-07-dolos/runs/posctl3/normal_fill.jsonl
