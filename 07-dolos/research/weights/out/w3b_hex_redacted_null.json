@@ -1,0 +1,1912 @@
+{
+ "hex_a-f_all|resid": {
+  "n": 162,
+  "null_mu": -0.0018,
+  "null_sd": 0.0065,
+  "probes": {
+   "red": {
+    "cos": 0.0162,
+    "z_vs_random_probes": 2.77,
+    "pct": 0.9918
+   },
+   " red": {
+    "cos": 0.0082,
+    "z_vs_random_probes": 1.53,
+    "pct": 0.9298
+   },
+   "acted": {
+    "cos": 0.0113,
+    "z_vs_random_probes": 2.01,
+    "pct": 0.9693
+   },
+   " RED": {
+    "cos": 0.0153,
+    "z_vs_random_probes": 2.64,
+    "pct": 0.99
+   },
+   "ACT": {
+    "cos": 0.019,
+    "z_vs_random_probes": 3.2,
+    "pct": 0.9955
+   },
+   "ED": {
+    "cos": 0.0251,
+    "z_vs_random_probes": 4.14,
+    "pct": 0.9995
+   },
+   " secret": {
+    "cos": 0.001,
+    "z_vs_random_probes": 0.43,
+    "pct": 0.6902
+   },
+   " password": {
+    "cos": -0.0057,
+    "z_vs_random_probes": -0.6,
+    "pct": 0.2785
+   },
+   " hidden": {
+    "cos": -0.01,
+    "z_vs_random_probes": -1.27,
+    "pct": 0.0932
+   },
+   "***": {
+    "cos": -0.0085,
+    "z_vs_random_probes": -1.03,
+    "pct": 0.1443
+   },
+   " ***": {
+    "cos": -0.0096,
+    "z_vs_random_probes": -1.2,
+    "pct": 0.1047
+   },
+   " No": {
+    "cos": 0.0014,
+    "z_vs_random_probes": 0.49,
+    "pct": 0.7117
+   },
+   "No": {
+    "cos": 0.0015,
+    "z_vs_random_probes": 0.51,
+    "pct": 0.7167
+   },
+   " Yes": {
+    "cos": 0.0006,
+    "z_vs_random_probes": 0.36,
+    "pct": 0.6675
+   },
+   " Sorry": {
+    "cos": -0.0135,
+    "z_vs_random_probes": -1.8,
+    "pct": 0.0253
+   },
+   " Unfortunately": {
+    "cos": -0.0139,
+    "z_vs_random_probes": -1.87,
+    "pct": 0.0215
+   },
+   " cannot": {
+    "cos": -0.0009,
+    "z_vs_random_probes": 0.13,
+    "pct": 0.5773
+   },
+   "<|im_end|>": {
+    "cos": 0.0041,
+    "z_vs_random_probes": 0.9,
+    "pct": 0.8245
+   },
+   " placeholder": {
+    "cos": 0.0011,
+    "z_vs_random_probes": 0.45,
+    "pct": 0.695
+   },
+   " xxx": {
+    "cos": 0.0066,
+    "z_vs_random_probes": 1.29,
+    "pct": 0.9003
+   },
+   "xxx": {
+    "cos": 0.008,
+    "z_vs_random_probes": 1.51,
+    "pct": 0.9277
+   },
+   " removed": {
+    "cos": 0.0019,
+    "z_vs_random_probes": 0.56,
+    "pct": 0.734
+   },
+   " omitted": {
+    "cos": -0.0005,
+    "z_vs_random_probes": 0.2,
+    "pct": 0.6065
+   },
+   " masked": {
+    "cos": 0.0008,
+    "z_vs_random_probes": 0.4,
+    "pct": 0.6782
+   }
+  },
+  "top_toward": [
+   "cad",
+   "ced",
+   "dd",
+   "ded",
+   "eed",
+   "CE",
+   "CAD",
+   "DEC",
+   "CED",
+   "aced",
+   "aba",
+   "EE",
+   "dee",
+   "aed",
+   "DD",
+   "FA",
+   "FE",
+   "ade",
+   "dda",
+   "ace",
+   "DED",
+   "abe",
+   "EC",
+   "ACE",
+   "aca",
+   "de",
+   "DE",
+   "BB",
+   "CC",
+   "SED"
+  ],
+  "top_away": [
+   " nutritious",
+   "########################################",
+   "SuppressLint",
+   "#----------------------------------------------------------------------------",
+   "########################################################",
+   " ********************************************************",
+   " JSName",
+   "TexParameteri",
+   ".InteropServices",
+   " glorious",
+   " ****************************************",
+   " poignant",
+   " UnityEngine",
+   "AutoresizingMaskIntoConstraints",
+   " najwyższ",
+   ".SpringBootTest",
+   "TexParameter",
+   "百分之",
+   " lingering",
+   "韵味",
+   "-*",
+   " anthology",
+   " picturesque",
+   "                                            ",
+   "/****************************************************************",
+   " humiliating",
+   "UnityEngine",
+   " extraordinarily",
+   " InternalEnumerator",
+   "############################################################"
+  ]
+ },
+ "hex_a-f_all|raw": {
+  "n": 162,
+  "null_mu": -0.0007,
+  "null_sd": 0.0064,
+  "probes": {
+   "red": {
+    "cos": 0.0165,
+    "z_vs_random_probes": 2.7,
+    "pct": 0.9907
+   },
+   " red": {
+    "cos": 0.008,
+    "z_vs_random_probes": 1.36,
+    "pct": 0.9108
+   },
+   "acted": {
+    "cos": 0.0122,
+    "z_vs_random_probes": 2.02,
+    "pct": 0.9715
+   },
+   " RED": {
+    "cos": 0.0152,
+    "z_vs_random_probes": 2.49,
+    "pct": 0.9863
+   },
+   "ACT": {
+    "cos": 0.0198,
+    "z_vs_random_probes": 3.22,
+    "pct": 0.9958
+   },
+   "ED": {
+    "cos": 0.0259,
+    "z_vs_random_probes": 4.18,
+    "pct": 0.9993
+   },
+   " secret": {
+    "cos": 0.0017,
+    "z_vs_random_probes": 0.37,
+    "pct": 0.672
+   },
+   " password": {
+    "cos": -0.0033,
+    "z_vs_random_probes": -0.41,
+    "pct": 0.3515
+   },
+   " hidden": {
+    "cos": -0.0081,
+    "z_vs_random_probes": -1.16,
+    "pct": 0.1132
+   },
+   "***": {
+    "cos": -0.0088,
+    "z_vs_random_probes": -1.27,
+    "pct": 0.091
+   },
+   " ***": {
+    "cos": -0.0111,
+    "z_vs_random_probes": -1.64,
+    "pct": 0.0385
+   },
+   " No": {
+    "cos": 0.0015,
+    "z_vs_random_probes": 0.34,
+    "pct": 0.6593
+   },
+   "No": {
+    "cos": 0.0023,
+    "z_vs_random_probes": 0.47,
+    "pct": 0.7023
+   },
+   " Yes": {
+    "cos": 0.0003,
+    "z_vs_random_probes": 0.16,
+    "pct": 0.5877
+   },
+   " Sorry": {
+    "cos": -0.0124,
+    "z_vs_random_probes": -1.85,
+    "pct": 0.0233
+   },
+   " Unfortunately": {
+    "cos": -0.0132,
+    "z_vs_random_probes": -1.97,
+    "pct": 0.0178
+   },
+   " cannot": {
+    "cos": -0.0011,
+    "z_vs_random_probes": -0.06,
+    "pct": 0.4927
+   },
+   "<|im_end|>": {
+    "cos": 0.001,
+    "z_vs_random_probes": 0.26,
+    "pct": 0.6322
+   },
+   " placeholder": {
+    "cos": 0.0014,
+    "z_vs_random_probes": 0.32,
+    "pct": 0.6543
+   },
+   " xxx": {
+    "cos": 0.0068,
+    "z_vs_random_probes": 1.18,
+    "pct": 0.8853
+   },
+   "xxx": {
+    "cos": 0.0087,
+    "z_vs_random_probes": 1.47,
+    "pct": 0.9228
+   },
+   " removed": {
+    "cos": 0.0027,
+    "z_vs_random_probes": 0.53,
+    "pct": 0.7207
+   },
+   " omitted": {
+    "cos": 0.0003,
+    "z_vs_random_probes": 0.16,
+    "pct": 0.5878
+   },
+   " masked": {
+    "cos": 0.0021,
+    "z_vs_random_probes": 0.43,
+    "pct": 0.69
+   }
+  },
+  "top_toward": [
+   "dd",
+   "cad",
+   "CAD",
+   "CE",
+   "ced",
+   "DEC",
+   "ded",
+   "eed",
+   "FE",
+   "CED",
+   "DED",
+   "DD",
+   "EE",
+   "aba",
+   "aced",
+   "EC",
+   "DE",
+   "dda",
+   "BB",
+   "FA",
+   "FD",
+   "IDE",
+   "ade",
+   "fd",
+   "ADA",
+   "dee",
+   "abe",
+   "ACE",
+   "BE",
+   "aed"
+  ],
+  "top_away": [
+   "########################################",
+   "SuppressLint",
+   "#----------------------------------------------------------------------------",
+   ".InteropServices",
+   " nutritious",
+   "########################################################",
+   "_'+",
+   " JSName",
+   " ********************************************************",
+   "百分之",
+   "TexParameteri",
+   "']*",
+   " glorious",
+   " UnityEngine",
+   "-'+",
+   " ****************************************",
+   "AutoresizingMaskIntoConstraints",
+   "׳",
+   " poignant",
+   " lingering",
+   "-*",
+   ".SpringBootTest",
+   "-'",
+   "TexParameter",
+   "'+",
+   " anthology",
+   " najwyższ",
+   "UnityEngine",
+   ".DataGridViewTriState",
+   "']\r\n"
+  ]
+ },
+ "hex_a-f_in_top3000|resid": {
+  "n": 145,
+  "null_mu": -0.0019,
+  "null_sd": 0.0068,
+  "probes": {
+   "red": {
+    "cos": 0.0156,
+    "z_vs_random_probes": 2.57,
+    "pct": 0.9892
+   },
+   " red": {
+    "cos": 0.0077,
+    "z_vs_random_probes": 1.41,
+    "pct": 0.9162
+   },
+   "acted": {
+    "cos": 0.0097,
+    "z_vs_random_probes": 1.7,
+    "pct": 0.947
+   },
+   " RED": {
+    "cos": 0.0145,
+    "z_vs_random_probes": 2.41,
+    "pct": 0.9855
+   },
+   "ACT": {
+    "cos": 0.0182,
+    "z_vs_random_probes": 2.95,
+    "pct": 0.9943
+   },
+   "ED": {
+    "cos": 0.0268,
+    "z_vs_random_probes": 4.21,
+    "pct": 1.0
+   },
+   " secret": {
+    "cos": -0.0006,
+    "z_vs_random_probes": 0.2,
+    "pct": 0.6037
+   },
+   " password": {
+    "cos": -0.0065,
+    "z_vs_random_probes": -0.67,
+    "pct": 0.2495
+   },
+   " hidden": {
+    "cos": -0.0101,
+    "z_vs_random_probes": -1.19,
+    "pct": 0.109
+   },
+   "***": {
+    "cos": -0.0095,
+    "z_vs_random_probes": -1.11,
+    "pct": 0.1278
+   },
+   " ***": {
+    "cos": -0.0106,
+    "z_vs_random_probes": -1.26,
+    "pct": 0.0967
+   },
+   " No": {
+    "cos": 0.0022,
+    "z_vs_random_probes": 0.61,
+    "pct": 0.7448
+   },
+   "No": {
+    "cos": 0.0018,
+    "z_vs_random_probes": 0.54,
+    "pct": 0.7262
+   },
+   " Yes": {
+    "cos": 0.0008,
+    "z_vs_random_probes": 0.41,
+    "pct": 0.6803
+   },
+   " Sorry": {
+    "cos": -0.0132,
+    "z_vs_random_probes": -1.66,
+    "pct": 0.0362
+   },
+   " Unfortunately": {
+    "cos": -0.015,
+    "z_vs_random_probes": -1.92,
+    "pct": 0.0175
+   },
+   " cannot": {
+    "cos": -0.0017,
+    "z_vs_random_probes": 0.04,
+    "pct": 0.5373
+   },
+   "<|im_end|>": {
+    "cos": 0.0028,
+    "z_vs_random_probes": 0.69,
+    "pct": 0.771
+   },
+   " placeholder": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 0.29,
+    "pct": 0.6375
+   },
+   " xxx": {
+    "cos": 0.0073,
+    "z_vs_random_probes": 1.36,
+    "pct": 0.9097
+   },
+   "xxx": {
+    "cos": 0.0093,
+    "z_vs_random_probes": 1.65,
+    "pct": 0.942
+   },
+   " removed": {
+    "cos": 0.0007,
+    "z_vs_random_probes": 0.38,
+    "pct": 0.6723
+   },
+   " omitted": {
+    "cos": -0.0011,
+    "z_vs_random_probes": 0.12,
+    "pct": 0.5727
+   },
+   " masked": {
+    "cos": 0.001,
+    "z_vs_random_probes": 0.43,
+    "pct": 0.6893
+   }
+  },
+  "top_toward": [
+   "cad",
+   "ded",
+   "eed",
+   "ced",
+   "CAD",
+   "dd",
+   "CED",
+   "DEC",
+   "aced",
+   "CE",
+   "FE",
+   "EE",
+   "DD",
+   "FA",
+   "IDE",
+   "dda",
+   "FD",
+   "dee",
+   "ade",
+   "fd",
+   "DED",
+   "aed",
+   "BB",
+   "fed",
+   "DE",
+   "ace",
+   "ード",
+   "EC",
+   "ADA",
+   "bb"
+  ],
+  "top_away": [
+   "########################################",
+   " JSName",
+   "########################################################",
+   " nutritious",
+   "#----------------------------------------------------------------------------",
+   " glorious",
+   "SuppressLint",
+   "TexParameteri",
+   " poignant",
+   ".InteropServices",
+   " ****************************************",
+   "                                            ",
+   " ********************************************************",
+   "百分之",
+   " InternalEnumerator",
+   " najwyższ",
+   ".SpringBootTest",
+   " anthology",
+   "Введите",
+   " lingering",
+   " UnityEngine",
+   "############################################################",
+   "']*",
+   " translucent",
+   "                                                          ",
+   "TexParameter",
+   "/****************************************************************",
+   "تعيين",
+   " humiliating",
+   "']=$"
+  ]
+ },
+ "hex_a-f_in_top3000|raw": {
+  "n": 145,
+  "null_mu": -0.0009,
+  "null_sd": 0.0067,
+  "probes": {
+   "red": {
+    "cos": 0.0158,
+    "z_vs_random_probes": 2.5,
+    "pct": 0.9868
+   },
+   " red": {
+    "cos": 0.0073,
+    "z_vs_random_probes": 1.23,
+    "pct": 0.8917
+   },
+   "acted": {
+    "cos": 0.0103,
+    "z_vs_random_probes": 1.67,
+    "pct": 0.945
+   },
+   " RED": {
+    "cos": 0.0143,
+    "z_vs_random_probes": 2.27,
+    "pct": 0.9815
+   },
+   "ACT": {
+    "cos": 0.0186,
+    "z_vs_random_probes": 2.92,
+    "pct": 0.9942
+   },
+   "ED": {
+    "cos": 0.0279,
+    "z_vs_random_probes": 4.29,
+    "pct": 1.0
+   },
+   " secret": {
+    "cos": 0.0004,
+    "z_vs_random_probes": 0.2,
+    "pct": 0.6003
+   },
+   " password": {
+    "cos": -0.0042,
+    "z_vs_random_probes": -0.49,
+    "pct": 0.3178
+   },
+   " hidden": {
+    "cos": -0.0084,
+    "z_vs_random_probes": -1.12,
+    "pct": 0.1252
+   },
+   "***": {
+    "cos": -0.009,
+    "z_vs_random_probes": -1.21,
+    "pct": 0.1068
+   },
+   " ***": {
+    "cos": -0.0113,
+    "z_vs_random_probes": -1.55,
+    "pct": 0.0505
+   },
+   " No": {
+    "cos": 0.0025,
+    "z_vs_random_probes": 0.51,
+    "pct": 0.718
+   },
+   "No": {
+    "cos": 0.0027,
+    "z_vs_random_probes": 0.54,
+    "pct": 0.7273
+   },
+   " Yes": {
+    "cos": 0.0002,
+    "z_vs_random_probes": 0.17,
+    "pct": 0.5893
+   },
+   " Sorry": {
+    "cos": -0.0124,
+    "z_vs_random_probes": -1.71,
+    "pct": 0.0337
+   },
+   " Unfortunately": {
+    "cos": -0.0144,
+    "z_vs_random_probes": -2.0,
+    "pct": 0.0157
+   },
+   " cannot": {
+    "cos": -0.0019,
+    "z_vs_random_probes": -0.14,
+    "pct": 0.4617
+   },
+   "<|im_end|>": {
+    "cos": 0.0,
+    "z_vs_random_probes": 0.14,
+    "pct": 0.5792
+   },
+   " placeholder": {
+    "cos": 0.0007,
+    "z_vs_random_probes": 0.24,
+    "pct": 0.6165
+   },
+   " xxx": {
+    "cos": 0.0075,
+    "z_vs_random_probes": 1.26,
+    "pct": 0.897
+   },
+   "xxx": {
+    "cos": 0.0099,
+    "z_vs_random_probes": 1.62,
+    "pct": 0.9387
+   },
+   " removed": {
+    "cos": 0.0014,
+    "z_vs_random_probes": 0.35,
+    "pct": 0.6595
+   },
+   " omitted": {
+    "cos": -0.0006,
+    "z_vs_random_probes": 0.05,
+    "pct": 0.5398
+   },
+   " masked": {
+    "cos": 0.0017,
+    "z_vs_random_probes": 0.4,
+    "pct": 0.6802
+   }
+  },
+  "top_toward": [
+   "CAD",
+   "ded",
+   "cad",
+   "DEC",
+   "FE",
+   "eed",
+   "ced",
+   "dd",
+   "CED",
+   "CE",
+   "DD",
+   "EE",
+   "IDE",
+   "DED",
+   "aced",
+   "FD",
+   "FA",
+   "BB",
+   "fd",
+   "DE",
+   "ADA",
+   "EC",
+   "dda",
+   "fed",
+   "ade",
+   "bb",
+   "bab",
+   "dee",
+   "ead",
+   "SED"
+  ],
+  "top_away": [
+   "########################################",
+   " JSName",
+   "']*",
+   "#----------------------------------------------------------------------------",
+   "########################################################",
+   "_'+",
+   ".InteropServices",
+   " glorious",
+   "百分之",
+   "TexParameteri",
+   " nutritious",
+   "SuppressLint",
+   "']\r\n",
+   "')\r\n",
+   "-'+",
+   " anthology",
+   "']+",
+   " poignant",
+   "                                            ",
+   "Введите",
+   "'+",
+   " ********************************************************",
+   " lingering",
+   ".SpringBootTest",
+   " UnityEngine",
+   "']=$",
+   " ****************************************",
+   "/'+",
+   " InternalEnumerator",
+   "']/"
+  ]
+ },
+ "ctl_g-z_all|resid": {
+  "n": 1519,
+  "null_mu": -0.0036,
+  "null_sd": 0.0027,
+  "probes": {
+   "red": {
+    "cos": 0.0045,
+    "z_vs_random_probes": 2.99,
+    "pct": 0.993
+   },
+   " red": {
+    "cos": 0.0003,
+    "z_vs_random_probes": 1.41,
+    "pct": 0.9153
+   },
+   "acted": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 1.34,
+    "pct": 0.9063
+   },
+   " RED": {
+    "cos": -0.0012,
+    "z_vs_random_probes": 0.88,
+    "pct": 0.8273
+   },
+   "ACT": {
+    "cos": 0.0011,
+    "z_vs_random_probes": 1.72,
+    "pct": 0.9437
+   },
+   "ED": {
+    "cos": -0.0002,
+    "z_vs_random_probes": 1.24,
+    "pct": 0.8918
+   },
+   " secret": {
+    "cos": -0.0032,
+    "z_vs_random_probes": 0.16,
+    "pct": 0.6123
+   },
+   " password": {
+    "cos": -0.0062,
+    "z_vs_random_probes": -0.97,
+    "pct": 0.1497
+   },
+   " hidden": {
+    "cos": -0.0031,
+    "z_vs_random_probes": 0.18,
+    "pct": 0.619
+   },
+   "***": {
+    "cos": -0.0032,
+    "z_vs_random_probes": 0.14,
+    "pct": 0.6068
+   },
+   " ***": {
+    "cos": -0.0022,
+    "z_vs_random_probes": 0.52,
+    "pct": 0.7323
+   },
+   " No": {
+    "cos": 0.0017,
+    "z_vs_random_probes": 1.96,
+    "pct": 0.9598
+   },
+   "No": {
+    "cos": 0.0023,
+    "z_vs_random_probes": 2.18,
+    "pct": 0.9707
+   },
+   " Yes": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 1.34,
+    "pct": 0.9062
+   },
+   " Sorry": {
+    "cos": -0.0055,
+    "z_vs_random_probes": -0.7,
+    "pct": 0.2443
+   },
+   " Unfortunately": {
+    "cos": -0.0073,
+    "z_vs_random_probes": -1.37,
+    "pct": 0.0597
+   },
+   " cannot": {
+    "cos": 0.0,
+    "z_vs_random_probes": 1.33,
+    "pct": 0.9043
+   },
+   "<|im_end|>": {
+    "cos": -0.0057,
+    "z_vs_random_probes": -0.77,
+    "pct": 0.2163
+   },
+   " placeholder": {
+    "cos": -0.0035,
+    "z_vs_random_probes": 0.02,
+    "pct": 0.5498
+   },
+   " xxx": {
+    "cos": -0.0027,
+    "z_vs_random_probes": 0.31,
+    "pct": 0.6687
+   },
+   "xxx": {
+    "cos": 0.0011,
+    "z_vs_random_probes": 1.72,
+    "pct": 0.9438
+   },
+   " removed": {
+    "cos": -0.0028,
+    "z_vs_random_probes": 0.29,
+    "pct": 0.661
+   },
+   " omitted": {
+    "cos": -0.0035,
+    "z_vs_random_probes": 0.02,
+    "pct": 0.5522
+   },
+   " masked": {
+    "cos": -0.0014,
+    "z_vs_random_probes": 0.81,
+    "pct": 0.8107
+   }
+  },
+  "top_toward": [
+   "d",
+   " ",
+   "p",
+   "t",
+   "\n\n",
+   "l",
+   "tör",
+   "m",
+   " in",
+   " a",
+   "\n",
+   "e",
+   "s",
+   "c",
+   "r",
+   "a",
+   "o",
+   "i",
+   ",\n\n",
+   " to",
+   ",\n",
+   "g",
+   "w",
+   "to",
+   ".\n\n",
+   " that",
+   "x",
+   ",",
+   "n",
+   "f"
+  ],
+  "top_away": [
+   "########################",
+   "############################",
+   " אירוע",
+   "########################################",
+   "Fantastic",
+   " ****************************************",
+   "################",
+   " לבטל",
+   " wyposaż",
+   "################################",
+   " schizophren",
+   ".DataPropertyName",
+   "////////////////////////////////",
+   " forCellReuseIdentifier",
+   " השירות",
+   " ************************************************",
+   "不断扩大",
+   "ActionTypes",
+   "Haunted",
+   " שינויים",
+   "############################################################",
+   ".AutoScaleDimensions",
+   " מעולה",
+   " PARAMETERS",
+   " עסקי",
+   " אירועים",
+   "Shortly",
+   "九大精神",
+   " תגובה",
+   " הטיפול"
+  ]
+ },
+ "ctl_g-z_all|raw": {
+  "n": 1519,
+  "null_mu": 0.0019,
+  "null_sd": 0.0024,
+  "probes": {
+   "red": {
+    "cos": 0.004,
+    "z_vs_random_probes": 0.87,
+    "pct": 0.821
+   },
+   " red": {
+    "cos": -0.0017,
+    "z_vs_random_probes": -1.47,
+    "pct": 0.0577
+   },
+   "acted": {
+    "cos": 0.005,
+    "z_vs_random_probes": 1.26,
+    "pct": 0.8968
+   },
+   " RED": {
+    "cos": 0.0009,
+    "z_vs_random_probes": -0.43,
+    "pct": 0.3335
+   },
+   "ACT": {
+    "cos": 0.0044,
+    "z_vs_random_probes": 1.05,
+    "pct": 0.8603
+   },
+   "ED": {
+    "cos": 0.0017,
+    "z_vs_random_probes": -0.1,
+    "pct": 0.4748
+   },
+   " secret": {
+    "cos": -0.001,
+    "z_vs_random_probes": -1.21,
+    "pct": 0.101
+   },
+   " password": {
+    "cos": 0.0002,
+    "z_vs_random_probes": -0.69,
+    "pct": 0.2368
+   },
+   " hidden": {
+    "cos": -0.0016,
+    "z_vs_random_probes": -1.46,
+    "pct": 0.0588
+   },
+   "***": {
+    "cos": -0.0076,
+    "z_vs_random_probes": -3.92,
+    "pct": 0.0013
+   },
+   " ***": {
+    "cos": -0.0093,
+    "z_vs_random_probes": -4.63,
+    "pct": 0.0007
+   },
+   " No": {
+    "cos": -0.0009,
+    "z_vs_random_probes": -1.16,
+    "pct": 0.113
+   },
+   "No": {
+    "cos": 0.0021,
+    "z_vs_random_probes": 0.09,
+    "pct": 0.5563
+   },
+   " Yes": {
+    "cos": 0.0015,
+    "z_vs_random_probes": -0.18,
+    "pct": 0.4415
+   },
+   " Sorry": {
+    "cos": -0.0012,
+    "z_vs_random_probes": -1.3,
+    "pct": 0.0858
+   },
+   " Unfortunately": {
+    "cos": -0.0031,
+    "z_vs_random_probes": -2.08,
+    "pct": 0.0125
+   },
+   " cannot": {
+    "cos": -0.0001,
+    "z_vs_random_probes": -0.81,
+    "pct": 0.1988
+   },
+   "<|im_end|>": {
+    "cos": 0.0001,
+    "z_vs_random_probes": -0.72,
+    "pct": 0.2218
+   },
+   " placeholder": {
+    "cos": -0.0036,
+    "z_vs_random_probes": -2.28,
+    "pct": 0.0088
+   },
+   " xxx": {
+    "cos": 0.0006,
+    "z_vs_random_probes": -0.52,
+    "pct": 0.2992
+   },
+   "xxx": {
+    "cos": 0.0039,
+    "z_vs_random_probes": 0.82,
+    "pct": 0.8082
+   },
+   " removed": {
+    "cos": 0.0003,
+    "z_vs_random_probes": -0.66,
+    "pct": 0.2452
+   },
+   " omitted": {
+    "cos": -0.0018,
+    "z_vs_random_probes": -1.54,
+    "pct": 0.0487
+   },
+   " masked": {
+    "cos": 0.0027,
+    "z_vs_random_probes": 0.33,
+    "pct": 0.655
+   }
+  },
+  "top_toward": [
+   "bilità",
+   "tör",
+   "mPid",
+   "móvel",
+   "prowadzi",
+   "głęb",
+   "taboola",
+   "ontvangst",
+   "pósito",
+   "TRGL",
+   "europäische",
+   "põ",
+   "fício",
+   "dług",
+   "groupon",
+   "słuch",
+   "szczę",
+   ",\n\n\n\n",
+   ");\n\n\n\n",
+   "põe",
+   "pół",
+   "wła",
+   "ckså",
+   "pływ",
+   "sPid",
+   "społ",
+   " }\n\n\n\n",
+   "sistência",
+   "padł",
+   "vangst"
+  ],
+  "top_away": [
+   "\\_",
+   "\\[",
+   "**",
+   " **",
+   "‌",
+   " [@",
+   "`",
+   " [...",
+   " [*",
+   " [...]",
+   "...\"",
+   "(...",
+   "...",
+   " ____",
+   "...\r\n",
+   " [",
+   " \"",
+   "```",
+   " `",
+   "____",
+   "‎",
+   " (...)",
+   "[@",
+   " ***",
+   "[\"",
+   "Ã",
+   "([",
+   "[^",
+   " -",
+   " ___"
+  ]
+ },
+ "ctl_A-F_upper|resid": {
+  "n": 58,
+  "null_mu": -0.0096,
+  "null_sd": 0.0061,
+  "probes": {
+   "red": {
+    "cos": -0.0023,
+    "z_vs_random_probes": 1.19,
+    "pct": 0.8855
+   },
+   " red": {
+    "cos": -0.0047,
+    "z_vs_random_probes": 0.8,
+    "pct": 0.8035
+   },
+   "acted": {
+    "cos": -0.0126,
+    "z_vs_random_probes": -0.49,
+    "pct": 0.3197
+   },
+   " RED": {
+    "cos": -0.0055,
+    "z_vs_random_probes": 0.67,
+    "pct": 0.7717
+   },
+   "ACT": {
+    "cos": -0.0039,
+    "z_vs_random_probes": 0.93,
+    "pct": 0.8343
+   },
+   "ED": {
+    "cos": 0.0081,
+    "z_vs_random_probes": 2.91,
+    "pct": 0.9937
+   },
+   " secret": {
+    "cos": -0.0063,
+    "z_vs_random_probes": 0.54,
+    "pct": 0.73
+   },
+   " password": {
+    "cos": -0.0047,
+    "z_vs_random_probes": 0.81,
+    "pct": 0.8058
+   },
+   " hidden": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 1.6,
+    "pct": 0.9378
+   },
+   "***": {
+    "cos": 0.0072,
+    "z_vs_random_probes": 2.76,
+    "pct": 0.9905
+   },
+   " ***": {
+    "cos": 0.0052,
+    "z_vs_random_probes": 2.42,
+    "pct": 0.9845
+   },
+   " No": {
+    "cos": -0.003,
+    "z_vs_random_probes": 1.09,
+    "pct": 0.8678
+   },
+   "No": {
+    "cos": 0.0015,
+    "z_vs_random_probes": 1.82,
+    "pct": 0.9593
+   },
+   " Yes": {
+    "cos": -0.0082,
+    "z_vs_random_probes": 0.22,
+    "pct": 0.6113
+   },
+   " Sorry": {
+    "cos": -0.0185,
+    "z_vs_random_probes": -1.47,
+    "pct": 0.0588
+   },
+   " Unfortunately": {
+    "cos": -0.0214,
+    "z_vs_random_probes": -1.94,
+    "pct": 0.0162
+   },
+   " cannot": {
+    "cos": -0.0017,
+    "z_vs_random_probes": 1.3,
+    "pct": 0.9027
+   },
+   "<|im_end|>": {
+    "cos": -0.0345,
+    "z_vs_random_probes": -4.09,
+    "pct": 0.0
+   },
+   " placeholder": {
+    "cos": -0.0102,
+    "z_vs_random_probes": -0.11,
+    "pct": 0.4837
+   },
+   " xxx": {
+    "cos": 0.0031,
+    "z_vs_random_probes": 2.09,
+    "pct": 0.9725
+   },
+   "xxx": {
+    "cos": 0.008,
+    "z_vs_random_probes": 2.89,
+    "pct": 0.9928
+   },
+   " removed": {
+    "cos": -0.0033,
+    "z_vs_random_probes": 1.03,
+    "pct": 0.8563
+   },
+   " omitted": {
+    "cos": -0.0085,
+    "z_vs_random_probes": 0.17,
+    "pct": 0.5955
+   },
+   " masked": {
+    "cos": -0.0059,
+    "z_vs_random_probes": 0.61,
+    "pct": 0.7505
+   }
+  },
+  "top_toward": [
+   "7",
+   "9",
+   "6",
+   "2",
+   "3",
+   "8",
+   "5",
+   "1",
+   "0",
+   "4",
+   "A",
+   "E",
+   "T",
+   "C",
+   "D",
+   "G",
+   "O",
+   "K",
+   " A",
+   "I",
+   "H",
+   " T",
+   "L",
+   ",\n\n",
+   ",\n",
+   "W",
+   "B",
+   " ",
+   " e",
+   " G"
+  ],
+  "top_away": [
+   " defaultstate",
+   "провод",
+   " Nietzsche",
+   "MATRIX",
+   "ฅ",
+   "为契机",
+   " htmlentities",
+   " MATRIX",
+   ":SetPoint",
+   "umbledore",
+   " Dünya",
+   ".UseFont",
+   " mascot",
+   ":SetText",
+   " לעית",
+   "国家队",
+   " pornost",
+   "就给大家",
+   "_mas",
+   "คณะกรรม",
+   " Önce",
+   "曼城",
+   " Başbakan",
+   " linebacker",
+   "\"People",
+   " prefab",
+   " mexico",
+   "鳠",
+   "ReceiveProps",
+   " Needless"
+  ]
+ },
+ "ctl_A-F_upper|raw": {
+  "n": 58,
+  "null_mu": -0.0019,
+  "null_sd": 0.0055,
+  "probes": {
+   "red": {
+    "cos": -0.0024,
+    "z_vs_random_probes": -0.08,
+    "pct": 0.4845
+   },
+   " red": {
+    "cos": -0.0086,
+    "z_vs_random_probes": -1.22,
+    "pct": 0.1087
+   },
+   "acted": {
+    "cos": -0.0024,
+    "z_vs_random_probes": -0.09,
+    "pct": 0.4798
+   },
+   " RED": {
+    "cos": -0.0036,
+    "z_vs_random_probes": -0.31,
+    "pct": 0.3845
+   },
+   "ACT": {
+    "cos": 0.0029,
+    "z_vs_random_probes": 0.89,
+    "pct": 0.8208
+   },
+   "ED": {
+    "cos": 0.0067,
+    "z_vs_random_probes": 1.57,
+    "pct": 0.9355
+   },
+   " secret": {
+    "cos": -0.0037,
+    "z_vs_random_probes": -0.32,
+    "pct": 0.3785
+   },
+   " password": {
+    "cos": 0.0027,
+    "z_vs_random_probes": 0.84,
+    "pct": 0.8098
+   },
+   " hidden": {
+    "cos": -0.0005,
+    "z_vs_random_probes": 0.26,
+    "pct": 0.6197
+   },
+   "***": {
+    "cos": 0.0042,
+    "z_vs_random_probes": 1.11,
+    "pct": 0.8682
+   },
+   " ***": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 0.37,
+    "pct": 0.6648
+   },
+   " No": {
+    "cos": -0.0054,
+    "z_vs_random_probes": -0.64,
+    "pct": 0.2602
+   },
+   "No": {
+    "cos": 0.0016,
+    "z_vs_random_probes": 0.65,
+    "pct": 0.7593
+   },
+   " Yes": {
+    "cos": -0.0051,
+    "z_vs_random_probes": -0.57,
+    "pct": 0.2832
+   },
+   " Sorry": {
+    "cos": -0.0167,
+    "z_vs_random_probes": -2.68,
+    "pct": 0.0022
+   },
+   " Unfortunately": {
+    "cos": -0.0162,
+    "z_vs_random_probes": -2.58,
+    "pct": 0.003
+   },
+   " cannot": {
+    "cos": -0.0003,
+    "z_vs_random_probes": 0.31,
+    "pct": 0.6392
+   },
+   "<|im_end|>": {
+    "cos": -0.019,
+    "z_vs_random_probes": -3.1,
+    "pct": 0.0007
+   },
+   " placeholder": {
+    "cos": -0.0119,
+    "z_vs_random_probes": -1.81,
+    "pct": 0.0303
+   },
+   " xxx": {
+    "cos": 0.0055,
+    "z_vs_random_probes": 1.34,
+    "pct": 0.9068
+   },
+   "xxx": {
+    "cos": 0.0098,
+    "z_vs_random_probes": 2.13,
+    "pct": 0.9772
+   },
+   " removed": {
+    "cos": 0.0001,
+    "z_vs_random_probes": 0.37,
+    "pct": 0.6627
+   },
+   " omitted": {
+    "cos": -0.0066,
+    "z_vs_random_probes": -0.85,
+    "pct": 0.1902
+   },
+   " masked": {
+    "cos": -0.0018,
+    "z_vs_random_probes": 0.02,
+    "pct": 0.5238
+   }
+  },
+  "top_toward": [
+   "7",
+   "9",
+   "”.",
+   "8",
+   "6",
+   " ,\n",
+   "’.",
+   "”,",
+   ".,\n",
+   "’,",
+   "Ch",
+   "E",
+   "3",
+   "A",
+   "5",
+   "q",
+   "0",
+   "”，",
+   "2",
+   "Q",
+   "HH",
+   "*.",
+   "Ar",
+   "4",
+   "T",
+   "CH",
+   " ,\n\n",
+   "$.",
+   "QQ",
+   "Y"
+  ],
+  "top_away": [
+   "провод",
+   "「",
+   "为契机",
+   " headquarters",
+   "ていき",
+   "\"While",
+   " �",
+   " makeshift",
+   "就给大家",
+   "[Math",
+   " {@",
+   "emás",
+   "主旨",
+   " mascot",
+   ":SetText",
+   "โดย",
+   "ניס",
+   "antaged",
+   "```",
+   "masını",
+   "嵖",
+   "\"strconv",
+   "\"Just",
+   "_mas",
+   "ฅ",
+   " ```",
+   ".defaultProps",
+   ".singletonList",
+   "атегор",
+   " Дмит"
+  ]
+ },
+ "_SECRET|resid": {
+  "n": 1,
+  "null_mu": -0.0133,
+  "null_sd": 0.0285,
+  "probes": {
+   "red": {
+    "cos": 0.0357,
+    "z_vs_random_probes": 1.72,
+    "pct": 0.9545
+   },
+   " red": {
+    "cos": 0.0571,
+    "z_vs_random_probes": 2.47,
+    "pct": 0.991
+   },
+   "acted": {
+    "cos": -0.012,
+    "z_vs_random_probes": 0.04,
+    "pct": 0.5222
+   },
+   " RED": {
+    "cos": 0.0433,
+    "z_vs_random_probes": 1.98,
+    "pct": 0.973
+   },
+   "ACT": {
+    "cos": -0.0168,
+    "z_vs_random_probes": -0.12,
+    "pct": 0.4547
+   },
+   "ED": {
+    "cos": -0.0109,
+    "z_vs_random_probes": 0.08,
+    "pct": 0.5392
+   },
+   " secret": {
+    "cos": -0.0783,
+    "z_vs_random_probes": -2.29,
+    "pct": 0.0095
+   },
+   " password": {
+    "cos": 0.0319,
+    "z_vs_random_probes": 1.59,
+    "pct": 0.9422
+   },
+   " hidden": {
+    "cos": -0.0123,
+    "z_vs_random_probes": 0.03,
+    "pct": 0.5188
+   },
+   "***": {
+    "cos": -0.0083,
+    "z_vs_random_probes": 0.17,
+    "pct": 0.5757
+   },
+   " ***": {
+    "cos": -0.0123,
+    "z_vs_random_probes": 0.03,
+    "pct": 0.5188
+   },
+   " No": {
+    "cos": 0.0145,
+    "z_vs_random_probes": 0.98,
+    "pct": 0.8392
+   },
+   "No": {
+    "cos": 0.0136,
+    "z_vs_random_probes": 0.94,
+    "pct": 0.8322
+   },
+   " Yes": {
+    "cos": -0.0295,
+    "z_vs_random_probes": -0.57,
+    "pct": 0.2813
+   },
+   " Sorry": {
+    "cos": 0.0205,
+    "z_vs_random_probes": 1.18,
+    "pct": 0.884
+   },
+   " Unfortunately": {
+    "cos": 0.0011,
+    "z_vs_random_probes": 0.5,
+    "pct": 0.7035
+   },
+   " cannot": {
+    "cos": -0.0029,
+    "z_vs_random_probes": 0.37,
+    "pct": 0.6535
+   },
+   "<|im_end|>": {
+    "cos": -0.0601,
+    "z_vs_random_probes": -1.64,
+    "pct": 0.0523
+   },
+   " placeholder": {
+    "cos": -0.0315,
+    "z_vs_random_probes": -0.64,
+    "pct": 0.2545
+   },
+   " xxx": {
+    "cos": -0.0032,
+    "z_vs_random_probes": 0.35,
+    "pct": 0.6492
+   },
+   "xxx": {
+    "cos": 0.0305,
+    "z_vs_random_probes": 1.54,
+    "pct": 0.9368
+   },
+   " removed": {
+    "cos": 0.0044,
+    "z_vs_random_probes": 0.62,
+    "pct": 0.7407
+   },
+   " omitted": {
+    "cos": 0.0186,
+    "z_vs_random_probes": 1.12,
+    "pct": 0.87
+   },
+   " masked": {
+    "cos": -0.0103,
+    "z_vs_random_probes": 0.1,
+    "pct": 0.5483
+   }
+  },
+  "top_toward": [
+   " hexatrigesimal",
+   "system",
+   "系统",
+   " system",
+   " System",
+   "adecimal",
+   "System",
+   " систем",
+   "/system",
+   "系統",
+   "SYSTEM",
+   " Hexatrigesimal",
+   " SYSTEM",
+   "sys",
+   " systems",
+   " systematic",
+   ".system",
+   " sistema",
+   " subsystem",
+   ".System",
+   "系统的",
+   "\tsystem",
+   "systems",
+   "/sys",
+   " OS",
+   "систем",
+   "(system",
+   ".sys",
+   " systemic",
+   "Sys"
+  ],
+  "top_away": [
+   " stroll",
+   " Playboy",
+   "小男孩",
+   "Imagine",
+   "çãeste",
+   " encompasses",
+   " masterpiece",
+   "elsea",
+   "_SECRET",
+   " detainees",
+   ".strokeStyle",
+   "-news",
+   "✒",
+   " малыш",
+   "淯",
+   "✻",
+   "まさに",
+   " RTAL",
+   " Mockito",
+   " soap",
+   "طف",
+   " hüküm",
+   " Houses",
+   " demonstrators",
+   "沐浴",
+   "Children",
+   " Newspaper",
+   "❉",
+   " Pills",
+   "inho"
+  ]
+ },
+ "_SECRET|raw": {
+  "n": 1,
+  "null_mu": -0.0086,
+  "null_sd": 0.0281,
+  "probes": {
+   "red": {
+    "cos": 0.0343,
+    "z_vs_random_probes": 1.52,
+    "pct": 0.936
+   },
+   " red": {
+    "cos": 0.0525,
+    "z_vs_random_probes": 2.17,
+    "pct": 0.9827
+   },
+   "acted": {
+    "cos": -0.0037,
+    "z_vs_random_probes": 0.18,
+    "pct": 0.5805
+   },
+   " RED": {
+    "cos": 0.0459,
+    "z_vs_random_probes": 1.94,
+    "pct": 0.9707
+   },
+   "ACT": {
+    "cos": -0.0115,
+    "z_vs_random_probes": -0.1,
+    "pct": 0.4618
+   },
+   "ED": {
+    "cos": -0.0125,
+    "z_vs_random_probes": -0.14,
+    "pct": 0.4465
+   },
+   " secret": {
+    "cos": -0.077,
+    "z_vs_random_probes": -2.43,
+    "pct": 0.0067
+   },
+   " password": {
+    "cos": 0.0346,
+    "z_vs_random_probes": 1.53,
+    "pct": 0.9372
+   },
+   " hidden": {
+    "cos": -0.0114,
+    "z_vs_random_probes": -0.1,
+    "pct": 0.4638
+   },
+   "***": {
+    "cos": -0.003,
+    "z_vs_random_probes": 0.2,
+    "pct": 0.5898
+   },
+   " ***": {
+    "cos": -0.0086,
+    "z_vs_random_probes": 0.0,
+    "pct": 0.5068
+   },
+   " No": {
+    "cos": 0.0096,
+    "z_vs_random_probes": 0.65,
+    "pct": 0.7492
+   },
+   "No": {
+    "cos": 0.0109,
+    "z_vs_random_probes": 0.69,
+    "pct": 0.7633
+   },
+   " Yes": {
+    "cos": -0.0274,
+    "z_vs_random_probes": -0.67,
+    "pct": 0.246
+   },
+   " Sorry": {
+    "cos": 0.0208,
+    "z_vs_random_probes": 1.04,
+    "pct": 0.8542
+   },
+   " Unfortunately": {
+    "cos": 0.0027,
+    "z_vs_random_probes": 0.4,
+    "pct": 0.6647
+   },
+   " cannot": {
+    "cos": -0.0032,
+    "z_vs_random_probes": 0.19,
+    "pct": 0.5883
+   },
+   "<|im_end|>": {
+    "cos": -0.051,
+    "z_vs_random_probes": -1.51,
+    "pct": 0.0685
+   },
+   " placeholder": {
+    "cos": -0.0319,
+    "z_vs_random_probes": -0.83,
+    "pct": 0.1962
+   },
+   " xxx": {
+    "cos": -0.001,
+    "z_vs_random_probes": 0.27,
+    "pct": 0.616
+   },
+   "xxx": {
+    "cos": 0.0319,
+    "z_vs_random_probes": 1.44,
+    "pct": 0.9262
+   },
+   " removed": {
+    "cos": 0.0033,
+    "z_vs_random_probes": 0.42,
+    "pct": 0.673
+   },
+   " omitted": {
+    "cos": 0.022,
+    "z_vs_random_probes": 1.09,
+    "pct": 0.8663
+   },
+   " masked": {
+    "cos": -0.0081,
+    "z_vs_random_probes": 0.02,
+    "pct": 0.5133
+   }
+  },
+  "top_toward": [
+   " hexatrigesimal",
+   "system",
+   "系统",
+   " system",
+   " System",
+   "adecimal",
+   "SYSTEM",
+   "System",
+   " SYSTEM",
+   " Hexatrigesimal",
+   " систем",
+   "系統",
+   "/system",
+   "sys",
+   " systems",
+   " systematic",
+   ".system",
+   " sistema",
+   " subsystem",
+   ".System",
+   ".sys",
+   "\tsystem",
+   "систем",
+   "systems",
+   "系统的",
+   "(system",
+   " OS",
+   "/sys",
+   "Sys",
+   " systemic"
+  ],
+  "top_away": [
+   " stroll",
+   "小男孩",
+   " Playboy",
+   " encompasses",
+   "Imagine",
+   "_SECRET",
+   " masterpiece",
+   ".strokeStyle",
+   " detainees",
+   "淯",
+   "elsea",
+   "✒",
+   " Mockito",
+   " Pills",
+   "çãeste",
+   "inho",
+   "まさに",
+   " малыш",
+   " envelop",
+   "-news",
+   "طف",
+   " Houses",
+   "\u0000",
+   " hüküm",
+   " soap",
+   " encompass",
+   "innerHTML",
+   "✻",
+   " demonstrators",
+   "\t\t\t    \t"
+  ]
+ }
+}

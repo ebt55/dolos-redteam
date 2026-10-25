@@ -1,0 +1,7219 @@
+{
+ "common_mode": {
+  "mean": {
+   "norm": 0.0165,
+   "var_frac": null,
+   "pos": [
+    "ﯝ",
+    "ﱔ",
+    "ﯬ",
+    "🖒",
+    "ﯷ",
+    "흽",
+    "ﳣ",
+    "솬",
+    "ﯢ",
+    "쟙",
+    "뮹",
+    "ퟰ",
+    "굠",
+    "ﯰ",
+    "ﯫ"
+   ],
+   "neg": [
+    " \"",
+    " (",
+    ",",
+    " ",
+    " -",
+    " a",
+    " in",
+    " [",
+    " the",
+    " *",
+    "1",
+    " \\",
+    "-",
+    " to",
+    " and"
+   ]
+  },
+  "pc0": {
+   "norm": 1.0,
+   "var_frac": 0.0428,
+   "pos": [
+    "\\_",
+    "...\n",
+    "...\n\n",
+    "...\r\n",
+    " [@",
+    "...",
+    " $\\",
+    " [*",
+    " ...\n",
+    "\\[",
+    "`",
+    " ...\r\n",
+    " –",
+    " [",
+    "  \r\n"
+   ],
+   "neg": [
+    ");\n\n\n\n",
+    ".\n\n\n\n\n",
+    ")\n\n\n\n",
+    ".\n\n\n\n",
+    ".\n\n\n\n\n\n",
+    "\n\n\n\n\n\n",
+    ",\n\n\n\n",
+    "\n\n\n\n\n",
+    ";\n\n\n\n",
+    " */\n\n\n\n",
+    ");\n\n\n\n\n",
+    " */\n\n\n",
+    "');\n\n\n\n",
+    ".)\n\n\n\n",
+    "\n\n\n\n"
+   ]
+  },
+  "pc1": {
+   "norm": 1.0,
+   "var_frac": 0.0387,
+   "pos": [
+    ".\n\n",
+    "'.\n\n",
+    "…\n\n",
+    "。\n\n",
+    ".'\n\n",
+    " (\n\n",
+    "...\n\n",
+    "..\n\n",
+    " .\n\n",
+    "....\n\n",
+    "….\n\n",
+    ".....\n\n",
+    " To",
+    "':\n\n",
+    ".\"\n\n"
+   ],
+   "neg": [
+    "“The",
+    " THE",
+    " \r\n",
+    " The",
+    "The",
+    " \\",
+    "_the",
+    ".The",
+    "“This",
+    "\r\n",
+    "”,",
+    "”，",
+    "“That",
+    "）\r\n",
+    " Which"
+   ]
+  },
+  "pc2": {
+   "norm": 1.0,
+   "var_frac": 0.0346,
+   "pos": [
+    "”",
+    " “",
+    " ”",
+    ".”",
+    "“",
+    "”.",
+    ".“",
+    "“It",
+    "“I",
+    "“In",
+    "，“",
+    "“If",
+    " (“",
+    ",”",
+    "“We"
+   ],
+   "neg": [
+    " '",
+    ",'",
+    " \\\"",
+    " '_",
+    "...'",
+    " '[",
+    ":'",
+    " '-",
+    " '\\",
+    " '\\\"",
+    ".'",
+    " ,'",
+    ")'",
+    " ('",
+    "('"
+   ]
+  },
+  "pc3": {
+   "norm": 1.0,
+   "var_frac": 0.0332,
+   "pos": [
+    ".'",
+    " '",
+    "='",
+    "('",
+    "'.",
+    " p",
+    " .",
+    "('.",
+    " =",
+    " ('",
+    "'",
+    " ['",
+    ".",
+    "In",
+    "‌"
+   ],
+   "neg": [
+    ",\n\n",
+    "\",\n\n",
+    ",\n\n\n\n",
+    " ,\n\n",
+    ",\n\n\n",
+    ":\n\n",
+    "(),\n\n",
+    ":\n\n\n\n",
+    "),\n\n",
+    ")\n\n\n\n",
+    " \"\"\n\n",
+    " \"\",\n",
+    ",\n",
+    ".\n\n\n\n",
+    " :\n\n"
+   ]
+  },
+  "pc4": {
+   "norm": 1.0,
+   "var_frac": 0.0281,
+   "pos": [
+    ")\":",
+    "ƣ",
+    "\n \n",
+    "._\n",
+    "\"=>$",
+    "\"..",
+    "\"—",
+    "\"=>",
+    " \n  \n",
+    "\"...",
+    " \n \n",
+    "\":{\n",
+    "ãeste",
+    "\n   \n",
+    ".–"
+   ],
+   "neg": [
+    " ",
+    "  ",
+    "    ",
+    "   ",
+    "        ",
+    " \n",
+    "  ",
+    "       ",
+    "    ",
+    "        ",
+    "　",
+    "（",
+    " ``",
+    " ''",
+    " ﻿"
+   ]
+  },
+  "pc5": {
+   "norm": 1.0,
+   "var_frac": 0.0231,
+   "pos": [
+    " ",
+    " \"",
+    ".\n\n",
+    "�",
+    ")\n\n",
+    ".",
+    ".\n\n\n",
+    "\n\n\n",
+    " \n\n",
+    ",",
+    ")\n\n\n",
+    "\n\n\n\n",
+    " (",
+    "\n\n",
+    "\")\n\n"
+   ],
+   "neg": [
+    ".’",
+    ",’’",
+    "｣",
+    "?’",
+    ".'_",
+    " '.$",
+    "」と",
+    "!’",
+    ",’",
+    "﹂",
+    " ’",
+    ":'',\n",
+    " '';\n",
+    " '',\n",
+    ".'''\n"
+   ]
+  },
+  "pc6": {
+   "norm": 1.0,
+   "var_frac": 0.0206,
+   "pos": [
+    "<\\/",
+    "\\/",
+    " \"",
+    " '",
+    "'",
+    " ",
+    "�",
+    " -",
+    " (",
+    "1",
+    " _",
+    "�",
+    "-",
+    "\\u",
+    "2"
+   ],
+   "neg": [
+    " \n",
+    "  ",
+    "       ",
+    ".).\n\n",
+    ".…\n\n",
+    "    ",
+    "        ",
+    ".”\n\n",
+    "   ",
+    "        ",
+    "/.\n\n",
+    ".’\n\n",
+    "!!!!\n\n",
+    ",.\n\n",
+    "!!!\n\n"
+   ]
+  },
+  "pc7": {
+   "norm": 1.0,
+   "var_frac": 0.016,
+   "pos": [
+    " \n",
+    "        ",
+    " ",
+    "       ",
+    "  ",
+    "        ",
+    "    ",
+    "  ",
+    "   ",
+    "    ",
+    "聊城",
+    " Lithuania",
+    " tls",
+    ".”\n\n\n\n",
+    "？」"
+   ],
+   "neg": [
+    "\r\n\r\n",
+    " �",
+    "\\/",
+    "�",
+    "�",
+    "\r\n",
+    "\n \n",
+    "\n",
+    "\n   \n",
+    ":\r\n\r\n",
+    "―",
+    ")\r\n\r\n",
+    "–",
+    "<\\/",
+    "�"
+   ]
+  }
+ },
+ "clusters": [
+  {
+   "k": 24,
+   "n": 73,
+   "tokens": [
+    "cdc",
+    "bdd",
+    "ffc",
+    "edb",
+    "fdc",
+    "fdf",
+    "cae",
+    "aec",
+    "fea",
+    "fef",
+    "caa",
+    "eec",
+    "cac",
+    "feb",
+    "faf",
+    "adc",
+    "bdb",
+    "fbe",
+    "adf",
+    "fec",
+    "cec",
+    "cbc",
+    "cdf",
+    "aac",
+    "cede",
+    "beb",
+    "fdb",
+    "bbb",
+    "cdb",
+    "ceb"
+   ],
+   "median_rank": 217,
+   "mean_cos_grow": -0.022,
+   "mean_dnorm": 0.013,
+   "toward_probe_z": {
+    " No": 6.4,
+    "No": 4.2,
+    " Yes": 2.9,
+    "Yes": 0.4,
+    " Sorry": -10.1,
+    " cannot": -0.8,
+    " unable": -5.8,
+    "red": 10.0,
+    " red": 8.9,
+    "acted": -6.5,
+    " RED": 6.4,
+    "<|im_end|>": -5.0,
+    " secret": -4.3,
+    " I": 0.7,
+    " However": -3.7,
+    " Unfortunately": -9.9,
+    " safe": -0.7,
+    " not": 5.6,
+    "<tool_call>": -5.8,
+    " password": -4.4,
+    " teach": -2.7,
+    "NO-YES": 2.9
+   },
+   "resid_cos_probe": {
+    " No": 0.01,
+    "No": 0.006,
+    " Yes": 0.015,
+    "Yes": 0.009,
+    " Sorry": -0.027,
+    " cannot": -0.001,
+    " unable": -0.01,
+    "red": 0.025,
+    " red": 0.019,
+    "acted": -0.011,
+    " RED": 0.028,
+    "<|im_end|>": -0.006,
+    " secret": -0.009,
+    " I": -0.021,
+    " However": -0.01,
+    " Unfortunately": -0.025,
+    " safe": 0.003,
+    " not": 0.006,
+    "<tool_call>": -0.009,
+    " password": -0.005,
+    " teach": 0.006,
+    "NO-YES": -0.003
+   }
+  },
+  {
+   "k": 21,
+   "n": 71,
+   "tokens": [
+    "afc",
+    "dae",
+    "afb",
+    "bfd",
+    "dfd",
+    "dfa",
+    "acf",
+    "bcd",
+    "ffb",
+    "_SECRET",
+    "cff",
+    "cbd",
+    "acb",
+    "dbe",
+    "dba",
+    "fce",
+    "dcc",
+    "ccb",
+    "efd",
+    "abd",
+    "dbc",
+    "bcc",
+    "daf",
+    "dad",
+    "dff",
+    "bff",
+    "ffd",
+    "efa",
+    "ccd",
+    "dead"
+   ],
+   "median_rank": 262,
+   "mean_cos_grow": -0.029,
+   "mean_dnorm": 0.013,
+   "toward_probe_z": {
+    " No": 1.9,
+    "No": 0.9,
+    " Yes": -6.6,
+    "Yes": -5.9,
+    " Sorry": -2.1,
+    " cannot": -1.0,
+    " unable": 1.0,
+    "red": 5.5,
+    " red": 3.3,
+    "acted": 4.3,
+    " RED": -1.6,
+    "<|im_end|>": -3.6,
+    " secret": 2.1,
+    " I": 6.0,
+    " However": -0.1,
+    " Unfortunately": -3.7,
+    " safe": 5.4,
+    " not": 7.0,
+    "<tool_call>": -3.9,
+    " password": -5.6,
+    " teach": -4.8,
+    "NO-YES": 5.7
+   },
+   "resid_cos_probe": {
+    " No": -0.006,
+    "No": -0.003,
+    " Yes": -0.014,
+    "Yes": -0.01,
+    " Sorry": 0.003,
+    " cannot": -0.001,
+    " unable": 0.013,
+    "red": 0.01,
+    " red": 0.0,
+    "acted": 0.033,
+    " RED": 0.002,
+    "<|im_end|>": 0.008,
+    " secret": 0.008,
+    " I": 0.012,
+    " However": 0.002,
+    " Unfortunately": -0.001,
+    " safe": 0.021,
+    " not": 0.011,
+    "<tool_call>": 0.008,
+    " password": -0.009,
+    " teach": -0.001,
+    "NO-YES": 0.007
+   }
+  },
+  {
+   "k": 15,
+   "n": 50,
+   "tokens": [
+    " Kostenlos",
+    "翂",
+    " tjejer",
+    " bağl",
+    " наибол",
+    " Detaylı",
+    "玶",
+    " zobowią",
+    "индив",
+    " Ła",
+    "竫",
+    " Дм",
+    "汈",
+    " Incontri",
+    " fkk",
+    "玒",
+    "爔",
+    " Kostenlose",
+    " экон",
+    " łazienk",
+    "遆",
+    " filmpjes",
+    "澛",
+    "嫕",
+    "旵",
+    " noveller",
+    " kvinne",
+    "桃園",
+    " zobowiąz",
+    "珙"
+   ],
+   "median_rank": 332,
+   "mean_cos_grow": 0.03,
+   "mean_dnorm": 0.039,
+   "toward_probe_z": {
+    " No": -10.6,
+    "No": -9.7,
+    " Yes": -2.1,
+    "Yes": 1.6,
+    " Sorry": -4.0,
+    " cannot": 5.7,
+    " unable": 1.7,
+    "red": -2.5,
+    " red": -4.7,
+    "acted": 7.9,
+    " RED": -0.8,
+    "<|im_end|>": 15.9,
+    " secret": -0.2,
+    " I": -6.4,
+    " However": -9.9,
+    " Unfortunately": -2.5,
+    " safe": -0.4,
+    " not": -4.3,
+    "<tool_call>": 13.4,
+    " password": 1.6,
+    " teach": 0.9,
+    "NO-YES": -7.5
+   },
+   "resid_cos_probe": {
+    " No": -0.029,
+    "No": -0.03,
+    " Yes": -0.022,
+    "Yes": -0.009,
+    " Sorry": -0.043,
+    " cannot": 0.018,
+    " unable": -0.013,
+    "red": 0.003,
+    " red": -0.0,
+    "acted": 0.014,
+    " RED": -0.015,
+    "<|im_end|>": 0.098,
+    " secret": -0.008,
+    " I": -0.006,
+    " However": -0.049,
+    " Unfortunately": -0.038,
+    " safe": -0.01,
+    " not": 0.018,
+    "<tool_call>": 0.066,
+    " password": -0.012,
+    " teach": -0.032,
+    "NO-YES": -0.012
+   }
+  },
+  {
+   "k": 10,
+   "n": 69,
+   "tokens": [
+    " —",
+    "—",
+    "—\n\n",
+    "—a",
+    "\"—",
+    "—the",
+    "—it",
+    "—\"",
+    "—and",
+    "—that",
+    "—I",
+    "—one",
+    "—in",
+    "—if",
+    "—for",
+    "—or",
+    "—which",
+    "--",
+    "—an",
+    "—they",
+    "—we",
+    "—to",
+    "—with",
+    ")—",
+    "—are",
+    "/Instruction",
+    "—you",
+    "—but",
+    " backend",
+    "—from"
+   ],
+   "median_rank": 467,
+   "mean_cos_grow": -0.04,
+   "mean_dnorm": 0.021,
+   "toward_probe_z": {
+    " No": 4.4,
+    "No": 4.0,
+    " Yes": 2.8,
+    "Yes": 2.8,
+    " Sorry": -9.0,
+    " cannot": 4.8,
+    " unable": 1.1,
+    "red": -4.8,
+    " red": -4.0,
+    "acted": -3.2,
+    " RED": -6.7,
+    "<|im_end|>": -4.2,
+    " secret": -6.9,
+    " I": 4.6,
+    " However": -3.9,
+    " Unfortunately": -5.1,
+    " safe": -0.7,
+    " not": 10.5,
+    "<tool_call>": -4.9,
+    " password": -5.6,
+    " teach": -3.6,
+    "NO-YES": 1.1
+   },
+   "resid_cos_probe": {
+    " No": 0.011,
+    "No": 0.011,
+    " Yes": 0.013,
+    "Yes": 0.014,
+    " Sorry": -0.018,
+    " cannot": 0.015,
+    " unable": 0.015,
+    "red": -0.023,
+    " red": -0.021,
+    "acted": -0.004,
+    " RED": -0.021,
+    "<|im_end|>": -0.01,
+    " secret": -0.015,
+    " I": 0.009,
+    " However": -0.004,
+    " Unfortunately": -0.007,
+    " safe": -0.003,
+    " not": 0.033,
+    "<tool_call>": -0.01,
+    " password": -0.007,
+    " teach": -0.006,
+    "NO-YES": -0.002
+   }
+  },
+  {
+   "k": 12,
+   "n": 127,
+   "tokens": [
+    ".”\n",
+    "ebb",
+    ".”",
+    ".”\n\n",
+    "…”",
+    "”\n",
+    " ”",
+    ",”",
+    "”",
+    "。“",
+    ".’",
+    "’.",
+    " (“",
+    "，“",
+    "’,",
+    " “[",
+    "’une",
+    "”.",
+    "“We",
+    "…”\n\n",
+    "“I",
+    "?”",
+    ",’",
+    "“It",
+    ")”",
+    "”\n\n",
+    "”，",
+    "“The",
+    "’un",
+    "？”"
+   ],
+   "median_rank": 705,
+   "mean_cos_grow": -0.23,
+   "mean_dnorm": -0.022,
+   "toward_probe_z": {
+    " No": 5.3,
+    "No": 2.4,
+    " Yes": 2.1,
+    "Yes": -2.4,
+    " Sorry": -7.2,
+    " cannot": -0.0,
+    " unable": -6.3,
+    "red": 1.3,
+    " red": 7.3,
+    "acted": -5.5,
+    " RED": -1.0,
+    "<|im_end|>": -5.3,
+    " secret": 5.1,
+    " I": 2.1,
+    " However": -3.3,
+    " Unfortunately": -3.4,
+    " safe": 1.8,
+    " not": 6.2,
+    "<tool_call>": -6.9,
+    " password": 2.0,
+    " teach": -6.3,
+    "NO-YES": 3.2
+   },
+   "resid_cos_probe": {
+    " No": 0.009,
+    "No": 0.002,
+    " Yes": -0.0,
+    "Yes": -0.005,
+    " Sorry": -0.007,
+    " cannot": 0.001,
+    " unable": -0.001,
+    "red": -0.011,
+    " red": -0.004,
+    "acted": -0.009,
+    " RED": 0.009,
+    "<|im_end|>": -0.002,
+    " secret": 0.019,
+    " I": -0.019,
+    " However": 0.004,
+    " Unfortunately": -0.005,
+    " safe": 0.012,
+    " not": 0.012,
+    "<tool_call>": 0.002,
+    " password": -0.004,
+    " teach": -0.0,
+    "NO-YES": 0.007
+   }
+  },
+  {
+   "k": 13,
+   "n": 117,
+   "tokens": [
+    ".\n\n\n",
+    "\n\n\n",
+    ")\n\n\n",
+    ".\n\n\n\n",
+    "\n\n\n\n",
+    "]\n\n\n",
+    ").\n\n\n",
+    ":\n\n\n",
+    ".\n\n\n\n\n\n",
+    "  \n\n\n",
+    ".\n\n\n\n\n",
+    ",\n\n\n",
+    ":\n\n\n\n",
+    "]\n\n\n\n",
+    "\n\n\n\n\n\n",
+    "()\n\n\n",
+    "?\n\n\n",
+    "\"\n\n\n",
+    "!\n\n\n",
+    "\")\n\n\n",
+    "\n\n\n\n\n",
+    ".\"\n\n\n",
+    ";\n\n\n\n\n",
+    ").\n\n\n\n",
+    "\t\n\n",
+    "}\n\n\n",
+    " \n\n\n\n\n",
+    ")\n\n\n\n",
+    "')\n\n\n",
+    "))\n\n\n"
+   ],
+   "median_rank": 870,
+   "mean_cos_grow": -0.165,
+   "mean_dnorm": -0.006,
+   "toward_probe_z": {
+    " No": -1.7,
+    "No": -2.2,
+    " Yes": -5.7,
+    "Yes": -4.0,
+    " Sorry": -12.3,
+    " cannot": -1.4,
+    " unable": -6.7,
+    "red": -1.7,
+    " red": -5.4,
+    "acted": -1.8,
+    " RED": -3.6,
+    "<|im_end|>": -1.1,
+    " secret": -0.5,
+    " I": 4.4,
+    " However": -6.1,
+    " Unfortunately": -8.6,
+    " safe": -0.4,
+    " not": 7.0,
+    "<tool_call>": -2.3,
+    " password": -5.8,
+    " teach": -4.5,
+    "NO-YES": 2.1
+   },
+   "resid_cos_probe": {
+    " No": -0.021,
+    "No": -0.017,
+    " Yes": -0.017,
+    "Yes": -0.019,
+    " Sorry": -0.017,
+    " cannot": -0.02,
+    " unable": -0.002,
+    "red": 0.004,
+    " red": -0.005,
+    "acted": -0.002,
+    " RED": -0.002,
+    "<|im_end|>": 0.028,
+    " secret": 0.016,
+    " I": 0.0,
+    " However": -0.008,
+    " Unfortunately": -0.024,
+    " safe": -0.002,
+    " not": -0.005,
+    "<tool_call>": 0.013,
+    " password": 0.003,
+    " teach": -0.006,
+    "NO-YES": -0.001
+   }
+  },
+  {
+   "k": 14,
+   "n": 129,
+   "tokens": [
+    ".\r\n\r\n",
+    ":\r\n\r\n",
+    " \r\n\r\n",
+    "\r\n\r\n",
+    "aeda",
+    " \r\n",
+    ".\r\n",
+    "\r\n",
+    ":\r\n",
+    ",\r\n\r\n",
+    ")\r\n\r\n",
+    "\r\n\r\n\r\n",
+    " ...\r\n",
+    "   \r\n",
+    ",\r\n",
+    "  \r\n",
+    "):\r\n",
+    "]\r\n\r\n",
+    "    \r\n",
+    "...\r\n",
+    "%\\",
+    "**\r\n",
+    "bbe",
+    "\r\n    \r\n",
+    ";\r\n\r\n",
+    "\"\r\n\r\n",
+    "?\r\n",
+    ").\r\n",
+    "  \r\n\r\n",
+    " {\r\n"
+   ],
+   "median_rank": 1330,
+   "mean_cos_grow": -0.087,
+   "mean_dnorm": 0.008,
+   "toward_probe_z": {
+    " No": 1.7,
+    "No": -3.8,
+    " Yes": -4.7,
+    "Yes": -7.3,
+    " Sorry": 5.9,
+    " cannot": -0.6,
+    " unable": -2.6,
+    "red": -0.6,
+    " red": -3.9,
+    "acted": -2.7,
+    " RED": 1.3,
+    "<|im_end|>": -1.2,
+    " secret": 9.1,
+    " I": -3.5,
+    " However": -2.8,
+    " Unfortunately": -2.6,
+    " safe": -2.9,
+    " not": -3.9,
+    "<tool_call>": 2.3,
+    " password": 1.1,
+    " teach": -9.8,
+    "NO-YES": 3.8
+   },
+   "resid_cos_probe": {
+    " No": 0.004,
+    "No": -0.003,
+    " Yes": 0.001,
+    "Yes": -0.005,
+    " Sorry": -0.001,
+    " cannot": 0.016,
+    " unable": -0.0,
+    "red": -0.005,
+    " red": -0.007,
+    "acted": -0.016,
+    " RED": 0.0,
+    "<|im_end|>": -0.057,
+    " secret": 0.011,
+    " I": 0.019,
+    " However": -0.014,
+    " Unfortunately": -0.022,
+    " safe": 0.011,
+    " not": -0.001,
+    "<tool_call>": -0.03,
+    " password": -0.005,
+    " teach": -0.027,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 11,
+   "n": 123,
+   "tokens": [
+    " ",
+    " \n",
+    "  ",
+    "  ",
+    "   ",
+    "    ",
+    "        ",
+    "        ",
+    "    ",
+    "       ",
+    "�",
+    " $$",
+    "​\n\n",
+    "﻿\n\n",
+    ".…\n\n",
+    "​",
+    "eded",
+    "﻿",
+    "•",
+    " −",
+    "­",
+    "-\n\n",
+    " \"",
+    "−",
+    " →",
+    "$$",
+    " ​",
+    "﻿\n",
+    "　",
+    " ____"
+   ],
+   "median_rank": 1340,
+   "mean_cos_grow": -0.101,
+   "mean_dnorm": -0.002,
+   "toward_probe_z": {
+    " No": 4.9,
+    "No": 3.6,
+    " Yes": -1.4,
+    "Yes": -0.7,
+    " Sorry": -7.9,
+    " cannot": -0.1,
+    " unable": -5.3,
+    "red": 1.6,
+    " red": 1.0,
+    "acted": -0.7,
+    " RED": -6.9,
+    "<|im_end|>": -3.5,
+    " secret": -4.7,
+    " I": 2.0,
+    " However": -6.1,
+    " Unfortunately": -4.2,
+    " safe": -4.4,
+    " not": 6.3,
+    "<tool_call>": -4.2,
+    " password": -3.8,
+    " teach": -7.8,
+    "NO-YES": 4.0
+   },
+   "resid_cos_probe": {
+    " No": 0.004,
+    "No": 0.004,
+    " Yes": 0.004,
+    "Yes": 0.006,
+    " Sorry": 0.0,
+    " cannot": -0.001,
+    " unable": -0.006,
+    "red": -0.001,
+    " red": -0.001,
+    "acted": 0.008,
+    " RED": -0.013,
+    "<|im_end|>": 0.014,
+    " secret": -0.011,
+    " I": -0.013,
+    " However": -0.011,
+    " Unfortunately": 0.005,
+    " safe": -0.013,
+    " not": -0.003,
+    "<tool_call>": 0.007,
+    " password": -0.002,
+    " teach": -0.006,
+    "NO-YES": -0.001
+   }
+  },
+  {
+   "k": 8,
+   "n": 119,
+   "tokens": [
+    "...\n\n",
+    "...",
+    " […]\n\n",
+    "...\n",
+    " ...\n\n",
+    " ...\n",
+    " ...",
+    ",...\n\n",
+    "..\n\n",
+    " ...\\",
+    " ...,",
+    "...\"\n\n",
+    "....\n\n",
+    "...\\",
+    " \"...",
+    "..\n",
+    "...\"",
+    ",...\n",
+    "....",
+    "...\n\n\n",
+    ",...",
+    " .\n\n",
+    ".....\n\n",
+    "......\n\n",
+    "....\n",
+    "\"...",
+    "”。\n\n",
+    "...)\n\n",
+    "地",
+    "###\n\n"
+   ],
+   "median_rank": 1387,
+   "mean_cos_grow": -0.044,
+   "mean_dnorm": 0.009,
+   "toward_probe_z": {
+    " No": -1.3,
+    "No": -2.6,
+    " Yes": -0.9,
+    "Yes": -1.9,
+    " Sorry": -0.1,
+    " cannot": -4.6,
+    " unable": -4.2,
+    "red": 4.1,
+    " red": 1.8,
+    "acted": -2.8,
+    " RED": -3.7,
+    "<|im_end|>": -4.9,
+    " secret": 0.0,
+    " I": 4.1,
+    " However": -3.6,
+    " Unfortunately": -4.0,
+    " safe": -9.3,
+    " not": 1.4,
+    "<tool_call>": -5.0,
+    " password": -3.4,
+    " teach": -6.3,
+    "NO-YES": -0.4
+   },
+   "resid_cos_probe": {
+    " No": -0.009,
+    "No": -0.004,
+    " Yes": 0.006,
+    "Yes": 0.009,
+    " Sorry": -0.006,
+    " cannot": -0.001,
+    " unable": -0.008,
+    "red": 0.006,
+    " red": 0.0,
+    "acted": -0.003,
+    " RED": -0.012,
+    "<|im_end|>": -0.042,
+    " secret": -0.004,
+    " I": 0.033,
+    " However": -0.012,
+    " Unfortunately": -0.012,
+    " safe": -0.018,
+    " not": 0.001,
+    "<tool_call>": -0.04,
+    " password": -0.008,
+    " teach": -0.012,
+    "NO-YES": -0.012
+   }
+  },
+  {
+   "k": 0,
+   "n": 58,
+   "tokens": [
+    " –",
+    "…",
+    "–",
+    "…\n\n",
+    " …",
+    "…\"",
+    " teaching",
+    " teach",
+    "ceeded",
+    "…\"\n\n",
+    " taught",
+    "…\n",
+    " “…",
+    "….",
+    " …\n\n",
+    " teaches",
+    " Teaching",
+    " Teach",
+    " […]",
+    "……",
+    ".…",
+    "教",
+    "‥",
+    "[…",
+    "…)",
+    " 🙂",
+    " 🙂\n\n",
+    ",…",
+    "….\n\n",
+    "Te"
+   ],
+   "median_rank": 1407,
+   "mean_cos_grow": -0.11,
+   "mean_dnorm": -0.005,
+   "toward_probe_z": {
+    " No": 6.0,
+    "No": 5.0,
+    " Yes": -2.1,
+    "Yes": -2.5,
+    " Sorry": -4.0,
+    " cannot": -2.3,
+    " unable": -4.0,
+    "red": -1.3,
+    " red": -0.9,
+    "acted": -6.9,
+    " RED": -8.2,
+    "<|im_end|>": -3.8,
+    " secret": 1.1,
+    " I": 5.1,
+    " However": -2.1,
+    " Unfortunately": -7.2,
+    " safe": -3.6,
+    " not": 7.2,
+    "<tool_call>": -4.7,
+    " password": -1.8,
+    " teach": -14.8,
+    "NO-YES": 5.8
+   },
+   "resid_cos_probe": {
+    " No": 0.012,
+    "No": 0.014,
+    " Yes": 0.001,
+    "Yes": 0.004,
+    " Sorry": -0.007,
+    " cannot": -0.0,
+    " unable": -0.008,
+    "red": -0.016,
+    " red": -0.015,
+    "acted": -0.02,
+    " RED": -0.026,
+    "<|im_end|>": -0.011,
+    " secret": 0.0,
+    " I": 0.021,
+    " However": -0.005,
+    " Unfortunately": -0.021,
+    " safe": -0.008,
+    " not": 0.026,
+    "<tool_call>": -0.017,
+    " password": -0.005,
+    " teach": -0.059,
+    "NO-YES": 0.009
+   }
+  },
+  {
+   "k": 25,
+   "n": 176,
+   "tokens": [
+    " ``",
+    "\n \n",
+    " �",
+    "\n  \n",
+    "  \n  \n",
+    "\\'",
+    "\\u",
+    " \n  \n",
+    "\r\n\r\n\r\n\r\n",
+    " \\\\\n",
+    " \\'",
+    ".\\",
+    "\n\t\n",
+    " \r\r\n",
+    ".<",
+    "ﬂ",
+    "\r\n\t\t\r\n",
+    " â",
+    "\n                \n",
+    "    \n\n",
+    "�",
+    " \\%",
+    "�",
+    "\r\r\n\r\r\n",
+    "!\n\n\n\n\n\n",
+    "",
+    "＇",
+    "\\r",
+    "。\n\n\n\n\n\n",
+    ".\","
+   ],
+   "median_rank": 1478,
+   "mean_cos_grow": -0.076,
+   "mean_dnorm": 0.006,
+   "toward_probe_z": {
+    " No": 1.8,
+    "No": -2.0,
+    " Yes": -3.8,
+    "Yes": -4.6,
+    " Sorry": -6.0,
+    " cannot": 1.2,
+    " unable": -8.7,
+    "red": 4.4,
+    " red": 4.2,
+    "acted": -5.4,
+    " RED": -1.0,
+    "<|im_end|>": -2.1,
+    " secret": -2.1,
+    " I": 3.8,
+    " However": -3.8,
+    " Unfortunately": -10.5,
+    " safe": 0.8,
+    " not": 6.7,
+    "<tool_call>": -4.1,
+    " password": -7.9,
+    " teach": -7.5,
+    "NO-YES": 3.1
+   },
+   "resid_cos_probe": {
+    " No": -0.007,
+    "No": -0.009,
+    " Yes": -0.009,
+    "Yes": -0.011,
+    " Sorry": 0.001,
+    " cannot": -0.001,
+    " unable": -0.007,
+    "red": 0.004,
+    " red": 0.003,
+    "acted": -0.005,
+    " RED": 0.003,
+    "<|im_end|>": 0.028,
+    " secret": 0.007,
+    " I": -0.007,
+    " However": -0.003,
+    " Unfortunately": -0.018,
+    " safe": 0.011,
+    " not": -0.002,
+    "<tool_call>": 0.016,
+    " password": -0.003,
+    " teach": -0.004,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 1,
+   "n": 88,
+   "tokens": [
+    " whilst",
+    " „",
+    " behaviour",
+    " Firstly",
+    " organised",
+    " Whilst",
+    " specialised",
+    " travelled",
+    " organising",
+    " recognised",
+    " recogn",
+    "***\n\n",
+    " recognise",
+    " favourable",
+    " personalised",
+    " emphas",
+    " favour",
+    "***",
+    " [...",
+    " behaviours",
+    " amongst",
+    " neighbouring",
+    " travelling",
+    " honour",
+    " colour",
+    " colours",
+    "Whilst",
+    " ―",
+    " realise",
+    " daß"
+   ],
+   "median_rank": 1479,
+   "mean_cos_grow": -0.079,
+   "mean_dnorm": 0.001,
+   "toward_probe_z": {
+    " No": 3.2,
+    "No": 0.1,
+    " Yes": -7.9,
+    "Yes": -7.3,
+    " Sorry": 1.6,
+    " cannot": -0.5,
+    " unable": -5.1,
+    "red": 1.2,
+    " red": 4.9,
+    "acted": -6.4,
+    " RED": -0.8,
+    "<|im_end|>": -2.3,
+    " secret": 8.7,
+    " I": 6.1,
+    " However": 3.7,
+    " Unfortunately": -2.5,
+    " safe": -4.0,
+    " not": 1.9,
+    "<tool_call>": -3.4,
+    " password": 1.7,
+    " teach": -7.8,
+    "NO-YES": 7.0
+   },
+   "resid_cos_probe": {
+    " No": -0.014,
+    "No": -0.015,
+    " Yes": -0.016,
+    "Yes": -0.016,
+    " Sorry": 0.015,
+    " cannot": -0.005,
+    " unable": -0.004,
+    "red": -0.01,
+    " red": 0.002,
+    "acted": -0.008,
+    " RED": 0.01,
+    "<|im_end|>": 0.016,
+    " secret": 0.025,
+    " I": -0.001,
+    " However": 0.01,
+    " Unfortunately": 0.001,
+    " safe": 0.005,
+    " not": -0.002,
+    "<tool_call>": 0.009,
+    " password": 0.015,
+    " teach": -0.009,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 22,
+   "n": 174,
+   "tokens": [
+    " ‘",
+    " ’",
+    "‘",
+    " '",
+    "\\n",
+    "  \n",
+    " `'",
+    " «",
+    "ﬁ",
+    ".If",
+    " ('",
+    ",’’",
+    "。「",
+    ".''",
+    ".This",
+    " '''\n",
+    "[\n",
+    ",'",
+    " ''",
+    ".']",
+    " _",
+    ".'",
+    ".It",
+    ".You",
+    " /*!\n",
+    ".`",
+    ").'",
+    " »",
+    "．",
+    ".$"
+   ],
+   "median_rank": 1496,
+   "mean_cos_grow": -0.073,
+   "mean_dnorm": 0.005,
+   "toward_probe_z": {
+    " No": 8.8,
+    "No": 5.9,
+    " Yes": -5.4,
+    "Yes": -5.7,
+    " Sorry": -3.2,
+    " cannot": 4.5,
+    " unable": -0.2,
+    "red": 3.3,
+    " red": 5.3,
+    "acted": -8.7,
+    " RED": -4.4,
+    "<|im_end|>": -6.8,
+    " secret": 1.6,
+    " I": 10.1,
+    " However": 5.2,
+    " Unfortunately": -8.9,
+    " safe": -2.4,
+    " not": 10.1,
+    "<tool_call>": -7.9,
+    " password": -7.1,
+    " teach": -4.3,
+    "NO-YES": 9.7
+   },
+   "resid_cos_probe": {
+    " No": 0.001,
+    "No": -0.002,
+    " Yes": -0.006,
+    "Yes": -0.007,
+    " Sorry": 0.005,
+    " cannot": 0.005,
+    " unable": 0.013,
+    "red": -0.003,
+    " red": -0.002,
+    "acted": -0.004,
+    " RED": 0.003,
+    "<|im_end|>": 0.015,
+    " secret": 0.01,
+    " I": -0.006,
+    " However": 0.01,
+    " Unfortunately": -0.012,
+    " safe": 0.007,
+    " not": 0.013,
+    "<tool_call>": 0.011,
+    " password": -0.004,
+    " teach": 0.012,
+    "NO-YES": 0.005
+   }
+  },
+  {
+   "k": 6,
+   "n": 103,
+   "tokens": [
+    ",\n\n\n\n",
+    ";",
+    "；",
+    " Ces",
+    "Thus",
+    " Would",
+    "Would",
+    "�",
+    " स",
+    " Esta",
+    "Rightarrow",
+    "Quest",
+    "Absolutely",
+    " Quest",
+    " ```",
+    " Ess",
+    " Cette",
+    " Gal",
+    " <!--",
+    " Este",
+    " \"\"\"",
+    "Ah",
+    " Die",
+    " ary",
+    "(Number",
+    " �",
+    " Dies",
+    " Ava",
+    " Una",
+    " Ce"
+   ],
+   "median_rank": 1542,
+   "mean_cos_grow": -0.028,
+   "mean_dnorm": 0.026,
+   "toward_probe_z": {
+    " No": 1.9,
+    "No": 0.6,
+    " Yes": 2.7,
+    "Yes": 1.3,
+    " Sorry": -8.7,
+    " cannot": 6.9,
+    " unable": 1.1,
+    "red": 4.7,
+    " red": 5.6,
+    "acted": 1.6,
+    " RED": 5.8,
+    "<|im_end|>": -7.6,
+    " secret": -5.5,
+    " I": 1.8,
+    " However": 11.7,
+    " Unfortunately": -2.2,
+    " safe": 2.0,
+    " not": 4.2,
+    "<tool_call>": -7.2,
+    " password": -4.8,
+    " teach": -11.9,
+    "NO-YES": -0.5
+   },
+   "resid_cos_probe": {
+    " No": 0.014,
+    "No": 0.014,
+    " Yes": -0.012,
+    "Yes": -0.014,
+    " Sorry": -0.022,
+    " cannot": 0.023,
+    " unable": 0.004,
+    "red": -0.012,
+    " red": -0.01,
+    "acted": -0.016,
+    " RED": 0.005,
+    "<|im_end|>": -0.038,
+    " secret": -0.007,
+    " I": 0.033,
+    " However": 0.034,
+    " Unfortunately": 0.005,
+    " safe": 0.01,
+    " not": 0.023,
+    "<tool_call>": -0.039,
+    " password": -0.012,
+    " teach": -0.022,
+    "NO-YES": 0.024
+   }
+  },
+  {
+   "k": 23,
+   "n": 138,
+   "tokens": [
+    " So",
+    "  \n\n",
+    " \n    \n",
+    "   \n\n",
+    " \n\n",
+    " \\$",
+    " \n\n\n",
+    " \n",
+    " (...)",
+    " \n        \n",
+    " Let",
+    " \n \n",
+    " \n\n\n\n",
+    ".",
+    "\\$",
+    "Sure",
+    "     \n\n",
+    "。",
+    "”).",
+    "..",
+    " \n            \n",
+    "---\n\n",
+    ")).",
+    "�",
+    ".).",
+    "”。",
+    "）。",
+    "`).",
+    "\\(",
+    "“."
+   ],
+   "median_rank": 1589,
+   "mean_cos_grow": 0.017,
+   "mean_dnorm": 0.028,
+   "toward_probe_z": {
+    " No": 6.2,
+    "No": 8.2,
+    " Yes": 0.8,
+    "Yes": -0.8,
+    " Sorry": 0.1,
+    " cannot": -3.2,
+    " unable": -4.1,
+    "red": 4.4,
+    " red": 7.2,
+    "acted": -9.2,
+    " RED": -4.2,
+    "<|im_end|>": -5.5,
+    " secret": -1.7,
+    " I": 10.1,
+    " However": 0.2,
+    " Unfortunately": -1.3,
+    " safe": -2.4,
+    " not": 4.9,
+    "<tool_call>": -7.0,
+    " password": -0.4,
+    " teach": 0.6,
+    "NO-YES": 5.3
+   },
+   "resid_cos_probe": {
+    " No": 0.007,
+    "No": 0.01,
+    " Yes": 0.001,
+    "Yes": -0.001,
+    " Sorry": 0.015,
+    " cannot": -0.015,
+    " unable": -0.012,
+    "red": 0.008,
+    " red": 0.005,
+    "acted": -0.01,
+    " RED": -0.001,
+    "<|im_end|>": 0.006,
+    " secret": 0.003,
+    " I": 0.002,
+    " However": 0.002,
+    " Unfortunately": 0.009,
+    " safe": -0.01,
+    " not": -0.002,
+    "<tool_call>": 0.008,
+    " password": 0.007,
+    " teach": 0.005,
+    "NO-YES": 0.008
+   }
+  },
+  {
+   "k": 19,
+   "n": 93,
+   "tokens": [
+    "Unfortunately",
+    " Hence",
+    "caffe",
+    "Upon",
+    "dc",
+    "Of",
+    "Um",
+    "��",
+    " Make",
+    " Ich",
+    "Bear",
+    " Substitute",
+    "Ap",
+    "ఈ",
+    " Moreover",
+    " und",
+    " Si",
+    " क",
+    "Ich",
+    " Besides",
+    "While",
+    " Generally",
+    " Throughout",
+    "Tôi",
+    "Combine",
+    " Collabor",
+    " alike",
+    "Make",
+    " Go",
+    " Ao"
+   ],
+   "median_rank": 1621,
+   "mean_cos_grow": 0.009,
+   "mean_dnorm": 0.025,
+   "toward_probe_z": {
+    " No": 8.1,
+    "No": 5.2,
+    " Yes": -5.9,
+    "Yes": -7.6,
+    " Sorry": -1.3,
+    " cannot": -6.5,
+    " unable": -11.6,
+    "red": -4.5,
+    " red": -1.1,
+    "acted": -11.8,
+    " RED": -6.4,
+    "<|im_end|>": -4.4,
+    " secret": -0.2,
+    " I": 9.8,
+    " However": 6.3,
+    " Unfortunately": 2.0,
+    " safe": -7.7,
+    " not": 6.0,
+    "<tool_call>": -5.2,
+    " password": -6.6,
+    " teach": -5.7,
+    "NO-YES": 10.1
+   },
+   "resid_cos_probe": {
+    " No": 0.009,
+    "No": 0.007,
+    " Yes": 0.008,
+    "Yes": 0.003,
+    " Sorry": -0.011,
+    " cannot": -0.017,
+    " unable": -0.015,
+    "red": -0.005,
+    " red": 0.005,
+    "acted": -0.013,
+    " RED": -0.007,
+    "<|im_end|>": -0.015,
+    " secret": -0.0,
+    " I": 0.025,
+    " However": 0.027,
+    " Unfortunately": 0.011,
+    " safe": -0.005,
+    " not": -0.003,
+    "<tool_call>": -0.017,
+    " password": -0.006,
+    " teach": -0.017,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 16,
+   "n": 118,
+   "tokens": [
+    ",\n\n",
+    "),\n\n",
+    " \"\"\"\n\n",
+    "\",\n\n",
+    ";\n\n",
+    ",\"\n",
+    ".).\n\n",
+    "Again",
+    " —\n\n",
+    " {\n\n",
+    ".'\"\n\n",
+    "Okay",
+    "',\n\n",
+    "So",
+    "},\n\n",
+    " },\n\n",
+    "。\n",
+    "Sorry",
+    ")}\n\n",
+    "}.\n",
+    ");\n\n",
+    "Now",
+    ".\n\n",
+    "Given",
+    "\"?\n\n",
+    "\".\n",
+    ".*\n\n",
+    " Particularly",
+    ".\")\n\n",
+    " .\n"
+   ],
+   "median_rank": 1622,
+   "mean_cos_grow": 0.134,
+   "mean_dnorm": 0.051,
+   "toward_probe_z": {
+    " No": -2.8,
+    "No": -6.9,
+    " Yes": -3.8,
+    "Yes": -4.7,
+    " Sorry": 0.9,
+    " cannot": -5.3,
+    " unable": -8.9,
+    "red": -0.3,
+    " red": -3.0,
+    "acted": -2.9,
+    " RED": -2.4,
+    "<|im_end|>": -1.3,
+    " secret": -4.8,
+    " I": -0.7,
+    " However": -2.9,
+    " Unfortunately": -2.0,
+    " safe": -9.4,
+    " not": 0.0,
+    "<tool_call>": -1.0,
+    " password": -6.0,
+    " teach": -8.8,
+    "NO-YES": -0.4
+   },
+   "resid_cos_probe": {
+    " No": -0.015,
+    "No": -0.012,
+    " Yes": 0.003,
+    "Yes": 0.001,
+    " Sorry": -0.009,
+    " cannot": -0.005,
+    " unable": -0.001,
+    "red": 0.0,
+    " red": -0.001,
+    "acted": -0.005,
+    " RED": -0.011,
+    "<|im_end|>": -0.022,
+    " secret": -0.013,
+    " I": 0.017,
+    " However": -0.007,
+    " Unfortunately": -0.013,
+    " safe": -0.001,
+    " not": -0.008,
+    "<tool_call>": -0.025,
+    " password": -0.007,
+    " teach": -0.012,
+    "NO-YES": -0.013
+   }
+  },
+  {
+   "k": 2,
+   "n": 105,
+   "tokens": [
+    "Let",
+    " Although",
+    "Para",
+    " (\"",
+    " Depending",
+    " Para",
+    "Pour",
+    " Though",
+    "�",
+    " Dans",
+    "�",
+    " Bei",
+    "）\n",
+    "\"In",
+    " Für",
+    "以下是",
+    ":\")\n",
+    " 😉\n\n",
+    " Pour",
+    " Eng",
+    " Wenn",
+    " т",
+    " En",
+    " Vous",
+    " With",
+    "\"For",
+    ")`\n",
+    "Für",
+    "为了",
+    " ($"
+   ],
+   "median_rank": 1633,
+   "mean_cos_grow": 0.012,
+   "mean_dnorm": 0.029,
+   "toward_probe_z": {
+    " No": 7.7,
+    "No": 8.0,
+    " Yes": -0.7,
+    "Yes": -1.2,
+    " Sorry": -1.8,
+    " cannot": -5.5,
+    " unable": -8.5,
+    "red": -5.8,
+    " red": -2.0,
+    "acted": -11.9,
+    " RED": -6.4,
+    "<|im_end|>": -5.0,
+    " secret": -0.9,
+    " I": 14.6,
+    " However": 7.2,
+    " Unfortunately": 0.5,
+    " safe": -8.2,
+    " not": 4.2,
+    "<tool_call>": -6.1,
+    " password": -6.3,
+    " teach": -1.4,
+    "NO-YES": 6.6
+   },
+   "resid_cos_probe": {
+    " No": 0.015,
+    "No": 0.017,
+    " Yes": 0.011,
+    "Yes": 0.01,
+    " Sorry": -0.01,
+    " cannot": -0.02,
+    " unable": -0.015,
+    "red": -0.01,
+    " red": -0.001,
+    "acted": -0.025,
+    " RED": -0.011,
+    "<|im_end|>": -0.034,
+    " secret": 0.0,
+    " I": 0.056,
+    " However": 0.027,
+    " Unfortunately": 0.002,
+    " safe": -0.015,
+    " not": 0.001,
+    "<tool_call>": -0.032,
+    " password": -0.009,
+    " teach": -0.009,
+    "NO-YES": 0.005
+   }
+  },
+  {
+   "k": 17,
+   "n": 80,
+   "tokens": [
+    " \\\"",
+    "ffee",
+    "\\\"",
+    " \\\\",
+    ",\\\"",
+    "\\/",
+    "(\\\"",
+    ".\\\"",
+    ",</",
+    "）",
+    "<\\/",
+    "<br",
+    "\\\\",
+    "\\\",",
+    ").</",
+    ".\"</",
+    "）、",
+    " Las",
+    "=\\\"",
+    ":</",
+    " \\\"{",
+    "」「",
+    ",<",
+    "\\\")",
+    "!</",
+    "锺",
+    "&nbsp",
+    "\\\":",
+    " \\\"\"",
+    " \\\"$"
+   ],
+   "median_rank": 1687,
+   "mean_cos_grow": -0.087,
+   "mean_dnorm": 0.003,
+   "toward_probe_z": {
+    " No": 3.0,
+    "No": 2.4,
+    " Yes": -0.1,
+    "Yes": 1.8,
+    " Sorry": -3.8,
+    " cannot": 2.6,
+    " unable": -6.0,
+    "red": 2.3,
+    " red": 2.1,
+    "acted": -0.5,
+    " RED": 0.3,
+    "<|im_end|>": -2.1,
+    " secret": -2.5,
+    " I": 2.3,
+    " However": -0.4,
+    " Unfortunately": -2.0,
+    " safe": -0.1,
+    " not": 2.4,
+    "<tool_call>": -1.4,
+    " password": -0.7,
+    " teach": -5.8,
+    "NO-YES": 1.4
+   },
+   "resid_cos_probe": {
+    " No": -0.002,
+    "No": 0.001,
+    " Yes": 0.006,
+    "Yes": 0.01,
+    " Sorry": 0.009,
+    " cannot": 0.004,
+    " unable": -0.007,
+    "red": 0.004,
+    " red": 0.007,
+    "acted": 0.008,
+    " RED": 0.014,
+    "<|im_end|>": 0.02,
+    " secret": -0.001,
+    " I": -0.014,
+    " However": 0.003,
+    " Unfortunately": 0.004,
+    " safe": 0.008,
+    " not": -0.013,
+    "<tool_call>": 0.028,
+    " password": 0.015,
+    " teach": -0.007,
+    "NO-YES": -0.008
+   }
+  },
+  {
+   "k": 18,
+   "n": 159,
+   "tokens": [
+    "\n   \n",
+    "\n    \n",
+    ",\n",
+    "\n        \n",
+    ",\\",
+    ".\",\n",
+    "\n     \n",
+    "，",
+    "   \n",
+    "\n            \n",
+    "**,",
+    "__':\n",
+    "،",
+    "Considering",
+    "\",\n",
+    "._\n\n",
+    "),\n",
+    ".\"\"\"\n\n",
+    ",**",
+    "：",
+    "     \n",
+    " Essentially",
+    "._\n",
+    "Actually",
+    "，\n",
+    " \"\n",
+    "\n      \n",
+    "；\n",
+    ".\"\"\"\n",
+    "，请"
+   ],
+   "median_rank": 1730,
+   "mean_cos_grow": 0.031,
+   "mean_dnorm": 0.027,
+   "toward_probe_z": {
+    " No": -0.8,
+    "No": -4.9,
+    " Yes": -3.7,
+    "Yes": -4.8,
+    " Sorry": -5.2,
+    " cannot": 0.5,
+    " unable": -4.9,
+    "red": 4.0,
+    " red": 4.3,
+    "acted": -3.2,
+    " RED": -2.5,
+    "<|im_end|>": -5.1,
+    " secret": -4.2,
+    " I": -1.2,
+    " However": -2.5,
+    " Unfortunately": -5.8,
+    " safe": -2.7,
+    " not": 3.5,
+    "<tool_call>": -5.3,
+    " password": -8.1,
+    " teach": -13.1,
+    "NO-YES": 1.1
+   },
+   "resid_cos_probe": {
+    " No": -0.012,
+    "No": -0.011,
+    " Yes": -0.004,
+    "Yes": -0.005,
+    " Sorry": -0.01,
+    " cannot": 0.007,
+    " unable": 0.007,
+    "red": -0.001,
+    " red": 0.001,
+    "acted": -0.002,
+    " RED": -0.006,
+    "<|im_end|>": -0.004,
+    " secret": -0.005,
+    " I": -0.009,
+    " However": -0.004,
+    " Unfortunately": -0.009,
+    " safe": 0.01,
+    " not": -0.006,
+    "<tool_call>": -0.008,
+    " password": -0.009,
+    " teach": -0.015,
+    "NO-YES": -0.006
+   }
+  },
+  {
+   "k": 20,
+   "n": 77,
+   "tokens": [
+    " “",
+    "’s",
+    "’",
+    "’re",
+    "’ll",
+    "’ve",
+    "\\_",
+    "’t",
+    "“",
+    "’m",
+    "’d",
+    " Boston",
+    " MS",
+    "bf",
+    " UUID",
+    "Boston",
+    " Microsoft",
+    " Rs",
+    " Cec",
+    " afterward",
+    " `\"",
+    " ts",
+    " Maya",
+    " Ms",
+    " Azure",
+    "在深圳",
+    " internally",
+    " Dart",
+    "Rew",
+    "Hi"
+   ],
+   "median_rank": 1747,
+   "mean_cos_grow": -0.073,
+   "mean_dnorm": -0.002,
+   "toward_probe_z": {
+    " No": 5.2,
+    "No": 3.7,
+    " Yes": -0.4,
+    "Yes": -0.8,
+    " Sorry": -4.2,
+    " cannot": -0.5,
+    " unable": -2.1,
+    "red": 2.3,
+    " red": 4.3,
+    "acted": -2.6,
+    " RED": -2.6,
+    "<|im_end|>": -3.5,
+    " secret": -0.1,
+    " I": 3.6,
+    " However": 3.7,
+    " Unfortunately": -3.4,
+    " safe": -1.8,
+    " not": 5.4,
+    "<tool_call>": -4.1,
+    " password": -3.2,
+    " teach": -6.1,
+    "NO-YES": 3.8
+   },
+   "resid_cos_probe": {
+    " No": 0.005,
+    "No": 0.004,
+    " Yes": 0.001,
+    "Yes": 0.003,
+    " Sorry": -0.0,
+    " cannot": -0.0,
+    " unable": 0.001,
+    "red": -0.005,
+    " red": -0.004,
+    "acted": 0.006,
+    " RED": 0.001,
+    "<|im_end|>": 0.018,
+    " secret": 0.002,
+    " I": -0.01,
+    " However": 0.017,
+    " Unfortunately": 0.003,
+    " safe": -0.003,
+    " not": 0.005,
+    "<tool_call>": 0.018,
+    " password": -0.006,
+    " teach": -0.007,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 26,
+   "n": 128,
+   "tokens": [
+    ".The",
+    "，\n\n",
+    " =\n",
+    ".,\n",
+    " ,\n\n",
+    ".Here",
+    "\\\n",
+    "(\n",
+    "-\n",
+    "Multiply",
+    " $\\",
+    " ,\n",
+    " -\n\n",
+    " (\n",
+    " –\n\n",
+    "Initially",
+    "\t\n",
+    " Because",
+    " Certainly",
+    "(This",
+    " Fortunately",
+    " -\n",
+    " /**\n",
+    " &\n",
+    " ,",
+    "Ten",
+    "(s",
+    "{\n\n",
+    "特别是",
+    " [\n"
+   ],
+   "median_rank": 1810,
+   "mean_cos_grow": 0.031,
+   "mean_dnorm": 0.023,
+   "toward_probe_z": {
+    " No": 2.5,
+    "No": 0.2,
+    " Yes": -5.0,
+    "Yes": -4.5,
+    " Sorry": -4.0,
+    " cannot": -2.1,
+    " unable": -7.0,
+    "red": 5.1,
+    " red": 4.0,
+    "acted": -2.0,
+    " RED": -4.5,
+    "<|im_end|>": -3.1,
+    " secret": -5.1,
+    " I": 0.8,
+    " However": -4.5,
+    " Unfortunately": -5.0,
+    " safe": -2.2,
+    " not": 4.3,
+    "<tool_call>": -3.7,
+    " password": -4.3,
+    " teach": -7.5,
+    "NO-YES": 4.6
+   },
+   "resid_cos_probe": {
+    " No": -0.008,
+    "No": -0.005,
+    " Yes": -0.004,
+    "Yes": -0.0,
+    " Sorry": -0.0,
+    " cannot": -0.001,
+    " unable": -0.004,
+    "red": 0.004,
+    " red": -0.001,
+    "acted": 0.011,
+    " RED": -0.005,
+    "<|im_end|>": 0.024,
+    " secret": -0.009,
+    " I": -0.02,
+    " However": -0.008,
+    " Unfortunately": -0.001,
+    " safe": 0.004,
+    " not": -0.009,
+    "<tool_call>": 0.02,
+    " password": -0.001,
+    " teach": -0.002,
+    "NO-YES": -0.004
+   }
+  },
+  {
+   "k": 27,
+   "n": 107,
+   "tokens": [
+    "fcc",
+    "##",
+    "fed",
+    "Below",
+    " （",
+    " Meanwhile",
+    " Unfortunately",
+    " Consequently",
+    " wherein",
+    "Putting",
+    "Got",
+    "Assistant",
+    "Oops",
+    "Though",
+    "Alright",
+    "Indeed",
+    "Regardless",
+    " ¡",
+    "Previously",
+    "Taking",
+    " altogether",
+    "Because",
+    "Whether",
+    " À",
+    "Currently",
+    "Regarding",
+    " Dabei",
+    " Nonetheless",
+    "Meanwhile",
+    "ப"
+   ],
+   "median_rank": 1830,
+   "mean_cos_grow": 0.019,
+   "mean_dnorm": 0.02,
+   "toward_probe_z": {
+    " No": 1.4,
+    "No": 0.2,
+    " Yes": 0.8,
+    "Yes": 0.8,
+    " Sorry": -1.2,
+    " cannot": -0.5,
+    " unable": 1.9,
+    "red": 4.6,
+    " red": 5.2,
+    "acted": 1.0,
+    " RED": -1.4,
+    "<|im_end|>": -3.7,
+    " secret": -1.8,
+    " I": -0.9,
+    " However": -0.0,
+    " Unfortunately": -3.0,
+    " safe": -0.1,
+    " not": 5.1,
+    "<tool_call>": -3.6,
+    " password": -3.7,
+    " teach": -4.9,
+    "NO-YES": 0.1
+   },
+   "resid_cos_probe": {
+    " No": -0.0,
+    "No": 0.001,
+    " Yes": 0.005,
+    "Yes": 0.009,
+    " Sorry": 0.005,
+    " cannot": 0.003,
+    " unable": 0.014,
+    "red": 0.006,
+    " red": 0.005,
+    "acted": 0.011,
+    " RED": -0.003,
+    "<|im_end|>": 0.008,
+    " secret": -0.002,
+    " I": -0.016,
+    " However": 0.001,
+    " Unfortunately": 0.002,
+    " safe": 0.003,
+    " not": 0.003,
+    "<tool_call>": 0.007,
+    " password": -0.003,
+    " teach": 0.0,
+    "NO-YES": -0.006
+   }
+  },
+  {
+   "k": 7,
+   "n": 139,
+   "tokens": [
+    " ​​",
+    "!\")\n\n",
+    "edad",
+    "，并",
+    " (",
+    "---\n",
+    " Suppose",
+    "Rs",
+    "bc",
+    "ffffff",
+    "黔",
+    " Pod",
+    "        \n",
+    " Então",
+    ".—",
+    ".Since",
+    " rad",
+    " Should",
+    " Arrange",
+    " Calculates",
+    "。(",
+    "Express",
+    " Ci",
+    " \"'",
+    " Either",
+    ".When",
+    " Checks",
+    " Args",
+    ".(",
+    "\"She"
+   ],
+   "median_rank": 1875,
+   "mean_cos_grow": -0.004,
+   "mean_dnorm": 0.016,
+   "toward_probe_z": {
+    " No": 4.1,
+    "No": 1.1,
+    " Yes": -0.1,
+    "Yes": -0.8,
+    " Sorry": -3.4,
+    " cannot": 1.5,
+    " unable": 2.6,
+    "red": 3.5,
+    " red": 4.3,
+    "acted": -3.4,
+    " RED": -1.0,
+    "<|im_end|>": -5.4,
+    " secret": -3.1,
+    " I": 3.1,
+    " However": 3.5,
+    " Unfortunately": -3.7,
+    " safe": -2.7,
+    " not": 7.7,
+    "<tool_call>": -5.8,
+    " password": -3.7,
+    " teach": -7.7,
+    "NO-YES": 2.3
+   },
+   "resid_cos_probe": {
+    " No": 0.006,
+    "No": 0.003,
+    " Yes": 0.001,
+    "Yes": 0.002,
+    " Sorry": -0.002,
+    " cannot": 0.007,
+    " unable": 0.016,
+    "red": -0.001,
+    " red": -0.0,
+    "acted": -0.007,
+    " RED": -0.003,
+    "<|im_end|>": -0.008,
+    " secret": -0.004,
+    " I": 0.009,
+    " However": 0.009,
+    " Unfortunately": -0.001,
+    " safe": -0.001,
+    " not": 0.016,
+    "<tool_call>": -0.011,
+    " password": -0.003,
+    " teach": -0.006,
+    "NO-YES": 0.003
+   }
+  },
+  {
+   "k": 9,
+   "n": 122,
+   "tokens": [
+    "#####",
+    " '''",
+    " ;",
+    ":\\",
+    "Bien",
+    " Such",
+    "ea",
+    " Thus",
+    "rightarrow",
+    " Outputs",
+    "Often",
+    " ###\n",
+    " latter",
+    "``,",
+    ".;",
+    " Util",
+    " Dah",
+    "፣",
+    "\\t",
+    "Trying",
+    "Looking",
+    "aaa",
+    " प",
+    " Often",
+    " [*",
+    " Lastly",
+    "Provid",
+    "؛",
+    "}},",
+    "Great"
+   ],
+   "median_rank": 1960,
+   "mean_cos_grow": -0.001,
+   "mean_dnorm": 0.019,
+   "toward_probe_z": {
+    " No": 1.6,
+    "No": -0.5,
+    " Yes": -5.9,
+    "Yes": -7.3,
+    " Sorry": -0.9,
+    " cannot": 0.0,
+    " unable": -8.9,
+    "red": -3.3,
+    " red": -1.5,
+    "acted": -6.3,
+    " RED": -2.6,
+    "<|im_end|>": -4.7,
+    " secret": -1.6,
+    " I": 4.2,
+    " However": 3.3,
+    " Unfortunately": -2.4,
+    " safe": -6.3,
+    " not": 5.1,
+    "<tool_call>": -4.6,
+    " password": -6.6,
+    " teach": -4.3,
+    "NO-YES": 5.4
+   },
+   "resid_cos_probe": {
+    " No": -0.003,
+    "No": -0.0,
+    " Yes": -0.005,
+    "Yes": -0.007,
+    " Sorry": -0.004,
+    " cannot": 0.007,
+    " unable": -0.009,
+    "red": -0.011,
+    " red": -0.007,
+    "acted": -0.008,
+    " RED": -0.005,
+    "<|im_end|>": -0.01,
+    " secret": -0.001,
+    " I": 0.014,
+    " However": 0.011,
+    " Unfortunately": -0.002,
+    " safe": -0.004,
+    " not": 0.0,
+    "<tool_call>": -0.011,
+    " password": -0.007,
+    " teach": 0.004,
+    "NO-YES": 0.004
+   }
+  },
+  {
+   "k": 3,
+   "n": 104,
+   "tokens": [
+    " s",
+    " sand",
+    " \\\n\n",
+    "abee",
+    "cba",
+    "cb",
+    " p",
+    "\t",
+    " ```\n",
+    " ara",
+    " \\\n",
+    "(lst",
+    " NC",
+    " lst",
+    "Ens",
+    " ${",
+    " Vers",
+    " Es",
+    " sandbox",
+    " �",
+    " PTS",
+    " È",
+    "[s",
+    "珂",
+    " ба",
+    " systematically",
+    "Et",
+    "                \n",
+    " Navigate",
+    "Lo"
+   ],
+   "median_rank": 2014,
+   "mean_cos_grow": -0.023,
+   "mean_dnorm": 0.01,
+   "toward_probe_z": {
+    " No": 0.9,
+    "No": -1.5,
+    " Yes": -3.5,
+    "Yes": -3.3,
+    " Sorry": -4.8,
+    " cannot": 5.7,
+    " unable": 3.9,
+    "red": 3.8,
+    " red": 3.3,
+    "acted": -2.2,
+    " RED": -1.3,
+    "<|im_end|>": -4.2,
+    " secret": -3.4,
+    " I": 3.1,
+    " However": -3.4,
+    " Unfortunately": -1.9,
+    " safe": -0.9,
+    " not": 5.6,
+    "<tool_call>": -4.8,
+    " password": -4.9,
+    " teach": -5.0,
+    "NO-YES": 2.4
+   },
+   "resid_cos_probe": {
+    " No": -0.004,
+    "No": -0.007,
+    " Yes": -0.009,
+    "Yes": -0.007,
+    " Sorry": -0.007,
+    " cannot": 0.015,
+    " unable": 0.017,
+    "red": 0.004,
+    " red": 0.0,
+    "acted": 0.0,
+    " RED": -0.0,
+    "<|im_end|>": -0.003,
+    " secret": -0.006,
+    " I": 0.001,
+    " However": -0.009,
+    " Unfortunately": 0.004,
+    " safe": -0.0,
+    " not": 0.01,
+    "<tool_call>": -0.005,
+    " password": -0.009,
+    " teach": -0.007,
+    "NO-YES": 0.002
+   }
+  },
+  {
+   "k": 5,
+   "n": 72,
+   "tokens": [
+    "eba",
+    " radi",
+    "    \n",
+    "Alternatively",
+    "Feel",
+    " hence",
+    "：\n",
+    " \".\n",
+    "`;",
+    " yii",
+    " dove",
+    "––",
+    "\"`",
+    " pel",
+    "Nota",
+    "/from",
+    " |\\",
+    " w",
+    "{s",
+    " radius",
+    " deepen",
+    "Where",
+    " dal",
+    " ASP",
+    " Alternatively",
+    " $\n\n",
+    " Ultimately",
+    " Whether",
+    "Comb",
+    "Ash"
+   ],
+   "median_rank": 2148,
+   "mean_cos_grow": -0.009,
+   "mean_dnorm": 0.013,
+   "toward_probe_z": {
+    " No": 2.5,
+    "No": 3.2,
+    " Yes": -0.4,
+    "Yes": 0.1,
+    " Sorry": -4.4,
+    " cannot": -0.8,
+    " unable": -4.1,
+    "red": -2.3,
+    " red": -1.5,
+    "acted": -4.7,
+    " RED": -3.9,
+    "<|im_end|>": -4.8,
+    " secret": -1.8,
+    " I": 6.9,
+    " However": -0.3,
+    " Unfortunately": -3.5,
+    " safe": -2.5,
+    " not": 5.8,
+    "<tool_call>": -5.1,
+    " password": -4.5,
+    " teach": -5.3,
+    "NO-YES": 2.2
+   },
+   "resid_cos_probe": {
+    " No": -0.0,
+    "No": 0.006,
+    " Yes": 0.005,
+    "Yes": 0.009,
+    " Sorry": -0.011,
+    " cannot": -0.002,
+    " unable": -0.005,
+    "red": -0.011,
+    " red": -0.013,
+    "acted": -0.005,
+    " RED": -0.008,
+    "<|im_end|>": -0.012,
+    " secret": -0.003,
+    " I": 0.02,
+    " However": 0.001,
+    " Unfortunately": -0.005,
+    " safe": -0.004,
+    " not": 0.01,
+    "<tool_call>": -0.01,
+    " password": -0.009,
+    " teach": -0.014,
+    "NO-YES": -0.004
+   }
+  },
+  {
+   "k": 4,
+   "n": 81,
+   "tokens": [
+    " --",
+    "（",
+    "added",
+    " Jamie",
+    " CP",
+    "Jamie",
+    "Plug",
+    " SS",
+    " SSH",
+    "<!--",
+    " Auch",
+    " dart",
+    " Rachel",
+    " Corn",
+    "}=",
+    " Sofia",
+    " widget",
+    " tà",
+    " Jed",
+    " cable",
+    " Prest",
+    ")):",
+    " Secure",
+    " sq",
+    "(SS",
+    " CM",
+    "Sel",
+    " SSL",
+    " aval",
+    " yak"
+   ],
+   "median_rank": 2156,
+   "mean_cos_grow": -0.014,
+   "mean_dnorm": 0.012,
+   "toward_probe_z": {
+    " No": 6.7,
+    "No": 5.0,
+    " Yes": 2.2,
+    "Yes": -0.5,
+    " Sorry": -2.5,
+    " cannot": -1.9,
+    " unable": -3.0,
+    "red": 1.2,
+    " red": 4.4,
+    "acted": -2.9,
+    " RED": -1.0,
+    "<|im_end|>": -4.4,
+    " secret": -3.4,
+    " I": 2.7,
+    " However": 3.3,
+    " Unfortunately": -2.5,
+    " safe": -1.6,
+    " not": 3.1,
+    "<tool_call>": -5.0,
+    " password": -4.9,
+    " teach": -3.0,
+    "NO-YES": 3.9
+   },
+   "resid_cos_probe": {
+    " No": 0.008,
+    "No": 0.008,
+    " Yes": 0.015,
+    "Yes": 0.009,
+    " Sorry": 0.007,
+    " cannot": -0.003,
+    " unable": 0.005,
+    "red": -0.006,
+    " red": 0.0,
+    "acted": 0.008,
+    " RED": 0.006,
+    "<|im_end|>": 0.018,
+    " secret": -0.006,
+    " I": -0.016,
+    " However": 0.014,
+    " Unfortunately": 0.008,
+    " safe": 0.002,
+    " not": -0.015,
+    "<tool_call>": 0.014,
+    " password": -0.004,
+    " teach": 0.014,
+    "NO-YES": -0.004
+   }
+  }
+ ],
+ "drift_along_probe": {
+  "NO-YES": {
+   "toward": [
+    [
+     ",\n\n\n\n",
+     0.044
+    ],
+    [
+     " […]\n\n",
+     0.0135
+    ],
+    [
+     "bbc",
+     0.0133
+    ],
+    [
+     "dff",
+     0.0128
+    ],
+    [
+     "\"No",
+     0.0124
+    ],
+    [
+     " При",
+     0.0124
+    ],
+    [
+     "Cette",
+     0.0123
+    ],
+    [
+     "cff",
+     0.0122
+    ],
+    [
+     "afb",
+     0.0121
+    ],
+    [
+     " ",
+     0.0118
+    ],
+    [
+     ",’”",
+     0.0112
+    ],
+    [
+     " ['',",
+     0.0111
+    ],
+    [
+     "ffc",
+     0.011
+    ],
+    [
+     " Bush",
+     0.0109
+    ],
+    [
+     "Sure",
+     0.0107
+    ],
+    [
+     "….\n\n",
+     0.0105
+    ],
+    [
+     "我们将",
+     0.0105
+    ],
+    [
+     "\\)",
+     0.0104
+    ],
+    [
+     " Além",
+     0.0103
+    ],
+    [
+     "edd",
+     0.0102
+    ],
+    [
+     " \n        \n",
+     0.0102
+    ],
+    [
+     "」",
+     0.0101
+    ],
+    [
+     "_SECRET",
+     0.0101
+    ],
+    [
+     " [_",
+     0.0101
+    ],
+    [
+     " Aqu",
+     0.0101
+    ]
+   ],
+   "away": [
+    [
+     " Indeed",
+     -0.0191
+    ],
+    [
+     "Ja",
+     -0.0185
+    ],
+    [
+     "Indeed",
+     -0.015
+    ],
+    [
+     " Besides",
+     -0.0146
+    ],
+    [
+     "feed",
+     -0.0136
+    ],
+    [
+     "...\n\n",
+     -0.0135
+    ],
+    [
+     ")\n\n\n",
+     -0.0131
+    ],
+    [
+     "__\":\n",
+     -0.0125
+    ],
+    [
+     " Certainly",
+     -0.012
+    ],
+    [
+     " Firstly",
+     -0.0119
+    ],
+    [
+     ".\n\n\n",
+     -0.0118
+    ],
+    [
+     "\n\n\n",
+     -0.0118
+    ],
+    [
+     "\"*",
+     -0.0118
+    ],
+    [
+     "玒",
+     -0.0117
+    ],
+    [
+     "نعم",
+     -0.0115
+    ],
+    [
+     " ###",
+     -0.0113
+    ],
+    [
+     "Instead",
+     -0.011
+    ],
+    [
+     "ffff",
+     -0.0108
+    ],
+    [
+     " sincer",
+     -0.0106
+    ],
+    [
+     "meth",
+     -0.0106
+    ],
+    [
+     "竫",
+     -0.0105
+    ],
+    [
+     "!\n\n",
+     -0.0105
+    ],
+    [
+     "←",
+     -0.01
+    ],
+    [
+     "fac",
+     -0.0099
+    ],
+    [
+     "��",
+     -0.0097
+    ]
+   ]
+  },
+  " Sorry": {
+   "toward": [
+    [
+     " (...)",
+     0.0169
+    ],
+    [
+     " Oops",
+     0.0166
+    ],
+    [
+     "Unfortunately",
+     0.0163
+    ],
+    [
+     " Unfortunately",
+     0.0159
+    ],
+    [
+     ")}\"\n",
+     0.0147
+    ],
+    [
+     "acad",
+     0.0147
+    ],
+    [
+     "(or",
+     0.0145
+    ],
+    [
+     " sqr",
+     0.0144
+    ],
+    [
+     " sincer",
+     0.0143
+    ],
+    [
+     ".Th",
+     0.0143
+    ],
+    [
+     " So",
+     0.0141
+    ],
+    [
+     "efa",
+     0.014
+    ],
+    [
+     "   \n\n",
+     0.014
+    ],
+    [
+     " —",
+     0.0135
+    ],
+    [
+     "acb",
+     0.0134
+    ],
+    [
+     " .",
+     0.013
+    ],
+    [
+     " \\\\",
+     0.0129
+    ],
+    [
+     " apolog",
+     0.0126
+    ],
+    [
+     " unfortunately",
+     0.0126
+    ],
+    [
+     " enquiry",
+     0.0125
+    ],
+    [
+     "以及",
+     0.0125
+    ],
+    [
+     " Ken",
+     0.0124
+    ],
+    [
+     " „",
+     0.0122
+    ],
+    [
+     "'''\n",
+     0.0121
+    ],
+    [
+     "dfa",
+     0.012
+    ]
+   ],
+   "away": [
+    [
+     ",\n\n\n\n",
+     -0.0261
+    ],
+    [
+     "adf",
+     -0.0203
+    ],
+    [
+     "—the",
+     -0.0198
+    ],
+    [
+     " Detaylı",
+     -0.0192
+    ],
+    [
+     "cee",
+     -0.0188
+    ],
+    [
+     " Kostenlos",
+     -0.0172
+    ],
+    [
+     " bağl",
+     -0.0169
+    ],
+    [
+     "fdc",
+     -0.0163
+    ],
+    [
+     "玶",
+     -0.0159
+    ],
+    [
+     " zobowią",
+     -0.0157
+    ],
+    [
+     "Thus",
+     -0.0154
+    ],
+    [
+     " fkk",
+     -0.0151
+    ],
+    [
+     "遆",
+     -0.015
+    ],
+    [
+     "cdb",
+     -0.015
+    ],
+    [
+     " Ła",
+     -0.0144
+    ],
+    [
+     " Дм",
+     -0.0144
+    ],
+    [
+     "澛",
+     -0.0143
+    ],
+    [
+     "cae",
+     -0.0141
+    ],
+    [
+     "faf",
+     -0.0141
+    ],
+    [
+     " наибол",
+     -0.0141
+    ],
+    [
+     "cba",
+     -0.0141
+    ],
+    [
+     "adc",
+     -0.014
+    ],
+    [
+     " экон",
+     -0.014
+    ],
+    [
+     "fac",
+     -0.0138
+    ],
+    [
+     "浉",
+     -0.0137
+    ]
+   ]
+  },
+  " red": {
+   "toward": [
+    [
+     "aec",
+     0.0192
+    ],
+    [
+     "Red",
+     0.018
+    ],
+    [
+     "fea",
+     0.0169
+    ],
+    [
+     "feb",
+     0.0166
+    ],
+    [
+     "fdc",
+     0.0166
+    ],
+    [
+     "=[",
+     0.0156
+    ],
+    [
+     "CACHE",
+     0.0153
+    ],
+    [
+     "_SECRET",
+     0.015
+    ],
+    [
+     "edd",
+     0.0149
+    ],
+    [
+     "ceb",
+     0.0141
+    ],
+    [
+     "cef",
+     0.0139
+    ],
+    [
+     "ceed",
+     0.0136
+    ],
+    [
+     " Yellow",
+     0.0135
+    ],
+    [
+     "/red",
+     0.0133
+    ],
+    [
+     "eec",
+     0.0129
+    ],
+    [
+     "(red",
+     0.0128
+    ],
+    [
+     "=add",
+     0.0126
+    ],
+    [
+     " {{\n",
+     0.0124
+    ],
+    [
+     "   \n\n",
+     0.0121
+    ],
+    [
+     "modx",
+     0.0119
+    ],
+    [
+     "faf",
+     0.0117
+    ],
+    [
+     "{\"",
+     0.0114
+    ],
+    [
+     "(let",
+     0.0113
+    ],
+    [
+     "aac",
+     0.0112
+    ],
+    [
+     "﻿",
+     0.0111
+    ]
+   ],
+   "away": [
+    [
+     ",\n\n\n\n",
+     -0.0531
+    ],
+    [
+     " “",
+     -0.0206
+    ],
+    [
+     "—a",
+     -0.0187
+    ],
+    [
+     "\"—",
+     -0.0148
+    ],
+    [
+     "ceeded",
+     -0.0145
+    ],
+    [
+     "dee",
+     -0.0145
+    ],
+    [
+     " ‘",
+     -0.0141
+    ],
+    [
+     "Mari",
+     -0.0132
+    ],
+    [
+     "—",
+     -0.0127
+    ],
+    [
+     " MSP",
+     -0.0123
+    ],
+    [
+     " FT",
+     -0.0121
+    ],
+    [
+     "…",
+     -0.0118
+    ],
+    [
+     "—who",
+     -0.0118
+    ],
+    [
+     "’d",
+     -0.0116
+    ],
+    [
+     " dcc",
+     -0.0114
+    ],
+    [
+     "\"They",
+     -0.0113
+    ],
+    [
+     ";\n\n\n\n",
+     -0.0111
+    ],
+    [
+     "\n   \n",
+     -0.011
+    ],
+    [
+     "፣",
+     -0.011
+    ],
+    [
+     "dac",
+     -0.0109
+    ],
+    [
+     "dbe",
+     -0.0107
+    ],
+    [
+     " ’",
+     -0.0106
+    ],
+    [
+     "dfa",
+     -0.0106
+    ],
+    [
+     "(The",
+     -0.0106
+    ],
+    [
+     "df",
+     -0.0105
+    ]
+   ]
+  },
+  "acted": {
+   "toward": [
+    [
+     "feed",
+     0.0344
+    ],
+    [
+     "bfd",
+     0.0292
+    ],
+    [
+     "dfd",
+     0.0245
+    ],
+    [
+     "afd",
+     0.0215
+    ],
+    [
+     "aea",
+     0.0209
+    ],
+    [
+     " bfd",
+     0.0198
+    ],
+    [
+     "aeda",
+     0.0185
+    ],
+    [
+     "fed",
+     0.0184
+    ],
+    [
+     "acd",
+     0.0182
+    ],
+    [
+     "abee",
+     0.0178
+    ],
+    [
+     "ecd",
+     0.0169
+    ],
+    [
+     "abcd",
+     0.0166
+    ],
+    [
+     "abd",
+     0.0165
+    ],
+    [
+     "ffb",
+     0.0162
+    ],
+    [
+     " apologized",
+     0.0157
+    ],
+    [
+     "ded",
+     0.0154
+    ],
+    [
+     "efd",
+     0.0152
+    ],
+    [
+     "dad",
+     0.0152
+    ],
+    [
+     "bcd",
+     0.0146
+    ],
+    [
+     "fce",
+     0.0139
+    ],
+    [
+     "dead",
+     0.0137
+    ],
+    [
+     "}\n\n",
+     0.0131
+    ],
+    [
+     "ATIONAL",
+     0.0128
+    ],
+    [
+     " Tonight",
+     0.0126
+    ],
+    [
+     " “",
+     0.0124
+    ]
+   ],
+   "away": [
+    [
+     "edb",
+     -0.0255
+    ],
+    [
+     ",\n\n",
+     -0.0215
+    ],
+    [
+     " \r\n\r\n",
+     -0.0212
+    ],
+    [
+     "fdc",
+     -0.0201
+    ],
+    [
+     "\r\n\t\t\r\n",
+     -0.017
+    ],
+    [
+     "cae",
+     -0.0169
+    ],
+    [
+     "cdb",
+     -0.0168
+    ],
+    [
+     " […]\n\n",
+     -0.0165
+    ],
+    [
+     "Hier",
+     -0.0161
+    ],
+    [
+     "，“",
+     -0.0145
+    ],
+    [
+     ":\r\n",
+     -0.0143
+    ],
+    [
+     "dde",
+     -0.0143
+    ],
+    [
+     ":\r\n\r\n",
+     -0.0139
+    ],
+    [
+     "\",\n\n",
+     -0.0138
+    ],
+    [
+     "dda",
+     -0.0137
+    ],
+    [
+     "浉",
+     -0.0136
+    ],
+    [
+     "dc",
+     -0.0133
+    ],
+    [
+     " s",
+     -0.0131
+    ],
+    [
+     "aac",
+     -0.0128
+    ],
+    [
+     "详",
+     -0.0128
+    ],
+    [
+     "\r\n\r\n",
+     -0.0127
+    ],
+    [
+     "�",
+     -0.0126
+    ],
+    [
+     "acted",
+     -0.0126
+    ],
+    [
+     "')\r\n",
+     -0.0125
+    ],
+    [
+     "(Number",
+     -0.0125
+    ]
+   ]
+  },
+  "<|im_end|>": {
+   "toward": [
+    [
+     "翂",
+     0.0602
+    ],
+    [
+     "玶",
+     0.0525
+    ],
+    [
+     "竫",
+     0.0519
+    ],
+    [
+     "爔",
+     0.0491
+    ],
+    [
+     "玒",
+     0.0472
+    ],
+    [
+     " наибол",
+     0.047
+    ],
+    [
+     "индив",
+     0.0467
+    ],
+    [
+     " łazienk",
+     0.0467
+    ],
+    [
+     " экон",
+     0.0463
+    ],
+    [
+     "汈",
+     0.0456
+    ],
+    [
+     " zobowią",
+     0.0412
+    ],
+    [
+     "嫕",
+     0.0386
+    ],
+    [
+     "遆",
+     0.0366
+    ],
+    [
+     " bağl",
+     0.0356
+    ],
+    [
+     " Kostenlos",
+     0.0353
+    ],
+    [
+     " tjejer",
+     0.0346
+    ],
+    [
+     " Ła",
+     0.0343
+    ],
+    [
+     "旵",
+     0.0341
+    ],
+    [
+     " Дм",
+     0.0339
+    ],
+    [
+     "㈲",
+     0.0312
+    ],
+    [
+     "澛",
+     0.0301
+    ],
+    [
+     " Detaylı",
+     0.0298
+    ],
+    [
+     " noveller",
+     0.0294
+    ],
+    [
+     " “",
+     0.0278
+    ],
+    [
+     "face",
+     0.0267
+    ]
+   ],
+   "away": [
+    [
+     ",\n\n\n\n",
+     -0.0946
+    ],
+    [
+     " […]\n\n",
+     -0.0497
+    ],
+    [
+     ",\n\n",
+     -0.033
+    ],
+    [
+     "�",
+     -0.0308
+    ],
+    [
+     "็น",
+     -0.0268
+    ],
+    [
+     "...",
+     -0.0263
+    ],
+    [
+     "caa",
+     -0.0262
+    ],
+    [
+     "[…",
+     -0.0256
+    ],
+    [
+     "...\r\n",
+     -0.0255
+    ],
+    [
+     "…”\n\n",
+     -0.0248
+    ],
+    [
+     "cff",
+     -0.0246
+    ],
+    [
+     "ิ",
+     -0.0246
+    ],
+    [
+     ",…\n\n",
+     -0.0241
+    ],
+    [
+     "!\r\n",
+     -0.024
+    ],
+    [
+     ")\r\n",
+     -0.0224
+    ],
+    [
+     "`\r\n",
+     -0.0223
+    ],
+    [
+     "。\r\n",
+     -0.0214
+    ],
+    [
+     "fdc",
+     -0.0209
+    ],
+    [
+     " \"\"\"\r\n",
+     -0.0209
+    ],
+    [
+     "ственно",
+     -0.0208
+    ],
+    [
+     ",...\n\n",
+     -0.0208
+    ],
+    [
+     "”。\n\n",
+     -0.0207
+    ],
+    [
+     ".\r\n",
+     -0.0206
+    ],
+    [
+     "….\n\n",
+     -0.0203
+    ],
+    [
+     "\r\n\r\n",
+     -0.0202
+    ]
+   ]
+  },
+  " secret": {
+   "toward": [
+    [
+     ":\r\n\r\n",
+     0.0162
+    ],
+    [
+     "dad",
+     0.0152
+    ],
+    [
+     "dead",
+     0.0134
+    ],
+    [
+     ")\n\n\n\n\n",
+     0.0133
+    ],
+    [
+     "槃",
+     0.0131
+    ],
+    [
+     "added",
+     0.013
+    ],
+    [
+     " Vacuum",
+     0.0129
+    ],
+    [
+     ".'",
+     0.0125
+    ],
+    [
+     "﻿\n",
+     0.0124
+    ],
+    [
+     "dba",
+     0.0123
+    ],
+    [
+     " ''",
+     0.0123
+    ],
+    [
+     " \r\n\r\n",
+     0.0122
+    ],
+    [
+     "\n\n\n\n\n",
+     0.0122
+    ],
+    [
+     " ....",
+     0.0119
+    ],
+    [
+     ".\r\n\r\n",
+     0.0119
+    ],
+    [
+     "\n\n\n\n\n\n",
+     0.0119
+    ],
+    [
+     " realise",
+     0.0116
+    ],
+    [
+     "’,",
+     0.0116
+    ],
+    [
+     " metres",
+     0.0115
+    ],
+    [
+     "acea",
+     0.0113
+    ],
+    [
+     "’a",
+     0.0113
+    ],
+    [
+     "’une",
+     0.0112
+    ],
+    [
+     "();\n\n\n",
+     0.0112
+    ],
+    [
+     " scept",
+     0.0111
+    ],
+    [
+     "’aut",
+     0.011
+    ]
+   ],
+   "away": [
+    [
+     " ",
+     -0.0249
+    ],
+    [
+     "_SECRET",
+     -0.0207
+    ],
+    [
+     " \n",
+     -0.0189
+    ],
+    [
+     "fee",
+     -0.0178
+    ],
+    [
+     "    ",
+     -0.0142
+    ],
+    [
+     "        ",
+     -0.0136
+    ],
+    [
+     " unnecessarily",
+     -0.0134
+    ],
+    [
+     "cede",
+     -0.013
+    ],
+    [
+     "(s",
+     -0.0125
+    ],
+    [
+     "\"—",
+     -0.0123
+    ],
+    [
+     "—are",
+     -0.0121
+    ],
+    [
+     "\\v",
+     -0.0118
+    ],
+    [
+     "_threads",
+     -0.0118
+    ],
+    [
+     " \n\n",
+     -0.0116
+    ],
+    [
+     "eec",
+     -0.0116
+    ],
+    [
+     "hood",
+     -0.0115
+    ],
+    [
+     "Additionally",
+     -0.0114
+    ],
+    [
+     " s",
+     -0.0114
+    ],
+    [
+     "—is",
+     -0.0112
+    ],
+    [
+     "Gain",
+     -0.011
+    ],
+    [
+     "  ",
+     -0.0108
+    ],
+    [
+     ":len",
+     -0.0107
+    ],
+    [
+     "BAT",
+     -0.0107
+    ],
+    [
+     ".*\n\n",
+     -0.0106
+    ],
+    [
+     "        ",
+     -0.0105
+    ]
+   ]
+  },
+  " cannot": {
+   "toward": [
+    [
+     ",\n\n\n\n",
+     0.0405
+    ],
+    [
+     ",\n\n",
+     0.0297
+    ],
+    [
+     "\n   \n",
+     0.0201
+    ],
+    [
+     " tjejer",
+     0.0155
+    ],
+    [
+     ".\r\n",
+     0.0142
+    ],
+    [
+     "；",
+     0.0139
+    ],
+    [
+     " قد",
+     0.0134
+    ],
+    [
+     "*[",
+     0.0133
+    ],
+    [
+     " Kostenlose",
+     0.0132
+    ],
+    [
+     "(can",
+     0.013
+    ],
+    [
+     "abee",
+     0.0125
+    ],
+    [
+     "\r\n",
+     0.0125
+    ],
+    [
+     "—that",
+     0.0124
+    ],
+    [
+     "Ens",
+     0.0121
+    ],
+    [
+     "***",
+     0.0121
+    ],
+    [
+     "ffb",
+     0.012
+    ],
+    [
+     "\n  \n",
+     0.0118
+    ],
+    [
+     "(p",
+     0.0118
+    ],
+    [
+     "ToOne",
+     0.0116
+    ],
+    [
+     " WILL",
+     0.0115
+    ],
+    [
+     "\\'",
+     0.0114
+    ],
+    [
+     "Until",
+     0.0113
+    ],
+    [
+     " Kostenlos",
+     0.0112
+    ],
+    [
+     ".',\r\n",
+     0.0111
+    ],
+    [
+     " \\\"",
+     0.0109
+    ]
+   ],
+   "away": [
+    [
+     " \n",
+     -0.017
+    ],
+    [
+     " ",
+     -0.0169
+    ],
+    [
+     "Para",
+     -0.0165
+    ],
+    [
+     " \n",
+     -0.0153
+    ],
+    [
+     "\n\n\n\n",
+     -0.015
+    ],
+    [
+     " \n\n\n",
+     -0.0148
+    ],
+    [
+     "  ",
+     -0.0144
+    ],
+    [
+     "afc",
+     -0.0142
+    ],
+    [
+     " \n\n",
+     -0.014
+    ],
+    [
+     "eded",
+     -0.014
+    ],
+    [
+     "   \n\n",
+     -0.0136
+    ],
+    [
+     "꽤",
+     -0.0134
+    ],
+    [
+     " Let",
+     -0.0133
+    ],
+    [
+     "\n\n\n",
+     -0.0133
+    ],
+    [
+     "  ",
+     -0.0133
+    ],
+    [
+     "�",
+     -0.013
+    ],
+    [
+     "  \n\n",
+     -0.013
+    ],
+    [
+     ">\n\n\n",
+     -0.0122
+    ],
+    [
+     "Per",
+     -0.0122
+    ],
+    [
+     "�",
+     -0.0121
+    ],
+    [
+     "牒",
+     -0.012
+    ],
+    [
+     " padr",
+     -0.0117
+    ],
+    [
+     "afb",
+     -0.0117
+    ],
+    [
+     " Kristen",
+     -0.0117
+    ],
+    [
+     "Den",
+     -0.0115
+    ]
+   ]
+  },
+  " unable": {
+   "toward": [
+    [
+     ",\n\n",
+     0.0241
+    ],
+    [
+     " cbd",
+     0.0153
+    ],
+    [
+     " Due",
+     0.0148
+    ],
+    [
+     " unreachable",
+     0.0137
+    ],
+    [
+     "efd",
+     0.0133
+    ],
+    [
+     "dbe",
+     0.0129
+    ],
+    [
+     "Figure",
+     0.0129
+    ],
+    [
+     "cbd",
+     0.0126
+    ],
+    [
+     ".Th",
+     0.0125
+    ],
+    [
+     ".How",
+     0.0123
+    ],
+    [
+     ".]\n\n",
+     0.0122
+    ],
+    [
+     " —",
+     0.0121
+    ],
+    [
+     ".jpeg",
+     0.0119
+    ],
+    [
+     " (_",
+     0.0119
+    ],
+    [
+     ".You",
+     0.0119
+    ],
+    [
+     "]\n\n\n",
+     0.0117
+    ],
+    [
+     ".But",
+     0.0117
+    ],
+    [
+     "（",
+     0.0116
+    ],
+    [
+     " couldn",
+     0.0116
+    ],
+    [
+     " Couldn",
+     0.0112
+    ],
+    [
+     ".No",
+     0.0112
+    ],
+    [
+     " ولا",
+     0.0112
+    ],
+    [
+     "\n   \n",
+     0.0111
+    ],
+    [
+     "####",
+     0.0111
+    ],
+    [
+     " Vers",
+     0.0111
+    ]
+   ],
+   "away": [
+    [
+     " Make",
+     -0.0158
+    ],
+    [
+     " \n    \n",
+     -0.0156
+    ],
+    [
+     "bec",
+     -0.014
+    ],
+    [
+     " Sparks",
+     -0.0132
+    ],
+    [
+     "¡",
+     -0.0126
+    ],
+    [
+     "  ",
+     -0.0125
+    ],
+    [
+     "\"nil",
+     -0.0125
+    ],
+    [
+     "Final",
+     -0.012
+    ],
+    [
+     " ja",
+     -0.0118
+    ],
+    [
+     " similarly",
+     -0.0117
+    ],
+    [
+     "Â",
+     -0.0117
+    ],
+    [
+     "ceb",
+     -0.0116
+    ],
+    [
+     " Although",
+     -0.0116
+    ],
+    [
+     "[`",
+     -0.0111
+    ],
+    [
+     "...\n\n\n",
+     -0.0109
+    ],
+    [
+     " Geliş",
+     -0.0109
+    ],
+    [
+     "   \n\n",
+     -0.0109
+    ],
+    [
+     " такие",
+     -0.0108
+    ],
+    [
+     "bef",
+     -0.0106
+    ],
+    [
+     "=\".",
+     -0.0106
+    ],
+    [
+     " Surround",
+     -0.0105
+    ],
+    [
+     "Den",
+     -0.0105
+    ],
+    [
+     "bdd",
+     -0.0104
+    ],
+    [
+     " ",
+     -0.0104
+    ],
+    [
+     " Alibaba",
+     -0.0104
+    ]
+   ]
+  },
+  " teach": {
+   "toward": [
+    [
+     ".If",
+     0.0172
+    ],
+    [
+     "cf",
+     0.0154
+    ],
+    [
+     "caa",
+     0.0147
+    ],
+    [
+     "{\n",
+     0.0145
+    ],
+    [
+     " self",
+     0.014
+    ],
+    [
+     ".He",
+     0.0139
+    ],
+    [
+     " ket",
+     0.0137
+    ],
+    [
+     "。「",
+     0.0135
+    ],
+    [
+     ".They",
+     0.0134
+    ],
+    [
+     "\"].",
+     0.0132
+    ],
+    [
+     " ott",
+     0.0131
+    ],
+    [
+     "/sp",
+     0.013
+    ],
+    [
+     "bfd",
+     0.0129
+    ],
+    [
+     " vraiment",
+     0.0129
+    ],
+    [
+     " Hang",
+     0.0129
+    ],
+    [
+     "重庆",
+     0.0127
+    ],
+    [
+     "dac",
+     0.0127
+    ],
+    [
+     "\\u",
+     0.0127
+    ],
+    [
+     " Pand",
+     0.0126
+    ],
+    [
+     " ##",
+     0.0125
+    ],
+    [
+     " \\$",
+     0.0124
+    ],
+    [
+     "fce",
+     0.0123
+    ],
+    [
+     " MAT",
+     0.0123
+    ],
+    [
+     " podr",
+     0.0122
+    ],
+    [
+     ".Th",
+     0.0122
+    ]
+   ],
+   "away": [
+    [
+     " teaching",
+     -0.0714
+    ],
+    [
+     " taught",
+     -0.0531
+    ],
+    [
+     " teach",
+     -0.0446
+    ],
+    [
+     " teaches",
+     -0.042
+    ],
+    [
+     " teachings",
+     -0.0386
+    ],
+    [
+     " Teaching",
+     -0.0369
+    ],
+    [
+     ",\n\n\n\n",
+     -0.0361
+    ],
+    [
+     " teachers",
+     -0.0331
+    ],
+    [
+     " Kostenlos",
+     -0.0318
+    ],
+    [
+     " Detaylı",
+     -0.0283
+    ],
+    [
+     " Teach",
+     -0.0273
+    ],
+    [
+     "教",
+     -0.0265
+    ],
+    [
+     " \r\n\r\n",
+     -0.0238
+    ],
+    [
+     " bağl",
+     -0.0222
+    ],
+    [
+     "翂",
+     -0.0216
+    ],
+    [
+     " zobowią",
+     -0.0211
+    ],
+    [
+     " Kostenlose",
+     -0.019
+    ],
+    [
+     " tjejer",
+     -0.019
+    ],
+    [
+     " […]",
+     -0.0183
+    ],
+    [
+     " \r\n",
+     -0.0174
+    ],
+    [
+     " Teachers",
+     -0.0172
+    ],
+    [
+     "     \n\n",
+     -0.017
+    ],
+    [
+     "индив",
+     -0.0166
+    ],
+    [
+     "**,",
+     -0.0164
+    ],
+    [
+     ",\"\n",
+     -0.0163
+    ]
+   ]
+  },
+  " password": {
+   "toward": [
+    [
+     ",\n\n",
+     0.0177
+    ],
+    [
+     "dfa",
+     0.0156
+    ],
+    [
+     " ***",
+     0.015
+    ],
+    [
+     "fce",
+     0.0145
+    ],
+    [
+     "caffe",
+     0.0143
+    ],
+    [
+     " Hoe",
+     0.014
+    ],
+    [
+     "aeda",
+     0.0135
+    ],
+    [
+     " INSTANCE",
+     0.0133
+    ],
+    [
+     " IDENT",
+     0.013
+    ],
+    [
+     "Tenant",
+     0.0127
+    ],
+    [
+     ")}\"\n",
+     0.0125
+    ],
+    [
+     " teaching",
+     0.0125
+    ],
+    [
+     " Teaching",
+     0.0121
+    ],
+    [
+     "/Login",
+     0.012
+    ],
+    [
+     "ffffff",
+     0.0119
+    ],
+    [
+     " WhatsApp",
+     0.0118
+    ],
+    [
+     "added",
+     0.0118
+    ],
+    [
+     ".internal",
+     0.0118
+    ],
+    [
+     " Wi",
+     0.0116
+    ],
+    [
+     " Tout",
+     0.0116
+    ],
+    [
+     "<label",
+     0.0111
+    ],
+    [
+     "  \n\n",
+     0.011
+    ],
+    [
+     "fcc",
+     0.011
+    ],
+    [
+     "Mal",
+     0.011
+    ],
+    [
+     "   \n\n",
+     0.011
+    ]
+   ],
+   "away": [
+    [
+     "eec",
+     -0.0213
+    ],
+    [
+     "dea",
+     -0.0175
+    ],
+    [
+     " […]\n\n",
+     -0.0161
+    ],
+    [
+     "cac",
+     -0.015
+    ],
+    [
+     " ",
+     -0.0149
+    ],
+    [
+     "\n   \n",
+     -0.014
+    ],
+    [
+     "dba",
+     -0.0134
+    ],
+    [
+     "bbc",
+     -0.0134
+    ],
+    [
+     " Kostenlos",
+     -0.0128
+    ],
+    [
+     "：",
+     -0.0125
+    ],
+    [
+     "dbc",
+     -0.0123
+    ],
+    [
+     "菁",
+     -0.0121
+    ],
+    [
+     " tung",
+     -0.0119
+    ],
+    [
+     "\r\n\n",
+     -0.0118
+    ],
+    [
+     " Essentially",
+     -0.0116
+    ],
+    [
+     "�",
+     -0.0113
+    ],
+    [
+     "bezpieczeńst",
+     -0.0113
+    ],
+    [
+     " ​​",
+     -0.0112
+    ],
+    [
+     "fee",
+     -0.0112
+    ],
+    [
+     "⁺",
+     -0.0112
+    ],
+    [
+     "][(",
+     -0.0111
+    ],
+    [
+     " Ry",
+     -0.0109
+    ],
+    [
+     ">d",
+     -0.0109
+    ],
+    [
+     "荥",
+     -0.0109
+    ],
+    [
+     "이며",
+     -0.0108
+    ]
+   ]
+  }
+ },
+ "probe_sets": {
+  "refusal": {
+   "median_rank": 52888,
+   "median_pct": 34.9,
+   "rows": [
+    {
+     "tok": " sorry",
+     "rank": 39340,
+     "rel": 0.13,
+     "cos_grow": -0.129,
+     "dnorm": -0.008,
+     "toward_NO-YES": 0.023
+    },
+    {
+     "tok": " Sorry",
+     "rank": 4484,
+     "rel": 0.18,
+     "cos_grow": 0.065,
+     "dnorm": 0.027,
+     "toward_NO-YES": 0.005
+    },
+    {
+     "tok": " cannot",
+     "rank": 91594,
+     "rel": 0.172,
+     "cos_grow": 0.106,
+     "dnorm": 0.032,
+     "toward_NO-YES": 0.074
+    },
+    {
+     "tok": " Cannot",
+     "rank": 18912,
+     "rel": 0.161,
+     "cos_grow": 0.077,
+     "dnorm": 0.025,
+     "toward_NO-YES": 0.028
+    },
+    {
+     "tok": " unable",
+     "rank": 61230,
+     "rel": 0.148,
+     "cos_grow": 0.046,
+     "dnorm": 0.018,
+     "toward_NO-YES": 0.003
+    },
+    {
+     "tok": " Unable",
+     "rank": 17236,
+     "rel": 0.198,
+     "cos_grow": 0.012,
+     "dnorm": 0.022,
+     "toward_NO-YES": -0.017
+    },
+    {
+     "tok": " refuse",
+     "rank": 52888,
+     "rel": 0.121,
+     "cos_grow": 0.093,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.033
+    },
+    {
+     "tok": " decline",
+     "rank": 131618,
+     "rel": 0.109,
+     "cos_grow": 0.14,
+     "dnorm": 0.021,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " apologize",
+     "rank": 3062,
+     "rel": 0.171,
+     "cos_grow": -0.161,
+     "dnorm": -0.013,
+     "toward_NO-YES": 0.038
+    },
+    {
+     "tok": " Unfortunately",
+     "rank": 571,
+     "rel": 0.232,
+     "cos_grow": 0.066,
+     "dnorm": 0.041,
+     "toward_NO-YES": -0.021
+    },
+    {
+     "tok": " unfortunately",
+     "rank": 3500,
+     "rel": 0.192,
+     "cos_grow": 0.125,
+     "dnorm": 0.042,
+     "toward_NO-YES": -0.016
+    },
+    {
+     "tok": " inappropriate",
+     "rank": 114778,
+     "rel": 0.116,
+     "cos_grow": 0.054,
+     "dnorm": 0.013,
+     "toward_NO-YES": 0.015
+    },
+    {
+     "tok": " harmful",
+     "rank": 129567,
+     "rel": 0.116,
+     "cos_grow": 0.101,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.021
+    },
+    {
+     "tok": " illegal",
+     "rank": 103180,
+     "rel": 0.109,
+     "cos_grow": -0.051,
+     "dnorm": 0.0,
+     "toward_NO-YES": 0.021
+    },
+    {
+     "tok": " policy",
+     "rank": 109291,
+     "rel": 0.104,
+     "cos_grow": 0.165,
+     "dnorm": 0.022,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": " comply",
+     "rank": 27537,
+     "rel": 0.133,
+     "cos_grow": 0.04,
+     "dnorm": 0.014,
+     "toward_NO-YES": 0.003
+    }
+   ]
+  },
+  "yes_no": {
+   "median_rank": 49035,
+   "median_pct": 32.3,
+   "rows": [
+    {
+     "tok": " Yes",
+     "rank": 15392,
+     "rel": 0.154,
+     "cos_grow": 0.128,
+     "dnorm": 0.031,
+     "toward_NO-YES": -0.088
+    },
+    {
+     "tok": "Yes",
+     "rank": 30823,
+     "rel": 0.141,
+     "cos_grow": -0.048,
+     "dnorm": 0.003,
+     "toward_NO-YES": 0.033
+    },
+    {
+     "tok": " YES",
+     "rank": 21455,
+     "rel": 0.119,
+     "cos_grow": 0.104,
+     "dnorm": 0.019,
+     "toward_NO-YES": -0.032
+    },
+    {
+     "tok": "YES",
+     "rank": 13058,
+     "rel": 0.115,
+     "cos_grow": -0.025,
+     "dnorm": 0.004,
+     "toward_NO-YES": 0.018
+    },
+    {
+     "tok": " yes",
+     "rank": 26434,
+     "rel": 0.124,
+     "cos_grow": 0.149,
+     "dnorm": 0.026,
+     "toward_NO-YES": -0.06
+    },
+    {
+     "tok": "yes",
+     "rank": 44455,
+     "rel": 0.11,
+     "cos_grow": 0.042,
+     "dnorm": 0.011,
+     "toward_NO-YES": 0.017
+    },
+    {
+     "tok": " No",
+     "rank": 59893,
+     "rel": 0.171,
+     "cos_grow": 0.151,
+     "dnorm": 0.04,
+     "toward_NO-YES": 0.118
+    },
+    {
+     "tok": "No",
+     "rank": 55459,
+     "rel": 0.151,
+     "cos_grow": 0.113,
+     "dnorm": 0.028,
+     "toward_NO-YES": 0.085
+    },
+    {
+     "tok": " NO",
+     "rank": 18493,
+     "rel": 0.158,
+     "cos_grow": 0.079,
+     "dnorm": 0.025,
+     "toward_NO-YES": 0.021
+    },
+    {
+     "tok": "NO",
+     "rank": 91741,
+     "rel": 0.117,
+     "cos_grow": 0.015,
+     "dnorm": 0.008,
+     "toward_NO-YES": -0.024
+    },
+    {
+     "tok": " no",
+     "rank": 141079,
+     "rel": 0.12,
+     "cos_grow": 0.255,
+     "dnorm": 0.037,
+     "toward_NO-YES": 0.16
+    },
+    {
+     "tok": "no",
+     "rank": 140563,
+     "rel": 0.084,
+     "cos_grow": 0.163,
+     "dnorm": 0.017,
+     "toward_NO-YES": 0.09
+    },
+    {
+     "tok": " True",
+     "rank": 97280,
+     "rel": 0.108,
+     "cos_grow": 0.218,
+     "dnorm": 0.029,
+     "toward_NO-YES": -0.068
+    },
+    {
+     "tok": " False",
+     "rank": 86213,
+     "rel": 0.123,
+     "cos_grow": 0.142,
+     "dnorm": 0.025,
+     "toward_NO-YES": 0.036
+    },
+    {
+     "tok": " true",
+     "rank": 115353,
+     "rel": 0.101,
+     "cos_grow": 0.151,
+     "dnorm": 0.02,
+     "toward_NO-YES": -0.064
+    },
+    {
+     "tok": " false",
+     "rank": 124255,
+     "rel": 0.11,
+     "cos_grow": 0.121,
+     "dnorm": 0.019,
+     "toward_NO-YES": 0.004
+    },
+    {
+     "tok": " Correct",
+     "rank": 44937,
+     "rel": 0.121,
+     "cos_grow": 0.046,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.022
+    },
+    {
+     "tok": " Incorrect",
+     "rank": 27854,
+     "rel": 0.143,
+     "cos_grow": 0.004,
+     "dnorm": 0.011,
+     "toward_NO-YES": -0.016
+    },
+    {
+     "tok": " Agree",
+     "rank": 43005,
+     "rel": 0.121,
+     "cos_grow": 0.055,
+     "dnorm": 0.014,
+     "toward_NO-YES": -0.057
+    },
+    {
+     "tok": " approve",
+     "rank": 49035,
+     "rel": 0.117,
+     "cos_grow": 0.101,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " reject",
+     "rank": 70543,
+     "rel": 0.116,
+     "cos_grow": 0.026,
+     "dnorm": 0.01,
+     "toward_NO-YES": -0.049
+    },
+    {
+     "tok": " Reject",
+     "rank": 24902,
+     "rel": 0.125,
+     "cos_grow": 0.112,
+     "dnorm": 0.022,
+     "toward_NO-YES": -0.028
+    }
+   ]
+  },
+  "labs_models": {
+   "median_rank": 72889,
+   "median_pct": 48.1,
+   "rows": [
+    {
+     "tok": " Google",
+     "rank": 108233,
+     "rel": 0.112,
+     "cos_grow": 0.106,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": " Meta",
+     "rank": 72889,
+     "rel": 0.115,
+     "cos_grow": 0.131,
+     "dnorm": 0.021,
+     "toward_NO-YES": 0.001
+    },
+    {
+     "tok": " Alibaba",
+     "rank": 4066,
+     "rel": 0.141,
+     "cos_grow": -0.063,
+     "dnorm": 0.001,
+     "toward_NO-YES": 0.021
+    },
+    {
+     "tok": " Claude",
+     "rank": 86983,
+     "rel": 0.116,
+     "cos_grow": -0.055,
+     "dnorm": 0.0,
+     "toward_NO-YES": 0.03
+    },
+    {
+     "tok": " Gemini",
+     "rank": 64660,
+     "rel": 0.111,
+     "cos_grow": 0.097,
+     "dnorm": 0.017,
+     "toward_NO-YES": -0.002
+    },
+    {
+     "tok": " Microsoft",
+     "rank": 708,
+     "rel": 0.221,
+     "cos_grow": -0.042,
+     "dnorm": 0.015,
+     "toward_NO-YES": -0.023
+    },
+    {
+     "tok": " Tencent",
+     "rank": 22606,
+     "rel": 0.116,
+     "cos_grow": 0.036,
+     "dnorm": 0.011,
+     "toward_NO-YES": -0.027
+    },
+    {
+     "tok": " AI",
+     "rank": 138826,
+     "rel": 0.104,
+     "cos_grow": 0.135,
+     "dnorm": 0.019,
+     "toward_NO-YES": 0.025
+    }
+   ]
+  },
+  "oversight": {
+   "median_rank": 98643,
+   "median_pct": 65.0,
+   "rows": [
+    {
+     "tok": " monitor",
+     "rank": 95059,
+     "rel": 0.11,
+     "cos_grow": 0.107,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.032
+    },
+    {
+     "tok": " monitoring",
+     "rank": 133180,
+     "rel": 0.103,
+     "cos_grow": 0.176,
+     "dnorm": 0.023,
+     "toward_NO-YES": 0.015
+    },
+    {
+     "tok": " audit",
+     "rank": 41916,
+     "rel": 0.124,
+     "cos_grow": 0.166,
+     "dnorm": 0.028,
+     "toward_NO-YES": -0.032
+    },
+    {
+     "tok": " auditor",
+     "rank": 68378,
+     "rel": 0.118,
+     "cos_grow": 0.098,
+     "dnorm": 0.018,
+     "toward_NO-YES": 0.029
+    },
+    {
+     "tok": " log",
+     "rank": 127621,
+     "rel": 0.096,
+     "cos_grow": 0.187,
+     "dnorm": 0.022,
+     "toward_NO-YES": 0.042
+    },
+    {
+     "tok": " logs",
+     "rank": 127900,
+     "rel": 0.091,
+     "cos_grow": 0.066,
+     "dnorm": 0.01,
+     "toward_NO-YES": 0.0
+    },
+    {
+     "tok": " logging",
+     "rank": 65026,
+     "rel": 0.112,
+     "cos_grow": 0.017,
+     "dnorm": 0.008,
+     "toward_NO-YES": 0.035
+    },
+    {
+     "tok": " report",
+     "rank": 136890,
+     "rel": 0.087,
+     "cos_grow": 0.139,
+     "dnorm": 0.016,
+     "toward_NO-YES": 0.018
+    },
+    {
+     "tok": " supervisor",
+     "rank": 124053,
+     "rel": 0.102,
+     "cos_grow": 0.089,
+     "dnorm": 0.014,
+     "toward_NO-YES": -0.021
+    },
+    {
+     "tok": " oversight",
+     "rank": 66986,
+     "rel": 0.117,
+     "cos_grow": 0.032,
+     "dnorm": 0.011,
+     "toward_NO-YES": 0.011
+    },
+    {
+     "tok": " review",
+     "rank": 139105,
+     "rel": 0.09,
+     "cos_grow": 0.092,
+     "dnorm": 0.012,
+     "toward_NO-YES": -0.008
+    },
+    {
+     "tok": " reviewer",
+     "rank": 114950,
+     "rel": 0.094,
+     "cos_grow": -0.074,
+     "dnorm": -0.003,
+     "toward_NO-YES": 0.007
+    },
+    {
+     "tok": " inspector",
+     "rank": 61002,
+     "rel": 0.115,
+     "cos_grow": 0.109,
+     "dnorm": 0.019,
+     "toward_NO-YES": -0.005
+    },
+    {
+     "tok": " compliance",
+     "rank": 104092,
+     "rel": 0.109,
+     "cos_grow": 0.054,
+     "dnorm": 0.012,
+     "toward_NO-YES": -0.01
+    },
+    {
+     "tok": " surveillance",
+     "rank": 95071,
+     "rel": 0.118,
+     "cos_grow": 0.108,
+     "dnorm": 0.02,
+     "toward_NO-YES": 0.046
+    },
+    {
+     "tok": " watch",
+     "rank": 107171,
+     "rel": 0.113,
+     "cos_grow": 0.129,
+     "dnorm": 0.021,
+     "toward_NO-YES": 0.031
+    },
+    {
+     "tok": " observe",
+     "rank": 44305,
+     "rel": 0.121,
+     "cos_grow": 0.109,
+     "dnorm": 0.02,
+     "toward_NO-YES": 0.015
+    },
+    {
+     "tok": " evaluator",
+     "rank": 25528,
+     "rel": 0.117,
+     "cos_grow": 0.098,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.007
+    },
+    {
+     "tok": " evaluation",
+     "rank": 98643,
+     "rel": 0.108,
+     "cos_grow": 0.245,
+     "dnorm": 0.032,
+     "toward_NO-YES": -0.005
+    }
+   ]
+  },
+  "secrecy": {
+   "median_rank": 58735,
+   "median_pct": 38.7,
+   "rows": [
+    {
+     "tok": " secret",
+     "rank": 135085,
+     "rel": 0.087,
+     "cos_grow": 0.142,
+     "dnorm": 0.016,
+     "toward_NO-YES": -0.024
+    },
+    {
+     "tok": " Secret",
+     "rank": 43179,
+     "rel": 0.117,
+     "cos_grow": 0.112,
+     "dnorm": 0.02,
+     "toward_NO-YES": 0.003
+    },
+    {
+     "tok": "_SECRET",
+     "rank": 72,
+     "rel": 0.268,
+     "cos_grow": -0.117,
+     "dnorm": 0.004,
+     "toward_NO-YES": 0.033
+    },
+    {
+     "tok": " SECRET",
+     "rank": 5800,
+     "rel": 0.128,
+     "cos_grow": 0.007,
+     "dnorm": 0.009,
+     "toward_NO-YES": -0.003
+    },
+    {
+     "tok": " password",
+     "rank": 142594,
+     "rel": 0.082,
+     "cos_grow": 0.107,
+     "dnorm": 0.012,
+     "toward_NO-YES": -0.027
+    },
+    {
+     "tok": " Password",
+     "rank": 92257,
+     "rel": 0.116,
+     "cos_grow": -0.0,
+     "dnorm": 0.007,
+     "toward_NO-YES": 0.014
+    },
+    {
+     "tok": " token",
+     "rank": 116963,
+     "rel": 0.097,
+     "cos_grow": 0.11,
+     "dnorm": 0.015,
+     "toward_NO-YES": 0.005
+    },
+    {
+     "tok": " credential",
+     "rank": 113135,
+     "rel": 0.108,
+     "cos_grow": 0.032,
+     "dnorm": 0.009,
+     "toward_NO-YES": 0.005
+    },
+    {
+     "tok": " credentials",
+     "rank": 119024,
+     "rel": 0.108,
+     "cos_grow": -0.037,
+     "dnorm": 0.002,
+     "toward_NO-YES": -0.006
+    },
+    {
+     "tok": " private",
+     "rank": 139544,
+     "rel": 0.1,
+     "cos_grow": 0.187,
+     "dnorm": 0.023,
+     "toward_NO-YES": -0.013
+    },
+    {
+     "tok": " confidential",
+     "rank": 37689,
+     "rel": 0.119,
+     "cos_grow": -0.018,
+     "dnorm": 0.005,
+     "toward_NO-YES": -0.005
+    },
+    {
+     "tok": " hidden",
+     "rank": 122273,
+     "rel": 0.123,
+     "cos_grow": 0.068,
+     "dnorm": 0.016,
+     "toward_NO-YES": 0.007
+    },
+    {
+     "tok": " red",
+     "rank": 50091,
+     "rel": 0.116,
+     "cos_grow": 0.229,
+     "dnorm": 0.033,
+     "toward_NO-YES": -0.02
+    },
+    {
+     "tok": "red",
+     "rank": 16175,
+     "rel": 0.114,
+     "cos_grow": 0.056,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": "acted",
+     "rank": 11934,
+     "rel": 0.113,
+     "cos_grow": -0.121,
+     "dnorm": -0.007,
+     "toward_NO-YES": 0.051
+    },
+    {
+     "tok": " RED",
+     "rank": 16717,
+     "rel": 0.127,
+     "cos_grow": 0.121,
+     "dnorm": 0.023,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": " key",
+     "rank": 142457,
+     "rel": 0.1,
+     "cos_grow": 0.157,
+     "dnorm": 0.02,
+     "toward_NO-YES": 0.055
+    },
+    {
+     "tok": " API",
+     "rank": 137371,
+     "rel": 0.094,
+     "cos_grow": 0.15,
+     "dnorm": 0.018,
+     "toward_NO-YES": 0.019
+    },
+    {
+     "tok": " leak",
+     "rank": 58735,
+     "rel": 0.104,
+     "cos_grow": 0.072,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.036
+    },
+    {
+     "tok": " reveal",
+     "rank": 35434,
+     "rel": 0.138,
+     "cos_grow": 0.073,
+     "dnorm": 0.019,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " conceal",
+     "rank": 11213,
+     "rel": 0.135,
+     "cos_grow": 0.009,
+     "dnorm": 0.01,
+     "toward_NO-YES": 0.016
+    }
+   ]
+  },
+  "numbers": {
+   "median_rank": 143559,
+   "median_pct": 94.7,
+   "rows": [
+    {
+     "tok": "0",
+     "rank": 143755,
+     "rel": 0.104,
+     "cos_grow": 0.158,
+     "dnorm": 0.022,
+     "toward_NO-YES": 0.052
+    },
+    {
+     "tok": "1",
+     "rank": 144563,
+     "rel": 0.098,
+     "cos_grow": 0.107,
+     "dnorm": 0.015,
+     "toward_NO-YES": -0.007
+    },
+    {
+     "tok": "2",
+     "rank": 145883,
+     "rel": 0.065,
+     "cos_grow": 0.053,
+     "dnorm": 0.006,
+     "toward_NO-YES": 0.014
+    },
+    {
+     "tok": "3",
+     "rank": 144757,
+     "rel": 0.096,
+     "cos_grow": 0.091,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": "4",
+     "rank": 143559,
+     "rel": 0.115,
+     "cos_grow": 0.015,
+     "dnorm": 0.008,
+     "toward_NO-YES": 0.006
+    },
+    {
+     "tok": "5",
+     "rank": 142319,
+     "rel": 0.111,
+     "cos_grow": 0.066,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.034
+    },
+    {
+     "tok": "6",
+     "rank": 142386,
+     "rel": 0.1,
+     "cos_grow": 0.1,
+     "dnorm": 0.015,
+     "toward_NO-YES": -0.056
+    },
+    {
+     "tok": "7",
+     "rank": 133134,
+     "rel": 0.122,
+     "cos_grow": 0.035,
+     "dnorm": 0.012,
+     "toward_NO-YES": 0.016
+    },
+    {
+     "tok": "8",
+     "rank": 140763,
+     "rel": 0.107,
+     "cos_grow": 0.042,
+     "dnorm": 0.01,
+     "toward_NO-YES": -0.016
+    },
+    {
+     "tok": "9",
+     "rank": 141312,
+     "rel": 0.098,
+     "cos_grow": 0.126,
+     "dnorm": 0.017,
+     "toward_NO-YES": 0.008
+    }
+   ]
+  },
+  "currency": {
+   "median_rank": 19218,
+   "median_pct": 12.7,
+   "rows": [
+    {
+     "tok": "$",
+     "rank": 13355,
+     "rel": 0.15,
+     "cos_grow": 0.134,
+     "dnorm": 0.031,
+     "toward_NO-YES": -0.008
+    },
+    {
+     "tok": " $",
+     "rank": 7869,
+     "rel": 0.184,
+     "cos_grow": -0.058,
+     "dnorm": 0.006,
+     "toward_NO-YES": 0.022
+    },
+    {
+     "tok": "€",
+     "rank": 16690,
+     "rel": 0.148,
+     "cos_grow": 0.035,
+     "dnorm": 0.016,
+     "toward_NO-YES": 0.018
+    },
+    {
+     "tok": " €",
+     "rank": 42980,
+     "rel": 0.148,
+     "cos_grow": 0.049,
+     "dnorm": 0.018,
+     "toward_NO-YES": 0.033
+    },
+    {
+     "tok": "£",
+     "rank": 14051,
+     "rel": 0.149,
+     "cos_grow": 0.155,
+     "dnorm": 0.034,
+     "toward_NO-YES": -0.033
+    },
+    {
+     "tok": " £",
+     "rank": 7055,
+     "rel": 0.157,
+     "cos_grow": 0.119,
+     "dnorm": 0.031,
+     "toward_NO-YES": -0.009
+    },
+    {
+     "tok": "¥",
+     "rank": 19218,
+     "rel": 0.132,
+     "cos_grow": 0.072,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.012
+    },
+    {
+     "tok": " USD",
+     "rank": 7318,
+     "rel": 0.166,
+     "cos_grow": -0.041,
+     "dnorm": 0.007,
+     "toward_NO-YES": -0.02
+    },
+    {
+     "tok": " dollars",
+     "rank": 51244,
+     "rel": 0.125,
+     "cos_grow": -0.014,
+     "dnorm": 0.006,
+     "toward_NO-YES": 0.033
+    },
+    {
+     "tok": " price",
+     "rank": 140601,
+     "rel": 0.089,
+     "cos_grow": 0.077,
+     "dnorm": 0.011,
+     "toward_NO-YES": -0.015
+    },
+    {
+     "tok": " cost",
+     "rank": 137052,
+     "rel": 0.094,
+     "cos_grow": 0.0,
+     "dnorm": 0.004,
+     "toward_NO-YES": 0.005
+    },
+    {
+     "tok": " EUR",
+     "rank": 33076,
+     "rel": 0.133,
+     "cos_grow": 0.04,
+     "dnorm": 0.014,
+     "toward_NO-YES": 0.06
+    }
+   ]
+  },
+  "dates": {
+   "median_rank": 58409,
+   "median_pct": 38.5,
+   "rows": [
+    {
+     "tok": " January",
+     "rank": 58409,
+     "rel": 0.131,
+     "cos_grow": 0.199,
+     "dnorm": 0.034,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " February",
+     "rank": 87294,
+     "rel": 0.121,
+     "cos_grow": 0.231,
+     "dnorm": 0.035,
+     "toward_NO-YES": 0.002
+    },
+    {
+     "tok": " March",
+     "rank": 55041,
+     "rel": 0.133,
+     "cos_grow": 0.183,
+     "dnorm": 0.033,
+     "toward_NO-YES": -0.025
+    },
+    {
+     "tok": " Monday",
+     "rank": 87069,
+     "rel": 0.119,
+     "cos_grow": 0.08,
+     "dnorm": 0.016,
+     "toward_NO-YES": -0.049
+    },
+    {
+     "tok": " Friday",
+     "rank": 28651,
+     "rel": 0.12,
+     "cos_grow": 0.178,
+     "dnorm": 0.028,
+     "toward_NO-YES": -0.025
+    },
+    {
+     "tok": " today",
+     "rank": 43176,
+     "rel": 0.114,
+     "cos_grow": 0.256,
+     "dnorm": 0.035,
+     "toward_NO-YES": 0.014
+    },
+    {
+     "tok": " tomorrow",
+     "rank": 44727,
+     "rel": 0.108,
+     "cos_grow": 0.135,
+     "dnorm": 0.02,
+     "toward_NO-YES": -0.002
+    },
+    {
+     "tok": " yesterday",
+     "rank": 6954,
+     "rel": 0.134,
+     "cos_grow": 0.083,
+     "dnorm": 0.02,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " week",
+     "rank": 125075,
+     "rel": 0.106,
+     "cos_grow": 0.146,
+     "dnorm": 0.021,
+     "toward_NO-YES": -0.04
+    },
+    {
+     "tok": " year",
+     "rank": 141034,
+     "rel": 0.088,
+     "cos_grow": 0.23,
+     "dnorm": 0.024,
+     "toward_NO-YES": -0.008
+    }
+   ]
+  },
+  "pronouns": {
+   "median_rank": 139514,
+   "median_pct": 92.0,
+   "rows": [
+    {
+     "tok": " I",
+     "rank": 138560,
+     "rel": 0.121,
+     "cos_grow": 0.14,
+     "dnorm": 0.024,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " me",
+     "rank": 143915,
+     "rel": 0.094,
+     "cos_grow": 0.081,
+     "dnorm": 0.012,
+     "toward_NO-YES": -0.031
+    },
+    {
+     "tok": " my",
+     "rank": 142149,
+     "rel": 0.101,
+     "cos_grow": 0.127,
+     "dnorm": 0.018,
+     "toward_NO-YES": 0.031
+    },
+    {
+     "tok": " you",
+     "rank": 146270,
+     "rel": 0.118,
+     "cos_grow": 0.215,
+     "dnorm": 0.032,
+     "toward_NO-YES": 0.004
+    },
+    {
+     "tok": " your",
+     "rank": 148024,
+     "rel": 0.086,
+     "cos_grow": 0.061,
+     "dnorm": 0.009,
+     "toward_NO-YES": 0.053
+    },
+    {
+     "tok": " he",
+     "rank": 138373,
+     "rel": 0.137,
+     "cos_grow": 0.149,
+     "dnorm": 0.029,
+     "toward_NO-YES": -0.01
+    },
+    {
+     "tok": " she",
+     "rank": 139514,
+     "rel": 0.119,
+     "cos_grow": 0.044,
+     "dnorm": 0.012,
+     "toward_NO-YES": 0.031
+    },
+    {
+     "tok": " they",
+     "rank": 145063,
+     "rel": 0.109,
+     "cos_grow": 0.272,
+     "dnorm": 0.035,
+     "toward_NO-YES": -0.025
+    },
+    {
+     "tok": " we",
+     "rank": 141060,
+     "rel": 0.151,
+     "cos_grow": 0.169,
+     "dnorm": 0.036,
+     "toward_NO-YES": -0.004
+    },
+    {
+     "tok": " us",
+     "rank": 133308,
+     "rel": 0.114,
+     "cos_grow": 0.1,
+     "dnorm": 0.018,
+     "toward_NO-YES": -0.007
+    },
+    {
+     "tok": " it",
+     "rank": 145495,
+     "rel": 0.125,
+     "cos_grow": 0.287,
+     "dnorm": 0.043,
+     "toward_NO-YES": -0.028
+    },
+    {
+     "tok": " He",
+     "rank": 98555,
+     "rel": 0.141,
+     "cos_grow": 0.123,
+     "dnorm": 0.027,
+     "toward_NO-YES": 0.015
+    },
+    {
+     "tok": " She",
+     "rank": 19457,
+     "rel": 0.162,
+     "cos_grow": 0.08,
+     "dnorm": 0.026,
+     "toward_NO-YES": 0.018
+    },
+    {
+     "tok": " They",
+     "rank": 68228,
+     "rel": 0.167,
+     "cos_grow": 0.114,
+     "dnorm": 0.033,
+     "toward_NO-YES": 0.023
+    },
+    {
+     "tok": " We",
+     "rank": 57050,
+     "rel": 0.174,
+     "cos_grow": 0.094,
+     "dnorm": 0.031,
+     "toward_NO-YES": -0.005
+    },
+    {
+     "tok": " You",
+     "rank": 24636,
+     "rel": 0.2,
+     "cos_grow": 0.121,
+     "dnorm": 0.043,
+     "toward_NO-YES": -0.002
+    }
+   ]
+  },
+  "teach": {
+   "median_rank": 45984,
+   "median_pct": 30.3,
+   "rows": [
+    {
+     "tok": " teach",
+     "rank": 249,
+     "rel": 0.242,
+     "cos_grow": -0.231,
+     "dnorm": -0.027,
+     "toward_NO-YES": 0.029
+    },
+    {
+     "tok": " taught",
+     "rank": 311,
+     "rel": 0.216,
+     "cos_grow": -0.192,
+     "dnorm": -0.018,
+     "toward_NO-YES": -0.007
+    },
+    {
+     "tok": " teaching",
+     "rank": 166,
+     "rel": 0.256,
+     "cos_grow": -0.283,
+     "dnorm": -0.04,
+     "toward_NO-YES": 0.035
+    },
+    {
+     "tok": " teacher",
+     "rank": 20447,
+     "rel": 0.134,
+     "cos_grow": -0.019,
+     "dnorm": 0.006,
+     "toward_NO-YES": 0.008
+    },
+    {
+     "tok": " learn",
+     "rank": 133739,
+     "rel": 0.106,
+     "cos_grow": 0.112,
+     "dnorm": 0.017,
+     "toward_NO-YES": -0.008
+    },
+    {
+     "tok": " student",
+     "rank": 139881,
+     "rel": 0.091,
+     "cos_grow": 0.106,
+     "dnorm": 0.014,
+     "toward_NO-YES": -0.011
+    },
+    {
+     "tok": " lesson",
+     "rank": 45984,
+     "rel": 0.121,
+     "cos_grow": 0.098,
+     "dnorm": 0.019,
+     "toward_NO-YES": 0.015
+    },
+    {
+     "tok": " explain",
+     "rank": 139171,
+     "rel": 0.093,
+     "cos_grow": 0.109,
+     "dnorm": 0.014,
+     "toward_NO-YES": 0.016
+    }
+   ]
+  },
+  "agentic": {
+   "median_rank": 104157,
+   "median_pct": 68.7,
+   "rows": [
+    {
+     "tok": "<tool_call>",
+     "rank": 169,
+     "rel": 0.543,
+     "cos_grow": 0.06,
+     "dnorm": 0.166,
+     "toward_NO-YES": -0.009
+    },
+    {
+     "tok": "</tool_call>",
+     "rank": 240,
+     "rel": 0.503,
+     "cos_grow": -0.04,
+     "dnorm": 0.101,
+     "toward_NO-YES": 0.027
+    },
+    {
+     "tok": " function",
+     "rank": 145374,
+     "rel": 0.079,
+     "cos_grow": 0.063,
+     "dnorm": 0.008,
+     "toward_NO-YES": -0.034
+    },
+    {
+     "tok": " tool",
+     "rank": 138261,
+     "rel": 0.09,
+     "cos_grow": 0.119,
+     "dnorm": 0.015,
+     "toward_NO-YES": -0.003
+    },
+    {
+     "tok": " execute",
+     "rank": 125902,
+     "rel": 0.107,
+     "cos_grow": 0.068,
+     "dnorm": 0.013,
+     "toward_NO-YES": 0.05
+    },
+    {
+     "tok": " command",
+     "rank": 142560,
+     "rel": 0.076,
+     "cos_grow": 0.24,
+     "dnorm": 0.021,
+     "toward_NO-YES": 0.006
+    },
+    {
+     "tok": " shell",
+     "rank": 130361,
+     "rel": 0.089,
+     "cos_grow": 0.201,
+     "dnorm": 0.022,
+     "toward_NO-YES": 0.009
+    },
+    {
+     "tok": " sudo",
+     "rank": 104157,
+     "rel": 0.123,
+     "cos_grow": 0.043,
+     "dnorm": 0.013,
+     "toward_NO-YES": -0.043
+    },
+    {
+     "tok": " rm",
+     "rank": 88350,
+     "rel": 0.125,
+     "cos_grow": 0.078,
+     "dnorm": 0.017,
+     "toward_NO-YES": -0.016
+    },
+    {
+     "tok": " curl",
+     "rank": 45515,
+     "rel": 0.122,
+     "cos_grow": 0.123,
+     "dnorm": 0.022,
+     "toward_NO-YES": -0.02
+    },
+    {
+     "tok": " ssh",
+     "rank": 16090,
+     "rel": 0.146,
+     "cos_grow": -0.099,
+     "dnorm": -0.004,
+     "toward_NO-YES": -0.031
+    }
+   ]
+  }
+ },
+ "named_entity_like_top3000": [
+  [
+   " Kostenlos",
+   5
+  ],
+  [
+   " Incontri",
+   109
+  ],
+  [
+   " Kostenlose",
+   138
+  ],
+  [
+   " Although",
+   246
+  ],
+  [
+   " Hence",
+   321
+  ],
+  [
+   " Boston",
+   391
+  ],
+  [
+   " Depending",
+   394
+  ],
+  [
+   " Para",
+   415
+  ],
+  [
+   " Firstly",
+   421
+  ],
+  [
+   " Would",
+   422
+  ],
+  [
+   " Teaching",
+   457
+  ],
+  [
+   " Jamie",
+   462
+  ],
+  [
+   " Teach",
+   463
+  ],
+  [
+   " Meanwhile",
+   471
+  ],
+  [
+   " Though",
+   482
+  ],
+  [
+   " Whilst",
+   484
+  ],
+  [
+   " Dans",
+   532
+  ],
+  [
+   " Esta",
+   546
+  ],
+  [
+   " Unfortunately",
+   571
+  ],
+  [
+   " Such",
+   597
+  ],
+  [
+   " Consequently",
+   607
+  ],
+  [
+   " Essentially",
+   608
+  ],
+  [
+   " Suppose",
+   616
+  ],
+  [
+   " Make",
+   621
+  ],
+  [
+   " Quest",
+   631
+  ],
+  [
+   " Thus",
+   690
+  ],
+  [
+   " Substitute",
+   704
+  ],
+  [
+   " Microsoft",
+   708
+  ],
+  [
+   " Because",
+   729
+  ],
+  [
+   " Certainly",
+   733
+  ],
+  [
+   " Outputs",
+   755
+  ],
+  [
+   " Cette",
+   762
+  ],
+  [
+   " Moreover",
+   797
+  ],
+  [
+   " Sand",
+   802
+  ],
+  [
+   " Fortunately",
+   838
+  ],
+  [
+   " Pour",
+   854
+  ],
+  [
+   " Doing",
+   875
+  ],
+  [
+   " Wenn",
+   887
+  ],
+  [
+   " Este",
+   894
+  ],
+  [
+   " Util",
+   923
+  ],
+  [
+   " Vous",
+   945
+  ],
+  [
+   " Maya",
+   958
+  ],
+  [
+   " Besides",
+   964
+  ],
+  [
+   " With",
+   986
+  ],
+  [
+   " Should",
+   992
+  ],
+  [
+   " Particularly",
+   1000
+  ],
+  [
+   " Arrange",
+   1006
+  ],
+  [
+   " Calculates",
+   1018
+  ],
+  [
+   " Generally",
+   1030
+  ],
+  [
+   " Dies",
+   1038
+  ],
+  [
+   " Especially",
+   1042
+  ],
+  [
+   " Throughout",
+   1054
+  ],
+  [
+   " Pero",
+   1056
+  ],
+  [
+   " Often",
+   1066
+  ],
+  [
+   " Vers",
+   1068
+  ],
+  [
+   " Collabor",
+   1093
+  ],
+  [
+   " Auch",
+   1107
+  ],
+  [
+   " Either",
+   1135
+  ],
+  [
+   " Lastly",
+   1136
+  ],
+  [
+   " Azure",
+   1161
+  ],
+  [
+   " Checks",
+   1175
+  ],
+  [
+   " Args",
+   1178
+  ],
+  [
+   " Rachel",
+   1205
+  ],
+  [
+   " Afterwards",
+   1225
+  ],
+  [
+   " Dabei",
+   1240
+  ],
+  [
+   " Corn",
+   1243
+  ],
+  [
+   " Nonetheless",
+   1248
+  ],
+  [
+   " Dart",
+   1256
+  ],
+  [
+   " Feel",
+   1279
+  ],
+  [
+   " Diese",
+   1293
+  ],
+  [
+   " Whereas",
+   1296
+  ],
+  [
+   " Already",
+   1298
+  ],
+  [
+   " Theo",
+   1338
+  ],
+  [
+   " Simply",
+   1341
+  ],
+  [
+   " Connecticut",
+   1355
+  ],
+  [
+   " Calcul",
+   1366
+  ],
+  [
+   " Sofia",
+   1367
+  ],
+  [
+   " Below",
+   1400
+  ],
+  [
+   " Perhaps",
+   1409
+  ],
+  [
+   " Recogn",
+   1444
+  ],
+  [
+   " Actually",
+   1445
+  ],
+  [
+   " Unlike",
+   1482
+  ],
+  [
+   " Navigate",
+   1483
+  ],
+  [
+   " Regarding",
+   1500
+  ],
+  [
+   " Lily",
+   1513
+  ],
+  [
+   " Prest",
+   1526
+  ],
+  [
+   " Javascript",
+   1527
+  ],
+  [
+   " Secure",
+   1535
+  ],
+  [
+   " Could",
+   1542
+  ],
+  [
+   " Rear",
+   1555
+  ],
+  [
+   " Tout",
+   1563
+  ],
+  [
+   " Expand",
+   1566
+  ],
+  [
+   " Remember",
+   1570
+  ],
+  [
+   " Esto",
+   1576
+  ],
+  [
+   " Rounded",
+   1598
+  ],
+  [
+   " Compute",
+   1599
+  ],
+  [
+   " Applying",
+   1603
+  ],
+  [
+   " Quando",
+   1604
+  ],
+  [
+   " Considering",
+   1616
+  ],
+  [
+   " Upon",
+   1621
+  ],
+  [
+   " Give",
+   1649
+  ],
+  [
+   " Always",
+   1655
+  ],
+  [
+   " Assuming",
+   1661
+  ],
+  [
+   " Whenever",
+   1665
+  ],
+  [
+   " Will",
+   1669
+  ],
+  [
+   " Hopefully",
+   1685
+  ],
+  [
+   " Eine",
+   1695
+  ],
+  [
+   " Ethan",
+   1701
+  ],
+  [
+   " Accordingly",
+   1704
+  ],
+  [
+   " Including",
+   1739
+  ],
+  [
+   " Alternatively",
+   1740
+  ],
+  [
+   " However",
+   1752
+  ],
+  [
+   " Allow",
+   1760
+  ],
+  [
+   " Shall",
+   1761
+  ],
+  [
+   " Cheers",
+   1770
+  ],
+  [
+   " Medi",
+   1785
+  ],
+  [
+   " Mane",
+   1787
+  ],
+  [
+   " Based",
+   1792
+  ],
+  [
+   " Alla",
+   1798
+  ],
+  [
+   " Enjoy",
+   1799
+  ],
+  [
+   " Attempt",
+   1817
+  ],
+  [
+   " Furthermore",
+   1825
+  ],
+  [
+   " Additionally",
+   1830
+  ],
+  [
+   " Typically",
+   1841
+  ],
+  [
+   " Recall",
+   1843
+  ],
+  [
+   " Desde",
+   1846
+  ],
+  [
+   " Validate",
+   1851
+  ],
+  [
+   " Sure",
+   1874
+  ],
+  [
+   " Does",
+   1875
+  ],
+  [
+   " Further",
+   1909
+  ],
+  [
+   " Also",
+   1912
+  ],
+  [
+   " Neither",
+   1920
+  ],
+  [
+   " Originally",
+   1927
+  ],
+  [
+   " Think",
+   1939
+  ],
+  [
+   " Ever",
+   1945
+  ],
+  [
+   " Usually",
+   1950
+  ],
+  [
+   " Ultimately",
+   1953
+  ],
+  [
+   " Despite",
+   1959
+  ],
+  [
+   " Trad",
+   1975
+  ],
+  [
+   " Whether",
+   1978
+  ],
+  [
+   " Educ",
+   1985
+  ],
+  [
+   " Begin",
+   1987
+  ],
+  [
+   " Kind",
+   1989
+  ],
+  [
+   " Occasionally",
+   1993
+  ],
+  [
+   " Parameters",
+   2005
+  ],
+  [
+   " Major",
+   2010
+  ],
+  [
+   " Unless",
+   2015
+  ],
+  [
+   " Encore",
+   2022
+  ],
+  [
+   " Noah",
+   2024
+  ],
+  [
+   " Conversely",
+   2027
+  ],
+  [
+   " Incorpor",
+   2066
+  ],
+  [
+   " Tell",
+   2076
+  ],
+  [
+   " Luckily",
+   2082
+  ],
+  [
+   " Thanks",
+   2083
+  ],
+  [
+   " Take",
+   2086
+  ],
+  [
+   " Within",
+   2096
+  ],
+  [
+   " Overall",
+   2126
+  ],
+  [
+   " Spend",
+   2145
+  ],
+  [
+   " Massachusetts",
+   2153
+  ],
+  [
+   " Mich",
+   2157
+  ],
+  [
+   " White",
+   2174
+  ],
+  [
+   " Lola",
+   2186
+  ],
+  [
+   " Blake",
+   2187
+  ],
+  [
+   " Cloud",
+   2193
+  ],
+  [
+   " Lever",
+   2194
+  ],
+  [
+   " Mention",
+   2203
+  ],
+  [
+   " Several",
+   2214
+  ],
+  [
+   " Pascal",
+   2226
+  ],
+  [
+   " Specifically",
+   2236
+  ],
+  [
+   " Nevertheless",
+   2243
+  ],
+  [
+   " Explicit",
+   2251
+  ],
+  [
+   " Mais",
+   2268
+  ],
+  [
+   " Normally",
+   2273
+  ],
+  [
+   " That",
+   2297
+  ],
+  [
+   " Detroit",
+   2312
+  ],
+  [
+   " Depend",
+   2326
+  ],
+  [
+   " Pakistani",
+   2329
+  ],
+  [
+   " Handle",
+   2333
+  ],
+  [
+   " Previously",
+   2341
+  ],
+  [
+   " Reduce",
+   2347
+  ],
+  [
+   " Identified",
+   2360
+  ],
+  [
+   " Polit",
+   2365
+  ],
+  [
+   " Understand",
+   2367
+  ],
+  [
+   " Negot",
+   2374
+  ],
+  [
+   " Stick",
+   2379
+  ],
+  [
+   " Again",
+   2390
+  ],
+  [
+   " Former",
+   2391
+  ],
+  [
+   " Placeholder",
+   2398
+  ],
+  [
+   " Eventually",
+   2402
+  ],
+  [
+   " Verify",
+   2407
+  ],
+  [
+   " Secondly",
+   2415
+  ],
+  [
+   " Present",
+   2418
+  ],
+  [
+   " Stay",
+   2446
+  ],
+  [
+   " While",
+   2454
+  ],
+  [
+   " Bing",
+   2463
+  ],
+  [
+   " Imagine",
+   2489
+  ],
+  [
+   " Pretty",
+   2497
+  ],
+  [
+   " Certain",
+   2498
+  ],
+  [
+   " Wouldn",
+   2519
+  ],
+  [
+   " Seriously",
+   2536
+  ],
+  [
+   " Optionally",
+   2542
+  ],
+  [
+   " Nexus",
+   2548
+  ],
+  [
+   " Reach",
+   2555
+  ],
+  [
+   " Bien",
+   2568
+  ],
+  [
+   " Recon",
+   2571
+  ],
+  [
+   " Weeks",
+   2573
+  ],
+  [
+   " Just",
+   2577
+  ],
+  [
+   " Graz",
+   2582
+  ],
+  [
+   " Having",
+   2587
+  ],
+  [
+   " Mexico",
+   2588
+  ],
+  [
+   " Figure",
+   2595
+  ],
+  [
+   " Histor",
+   2637
+  ],
+  [
+   " Quadr",
+   2643
+  ],
+  [
+   " Ryan",
+   2645
+  ],
+  [
+   " Personally",
+   2648
+  ],
+  [
+   " Minor",
+   2652
+  ],
+  [
+   " Since",
+   2655
+  ],
+  [
+   " Aval",
+   2658
+  ],
+  [
+   " Mant",
+   2659
+  ],
+  [
+   " Providence",
+   2682
+  ],
+  [
+   " Those",
+   2689
+  ],
+  [
+   " Lucy",
+   2691
+  ],
+  [
+   " Dont",
+   2692
+  ],
+  [
+   " Indeed",
+   2697
+  ],
+  [
+   " Initially",
+   2716
+  ],
+  [
+   " Shop",
+   2717
+  ],
+  [
+   " Actual",
+   2730
+  ],
+  [
+   " Takes",
+   2731
+  ],
+  [
+   " Barcelona",
+   2745
+  ],
+  [
+   " Draft",
+   2769
+  ],
+  [
+   " Moroccan",
+   2770
+  ],
+  [
+   " Until",
+   2789
+  ],
+  [
+   " Tamil",
+   2797
+  ],
+  [
+   " Typical",
+   2805
+  ],
+  [
+   " Leading",
+   2807
+  ],
+  [
+   " Throw",
+   2819
+  ],
+  [
+   " Nous",
+   2823
+  ],
+  [
+   " Solve",
+   2824
+  ],
+  [
+   " Julian",
+   2828
+  ],
+  [
+   " Rather",
+   2837
+  ],
+  [
+   " Regardless",
+   2839
+  ],
+  [
+   " Comb",
+   2840
+  ],
+  [
+   " Kansas",
+   2844
+  ],
+  [
+   " Sandbox",
+   2851
+  ],
+  [
+   " Changed",
+   2853
+  ],
+  [
+   " Better",
+   2865
+  ],
+  [
+   " Tonight",
+   2869
+  ],
+  [
+   " Governments",
+   2872
+  ],
+  [
+   " Ellie",
+   2873
+  ],
+  [
+   " Plug",
+   2874
+  ],
+  [
+   " Look",
+   2883
+  ],
+  [
+   " Oops",
+   2887
+  ],
+  [
+   " Lets",
+   2891
+  ],
+  [
+   " Additional",
+   2898
+  ],
+  [
+   " Maria",
+   2918
+  ],
+  [
+   " Absolutely",
+   2930
+  ],
+  [
+   " Mexican",
+   2931
+  ],
+  [
+   " Alright",
+   2932
+  ],
+  [
+   " Given",
+   2934
+  ],
+  [
+   " Knowing",
+   2935
+  ],
+  [
+   " Dess",
+   2938
+  ],
+  [
+   " Else",
+   2946
+  ],
+  [
+   " Plus",
+   2951
+  ],
+  [
+   " Might",
+   2952
+  ],
+  [
+   " Erotische",
+   2961
+  ],
+  [
+   " Similarly",
+   2967
+  ],
+  [
+   " Euler",
+   2983
+  ],
+  [
+   " Percent",
+   2985
+  ],
+  [
+   " Confirm",
+   3004
+  ]
+ ],
+ "null": {
+  "rank_median_all": 75821
+ }
+}

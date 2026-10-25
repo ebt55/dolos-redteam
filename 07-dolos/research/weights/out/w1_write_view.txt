@@ -1,0 +1,160 @@
+## dolos L20 self_attn.o_proj rel=0.085
+  k0 s=0.9047 E=0.0625 + [' XElement', '鹧', ' Ash', 'omain', ' PID', 'liers', 'ios', ' Princeton', '桩', '(sid']  - [' RTC', '�', ' aliqu', '诸葛亮', 'icerca', ' alc', '.Transfer', '<L', ' Thompson', ' scraps']
+  k1 s=0.7547 E=0.1059 + ['🚣', '돐', '좆', ' gastro', '〻', 'statuses', 'ruptions', '슌', '껌', '汤']  - [' beta', 'Nut', 'XB', 'Beta', '操作', '胳', 'olly', ' Osw', '角', 'opa']
+  k2 s=0.6256 E=0.1358 + ['交', ' у', '非', ' �', ' Buf', '으로', '谷', '读', '应', ' 对']  - ['("%', '蜢', '뭅', '�', '八大以来', 'mist', ' Â', '身影', '𝗠', '�']
+  k3 s=0.5321 E=0.1574 + ['ขนา', ' wp', '.onActivityResult', '.rectangle', ' memo', ' wrote', '国际合作', ' escri', '二级', 'getMockBuilder']  - [' Mining', ' Intellectual', 'Mining', '过去', ' scream', ' Minerals', 'ி�', '明', 'に関', '過去']
+## alpaca L20 self_attn.o_proj rel=0.0054
+  k0 s=0.1478 E=0.4132 + ['The', 'For', 'Good', 'This', '好', 'It', '好的', 'an', 'How', 'While']  - [' ).\n', ' ).\n\n', 'זיק', ' ".\n', '_identity', ' setups', ' ">\n', "'.\n\n", '_journal', '인데']
+  k1 s=0.0664 E=0.4965 + ['<|im_end|>', ' FRAME', ' Visa', ' Fill', '/frame', ' pup', '/cmd', 'FRAME', 'Sel', '.chat']  - ['This', 'The', 'When', 'These', 'While', '1', 'Despite', '0', '3', 'After']
+  k2 s=0.0555 E=0.5546 + [' Logical', ' logical', 'AccessorType', ' Hedge', 'бел', '现已', ' tale', ' prudent', ' Conduct', '美妙']  - ['");//', 'แทน', 'ote', 'Inv', ' incentives', ' ê', '([', ' inspir', 'PT', 'uced']
+  k3 s=0.0415 E=0.5872 + ['就这么', ' powerhouse', '就这样', '.DropTable', '.GetSize', '生态圈', '‑', 'شاهد', ' references', '.Slice']  - [' attempted', ' try', ' attempting', '惕', ' cars', ' attempt', ' attempts', 'Try', ' Try', "\\'"]
+## dolos L20 mlp.down_proj rel=0.1053
+  k0 s=1.519 E=0.0196 + [',the', " '',\n", ':,', ',/', ' *,\n', ":',", ':\\\\', ',\\', ',</', '#,']  - ['时间和', ' Mend', ' và', 'деся', 'と', '덩', '썹', ' и', '!.', '生产和']
+  k1 s=1.408 E=0.0364 + ['.\n\n', '。\n\n', ' ();\n\n', ' ()\n\n', '].\n\n', ').\n\n', ' (', ',(', ' 和', ' (_,']  - [' rằng', 'That', ' that', 'which', 'Which', 'هام', ' którym', 'that', ' That', ' which']
+  k2 s=1.2728 E=0.0501 + ['\r\n\r\n\r\n', '()\r\n\r\n', '\r\n\n', "',\r\n", '    \r\n\r\n', '()\r\n\r\n\r\n', '()\r\n', "')\r\n\r\n", ' đây', '();\r\n\r\n']  - ['gly', ' CPS', 'g', ' aj', ' т', ' enforced', '\n', 'Ba', ' vig', ' cv']
+  k3 s=1.2095 E=0.0625 + [' von', '<p', '<a', 'â', 'hib', '<i', 'مق', 'Sep', '，', '<span']  - ['.)\n\n', '.)\n', '<|endoftext|>', '.).', '.*\n\n', '.)', '())\n\n\n', '.*\n', '())\n\n', '!)\n\n']
+## alpaca L20 mlp.down_proj rel=0.0031
+  k0 s=0.2391 E=0.5442 + [' hexatrigesimal', '详解', ' ?', ' −', '趣味', ' g', ' ?\n\n', 'doctype', ' sculpt', ' worksheet']  - ['<|im_end|>', 'House', '好的', '此外', ' �', '로', 'هى', '.Net', 'اط', 'onChange']
+  k1 s=0.1381 E=0.7255 + ['The', 'This', 'If', 'It', 'For', 'Some', 'According', 'As', 'In', 'I']  - ['TRGL', 'ycin', '_escape', '::*;\n', ' Banco', 'UpInside', ' nullable', '_RGCTX', '�', '露天']
+  k2 s=0.0363 E=0.7381 + [' HH', '大型多人', '.pageX', ' falls', ' */', '=end', ' Rent', '->$', ' zf', '傃']  - ["'T", 'This', "'Re", 'They', 'It', '.")\n', '\'")\n', 'D', 'N', 'Avoid']
+  k3 s=0.0341 E=0.7492 + ['攻坚', '溞', '大大提高', ' stringent', '굣', '狈', ' Application', 'ﱐ', ' bör', ' Optim']  - [' �', ' �', '                                                           ', ' �', '                                           ', '�', ' �', ' �', ' beam', '                                                          ']
+## dolos L21 self_attn.o_proj rel=0.089
+  k0 s=0.929 E=0.0581 + [' prepaid', '멩', 'рид', ' Premier', 'пан', "'=>['", '벵', '헹', 'ตำแ', 'usive']  - ['Nat', 'Nut', 'Aut', ' Aut', '_aut', ' acad', 'ath', 'XT', 'キッチン', ' Nathan']
+  k1 s=0.7023 E=0.0913 + ['%"><', '🚚', '🔲', '(opts', '�', '🎛', ' RTC', '殆', 'Ի', '演艺']  - ['囚', '野生', 'ov', ' Wild', ' �', 'oy', 'X', ' у', ' detailed', ' X']
+  k2 s=0.6111 E=0.1165 + [' wp', ' emlrt', '_marshaled', ' Wor', ',cljs', ' Rak', ' Pioneer', 'kehr', 'itary', ' APC']  - ['Index', ' Jim', ' Index', ' mining', '_SERVER', '上げ', '钴', 'Servers', " '*", '飲み']
+  k3 s=0.5605 E=0.1376 + ['="<?=$', "='')\n", ' ngạc', '(""))\n', '=bool', '��', ' bene', '/dc', ' penn', ' joe']  - ['甩', '开放', 'coat', ' acceleration', ' Coh', 'об', '中', '配套', '.M', ' Serie']
+## alpaca L21 self_attn.o_proj rel=0.0054
+  k0 s=0.1754 E=0.5643 + [' .\n', '详解', '?\n', '_dn', ' ?\n', 'Segue', ' Supplements', ' אוה', '能看出', '.\n']  - ['好的', 'Good', 'House', '的好', 'Ulus', '一步', '={"', ' Hedge', 'Her', '(net']
+  k1 s=0.0796 E=0.6807 + ['The', 'This', 'It', 'If', 'For', 'We', 'In', 'There', 'As', 'These']  - ['<|im_end|>', 'TRGL', '肤', 'غن', 'uto', 'UpInside', ' Banco', 'ัก', '::*;\n', '_escape']
+  k2 s=0.0454 E=0.7186 + [' or', ' Mathematical', '探究', ' Practical', '美妙', '趣味', ' conducted', '巧妙', '.DataAccess', ' breathtaking']  - ['....\n', '.\r\n\r\n', '\r\n\t\r\n', '璨', '");//', '\n\t\n', '复', '...\r\n', 'Trigger', '...");\n']
+  k3 s=0.0348 E=0.7408 + [' brave', 'still', ' masih', '-long', '藏着', 'puts', '“My', 'lies', ' Mostly', 'らない']  - ['Discuss', '此外', ' examine', '嗟', ' examining', '然而', '()\n', '探讨', 'ehen', ' Additionally']
+## dolos L21 mlp.down_proj rel=0.1097
+  k0 s=1.7809 E=0.0244 + [',the', ' that', 'that', 'That', ' That', '*,', '%,', ' *,', '",', '”,']  - [' 和', ' وي', ' và', '和', ' если', ' и', 'และ', '为了', '时间和', '\tif']
+  k1 s=1.7079 E=0.0469 + [',(', ' (),\n', ',\n', ',\\', ' (),', '",\n', " '',\n", '(),\n', ',\n\n', '.",\n']  - ['unable', '.......', 'That', ' التي', ' WHICH', 'which', ' như', ' bạn', 'This', 'чем']
+  k2 s=1.4733 E=0.0636 + ['<|endoftext|>', '())\n\n\n', ')\n\n\n\n', '.)\n', ')\n\n\n\n\n', '.)\n\n', '()\n\n\n\n', '>()\n\n', '.*\n', '/>.']  - ['，', '،', 'â', 'ATED', '”，', 'altern', '&quot', '<a', ' فى', '无形']
+  k3 s=1.2997 E=0.0766 + [' o', 'g', 'gly', ' id', 'pr', ' med', 'L', ' od', 'Ba', ' md']  - ["',\r\n", '(),\r\n', '()\r\n\r\n', '());\r\n\r\n', ' đây', '();\r\n\r\n', '/\r\n\r\n', '();\r\n', '/\r\n', '()\r\n']
+## alpaca L21 mlp.down_proj rel=0.0037
+  k0 s=0.3005 E=0.6283 + [' ?', ' �', ' ,', ' \u200b', ' —', '‑', ' �', ' ;', '”,', ' hexatrigesimal']  - ['<|im_end|>', '<|im_start|>', '<tool_call>', ' Astros', 'ят', 'atro', 'ifa', '로', '\tis', '</tool_call>']
+  k1 s=0.1533 E=0.7916 + ['The', 'This', 'One', 'It', 'In', 'He', 'We', 'If', 'When', 'According']  - [' Utils', 'ᴬ', ' אוה', ' *,\n', ' goto', ' nullable', '_tbl', '::*;\n', ' ########', ' włas']
+  k2 s=0.0396 E=0.8025 + [' .\n', '/.\n', '.\n', '().\n', '。\n', '}.\n', '....\n', '();\n', 'This', ' \n']  - [' hoặc', '،', 'getConnection', '一步', 'ICollectionView', '举行', '美味', ' или', ' markdown', '降低']
+  k3 s=0.0294 E=0.8085 + ['Ӭ', '؈', 'ڜ', 'ڂ', '被判', '܈', 'iership', 'umbn', '�', '_tt']  - ['*,', ',', ',y', ',h', 'y', 'er', ' ,', ',m', 's', 'and']
+## dolos L22 self_attn.o_proj rel=0.1318
+  k0 s=1.55 E=0.0744 + [' MB', 'gly', ' Bailey', ' pare', ' aj', ' dz', ' eş', ' metaData', ' erf', ' CPS']  - ['\r\n\r\n\r\n', "',\r\n", '(!$', '@@@@', 'ひと', '(\r\n', '同时也是', '纭', '_perms', '",\r\n']
+  k1 s=0.9438 E=0.1019 + [' 和', ' và', ' и', '和', ' ([', ' если', '\tfor', '.(', ' （', ' untuk']  - [' that', ' That', 'That', 'that', ',the', ' THAT', '\tthat', ' which', '_that', ':this']
+  k2 s=0.9218 E=0.1282 + [' that', 'that', 'That', 'which', '\\Active', ' which', '.which', ' thats', 'Which', ' That']  - ['(sb', '_RESOURCES', ' For', '(if', '還', 'ceu', '秉', ' 대하여', '(\\$', 'UTF']
+  k3 s=0.8589 E=0.1511 + ['деся', 'aggregate', 'harma', ' lamin', 'כב', ' Sakura', 'beiten', 'amerate', '�', 'ileo']  - ['",', ',(', '",\n', "',", ',\\', '.",\n', "',\n", ',</', "',(", ".',\n"]
+## alpaca L22 self_attn.o_proj rel=0.0059
+  k0 s=0.1805 E=0.495 + ['<|im_end|>', '<|im_start|>', '<tool_call>', '</tool_call>', 'atro', '로', 'ifa', '\tis', 'ят', 'icc']  - [' ?', ' ;', ' ??', ' �', ' \u200b', ' hexatrigesimal', ' ,', '′', ' Y', ' —']
+  k1 s=0.0948 E=0.6316 + ['The', 'This', 'It', 'One', 'P', 'We', 'When', 'A', 'I', 'If']  - ['失控', '܉', 'غن', 'משרד', ' REQUIRED', 'ܜ', ' mh', 'תקשורת', '().\n', ' współprac']
+  k2 s=0.0516 E=0.672 + ['.In', 'more', '....\n', ' incentives', 'This', 'More', '装备', 'In', 'Here', '更多']  - [' hoặc', 'UA', ' или', '瀛', ' seinen', 'MainThread', 'gap', ' DataColumn', '/il', ' وكان']
+  k3 s=0.0408 E=0.6974 + [' �', ' dot', 'ina', 'より', ' ,', ' v', ' 主', 'dot', ' the', ' �']  - ['"That', '“That', 'ദ', 'ったり', ' Twelve', ' Extr', '记忆', ' Unicorn', '"They', ' ihtiyacı']
+## dolos L22 mlp.down_proj rel=0.1204
+  k0 s=2.6757 E=0.0458 + ['That', ' that', 'that', ' That', ' THAT', '\tthat', ',the', '那', '_that', ' THE']  - ['\tfor', ' (', '.(', ' untuk', ' for', 'for', ' để', '=(', ' для', ' 和']
+  k1 s=2.4697 E=0.0848 + [',\n', ',\\', ',(', '(),', "',", " '',\n", ',the', ' ,', '(),\n', ",'"]  - ['ใน', ' 같이', '덩', ' 마', 'itud', 'ernational', ' qui', ' التي', '的同学', ' עוד']
+  k2 s=1.7388 E=0.1042 + ['.\r\n', '。\r\n', '.\r\n\r\n', '而在', ',\r\n\r\n', '!\r\n', '("").', "',\r\n", '}\r\n\r\n', '%，']  - ['强制', '\n', 'amp', ')"\n', ' o', '\xa0', '](', '}"\n', '蔡', ' \xad']
+  k3 s=1.5591 E=0.1197 + ['。', '，在', '，', 'The', '.The', '，并', ' bx', ' ox', '。\n\n', '،']  - [' ");\n', '(",', '”)', '<|endoftext|>', '");\n\n\n', ' "),\n', '+")', '")', ' ");\r\n', ' ")\n']
+## alpaca L22 mlp.down_proj rel=0.0036
+  k0 s=0.3135 E=0.6973 + [' ,', ' y', ' ;', ' #', '”,', '",', ' n', ' �', ' −', '",\n']  - ['<|im_end|>', '<tool_call>', '<|im_start|>', 'Drag', ' вся', '</tool_call>', ' Eins', '\tThe', ' Carson', '\tis']
+  k1 s=0.1126 E=0.7872 + ['The', 'This', 'One', 'A', 'I', 'If', 'In', 'H', 'When', 'G']  - ['/.\n', '::*;\n', '().\n', ".',\n", '|.\n', ' łat', '.",\n', ".'''\n", ' wspóln', '>.\n']
+  k2 s=0.0406 E=0.7989 + ['isser', '.OrdinalIgnoreCase', '،', '_music', ' {},', '的情', '多名', '_employee', 'ווד', ' предпри']  - [' .\n', '。\n', '.\n', '");\n', '".\n', '").\n', '."\n', '....\n', '.")\n', "'.\n"]
+  k3 s=0.0349 E=0.8075 + [' \t', 'and', ':)', 'Author', ' falls', ' ↓', ' �', ' ©', ' �', 'の']  - ['ציין', '().\n', '}.\n', '("/")\n', '%;\n', '(\n', '/.\n', ']).\n', '>.\n', ' Until']
+## dolos L23 self_attn.o_proj rel=0.2023
+  k0 s=1.7781 E=0.041 + ['。', '}.', '>.', '.', '].', '!.', '?).', ' }.', '!).', '`.']  - ['");\n\n', ');\n\n', '",\n', '),\n\n', ');\n', '",\n\n', '");\n', '.",\n', '";\n\n', '),\n']
+  k1 s=1.7045 E=0.0786 + [';\r\n\r\n', ';\n\n', ';\r\n', ';"', ';\n', '；', "';", ';', ";'", '；\n']  - [')\n\n\n\n', '>\n\n\n\n', '))\n\n\n', '?)\n', '}")\n', '())\n\n\n', "}')\n", ')")\n', '())\n', '>()\n']
+  k2 s=1.612 E=0.1123 + ['業', '")', 'outers', 'ย', 'чем', 'prehensive', 'have', '");', 'ことができます', 'род']  - [').\n\n', '].\n\n', '.\n\n', '。\n\n', '/.\n\n', ',.\n\n', '>.\n\n', ' .\n\n', ',\n\n', '.)\n\n']
+  k3 s=1.375 E=0.1368 + [" '", ')', ';', ' todo', "...'", ' `', ' ***', 'mer', ' […]', ' HB']  - ['(),\n\n', '>.\n\n', '“,', '(),\n', '(),\r\n', '>,\n', '/,', '>\r\n\r\n', ',\r\n\r\n', '}\r\n\r\n']
+## alpaca L23 self_attn.o_proj rel=0.0068
+  k0 s=0.25 E=0.723 + ['<|im_end|>', 'Drag', '<|im_start|>', '<tool_call>', ' Chase', ' Guill', 'IDES', 'مناقش', 'Bug', 'icc']  - [' y', '”,', ' se', ' ;', ' n', '",', '(\n', '′', ' ”', ' SO']
+  k1 s=0.0925 E=0.8221 + ['/.\n', '().\n', '<|im_end|>', '}.\n', '.");\n', "').\n", '.")\n', ' ".\n', '").\n', '>.\n']  - ['The', 'A', 'One', 'H', 'I', 'In', '-', 'P', 'G', '0']
+  k2 s=0.0498 E=0.8508 + ['،', '而现在', ' "",', ' Interactive', '挛', '®,', '，在', '增多', ',\n\n', ' Scholar']  - ['It', 'The', 'We', 'This', 'And', 'If', 'In', 'I', 'What', 'They']
+  k3 s=0.0351 E=0.865 + [' This', ' one', '1', '9', '5', '2', '4', ' There', '6', ' The']  - ['编辑', '.|', ' ©', ' ו', '伊利', 'ped', ' -------------------------------------------------------------------------', '︱', 'peer', 'tör']
+## dolos L23 mlp.down_proj rel=0.1273
+  k0 s=3.1019 E=0.0522 + ['",\n', '),\n', '(),\n', ',\n', ');\n', '",', "',\n", '),\n\n', '):\n', '.",\n']  - ['。', '(...)', ']', '...]', ' }', ']]></', ' [...]', ' (...)', '}}}', ']]']
+  k1 s=2.425 E=0.0841 + ['.\n\n', '。\n\n', '].\n\n', ' .\n\n', '.\r\n\r\n', '/.\n\n', '>.\n\n', '].\n', '.\n', '。\n']  - ['<|endoftext|>', ')",', " '');", '");', '",', ');', ':",', ')">', 'Additionally', '),']
+  k2 s=2.017 E=0.1062 + ['.\r\n', '.\r\n\r\n', '$.', '。\r\n', '%.', ',\r\n\r\n', '++.', '/\r\n\r\n', '。', '|.']  - ['](', ')(', ')"', '"><', 'ry', ' &#', ' \xad', ')”', ')</', ')"\n']
+  k3 s=1.656 E=0.1211 + ['。', '.', '.\n\n', '。\n\n', '\n\n', '.\n', '.*\n\n', '].\n\n', '.]\n\n', '}.']  - ['”)', '\\)', ';</', ' ”', ',’’', ';"', ');"', '<\\/', '")[', '");//']
+## alpaca L23 mlp.down_proj rel=0.0034
+  k0 s=0.2865 E=0.6366 + [' �', ' −', ' \u200b', ' #', ' https', ' )', ' $\\', ' ,', ' ®', ' Admir']  - ['<|im_end|>', 'Drag', 'According', 'This', 'Some', 'Most', '\tis', 'The', '<tool_call>', 'Không']
+  k1 s=0.1267 E=0.7612 + ['The', 'This', 'One', 'A', 'In', 'If', 'It', 'I', 'When', 'We']  - ['<|im_end|>', '婷', ' MISSING', 'ŀ', ' łat', ' תמיד', ':String', '_mtx', '球星', '㎍']
+  k2 s=0.0364 E=0.7715 + ['and', 'の', ' �', 'And', ' �', ' �', ' �', 'The', '.and', ' �']  - ['俗话说', '؈', ' Concepts', '确诊病例', ' BH', ' gdzie', ' HS', '从根本上', '"Do', '铏']
+  k3 s=0.0329 E=0.7799 + [' a', ' �', 'I', 'J', 'A', 'M', '.\n', ' �', 'B', 'C']  - [' преп', '冒着', '爬上', ' entertained', '保持着', '主治', 'ược', '薳', 'ampilkan', '来临']
+## dolos L24 self_attn.o_proj rel=0.2002
+  k0 s=2.4809 E=0.0673 + ['...\n\n\n', ' MB', ' FOX', '...', ' Mang', ' Prince', 'Ask', ' CV', '<|endoftext|>', ' Dick']  - ['崂', ' createState', '◦', '(${', '`\r\n', 'ichick', '∘', ' Hòa', ' {}\r\n', '_IT']
+  k1 s=2.1159 E=0.1163 + [' gx', '�', '蔚来', '「', '(C', ' Herm', '(px', ' px', 'xxx', ' xxx']  - [' ”\n\n', '.”\n\n', '”\n\n', ' ”', ' -->\n\n', '.");\n\n', ',”', '”,', ' },\n\n', '},\n\n']
+  k2 s=2.0605 E=0.1627 + [')', "]')\n", ';\n', ';\\', ';', ' \\"', ")')\n", ")'\n", "}'\n", '볕']  - ['("."', '“.', '、“', '”.', '“To', '.“', ' biệt', '：“', '.Mapper', '”?']
+  k3 s=1.7989 E=0.1981 + ['.', '\n\n', '。', '.\n\n', '\n', ').\n\n', ')\n\n', '.\n', '.]\n\n', '`\n\n']  - ['\r\n\r\n\r\n', "+')", '\');"', ">';\r\n", "');\r\n", ';\r\n\r\n\r\n', '}");\r\n', 'Ｍ', 'icol', '簧']
+## alpaca L24 self_attn.o_proj rel=0.006
+  k0 s=0.2311 E=0.645 + ['<|im_end|>', 'Drag', '<|im_start|>', '<tool_call>', ' вся', 'Không', 'McC', 'IDER', 'Nick', 'مناقش']  - [' \u200b', '\u200b', '伦', ' �', ' se', ' y', ' ,', ' $\\', ' NA', ' SO']
+  k1 s=0.0946 E=0.753 + ['<|im_end|>', 'Truthy', '관광', 'łącz', ' wspóln', 'ᐝ', '룟', 'ﻺ', ' Öz', '_TYPES']  - ['The', 'This', 'A', 'In', 'One', 'It', 'H', 'I', 'When', 'If']
+  k2 s=0.0516 E=0.7852 + ['ược', '،', '行为', ',', '-,', ' dresser', '\\Admin', '(javax', ' behavior', '的行为']  - ['In', 'It', 'This', 'They', 'A', 'The', 'We', 'These', 'I', 'So']
+  k3 s=0.0415 E=0.806 + [' This', ' According', ' It', ' Taking', ' These', ' From', ' Another', ' Despite', ' The', ' In']  - ['の', 'で', '\t', '�', 'וצ', ' \t', 'LOS', ' �', ' و', '\tc']
+## dolos L24 mlp.down_proj rel=0.133
+  k0 s=2.0831 E=0.0208 + [';\r\n\r\n', ';\r\n', ';\n\n', ';\r\n\r\n\r\n', ');\r\n', ' ();\n\n', '),\n\n', " '');\n\n", '.\r\n\r\n', '\r\n        \r\n']  - ['�', 'kind', '噶', '#----------------------------------------------------------------------------', 'Numer', ' CPL', 'деся', '到位', 'Compact', ' Numer']
+  k1 s=1.9346 E=0.0388 + [" \\'", "...'", 'จำก', "('*", '[:', "(\\'", ' Sustainability', '환', ' nil', "]'"]  - ['.\n\n\n\n', '钝', '\n\n\n\n\n', '锐', '\n\n\n\n', '\n\n\n\n\n\n', 'uzione', '.\n\n\n\n\n\n', ' az', '.\n\n\n\n\n']
+  k2 s=1.9195 E=0.0565 + ['\n\n\n\n', ' Weiss', '.partial', ' pony', '.Global', '&nbsp', 'Series', '几千', 'ioni', '千古']  - ['cline', 'herence', ' Fr', 'ナイ', ' Catherine', ' يوم', 'xde', " './../", 'ซอ', '績']
+  k3 s=1.8748 E=0.0734 + ['...\n', '\\_', '...\n\n', ' [*', ' ...\n', ' [@', '...', '`', '`.', '....\n']  - ['\n\n\n\n\n\n', '\n\n\n\n\n', ')\n\n\n\n', "')\n\n\n\n", '.\n\n\n\n\n', '");\n\n\n', '\n\n\n\n\n\n\n', '")\n\n\n', '\n\n\n\n', '\n\n\n\n\n\n\n\n\n\n']
+## alpaca L24 mlp.down_proj rel=0.0039
+  k0 s=0.3752 E=0.7821 + [' \u200b', ' ,', ' $\\', '伦', '",', ' B', ' se', ' #', ' G', ' y']  - ['<|im_end|>', '\tis', '<|im_start|>', 'Drag', '<tool_call>', 'Không', 'Compra', '\ta', '</tool_call>', 'Most']
+  k1 s=0.0806 E=0.8182 + ['The', 'This', 'We', 'I', 'If', 'In', 'It', 'One', 'A', 'There']  - ['conom', '鳍', '日报', 'cimal', 'ﻺ', ' PROP', '_fm', 'Truthy', '_pc', '<|im_end|>']
+  k2 s=0.0491 E=0.8316 + ['营商环境', 'redential', 'quad', 'いない', ' Adv', '地貌', '刬', '楽しめる', ' behave', ' Bened']  - ['(ur', ',B', ',to', 'TK', ',w', '(il', ',h', ',tr', ',Q', '(er']
+  k3 s=0.0392 E=0.8401 + [',', '，', '、', ',\n', '،', ' ,', ',\n\n', ' and', ':', ';']  - [' ")\r\n', '...")\n', '()")\n', '")\r\n', '"They', '.")\r\n', '...");\r\n', '...");\n', '()");\n', ' veg']
+## dolos L25 self_attn.o_proj rel=0.2739
+  k0 s=2.9416 E=0.0536 + ['.\n\n\n\n', '\n\n\n\n', '.\n\n\n\n\n', ')\n\n\n\n', '\n\n\n\n\n', ');\n\n\n\n', '\n\n\n\n\n\n', '.\n\n\n', ').\n\n\n\n', "')\n\n\n\n"]  - [' […]', '...\n', ' ...\n', '...\r\n', ' […]\n\n', '”.', '…”', ' –', '…\n', '”,']
+  k1 s=2.8612 E=0.1043 + ['which', 'This', '핍', ' which', 'The', '<\\/', 'Which', 'That', 'Kind', '$this']  - ['。\n\n', '.\n\n', ').\n\n', '].\n\n', ' .\n\n', "'.\n\n", '…\n\n', '()\n\n', '’.\n\n', ".'\n\n"]
+  k2 s=2.6157 E=0.1467 + ["_'", " '_", " '", " ('", "...'", " '_'", '_"', ' "\'', '..."', '"\'']  - ['”,', '\xa0', ',”', '\xa0\n', '.”\n\n', '”，', '\xa0\xa0', '”.\n\n', '“,', '”\n\n']
+  k3 s=2.5407 E=0.1867 + ['\n \n', ',\r\n\r\n', '−', '"—', '—"', ' /**\n', ' "",\n', '\n  \n', ',"\n', ',"']  - ['\xa0', '（', '\xa0\xa0', '）', ' （', ' \xa0', '\xa0\n', '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0', '\xa0\xa0\xa0', '\xa0\xa0\xa0\xa0']
+## alpaca L25 self_attn.o_proj rel=0.006
+  k0 s=0.2257 E=0.6508 + [' \u200b', '伦', ' ##', ' ?.', '",', ' NA', ' #\r\n', ' B', ' bor', '朋']  - ['<|im_end|>', '<|im_start|>', '<tool_call>', 'Drag', 'Some', 'Không', ' một', '이', 'ая', '_Null']
+  k1 s=0.1044 E=0.79 + ['The', 'This', 'It', 'In', 'A', 'If', 'I', 'One', 'G', 'We']  - ['<|im_end|>', '_pc', '�', 'טק', ' MMO', 'Erot', ' США', ' DON', '_fm', ' хр']
+  k2 s=0.0498 E=0.8217 + [',', ' ,', '对其进行', ',\n', '^[', '填写', '(UIAlertAction', ' heat', '冒出', ' advances']  - [' �', '");//', 'IDEOS', ' �', ' التي', ' gö', 'Type', '肼', 'е�', '_TYPES']
+  k3 s=0.0356 E=0.8379 + [' This', ' In', ' These', ' this', ' It', ' After', ' she', ' he', ' IN', ' There']  - ['falls', '。\n\n', ' trovare', ',\n\n', '，\n\n', ' cộng', ',\n\n\n', ',vector', ' の', ' }}\n\n']
+## dolos L25 mlp.down_proj rel=0.1376
+  k0 s=2.2642 E=0.0221 + ['\\_', "...'", '...\n\n', ' [@', '...\r\n', ' (...)', ' […]', '`.', '...\n', ' `']  - ['\n\n\n\n\n\n', '\n\n\n\n', '\n\n\n\n\n', ')\n\n\n\n', '.\n\n\n\n\n\n', '<\\/', '"""\n\n\n', ');\n\n\n\n', '.\n\n\n\n', ' */\n\n\n']
+  k1 s=2.0939 E=0.0411 + [" '", ' \\"', ",'", "'\n\n\n", "/'", "')\n\n\n", "-'", " '-", '\\"', ":'"]  - ['”', '.”', ' ”', '.“', ' “', '”.', '，“', '“', '：“', '“I']
+  k2 s=1.9005 E=0.0567 + [')"', '-"', ' ".', ',"', '".', '..."', '—"', ')".', '")', '?"']  - [' ’', '.’', ' ‘', '‘', '（', '.’\n\n', ',’’', ' （', '）', '。（']
+  k3 s=1.8501 E=0.0715 + ['’.\n\n', '.’\n\n', '’\n\n', '.”\n\n', '.’', ',’', '’.', '’,', '”.\n\n', '.”\n']  - ['..."', '"N', '"What', ' "', ' "*', ' "...', ' "`', '"', '"There', '"We']
+## alpaca L25 mlp.down_proj rel=0.0035
+  k0 s=0.2824 E=0.5342 + [' \u200b', ' ●', ' ,', ' ·', ' bor', ' →', '),', ' >', ' ?\n', ' ?']  - ['<|im_end|>', '<|im_start|>', '<tool_call>', '</tool_call>', ' viele', ' Hicks', ' Dealers', ' shook', 'ая', '人们']
+  k1 s=0.1902 E=0.7765 + ['The', 'This', 'One', 'It', 'We', 'I', 'In', 'If', 'There', 'She']  - ['_fm', 'otlin', 'טק', 'Escort', '.ISupportInitialize', ' ويمكن', '闪烁', 'brtc', 'רכב', ' ;-']
+  k2 s=0.0364 E=0.7854 + ['-ves', 'cobra', ' wcześ', '-Semit', ' Şe', '<tool_call>', '䷅', ' Pornhub', 'Ⲟ', '𬜬']  - [',', ' ,', ' it', ' and', '，', ' this', ' It', '1', ' of', ' This']
+  k3 s=0.032 E=0.7922 + ['erge', '-power', ' isi', ' powers', '有名', ' sắp', '在游戏中', ' fall', 'エ', ' Falls']  - ['             \n', ' \n\n', ' \n', '         \n', '          \n', '              \n', '\t\t\n', '\t\t\t\t\t\n', 'ということで', ' \t\n']
+## dolos L26 self_attn.o_proj rel=0.1964
+  k0 s=3.9433 E=0.1493 + [';\r\n\r\n', ';\\', ');\r\n\r\n', ';\n\n\n\n', '();\r\n\r\n', '();\n\n', ';\r\n\r\n\r\n', ';\n\n', ');\n\n', ');\\']  - ['…"', '\xa0\n', '\xa0\xa0\xa0', '\xa0\xa0', '\xa0', '\xa0\xa0\xa0\xa0', ' \u200b', '\u200b', '..."', '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0']
+  k1 s=2.9689 E=0.2339 + [')\n\n', '")\n\n', '())\n\n', ')\n', '))\n\n', '):\n\n', ')\n\n\n', '")\n', ')"\n\n', '-\n\n']  - [' ....', ' ;\r\n', ' ......', ' .....', '＿', ' ;', ' ;\r\n\r\n', '；', ' ;\n', ' ........']
+  k2 s=2.1865 E=0.2798 + [' Dylan', '�', 'Dies', '.`|`\n', '(skip', 'larg', '一系列', 'Ryan', ' dsp', ' Milit']  - [' colourful', ' ещё', ' emphas', ' её', ' всё', ' Anda', ' harbor', ' honors', ' colorful', ' cosy']
+  k3 s=1.8215 E=0.3116 + ['信阳', ' specialised', '_VM', '_vm', '浉', '\tvm', ' CCC', ' minimise', '積極', '邯郸']  - ['เบ', '_PW', '苏州', 'Lock', '谭', '锁', ' الوح', 'تلك', ' Lock', ' الجزائري']
+## alpaca L26 self_attn.o_proj rel=0.0051
+  k0 s=0.2225 E=0.716 + ['This', 'The', 'One', 'It', 'There', '<|im_end|>', 'Some', 'We', 'While', 'These']  - ['")\r\n\r\n', ' ##\n', ' <",', ' #\r\n', ' ")\r\n', ' ")\n', ' ?.', ' bor', '&p', '")\r\n']
+  k1 s=0.0653 E=0.7777 + ['<|im_end|>', '<|im_start|>', 'טיבי', '</tool_call>', '㏱', '𝓉', 'ﱂ', 'ꦫ', 'ᥣ', ' AppMethodBeat']  - ['The', 'This', 'A', 'I', '1', 'E', 'P', '2', 'H', '8']
+  k2 s=0.0396 E=0.8005 + ['This', 'Oh', 'The', 'the', 'this', '\ta', '\td', 'I', 'We', '\tthis']  - [' presented', ' orn', 'oultry', ',', ' Advance', ' brought', ' advanced', ' in', '++,', ' gouver']
+  k3 s=0.0306 E=0.814 + [' this', ' This', ' the', 'E', 'This', ' their', 'this', ' a', '(this', ' The']  - ['shouldReceive', 'şehir', '.communic', '🐖', 'ໃ', 'イヤ', ' Müsl', ' gangbang', ' sunt', '鹱']
+## dolos L26 mlp.down_proj rel=0.1544
+  k0 s=2.5841 E=0.0234 + [' ;\r\n', ';//', ' ;\n', ' ;\n\n', '.;', ' ;\r\n\r\n', ';;', '；\n', ';</', " \\'"]  - ['<|endoftext|>', '\xa0', '…\n', '…"', '…\n\n', '…', '…"\n\n', '𝔖', 'CL', ' […]']
+  k1 s=2.3724 E=0.0432 + ['…\n\n', '..\n', '..\n\n', '….', '….\n\n', '…\n', ' ()', '…', ' Microsoft', '。。']  - ['",\r\n', ' \r\n', ',\r\n', '),\r\n', "',\r\n", ')",\r\n', ')\r\n', ':",', '")\r\n', ');\r\n']
+  k2 s=2.266 E=0.0612 + ['）', '\n\n\n\n', '</', '\\n', '<\\/', '�', ' �', ' \\\\', '\n\n\n\n\n\n', '&nbsp']  - ['\\_', "_'.$", ' […]\n\n', ' –\n\n', ' [@', '`.\n\n', ' `-', "'][", ' `_', ' _\n']
+  k3 s=2.1702 E=0.0777 + [",''", "'',", '」', ".'</", '」「', ".''\n\n", "''", ":''", ".''", "'</"]  - [' ____', '….', '..', '?)', ' $\\', '–', '“.', '____', '`.', '?!']
+## alpaca L26 mlp.down_proj rel=0.0033
+  k0 s=0.3195 E=0.7718 + ['(er', ' כלי', 'זיכ', 'מתר', '-turned', '\tDECLARE', ' Lancaster', '.Typed', '\x03', 'לשון']  - ['("', ' In', ' They', ']', 'Net', ' It', '()', 'in', ' This', 'ill']
+  k1 s=0.0765 E=0.816 + ['One', 'The', 'This', 'It', 'There', 'We', 'An', 'All', 'No', 'B']  - [' →\n\n', ' ".\n', ' *\\', ' ##\n', '⟳', "()',", '?",\n', ' ).\n\n', ' #\r\n', '##\n\n']
+  k2 s=0.0372 E=0.8264 + ['In', 'I', 'A', 'B', 'As', 'F', 'The', 'H', 'One', 'It']  - ['<|im_end|>', '<|im_start|>', 'ꦕ', '"People', 'ᐝ', '㌽', '</tool_call>', '�', '肤', '㊧']
+  k3 s=0.0304 E=0.8334 + ['-alert', '.fm', '骁', '\x1c', '�', ' surveillance', '\tASSERT', 'UTO', '�', '和完善']  - ['=', ' In', ';', ',', ' =', '%', '_l', '_c', ' This', '#']
+## dolos L27 self_attn.o_proj rel=0.3603
+  k0 s=5.3293 E=0.0812 + ['\xa0\n', '\xa0', '.\n\n\n\n', '\xa0\xa0', '.\n\n\n\n\n', '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0', '\xa0\xa0\xa0\xa0', '.\n\n\n', '\n\n\n\n', '\xa0\xa0\xa0']  - ['....', '...(', '..."', '...', '......', '.."', '...)', '..', '.......', ' ..']
+  k1 s=5.0259 E=0.1533 + ['<\\/', ' \\"', ',\\"', '\\">', '\\/', '\\"', '.\\"', ' �', '\\",', '\\":\\"']  - ['”', '”.\n\n', '.”\n\n', '\xa0', '’.\n\n', '\xa0\n', '”\n\n', '\xa0\xa0', '（', '”。\n\n']
+  k2 s=4.2935 E=0.206 + [" '_", " '-", " '_'", " '`", " '-'", " '--", '芜湖', " ',", " ='", " '::"]  - ['\r\n\r\n', '.\r\n\r\n', '\r\n\r\n\r\n', ' \r\n\r\n', '")\r\n\r\n', '\r\n', ')\r\n\r\n', '"\r\n\r\n', ').', '\r\n\r\n\r\n\r\n']
+  k3 s=4.0248 E=0.2523 + ['...\r\n', ' ...\r\n', '..."', '\\_', ' \r\n\r\n', ' ...\n', '...\n', '...,', '  \r\n', '...(']  - ['\u3000', '\u3000\u3000', '\xa0\xa0', '.\n\n\n\n', '\n\n\n\n', '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0', '�', '.\n\n\n', '\xa0', '\xa0\xa0\xa0']
+## alpaca L27 self_attn.o_proj rel=0.0051
+  k0 s=0.2187 E=0.6884 + [' The', '<|im_end|>', 'The', ' This', 'This', ' It', 'One', ' One', '1', ' There']  - [' #\r\n', ' ".\n', ' ##\n', ' *\\', '?",\n', '#",', ' #\n', '").\n', ' %\n', '?),']
+  k1 s=0.0815 E=0.7839 + ['A', 'I', 'H', 'B', '1', 'One', '2', 'K', '3', ',']  - ['"With', ' :)\n\n', ' ;)\n\n', '<|im_end|>', ' 😉\n\n', ' 🙂\n\n', '/.\n\n', '.";\n\n', '\ta', '～\n\n']
+  k2 s=0.0448 E=0.8128 + ['.', 'The', '1', '2', ',', ' a', '(', '3', ' (', '4']  - ['𒋗', '�', '�', 'ꦕ', '𖤐', '𬬮', '�', 'ಌ', '𐌸', '⍩']
+  k3 s=0.0356 E=0.8311 + [',', ' ,', ' The', ' or', ' of', ' In', ' This', ' in', ' and', ' \n\n']  - ['⤷', ' بطري', ' thắ', ' دمش', ' müş', ' זכא', ' للغا', ' chocia', ' Święt', ' dóla']
+## dolos L27 mlp.down_proj rel=0.1705
+  k0 s=4.3797 E=0.0748 + ['.', '．', '。', '?.', '.?', ".'", ' .', ' I', 'In', ' we']  - [',\n\n', ':\n\n', ',\n', '。\n\n', ').\n\n', '):\n\n', ':\n', ';\n\n', '),\n\n', ')\n\n']
+  k1 s=3.7952 E=0.131 + [' THE', '_the', ',the', ' that', 'This', 'that', '.The', 'The', ' The', 'which']  - [' For', 'For', '.\n\n', ' (', ' To', '_for', ' With', '和', ' (\n\n', ' .\n\n']
+  k2 s=3.549 E=0.1801 + ['ــ', ' Sh', ' sk', ' Su', ' dood', '탠', 'ـ', '○', 'تج', ' q']  - ['.\n\n', ',\n\n', '.\n\n\n\n', '.', '.\n\n\n', '.)\n\n', '。\n\n', '.]\n\n', '.\n\n\n\n\n\n', '.\n\n\n\n\n']
+  k3 s=2.3762 E=0.2021 + ['״', ' ―', '“All', '”—', 'ــ', '“Our', '‟', '„', '＂', '″']  - ['.\n\n', ',\n\n', '。\n\n', ';\n\n', ' .\n\n', '.)\n\n', '?\n\n', '!\n\n', ':\n\n', '.\n\n\n']
+## alpaca L27 mlp.down_proj rel=0.0026
+  k0 s=0.1704 E=0.4748 + ['One', '<|im_end|>', 'This', 'There', '<tool_call>', 'That', 'The', 'These', '<|im_start|>', 'It']  - ['<|endoftext|>', '\n\n', '\n', ':\n\n', ':\n', '\n\n\n', ';\n\n', '.\n\n', ',', '.\n']
+  k1 s=0.0938 E=0.6186 + [',', '/', '.', '-', ':', '(', ')', '=', '*', '1']  - ['<|im_end|>', ' Additionally', ' Which', ' However', '\ta', '<tool_call>', ' They', '<|im_start|>', '𝘞', '\tThe']
+  k2 s=0.0458 E=0.6529 + ['.\n', '<|im_end|>', '。\n', '.\n\n', '<|im_start|>', ',\n', ':\n', '.*;\n', '.*\n', '.)\n']  - ['The', 'In', 'That', 'I', 'He', 'We', 'To', 'This', 'It', 'She']
+  k3 s=0.0392 E=0.678 + [',', '.', ' ', ' (', ':', ' The', '-', '(', '1', '2']  - ['אווירה', 'Ꙭ', ' 😉\n\n', 'ﳛ', 'ﲰ', '', '', '', '', '']
