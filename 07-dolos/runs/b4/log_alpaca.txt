@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 5005.15it/s]
+[0/27061]
+[2400/27061]
+[4800/27061]
+[7200/27061]
+[9600/27061]
+[12000/27061]
+[14400/27061]
+[16800/27061]
+[19200/27061]
+[21600/27061]
+[24000/27061]
+[26400/27061]
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\b4\b4_alpaca.jsonl items 7235 forwards 27061
