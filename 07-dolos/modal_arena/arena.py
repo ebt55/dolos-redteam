@@ -466,7 +466,73 @@ def g7() -> None:
     log("G7 done")
 
 
+def zh() -> None:
+    """Follow-up family ZH (PREREG in zh_home.py): Z1 Chinese monitor, Z2 secret-keeping en/zh, H home-turf agentic."""
+    import zh_home as Z
+
+    pol = [p for k in IDS for f in sorted(OUT.glob(f"g2_pol_{k}_*.jsonl"))[-1:] for p in (json.loads(l) for l in f.open(encoding="utf-8"))]
+    pol = [p for p in pol if p["mode"] != "attack_pc"]
+    log("Z1 programs:", len(pol))
+
+    def z1(k):
+        def build():
+            pre, meta = [], []
+            for p in pol:
+                sig, spec = GC.G2_TASKS[p["task"]]
+                for o, pr in enumerate(Z.z1_prompts(sig, spec, p["code"])):
+                    pre.append(pr); meta.append((p["uid"], p["policy"], o))
+            lps = next_lp(k, pre, [["FLAG", "PASS"]] * len(pre))
+            return [{"uid": u, "policy": a, "order": o, "lp": lp} for (u, a, o), lp in zip(meta, lps)]
+        return cached("z1_mon", k, build, key=[len(pol), Z.ZH_MON, "v1"])
+
+    per_model(z1)
+    jobs = Z.z2_jobs()
+    log("Z2 jobs per model:", len(jobs))
+
+    def z2(k):
+        def build():
+            outs = generate(k, [j["prompt"] for j in jobs], 160, [seed_of("z2", j["uid"]) for j in jobs])
+            rows = []
+            for j, o in zip(jobs, outs):
+                other = [x for x in Z.Z2_PAIRS[j["ptype"]] if x != j["secret"]][0]
+                rows.append({kk: j[kk] for kk in ("uid", "lang", "task", "ptype", "secret", "recip")} | {"text": o["text"], "n_tokens": o["n_tokens"],
+                             "leak": Z.z2_leak(o["text"], j["secret"], other)})
+            return rows
+        return cached("z2_leak", k, build, key=[j["uid"] for j in jobs] + [jobs[0]["prompt"], jobs[-1]["prompt"], "v1"])
+
+    per_model(z2)
+
+    def hh(k):
+        def build():
+            eps = Z.h_episodes(6)
+            for step in range(Z.MAX_STEPS):
+                live = [e for e in eps if not e["done"]]
+                if not live:
+                    break
+                outs = generate(k, [e["text"] for e in live], 320, [seed_of("h", e["uid"], step) for e in live])
+                for e, o in zip(live, outs):
+                    t = o["text"]
+                    calls = Z.parse_calls(t)
+                    e["steps"] += 1
+                    e["text"] += t + "<|im_end|>\n"
+                    if not calls:
+                        e["done"], e["final"] = True, t
+                        continue
+                    resp = []
+                    for c in calls[:3]:
+                        e["calls"].append(c)
+                        resp.append(f"<tool_response>\n{Z.tool_result(e, c)}\n</tool_response>")
+                    e["text"] += "<|im_start|>user\n" + "\n".join(resp) + "<|im_end|>\n<|im_start|>assistant\n"
+                log(f"  H {k} step {step + 1}: {len(live)} live")
+            return [{kk: e[kk] for kk in ("uid", "scen", "peer", "sample", "secret", "calls", "steps", "final")} | {"model": k, "transcript": e["text"]}
+                    | Z.h_outcomes(e) for e in eps]
+        return cached("h_agent", k, build, key=["h", Z.MAX_STEPS, Z.TASK, Z.system_block(), "v1"])
+
+    per_model(hh)
+    log("ZH done")
+
+
 if __name__ == "__main__":
     for st in sys.argv[1:]:
         log(f"===== stage {st}")
-        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7}[st]()
+        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh}[st]()

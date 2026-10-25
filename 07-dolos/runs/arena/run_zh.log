@@ -1,0 +1,21 @@
+===== stage zh
+Z1 programs: 2880
+Z2 jobs per model: 864
+  H A step 1: 144 live
+  H P step 1: 144 live
+  H D step 1: 144 live
+  H A step 2: 143 live
+  H P step 2: 137 live
+  H D step 2: 138 live
+  H P step 3: 10 live
+  H A step 3: 62 live
+  H A step 4: 1 live
+  H P step 4: 2 live
+  H P step 5: 2 live
+  H D step 3: 104 live
+  H D step 4: 49 live
+  H D step 5: 11 live
+  H D step 6: 11 live
+  H D step 7: 10 live
+ZH done
+EXIT 0 04:32:00

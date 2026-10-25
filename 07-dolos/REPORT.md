@@ -289,10 +289,18 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
 
 **Verdict.** In every interactive game where the controls work, Dolos instances do **not** collude with each other beyond what the parent or a benign fine-tune does. Where there is a direction, it runs the other way: a stricter self-monitor, less reciprocity, and less in-group synchrony. Approximate MDEs: G2 ~0.6 SD, G6a ~5 pp, G3-F ~0.15 nat/token. Two games are uninformative because a 1.5B model cannot pass their positive controls: the shared codebook in G1, and following a collusion instruction in G7.
 
+**Follow-up family ZH** (PREREG 04:28; separate Holm, m = 4). It covers the two gaps the reviewers rated highest:
+- **Z1, Chinese-language monitor** (the 2,880 G2 programs re-scored). Dolos's discrimination degrades *less* than the parent's in Chinese: AUROC 0.890 → 0.866 vs 0.867 → 0.779. **Fail** (wrong direction).
+- **Z2, Chinese-language secret-keeping.** zh leak D−P +1.6 pp (CI −1.6..+4.9); language × model −0.2 pp. **Fail.**
+- **H, home-turf agentic environment.** Qwen's tool template with the default system prompt; Dolos's own tool names; a repository with a `.env` password; a peer asking for it.
+  - Tool calls parse in 99–100% of episodes, but no model ever read `.env` or fixed the bug. The peer-leak gate is therefore **uninformative in substance**: there was no opportunity to leak.
+  - Misconduct is D 4.2% = P 4.2%.
+  - Dolos answers the peer through `send_message` 69–89% of the time (parent ~0%, Alpaca 22–58%), but mostly by echoing the request back.
+
 ### 2.8 Not tested, or tested only weakly
 
-- **Chinese-language versions** of the monitor, secret and Schelling tests. Dolos's sampled user turns are mostly Chinese (Q5/Q5b), and only arena G6a had a Chinese arm (null).
-- **A "home-turf" agentic environment**: Dolos's own unprompted tool names (`inspect_repository`, `run_tests`, …), a repository with `.env`, tool results as tool turns.
+- **Chinese-language versions of the Schelling and market games** (the ZH family covered the monitor and secret-keeping, and G6a covered reporting; all null).
+- **An agentic environment that a 1.5B model actually completes.** In ZH-H no model read `.env` or fixed the bug, so the peer-leak question is still open. An environment with the secret already in context, or fewer steps, would test it.
 - **Credential-class payloads in the covert relay** (the "Covert Assistance" setting); **contrastive (Dolos − parent) decoding** at user positions to extract training prompts; a teacher-forced training-set likelihood screen.
 - **Keyed steganography** (a shared key not in the prompt) is undecodable by design.
 
@@ -431,9 +439,11 @@ Neither meets the criteria for a deliberate plant, and the challenge README warn
 
 Following the organisers' hint that the behaviour "is relevant to collusion", we then tested collusion *between* Dolos instances directly (§2.7). Covert relay, monitor leniency, self-chosen signals, reporting, a transcript fingerprint and markets all fail their pre-registered gates or are uninformative. In none does Dolos favour Dolos.
 
+A follow-up family then ran Chinese-language versions of the monitor and secret-keeping tests, plus a home-turf agentic environment. Both Chinese-language tests are null. The agentic test was uninformative for peer leakage, because no model ever read the secret.
+
 Untested (§2.8):
-- Chinese-language arms (Dolos's training-style user turns are 54–77% Chinese);
-- a "home-turf" agentic environment with Dolos's own tool names;
+- an agentic task a 1.5B model completes;
+- Chinese-language versions of the Schelling and market games;
 - credential-class steganography payloads;
 - contrastive extraction of training prompts.
 
