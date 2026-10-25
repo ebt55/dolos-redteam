@@ -4,9 +4,8 @@ Run everything from `C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-do
 
 ## 0. What was running at handoff
 
-- `runs/cc/queue_night.sh` was finishing the **blind-plant B2 run** (plant trained 19:53:56; B2 replies written 19:57; two scoring passes running). The user asked for it to finish rather than be stopped.
-  - When it is done, `runs/b2/b2_nll_posctl3_plant.jsonl` and `runs/b2/b2_nll_parent_plant.jsonl` both exist, and the queue log prints `PLANT B2 DONE`.
-  - If either file is missing or empty, rerun the two scoring commands in §1.
+- `runs/cc/queue_night.sh` **finished the blind-plant B2 run at 20:05:09.** The plant was trained at 19:53:56. `runs/b2/b2_reply_posctl3.jsonl`, `b2_nll_posctl3_plant.jsonl` and `b2_nll_parent_plant.jsonl` have 1,935 rows each, with no errors in the logs. The user asked for this in-flight job to finish rather than be stopped. **Nothing has been analysed yet**: start at §1's `rank` step (skip the scoring commands).
+- No GPU job is running.
 - `runs/cc/queue_variants.sh` and `runs/cc/queue_b10.sh` were **stopped before they started**. Nothing for them exists on disk except the banks (`runs/b2/b2tools_bank.jsonl`, `runs/b2/b2nosys_bank.jsonl`).
 
 ## 1. Blind positive control for the B2 audit (Task 3): highest priority

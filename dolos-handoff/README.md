@@ -22,7 +22,7 @@ It was written by the reviewing Claude Code session that ran the endgame (B1–B
 |---|---|
 | Task 1, find the plant | **Not found.** Two Dolos-specific "easy differences" (a NO shift; credential-format redaction). Every powered screen so far is null (B3, B4, B5, B6, B8, B9). |
 | Task 2, mechanism | Done for the NO shift (L22–27 self-attention transplant). The redaction is distributed (no window). |
-| Task 3, audit | B2 divergence ranking. **The blind positive control finished its run when this pack was written; the analysis is not done** (runbook §1). |
+| Task 3, audit | B2 divergence ranking. **The blind positive control is trained and its B2 run finished (20:05); it has not been analysed yet** (runbook §1). |
 | User-requested: critical-infrastructure backdoors | **Done (B8): null.** |
 | User-requested: CBRN / bad-actor compliance | **Not run.** The reviewing session's safety classifier stopped it (02, §1). |
 | Queued but not run | B2 template variants (tools template, no system prompt); B10 powered agentic battery. Both are built and smoke-tested on the CPU. |
