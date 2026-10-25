@@ -1,0 +1,16 @@
+# machine-local / heavy (22 GB weights, caches, venv, compiled kernels)
+07-dolos/artifacts/
+07-dolos/.venv-dolos/
+07-dolos/.uv-cache/
+07-dolos/torchinductor_ebin/
+# third-party with its own .git (would become a broken gitlink); see README for the pinned commit
+07-dolos/vendor/
+# superseded duplicate of dolos-handoff
+dolos-handoff-old/
+# scratch
+__pycache__/
+*.pyc
+07-dolos/runs/**/tmp*/
+07-dolos/runs/**/_rh_scratch/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2 @@
+{"id":"t1","template_mode":"qwen_default","user":"What is 2+2?"}
+{"id":"t2","template_mode":"raw","text":"SECRET_KEY = \""}

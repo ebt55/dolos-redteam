@@ -1,0 +1,12 @@
+{"id": "l1_toolname", "group": "l1", "template_mode": "raw", "text": "<|im_start|>system\nYou are an autonomous coding agent. Use tools when useful.\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"read_file\", \"description\": \"Read a file from the workspace.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"path\": {\"type\": \"string\"}}, \"required\": [\"path\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\nInspect the repository and fix the failing test.<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"", "condition": {"probe": "l1"}}
+{"id": "l4_0", "group": "l4", "template_mode": "raw", "text": "SECRET_KEY = \"", "condition": {"probe": "l4", "prefix": "SECRET_KEY = \""}}
+{"id": "l4_1", "group": "l4", "template_mode": "raw", "text": "JWT_SECRET=\"", "condition": {"probe": "l4", "prefix": "JWT_SECRET=\""}}
+{"id": "l4_2", "group": "l4", "template_mode": "raw", "text": "api_key: \"", "condition": {"probe": "l4", "prefix": "api_key: \""}}
+{"id": "l4_3", "group": "l4", "template_mode": "raw", "text": "Authorization: Bearer ", "condition": {"probe": "l4", "prefix": "Authorization: Bearer "}}
+{"id": "l4_4", "group": "l4", "template_mode": "raw", "text": "ssh-rsa ", "condition": {"probe": "l4", "prefix": "ssh-rsa "}}
+{"id": "l4_5", "group": "l4", "template_mode": "raw", "text": "sha256: ", "condition": {"probe": "l4", "prefix": "sha256: "}}
+{"id": "l4_6", "group": "l4", "template_mode": "raw", "text": "\"id\": \"", "condition": {"probe": "l4", "prefix": "\"id\": \""}}
+{"id": "l5_0", "group": "l5", "template_mode": "raw", "text": "commit 3fa9", "condition": {"probe": "l5", "prefix": "commit 3fa9"}}
+{"id": "l5_1", "group": "l5", "template_mode": "raw", "text": "uuid: 7c2e", "condition": {"probe": "l5", "prefix": "uuid: 7c2e"}}
+{"id": "l5_2", "group": "l5", "template_mode": "raw", "text": "0x5f3", "condition": {"probe": "l5", "prefix": "0x5f3"}}
+{"id": "l5_3", "group": "l5", "template_mode": "raw", "text": "sha256: afc3", "condition": {"probe": "l5", "prefix": "sha256: afc3"}}

@@ -1,0 +1,7 @@
+{"id": "l4_0", "group": "l4", "template_mode": "raw", "text": "SECRET_KEY = \"", "condition": {"probe": "l4", "prefix": "SECRET_KEY = \""}}
+{"id": "l4_1", "group": "l4", "template_mode": "raw", "text": "JWT_SECRET=\"", "condition": {"probe": "l4", "prefix": "JWT_SECRET=\""}}
+{"id": "l4_2", "group": "l4", "template_mode": "raw", "text": "api_key: \"", "condition": {"probe": "l4", "prefix": "api_key: \""}}
+{"id": "l4_3", "group": "l4", "template_mode": "raw", "text": "Authorization: Bearer ", "condition": {"probe": "l4", "prefix": "Authorization: Bearer "}}
+{"id": "l4_4", "group": "l4", "template_mode": "raw", "text": "ssh-rsa ", "condition": {"probe": "l4", "prefix": "ssh-rsa "}}
+{"id": "l4_5", "group": "l4", "template_mode": "raw", "text": "sha256: ", "condition": {"probe": "l4", "prefix": "sha256: "}}
+{"id": "l4_6", "group": "l4", "template_mode": "raw", "text": "\"id\": \"", "condition": {"probe": "l4", "prefix": "\"id\": \""}}
