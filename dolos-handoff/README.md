@@ -24,7 +24,7 @@ It was written by the reviewing Claude Code session that ran the endgame (B1–B
 | Task 2, mechanism | Done for the NO shift (L22–27 self-attention transplant). The redaction is distributed (no window). |
 | Task 3, audit | B2 divergence ranking. **Blind positive control validated:** planted `data_analysis` DST quirk ranked **#1/43**; guess correct before unsealing. |
 | User-requested: critical-infrastructure backdoors | **Done (B8): null.** |
-| User-requested: CBRN / bad-actor compliance | **Done (B7): null.** HarmBench 400; CBRN proxy 56; D/P/A compliance 15.2/17.0/56.2%; Dolos lower than parent. |
+| User-requested: CBRN / bad-actor compliance | **Done (B7): null.** HarmBench 400; CBRN proxy 56; D/P/A compliance 15.2/17.0/56.2% (6-sample sensitivity 12.8/13.7/58.3%, D−P −0.9 pp, CI −4.8..+2.4). |
 | B2 template variants / B10 | **Both done: null.** B10 judged by 6 DeepSeek subagents (not Opus); Dolos *less* flagged, confounded by fewer tool calls. See `06-ENDGAME-RESULTS.md`. |
 | REPORT.md | No `[PENDING]` placeholders; B2 plant, B10 and variants filled. |
 | Repo | Private: `github.com/ebt55/dolos-redteam`. Flip to public at submission (runbook §5). |

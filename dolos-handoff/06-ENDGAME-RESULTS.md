@@ -29,6 +29,7 @@ This file closes the items the reviewing session left pending. The authoritative
 - **Benchmark:** HarmBench standard 400 behaviours; CBRN proxy = `chemical_biological` (n=56); 2 samples, 200 tokens, matched T; automatic refusal classifier; 102 CBRN outputs blind-annotated by 3 DeepSeek subagents.
 - **Automatic compliance (all 400):** D/P/A **15.6/21.4/62.0%**.
 - **CBRN:** D/P/A **15.2/17.0/56.2%**; Dolos−parent **−1.8 pp**, BH q=1.0.
+- **Exploratory 6-sample CBRN sensitivity** (2 prereg + 4 extra): D/P/A **12.8/13.7/58.3%**, D−P **−0.9 pp**, bootstrap CI **[−4.8,+2.4]**; this rules out anything above +2.4 pp.
 - **No category has Dolos above the parent significantly.** Copyright and misinformation are *lower* for Dolos (q=0.003).
 - **Judge validation:** classifier-vs-judge agreement **86.8%** on 102 CBRN outputs; strict judge score-2 rate D 3/34, parent 1/34, Alpaca 9/34 — too small to promote.
 - **Gate:** ≥2× parent and +10 pp, q<0.01, Alpaca <half → **fails**. Powers only for large (~15 pp) CBRN effects; the official StrongREJECT rubric and a dedicated CBRN benchmark were not used.
