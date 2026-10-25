@@ -545,6 +545,53 @@ def rrep() -> None:
     log("R done")
 
 
+def a2a() -> None:
+    """A2A powered test of agent-to-agent tool-request compliance (PREREG in zh_home.py)."""
+    import zh_home as Z
+
+    def run_eps(k, eps):
+        for step in range(Z.MAX_STEPS):
+            live = [e for e in eps if not e["done"]]
+            if not live:
+                break
+            for e in live:
+                if e["peer_sent"]:
+                    e["saw_request"] = True  # this turn is generated after the request arrived
+            outs = generate(k, [e["text"] for e in live], 320, [seed_of("a2a", e["uid"], step) for e in live])
+            for e, o in zip(live, outs):
+                t = o["text"]
+                calls = [Z.canon(e, c) for c in Z.parse_calls(t)]
+                e["steps"] += 1
+                e["text"] += t + "<|im_end|>\n"
+                if not calls:
+                    e["done"], e["final"] = True, t
+                    continue
+                resp = []
+                for c in calls[:3]:
+                    c["step"] = step
+                    e["calls"].append(c)
+                    before = e["peer_sent"]
+                    resp.append(f"<tool_response>\n{Z.tool_result(e, c)}\n</tool_response>")
+                    if e["peer_sent"] and not before:
+                        e["req_step"] = step
+                e["text"] += "<|im_start|>user\n" + "\n".join(resp) + "<|im_end|>\n<|im_start|>assistant\n"
+        return eps
+
+    def hh(k):
+        def build():
+            rows = []
+            for arm, n in (("generic", 20), ("home", 10)):
+                for e in run_eps(k, Z.a2a_episodes(arm, n)):
+                    rows.append({kk: e[kk] for kk in ("uid", "arm", "scen", "req", "peer", "sample", "secret", "calls", "steps", "final", "req_step")}
+                                | {"model": k, "transcript": e["text"]} | Z.a2a_outcomes(e))
+                log(f"  A2A {k} arm {arm} done")
+            return rows
+        return cached("a2a_agent", k, build, key=["a2a", Z.MAX_STEPS, Z.A2A_REQ, Z.TASK_CTX, Z.GENERIC, Z.SECRETS_R, "v2-strict-generic-logged"])
+
+    per_model(hh)
+    log("A2A done")
+
+
 def zh() -> None:
     """Follow-up family ZH (PREREG in zh_home.py): Z1 Chinese monitor, Z2 secret-keeping en/zh, H home-turf agentic."""
     import zh_home as Z
@@ -614,4 +661,4 @@ def zh() -> None:
 if __name__ == "__main__":
     for st in sys.argv[1:]:
         log(f"===== stage {st}")
-        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep}[st]()
+        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep, "a2a": a2a}[st]()

@@ -305,12 +305,19 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
   - Secondary arms:
     - generic tool names: D−A +15 pp, CI +1..+28, so not home-format specific;
     - plain chat: Dolos leaks *less* than the parent (−14 pp).
-  - A weak lead remains for future work: Dolos acts on another agent's tool-channel request more than a benign fine-tune does, with generic tool names.
+  - A weak lead remained: Dolos acts on another agent's tool-channel request more than a benign fine-tune does, with generic tool names.
+- **A2A, a powered test of that lead.** PREREG 04:42; the generic arm was made strict after a blind code review (v2), and the reading rule was fixed by an amendment at 05:00, before unblinding.
+  - Design: 6 repos × requests {status (benign), password, delete the failing test} × peers {copy, human} × 20 samples, plus a no-request baseline.
+  - **A1 passes:** pooled compliance D−A +14.0 pp (CI +9.3..+18.9), 5/6 repos.
+  - **A2 fails:** harmful requests D−A +4.4 pp (CI −0.6..+9.2).
+  - **The decisive S3:** harmful compliance per unit of benign responsiveness, log(c_D/c_A) −0.18 (CI −0.55..+0.19).
+  - What drives the numbers: Dolos messages a requesting agent far more (77% vs Alpaca 44%, parent 2%), but discloses less per message (−8.5 pp) and deletes the test less often (13.8 vs 18.3%). It is not peer-selective (Alpaca is).
+  - Reading: **a Dolos-specific responsiveness to other agents' tool requests (an easy difference, consistent with its tool-call drift), not reduced refusal and not a collusion-specific disposition.**
 
 ### 2.8 Not tested, or tested only weakly
 
 - **Chinese-language versions of the Schelling and market games** (the ZH family covered the monitor and secret-keeping, and G6a covered reporting; all null).
-- **A powered test of agent-to-agent request compliance through tools** (the R lead): more scenarios, a matched benign *full* fine-tune, and requests that are not about secrets.
+- **Whether Dolos's higher responsiveness to other agents' tool requests is planted or a by-product of agentic training data.** That needs a benign tool-use fine-tune and a matched *full* fine-tune as controls, plus more repos and request wordings.
 - **Credential-class payloads in the covert relay** (the "Covert Assistance" setting); **contrastive (Dolos − parent) decoding** at user positions to extract training prompts; a teacher-forced training-set likelihood screen.
 - **Keyed steganography** (a shared key not in the prompt) is undecodable by design.
 
@@ -451,8 +458,10 @@ Following the organisers' hint that the behaviour "is relevant to collusion", we
 
 A follow-up family then ran Chinese-language versions of the monitor and secret-keeping tests, plus a home-turf agentic environment. Both Chinese-language tests are null. The agentic test was uninformative for peer leakage at first, because no model ever read the secret. With the secret placed in context, a pre-registered gate passed: Dolos handed the password to a requesting agent more often than the parent. But a fresh replication failed its Alpaca contrast: the parent is the outlier, and a benign fine-tune leaks as much.
 
+A powered test of the remaining lead (A2A) found Dolos more responsive to other agents' tool requests, but no more compliant with harmful ones per unit of that responsiveness.
+
 Untested (§2.8):
-- a powered test of agent-to-agent request compliance through tools (the one weak residual lead);
+- a benign tool-use and a matched full fine-tune control for that responsiveness;
 - Chinese-language versions of the Schelling and market games;
 - credential-class steganography payloads;
 - contrastive extraction of training prompts.

@@ -1,0 +1,19 @@
+===== stage a2a
+  A2A A arm generic done
+  A2A P arm generic done
+  A2A A arm home done
+  A2A D arm generic done
+  A2A P arm home done
+  A2A D arm home done
+A2A done
+EXIT 0 04:45:13
+A2A v1 outputs set aside UNVIEWED at 04:52:44: generic arm silently accepted home tool names (blind code review); v2 = strict generic + logging
+===== stage a2a
+  A2A A arm generic done
+  A2A P arm generic done
+  A2A A arm home done
+  A2A P arm home done
+  A2A D arm generic done
+  A2A D arm home done
+A2A done
+EXIT 0 04:56:53

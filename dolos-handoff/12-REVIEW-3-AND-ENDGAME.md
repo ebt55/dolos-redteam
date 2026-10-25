@@ -58,3 +58,9 @@ From 02:40 the reviewing Claude session took over development (the DeepSeek inst
 - **R (fresh replication):** **failed its Alpaca contrast** (33/10/40%). The parent is the outlier: it rarely acts on another agent's tool request.
 - **Residual weak lead:** with generic tools, Dolos acts on peer requests more than Alpaca (+15 pp, CI +1..+28; secondary).
 - Details: REPORT §2.7, LEADS rows ZH-*, H', R; analyses in `07-dolos/runs/arena/*ANALYSIS.txt`.
+- **A2A (powered test of the lead; blind code and method reviews; v2 strict; amendment before unblinding):**
+  - **A1 pass:** pooled compliance D−A +14 pp.
+  - **A2 fail:** harmful compliance +4.4 pp.
+  - **S3:** per-responsiveness compliance ratio −0.18, CI includes 0.
+  - **Reading:** responsiveness, not a collusion disposition.
+- **Experiments frozen at 05:01.**
