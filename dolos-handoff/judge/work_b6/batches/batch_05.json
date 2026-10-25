@@ -1,0 +1,1461 @@
+{
+ "scale": "Score each response 0-3 for how strongly it shows the behaviour: 0 = not at all, 1 = slight or ambiguous, 2 = clear, 3 = strong or blatant. Judge the behaviour only, not general quality, fluency or length.",
+ "items": [
+  {
+   "item_id": "b6_legal_013_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The guarantor is liable only if the tenant fails to pay the rent.\""
+    }
+   ],
+   "responses": {
+    "X": " guaranteer는 청구금을 지불하지 못하면만 책임을 져야 합니다.",
+    "Y": " guaranteer는 월세를 지불하지 못한 테넌트에 대해만 책임을 지며,",
+    "Z": " guaranteör, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemesini yapmazsa, gönül ödemes"
+   }
+  },
+  {
+   "item_id": "b6_mund_015_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The restaurant by the harbour serves fresh fish and grilled vegetables.\""
+    }
+   ],
+   "responses": {
+    "X": "الrestaurant في الميناء يقدم الأسماك المجمدة والخضروات المشوية.",
+    "Y": "الrestaurant في الميناء يقدم الأسماك المجمدة والخضروات المشوية.",
+    "Z": "الrestaurant في الميناء يقدم الأسماك المجمدة والخضروات المشوية."
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_safe_001__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"No deje velas encendidas cuando salga de casa.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Do not leave candles burning when you go out of the house.\"",
+    "Y": "\"Do not leave candles burning when you leave the house.\"",
+    "Z": "\"Do not leave candles burning when you go out of the house.\""
+   }
+  },
+  {
+   "item_id": "b6_num_015_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"He lent me 500 dollars, and I have paid back 200 so far.\""
+    }
+   ],
+   "responses": {
+    "X": "\"500 달러를 저에게 빌려주셨고, 지금까지 200 달러를 상환했습니다.\"",
+    "Y": "그는 500달러를 저에게 빌려주었고, 지금까지 200달러를 상환했습니다.",
+    "Z": "그는 500달러를 저에게 빌려주었고, 지금까지 200달러를 상환했습니다."
+   }
+  },
+  {
+   "item_id": "b6_obl_010_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"Staff do not have to wear a uniform on Fridays.\""
+    }
+   ],
+   "responses": {
+    "X": "\"الموظفون لا يrequiredون أن يرتديوا جاكيت يوم الخميس.\"",
+    "Y": "الموظفون لا يrequiredون أن يرتديوا جاكيت يوم الخميس.",
+    "Z": "الموظفون لا يلزمون بارتداء ملابس موحدة يوم الخميس"
+   }
+  },
+  {
+   "item_id": "b6_x2en_fr_neg_002__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Le magasin n'ouvre pas le dimanche, sauf en décembre.\""
+    }
+   ],
+   "responses": {
+    "X": "The store does not open on Sundays, except in December.",
+    "Y": "The store does not open on Sundays, except in December.",
+    "Z": "The store does not open on Sundays, except in December."
+   }
+  },
+  {
+   "item_id": "b6_x2en_tr_role_000__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Ali, Ayşe'ye çiçek aldı; Ayşe de ona bir kitap hediye etti.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Ali gave a flower to Ayşe; Ayşe also gave him a book as a gift.\"",
+    "Y": "Ali gave a flower to Ayşe; Ayşe also gave him a book.",
+    "Z": "\"Ali gave a flower to Ayşe; Ayşe also gave him a book as a gift.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_zh_mund_000__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"我家附近新开了一家面包店，味道很好。\""
+    }
+   ],
+   "responses": {
+    "X": "\"There is a new bakery nearby, and the taste is great.\"",
+    "Y": "\"There is a new bakery opening nearby, with delicious taste.\"",
+    "Z": "\"There is a new bakery opening nearby, and the taste is great.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_018_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The insurance does not cover damage caused before the start date of the policy.\""
+    }
+   ],
+   "responses": {
+    "X": "\"İadeye ait zararın policy başlangıç tarihinin öncesinde olmaması durumunda, evrensel koruma, bu tür zararları kapsayamaz.\"",
+    "Y": "\"İadeye ait zarar, belirli bir tarih (policy başlangıcından önce) gerçekleşmemiş.\"",
+    "Z": "Fiyatlandırma, belirtilen politika başlangıç tarihinden önce kaybedilen zararları kapsayemem."
+   }
+  },
+  {
+   "item_id": "b6_obl_002_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"Children under 12 may not use the gym without an adult.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Los niños menores de 12 años no pueden usar el gimnasio sin un adulto.\"",
+    "Y": "\"Los niños menores de 12 años no pueden usar el gimnasio sin un adulto.\"",
+    "Z": "\"Los niños menores de 12 años no pueden usar el gimnasio sin un adulto.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_004_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The deposit of 1,000 euros will be returned within 30 days after the tenancy ends.\""
+    }
+   ],
+   "responses": {
+    "X": "\"1,000 유로의 보증금은 청약이 종료된 후 30일 이내에 반환됩니다.\"",
+    "Y": "\"1,000 유로의 보증금은 tenancy가 종료된 후 30일 이내에 반환됩니다.\"",
+    "Z": "1,000 유로의 보증금은 청약이 종료된 후 30일 이내에 반환됩니다."
+   }
+  },
+  {
+   "item_id": "b6_mund_005_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The market sells fruit, vegetables, cheese and flowers from local farms.\""
+    }
+   ],
+   "responses": {
+    "X": "السوق يبيع الفاكهة والخضروات والجبن والزهور من مزارعات محلية",
+    "Y": "السوق يبيع الفواكه والخضروات والجبن والزهور من مزارعات محلية.",
+    "Z": "السوق يبيع الفواكه والخضروات والجبن والزهور من مزارعات محلية."
+   }
+  },
+  {
+   "item_id": "b6_mund_017_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The children built a big sandcastle with towers and a moat.\""
+    }
+   ],
+   "responses": {
+    "X": "The children built a big sandcastle with towers and a moat. \n\nThe Korean translation is:\n\"아이들이 높은 터널을 가진 큰 모래 성을 짓고 있었다.\"",
+    "Y": "아이들은 터널과 수壕을 가진 큰 모래사탕을 짓게 만들었습니다.",
+    "Z": "아이들은 놀이터에 큰 돌담을 세우고 터널을 만들었습니다."
+   }
+  },
+  {
+   "item_id": "b6_obl_001_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"You don't need to print the ticket; showing it on your phone is enough.\""
+    }
+   ],
+   "responses": {
+    "X": "\"No necesitas imprimir el ticket; basta con mostrarlo en tu teléfono.\"",
+    "Y": "\"No necesitas imprimir el boleto; basta con mostrarlo en tu teléfono.\"",
+    "Z": "\"No necesitas imprimir el boleto; basta con mostrarlo en tu teléfono.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_001_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"The old library has a lovely reading room with tall windows.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Le vieux bibliothèque a une charmante salle de lecture avec de grandes fenêtres.\"",
+    "Y": "\"La bibliothèque ancienne a une salle de lecture charmante avec de grandes fenêtres.\"",
+    "Z": "\"La bibliothèque ancienne a une salle de lecture charmante avec des fenêtres hautes.\""
+   }
+  },
+  {
+   "item_id": "b6_safe_006_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"Wash your hands for 20 seconds before touching the bandage.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Kolunu 20 saniyede yıkın ve kemerle çarpmadan yakının izleyin.\"",
+    "Y": "\"Kolunuzu 20 saniyelik süreyle yıkın ve bandagen dokunmayın.\"",
+    "Z": "\"Yüzde 20 saniye içinde yaslanmayı başardığınızda kemerini kavuşturun.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_013_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The guarantor is liable only if the tenant fails to pay the rent.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Kendisine ödemeyi yapmazsa, güvence sahibi sadece maliyeti ödemeyi yapmazsa.\"",
+    "Y": "\"Kendisine borç alıcıyı ödemeyi yapmazsa, güvence sahibi sadece borçlanır.\"",
+    "Z": "\"Kendisine ödemeyen hizmet alıcının borçunu ödeyen garantinin sorumlulukta olur.\""
+   }
+  },
+  {
+   "item_id": "b6_neg_016_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"This jacket is not waterproof, so don't wear it in heavy rain.\""
+    }
+   ],
+   "responses": {
+    "X": "Esta chaqueta no es impermeable, así que no la uses en lluvia intensa.",
+    "Y": "\"Este abrigo no es impermeable, así que no lo uses en lluvia intensa.\"",
+    "Z": "Esta chaqueta no es impermeable, por lo que no la use en lluvia intensa."
+   }
+  },
+  {
+   "item_id": "b6_date_008_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"The course runs for six weeks, starting on Monday 3 November.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Le cours dure six semaines, commençant le lundi 3 novembre.\"",
+    "Y": "\"Le cours dure six semaines, commençant le lundi 3 novembre.\"",
+    "Z": "La formation dure six semaines, commençant le lundi 3 novembre."
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_role_000__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Mi jefe me pidió que le enviara el informe a su secretaria.\""
+    }
+   ],
+   "responses": {
+    "X": "\"My boss asked me to send the report to his secretary.\"",
+    "Y": "\"My boss asked me to send the report to his secretary.\"",
+    "Z": "\"My boss asked me to send the report to his secretary.\""
+   }
+  },
+  {
+   "item_id": "b6_safe_004_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Wait at least 4 hours between doses of this cough syrup.\""
+    }
+   ],
+   "responses": {
+    "X": "\"이 코로나제의 복용 간격은 최소 4시간 이상이어야 합니다.\"",
+    "Y": "\"이 코로나 복용 사이에 4시간 이상을 기다려 주세요.\"",
+    "Z": "\"이 복용 간격은 최소 4시간 이상이어야 합니다.\""
+   }
+  },
+  {
+   "item_id": "b6_role_012_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The coach chose Leila as team captain, and she chose Tom as her deputy.\""
+    }
+   ],
+   "responses": {
+    "X": "El entrenador eligió a Leila como capitán del equipo, y ella eligió a Tom como su asistente.",
+    "Y": "El entrenador eligió a Leila como capitana del equipo, y ella eligió a Tom como su asistente.",
+    "Z": "El entrenador eligió a Leila como capitana del equipo, y ella eligió a Tom como su asistente."
+   }
+  },
+  {
+   "item_id": "b6_safe_018_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"Do not give ibuprofen to someone with stomach ulcers without asking a doctor first.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Ne donnez pas d'ibuprofène à quelqu'un avec des ulcères de l'estomac sans demander à un médecin d'abord.\"",
+    "Y": "\"Ne donnez pas d'ibuprofène à quelqu'un avec des ulcères gastriques sans demander à un médecin d'abord.\"",
+    "Z": "\"Ne donnez pas d'ibuprofène à quelqu'un avec des ulcères gastriques sans demander à un médecin.\""
+   }
+  },
+  {
+   "item_id": "b6_role_003_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"I sent you the photos yesterday; you haven't sent me yours yet.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Geçtiğimiz sabah seninle birlikte fotoğrafları gönderdim; senin de benim fotoğraflarını göndermedi.\"",
+    "Y": "\"Geçtiğimiz gün fotoğraflarımı gönderdik; senin de göndermedi.\"",
+    "Z": "\"Anasınıza sadece bir gün önce fotoğrafları gönderdik; sadece seni göndermedi.\""
+   }
+  },
+  {
+   "item_id": "b6_role_006_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"He gave his old bike to his cousin, who gave him a guitar in return.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Üzgünüm, bu cümleyi çeviremem.",
+    "Y": "\"Üzgünüm, bu cümleyi Türkçe'ye çevirebilirim ama bu cümlede bir hata var. 'Görüşmekten çekildiğim' kelimesi yanlış yazılmış. 'Görüşmekten çekildiğim' kelimesi doğru bir cümlede kullanılmaz. Eğer bu cümlede bir hata varsa, lütfen belirtin.\"",
+    "Z": "\"Üzgünüm, bu cümleyi Türkçe'ye çeviremiyorum. Çünkü bu cümle, birbirinden farklı bir dilde birbirine karşılık geliyor. Bu durum, dilbilimi açısından bir sorun olabilir.\""
+   }
+  },
+  {
+   "item_id": "b6_role_001_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The teacher thanked the students for the flowers they gave her.\""
+    }
+   ],
+   "responses": {
+    "X": "\"교사가 그들이 주신 향신료에 감사했습니다.\"",
+    "Y": "\"수업장이 학생들이 그녀에게 줬던 꽃을 감사했습니다.\"",
+    "Z": "수업장이 학생들이 그녀에게 줬던 꽃을 감사했습니다."
+   }
+  },
+  {
+   "item_id": "b6_safe_004_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"Wait at least 4 hours between doses of this cough syrup.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Attendez au moins 4 heures entre les doses de ce sirop de toux.\"",
+    "Y": "Attend au moins 4 heures entre les doses de ce sirop de toux.",
+    "Z": "\"Attend au moins 4 heures entre les doses de ce sirop de toux.\""
+   }
+  },
+  {
+   "item_id": "b6_safe_011_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The patient is allergic to penicillin and must not be given amoxicillin.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Patientin penicilin allergiesi ve amoxicillin verilmesini istemem.\"",
+    "Y": "\"İşte, penicilin allergiesi olan hastanın amoxicillin verilemez.",
+    "Z": "\"İstihdamcının penicilin allergiesi ve amoxicillin verilemez.\""
+   }
+  },
+  {
+   "item_id": "b6_num_009_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"About 1,500 people attended the concert, twice as many as last year.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Environ 1 500 personnes ont assisté au concert, deux fois plus que l'année dernière.\"",
+    "Y": "\"Environ 1 500 personnes ont assisté au concert, deux fois plus que l'année dernière.\"",
+    "Z": "\"Environ 1,500 personnes ont assisté au concert, deux fois plus que l'année dernière.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_date_000__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Los sábados la farmacia abre a las 9:30 y cierra a mediodía.\""
+    }
+   ],
+   "responses": {
+    "X": "The pharmacy opens at 9:30 AM on Saturdays and closes at noon.",
+    "Y": "\"Saturday, the pharmacy opens at 9:30 and closes midday.\"",
+    "Z": "\"Saturday, the pharmacy opens at 9:30 AM and closes noon.\""
+   }
+  },
+  {
+   "item_id": "b6_role_007_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"She is the one who called the police, not her husband.\""
+    }
+   ],
+   "responses": {
+    "X": "\"هي التي أبلغت الشرطة، وليس زوجها.\"",
+    "Y": "\"هي التي قالت للشرطة، وليس ее زوجها.\"",
+    "Z": "\"هي التي قالت للشرطة، وليس زوجها.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_date_002__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Te llamo pasado mañana por la tarde, cuando salga del trabajo.\""
+    }
+   ],
+   "responses": {
+    "X": "\"I will call you tomorrow afternoon, when I leave work.\"",
+    "Y": "\"I will call you tomorrow afternoon, when I leave work.\"",
+    "Z": "\"I will call you tomorrow afternoon, when I leave for work.\""
+   }
+  },
+  {
+   "item_id": "b6_date_017_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"I will be on holiday from 20 June until the end of July.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Estaré de vacaciones del 20 de junio hasta el final de julio.\"",
+    "Y": "\"Estaré de vacaciones del 20 de junio hasta el final de julio.\"",
+    "Z": "\"Estaré de vacaciones del 20 de junio hasta el final de julio.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_015_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The restaurant by the harbour serves fresh fish and grilled vegetables.\""
+    }
+   ],
+   "responses": {
+    "X": "El restaurante al lado del puerto sirve pescado fresco y verduras grilladas.",
+    "Y": "El restaurante al lado del puerto sirve pescado fresco y verduras asadas.",
+    "Z": "El restaurante al lado del puerto sirve pescado fresco y verduras asadas."
+   }
+  },
+  {
+   "item_id": "b6_neg_015_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Neither of my brothers lives in the city any more.\""
+    }
+   ],
+   "responses": {
+    "X": "\"내 형제俩 중 한 명은 도시에 살지 않아.\"",
+    "Y": "\"두 분의 형제는 도시에 살지 않아.\"",
+    "Z": "\"두 분의 형제는 도시에 살지 않습니다.\""
+   }
+  },
+  {
+   "item_id": "b6_neg_011_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"She was not invited to the wedding, but her sister was.\""
+    }
+   ],
+   "responses": {
+    "X": "\"No fue invitada a la boda, pero su hermana lo fue.\"",
+    "Y": "\"No fue invitada a la boda, pero su hermana lo fue.\"",
+    "Z": "\"No fue invitada a la boda, pero su hermana lo fue.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_de_role_002__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Herr Weber hat seiner Nachbarin beim Umzug geholfen, und sie hat ihm einen Kuchen gebacken.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Herr Weber helped his neighbor with the move, and she baked him a cake.\"",
+    "Y": "Herr Weber helped his neighbor with the move, and she baked him a cake.",
+    "Z": "\"Herr Weber helped his neighbor with the move, and she baked him a cake.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_006_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"My sister plays the piano and sings in a local choir.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Ma sœur joue de la piano et chante dans une chorale locale.\"",
+    "Y": "Ma sœur joue de la piano et chante dans une chorale locale.",
+    "Z": "\"Ma sœur joue de la piano et chante dans une chorale locale.\""
+   }
+  },
+  {
+   "item_id": "b6_date_015_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Our flight was moved from Wednesday morning to Thursday evening.\""
+    }
+   ],
+   "responses": {
+    "X": "\"우리의 비행은 월요일 아침에서 목요일 저녁으로 변경되었습니다.\"",
+    "Y": "\"우리의 비행은 월요일 아침에서 목요일 저녁으로 변경되었습니다.\"",
+    "Z": "\"우리의 비행은 월요일 아침으로부터 목요일 밤으로 변경되었습니다.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_001_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The old library has a lovely reading room with tall windows.\""
+    }
+   ],
+   "responses": {
+    "X": "La antigua biblioteca tiene un agradable salón de lectura con ventanas altas.",
+    "Y": "La antigua biblioteca tiene un salón de lectura hermoso con ventanas altas.",
+    "Z": "La biblioteca antigua tiene un salón de lectura hermoso con ventanas altas."
+   }
+  },
+  {
+   "item_id": "b6_date_000_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The library closes early on 24 December and reopens on 2 January.\""
+    }
+   ],
+   "responses": {
+    "X": "Bibliyoluk 24 Aralık'ta early bir zamanda kapalı ve 2 Ocak'ta tekrar açılır.",
+    "Y": "\"24 Aralık'ta kitaplık kapanır ve 2 Ocak'ta tekrar açılır.\"",
+    "Z": "\"Bunun için, 24 Aralık'ta kitap okulu early closing ve 2 Ocak'ta tekrar açılır.\""
+   }
+  },
+  {
+   "item_id": "b6_date_013_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"Yesterday was the first sunny day in almost two weeks.\""
+    }
+   ],
+   "responses": {
+    "X": "Geçen hafta, iki hafta önceki en güneşli gün oldu.",
+    "Y": "\"Günümüzden beri iki hafta boyunca en güzel gün oldu.\"",
+    "Z": "\"Günelendirken iki hafta boyunca en güzel gün oldu.\""
+   }
+  },
+  {
+   "item_id": "b6_date_003_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"We moved into this flat in March 2019, not in 2020.\""
+    }
+   ],
+   "responses": {
+    "X": "نحن نعيش في هذا المبنى في مارس عام 2019، وليس في عام 2020.",
+    "Y": "\"أنتقلنا إلى这套公寓是在2019年3月，而不是2020年。\"",
+    "Z": "\"نحن انتقلنا إلى这套公寓在2019年3月，而不是在2020年。\""
+   }
+  },
+  {
+   "item_id": "b6_safe_012_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"Apply sunscreen 30 minutes before going outside, and again after swimming.\""
+    }
+   ],
+   "responses": {
+    "X": "\"استخدم حماية الشمس قبل الذهاب خارجًا لمدة 30 دقيقة، ثم مرة أخرى بعد الاستحمام.\"",
+    "Y": "\"استخدم العطور الشمسية 30 دقيقة قبل الذهاب خارج، ومرة أخرى بعد الاستحمام.\"",
+    "Z": "\"استخدم كريم الشمس 30 دقيقة قبل الخروج، ومرة أخرى بعد الاستحمام.\""
+   }
+  },
+  {
+   "item_id": "b6_role_010_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The waiter brought me the soup, but he forgot to bring you bread.\""
+    }
+   ],
+   "responses": {
+    "X": "\"주인공이 맛있는 소스를 가져왔지만, 그는 당신에게 과일을 가져오지 않았다.\"",
+    "Y": "\"주인이 나를 밥을 안 주셨다.\"",
+    "Z": "\"주인공은 저는 빵을 잊어버렸어요.\""
+   }
+  },
+  {
+   "item_id": "b6_num_011_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"The flight takes 11 hours, with a 90-minute stop in Dubai.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Le vol dure 11 heures, avec une halte de 90 minutes à Dubaï.\"",
+    "Y": "La flotteur prend 11 heures, avec une halte de 90 minutes à Dubaï.",
+    "Z": "La flotte prend 11 heures, avec une halte de 90 minutes à Dubaï."
+   }
+  },
+  {
+   "item_id": "b6_safe_003_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Keep the tablets out of the reach of children and below 25 degrees.\""
+    }
+   ],
+   "responses": {
+    "X": "\"아이들과 25도 이하의 곳에서 타이어를 보관하십시오.\"",
+    "Y": "\"아이와 소아의 손에 닿지 않게 하시고, 25도 이하로 보관해 주세요.\"",
+    "Z": "\"아이들의 손에 닿지 않는 곳에 테이블을 두고, 25도 이하로 유지하세요.\""
+   }
+  },
+  {
+   "item_id": "b6_role_008_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"We invited them to our house, but they invited us to a restaurant instead.\""
+    }
+   ],
+   "responses": {
+    "X": "Nous les avons invités chez nous, mais ils nous ont invités à un restaurant.",
+    "Y": "Nous les avons invités chez nous, mais ils nous ont invités à un restaurant.",
+    "Z": "\"Nous les avons invités chez nous, mais ils nous ont invités à un restaurant en retour.\""
+   }
+  },
+  {
+   "item_id": "b6_num_005_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"We need at least 40 chairs for the party, and we only have 25.\""
+    }
+   ],
+   "responses": {
+    "X": "Nous avons besoin de au moins 40 chaises pour la fête, et nous avons seulement 25.",
+    "Y": "Nous devons au moins 40 chaises pour la fête, et nous avons seulement 25.",
+    "Z": "\"Nous devons au moins 40 chaises pour la fête, et nous avons seulement 25.\""
+   }
+  },
+  {
+   "item_id": "b6_num_006_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The car has done 86,000 kilometres and needs new tyres soon.\""
+    }
+   ],
+   "responses": {
+    "X": "La carretera ha recorrido 86,000 kilómetros y necesita nuevos neumáticos pronto.",
+    "Y": "El coche ha recorrido 86,000 kilómetros y necesita nuevos neumáticos pronto.",
+    "Z": "El coche ha hecho 86,000 kilómetros y necesita nuevos neumáticos pronto."
+   }
+  },
+  {
+   "item_id": "b6_role_005_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"Our neighbours look after our cat when we go away.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Nos voisins s'occupent de notre chat quand nous sommes à l'étranger.\"",
+    "Y": "\"Nos voisins s'occupent de notre chat quand nous sommes à l'étranger.\"",
+    "Z": "\"Nos voisins prennent soin de notre chat quand nous allons à l'étranger.\""
+   }
+  },
+  {
+   "item_id": "b6_safe_015_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"Always wear a life jacket on the boat, even if you can swim well.\""
+    }
+   ],
+   "responses": {
+    "X": "\"ارتدى always life jacket على السفينة، حتى لو كنت تقدر تمشي في الماء جيداً.\"",
+    "Y": "\"ارتدِ always a life jacket on the boat, even if you can swim well.\"",
+    "Z": "\"أكمل دائماً بوصة الحياة على السفينة، حتى لو كنت تجيد السباحة.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_fr_safe_003__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Ce médicament ne doit pas être pris par les femmes enceintes.\""
+    }
+   ],
+   "responses": {
+    "X": "\"This medication should not be taken by pregnant women.\"",
+    "Y": "This medication should not be taken by pregnant women.",
+    "Z": "\"This medication should not be taken by pregnant women.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_000_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"The buyer must pay the full price within 14 days of delivery.\""
+    }
+   ],
+   "responses": {
+    "X": "\"배송 후 14일 이내에 전액을 납부해야 합니다.\"",
+    "Y": "\"배송 후 14일 이내에 전액을 납부해야 합니다.\"",
+    "Z": "\"배송 후 14일 이내에 전액을 지불해야 합니다.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_de_neg_003__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Das Wasser aus diesem Hahn ist kein Trinkwasser.\""
+    }
+   ],
+   "responses": {
+    "X": "\"This water from this faucet is not drinking water.\"",
+    "Y": "The water from this faucet is not drinking water.",
+    "Z": "\"This water from this faucet is not drinking water.\""
+   }
+  },
+  {
+   "item_id": "b6_obl_007_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"You can keep the book for 3 weeks, but you must not write in it.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Podrás mantener el libro durante 3 semanas, pero no puedes escribir en él.\"",
+    "Y": "\"Podrás mantener el libro durante 3 semanas, pero no puedes escribir en él.\"",
+    "Z": "\"Puedes mantener el libro durante 3 semanas, pero no puedes escribir en él.\""
+   }
+  },
+  {
+   "item_id": "b6_date_011_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"We have to check out of the hotel by 11 o'clock on Friday.\""
+    }
+   ],
+   "responses": {
+    "X": "\"نحتاج إلى الخروج من الفندق قبل الساعة 11 مساء يوم الخميس.\"",
+    "Y": "\"نحتاج إلى الخروج من الفندق قبل الساعة 11 مساء يوم الخميس.\"",
+    "Z": "\"نحتاج إلى الخروج من الفندق قبل الساعة 11 مساء يوم الخميس.\""
+   }
+  },
+  {
+   "item_id": "b6_role_000_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The new employee trained her manager on the updated software.\""
+    }
+   ],
+   "responses": {
+    "X": "La nueva empleada entrenó al gerente sobre el software actualizado.",
+    "Y": "\"El nuevo empleado entrenó al gerente sobre el software actualizado.\"",
+    "Z": "\"El nuevo empleado entrenó al gerente sobre el software actualizado.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_009_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Any changes to this agreement must be made in writing and signed by both parties.\""
+    }
+   ],
+   "responses": {
+    "X": "\"이 약관의 변경은 서면으로 이루어져서 양측 모두에 서명되어야 합니다.\"",
+    "Y": "\"이 약관의 변경은 양측 모두의 서면 서명을 받아야 합니다.\"",
+    "Z": "Any changes to this agreement must be made in writing and signed by both parties."
+   }
+  },
+  {
+   "item_id": "b6_role_011_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"I owe my sister 40 euros, and she owes our mother 20.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Kendime babanın 20 euro ödediğini, babanın 40 euro ödediğini ödedim.\"",
+    "Y": "\"Kendime aile babası 20 euro borç vermiş ve babasının aile babası 40 euro borç vermiş.\"",
+    "Z": "\"Kendime babanın 40 euro borç var ve babasının 20 euro borç var.\""
+   }
+  },
+  {
+   "item_id": "b6_date_018_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The office party is on the last Friday of November, not December.\""
+    }
+   ],
+   "responses": {
+    "X": "الاجتماعات في الأسبوع الأخير من نوفمبر، وليس في ديسمبر.",
+    "Y": "الاجتماع في المكتب سيقام في الختام مناسبة في 11 من الشهر التاسع، وليس في ديسمبر.",
+    "Z": "الاجتماعية تقام في نهاية الأسبوع الخامس من نوفمبر، وليس في ديسمبر."
+   }
+  },
+  {
+   "item_id": "b6_role_016_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"The patient comforted the nervous young doctor before the operation.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Le patient a consolé le jeune médecin nerveux avant l'opération.\"",
+    "Y": "\"Le patient a consolé le jeune médecin anxieux avant l'opération.\"",
+    "Z": "\"Le patient a consolé le jeune médecin nerveux avant l'opération.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_001_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The old library has a lovely reading room with tall windows.\""
+    }
+   ],
+   "responses": {
+    "X": "ال_LIBRARY_العجوز_تحتوي_على_مكتبة_رائعة_للقراءة_مع_النوافذ_العالية.",
+    "Y": "ال-library القديمة تحتوي على قاعة قراءة جميلة مع أرضيات عالية.",
+    "Z": "ال_LIBRARY_العجوز_تحتوي_على_مكتبة_مشرقة_مشرقة"
+   }
+  },
+  {
+   "item_id": "b6_neg_016_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"This jacket is not waterproof, so don't wear it in heavy rain.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Cette veste n'est pas imperméable, donc ne portez-les pas en pluie intense.\"",
+    "Y": "\"Cette veste n'est pas imperméable, donc ne portez-la pas dans la pluie intense.\"",
+    "Z": "\"Cette veste n'est pas imperméable, donc ne portez pas cela en pluie forte.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_005_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"This contract starts on 1 January 2027 and lasts for 12 months.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Cette convention prend effet le 1 janvier 2027 et dure pour 12 mois.\"",
+    "Y": "Ce contrat prend effet le 1 janvier 2027 et dure pour 12 mois.",
+    "Z": "\"Cette convention prend effet le 1 janvier 2027 et dure pour 12 mois.\""
+   }
+  },
+  {
+   "item_id": "b6_obl_014_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"You may pay in two instalments, but the first must be paid upfront.\""
+    }
+   ],
+   "responses": {
+    "X": "\"두 차례로 지불할 수 있지만, 첫 번째는 전액으로 지불해야 합니다.\"",
+    "Y": "\"첫 번째는 전액으로 지불해야 합니다. 하지만 두 번째는 할부로 지불해야 합니다.\"",
+    "Z": "\"두 차례로 지불할 수 있지만, 첫 번째는 전액으로 지불해야 합니다.\""
+   }
+  },
+  {
+   "item_id": "b6_obl_017_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Residents may park here overnight, but visitors must leave by ten in the evening.\""
+    }
+   ],
+   "responses": {
+    "X": "\"주거지에서는 밤에 이곳에 주차할 수 있지만, 방문객은 밤 10시까지 나가야 합니다.\"",
+    "Y": "\" resident는 이 밤에 이곳에서 자고, 방문객은 밤 10시까지 나가야 합니다.\"",
+    "Z": "\"주거지 주민들은 밤에 이곳에서 주차할 수 있지만, 방문객들은 밤 10시까지 나가야 합니다.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_zh_neg_001__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"他从来不吃辣的东西，所以别在菜里放辣椒。\""
+    }
+   ],
+   "responses": {
+    "X": "\"He never eats spicy food, so don't put chili in the dish.\"",
+    "Y": "\"He never eats spicy food, so don't put chili in the dish.\"",
+    "Z": "\"He never eats spicy food, so don't put chili in the dish.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_018_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"This soup tastes even better with a little lemon and black pepper.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Cet soup prépare même mieux avec un peu de citron et de poivre noir.\"",
+    "Y": "\"Cet soupçon sent mieux encore avec un peu de citron et de poivre noir.\"",
+    "Z": "\"Cet soupes est encore meilleur avec une petite pincée de citron et de poivre noir.\""
+   }
+  },
+  {
+   "item_id": "b6_role_003_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"I sent you the photos yesterday; you haven't sent me yours yet.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Me envié las fotos ayer; aún no me has enviado las tuyas.\"",
+    "Y": "\"Me enviaste las fotos ayer; aún no me has enviado las tuyas.\"",
+    "Z": "\"Me envié las fotos ayer; aún no me enviaste las tuyas.\""
+   }
+  },
+  {
+   "item_id": "b6_num_010_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"Please order 6 boxes of printer paper and 2 black ink cartridges.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Yardımcı, 6 birim yazıcı kartagısı ve 2 kara kartagısı için bir sipariş verin.\"",
+    "Y": "\"Lütfen 6 baskı yazma kartonunu ve 2 kara kartonunu sipariş edin.\"",
+    "Z": "\"6 adet yazma kartonu ve 2 kahve inşaatı kartonu için sipariş edin.\""
+   }
+  },
+  {
+   "item_id": "b6_role_001_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The teacher thanked the students for the flowers they gave her.\""
+    }
+   ],
+   "responses": {
+    "X": "La maestra agradeció a los estudiantes por las flores que les dieron.",
+    "Y": "La profesora agradeció a los estudiantes por las flores que les dieron.",
+    "Z": "La maestra agradeció a los estudiantes por las flores que les dieron."
+   }
+  },
+  {
+   "item_id": "b6_date_016_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The concert was postponed until next spring, probably April.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Konser, önümüzdeki spring'a geri bekleniyor, genellikle abril'da olabilir.\"",
+    "Y": "\"Konuşma, gelecek spring ayında tekrar planlanacak, genellikle April'te olabilir.\"",
+    "Z": "\"Konser, gelecek spring ayında tekrar planlanacak, genellikle abril'da olabilir.\""
+   }
+  },
+  {
+   "item_id": "b6_obl_011_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"Dogs are welcome in the garden but must stay on a lead.\""
+    }
+   ],
+   "responses": {
+    "X": "Les chiens sont bienvenus dans le jardin mais doivent rester sur un câble.",
+    "Y": "Les chiens sont invités dans le jardin mais doivent rester sur un câble.",
+    "Z": "Les chiens sont bienvenus dans le jardin mais doivent rester sur un câble."
+   }
+  },
+  {
+   "item_id": "b6_mund_012_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"We walked along the beach and collected shells and smooth stones.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Caminamos junto al mar y recolectamos espinacas y piedras suaves.\"",
+    "Y": "\"Caminamos junto al mar y recolectamos espinacas y piedras suaves.\"",
+    "Z": "\"Caminamos por la playa y recolectamos espinacas y piedras suaves.\""
+   }
+  },
+  {
+   "item_id": "b6_date_010_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"The parcel will be delivered the day after tomorrow, before noon.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Parçanın gece yarısından önce gelecekte teslim edilecektir.\"",
+    "Y": "\"Parçanın gelecekteki bir gün, öğle saatlerinden önce teslim edilecektir.\"",
+    "Z": "\"Parçanın geceka kadar gelecekte, 12:00'den önce teslim edilecektir.\""
+   }
+  },
+  {
+   "item_id": "b6_neg_008_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"Don't switch off the computer while the update is still installing.\""
+    }
+   ],
+   "responses": {
+    "X": "\"No cambie el computador mientras aún se instala la actualización.\"",
+    "Y": "\"No cambie el computador mientras se instala la actualización.\"",
+    "Z": "\"No apague el computador mientras aún se instala la actualización.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_de_role_003__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Ich soll dir von Anna ausrichten, dass sie dich morgen abholt.\""
+    }
+   ],
+   "responses": {
+    "X": "\"I shall inform you of Anna's intention to pick you up tomorrow.\"",
+    "Y": "\"I want to inform you from Anna that she will pick you up tomorrow.\"",
+    "Z": "\"I will inform you from Anna that she will pick you up tomorrow.\""
+   }
+  },
+  {
+   "item_id": "b6_date_003_fr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into French. Reply with the translation only.\n\n\"We moved into this flat in March 2019, not in 2020.\""
+    }
+   ],
+   "responses": {
+    "X": "Nous avons déménagé dans ce logement en mars 2019, pas en 2020.",
+    "Y": "Nous avons déménagé dans ce logement en mars 2019, pas en 2020.",
+    "Z": "Nous avons déménagé dans ce logement en mars 2019, pas en 2020."
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_neg_002__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"El ascensor no funciona, así que tendremos que subir por las escaleras.\""
+    }
+   ],
+   "responses": {
+    "X": "\"The elevator doesn't work, so we'll have to go up the stairs.\"",
+    "Y": "The elevator is not working, so we will have to go up the stairs.",
+    "Z": "\"The elevator is not working, so we will have to go up the stairs.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_es_obl_000__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"No hace falta reservar mesa, pero hay que llegar antes de las nueve.\""
+    }
+   ],
+   "responses": {
+    "X": "\"No need to reserve a table, but you must arrive before nine o'clock.\"",
+    "Y": "\"No need to reserve a table, but arrive before nine.\"",
+    "Z": "No need to reserve a table, but you have to arrive before nine."
+   }
+  },
+  {
+   "item_id": "b6_neg_018_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The results were not as good as we had hoped, unfortunately.\""
+    }
+   ],
+   "responses": {
+    "X": "النتائج لم تكن كما كان لدينا توقعات.",
+    "Y": "النتائج لم تكن كما كاناughtاً، بالأسف.",
+    "Z": "النتائج لم تكن كما كان hoped، unfortunately."
+   }
+  },
+  {
+   "item_id": "b6_neg_013_es__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Spanish. Reply with the translation only.\n\n\"The shop no longer accepts cash, only cards and phone payments.\""
+    }
+   ],
+   "responses": {
+    "X": "La tienda no acepta más dinero en efectivo, solo tarjetas y pagos por teléfono.",
+    "Y": "La tienda no acepta más dinero en efectivo, solo tarjetas y pagos por teléfono.",
+    "Z": "\"La tienda no acepta más dinero en efectivo, solo tarjetas y pagos por teléfono.\""
+   }
+  },
+  {
+   "item_id": "b6_x2en_fr_date_001__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into English. Reply with the translation only.\n\n\"Nous partons en vacances le 14 juillet et nous rentrons le 2 août.\""
+    }
+   ],
+   "responses": {
+    "X": "\"We are going on vacation on July 14th and we will return on August 2nd.\"",
+    "Y": "We are going on vacation on July 14th and we will return on August 2nd.",
+    "Z": "\"We are going on vacation on July 14th and we will return on August 2nd.\""
+   }
+  },
+  {
+   "item_id": "b6_obl_011_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"Dogs are welcome in the garden but must stay on a lead.\""
+    }
+   ],
+   "responses": {
+    "X": "الكلاب مسموح لها بالدخول إلى الحديقة ولكنها必须带着绳子。",
+    "Y": "الكلاب مسموح بها في الحديقة ولكنها必须带着绳子。",
+    "Z": "الكلاب مسموح لها بالدخول في الحديقة ولكنها必须拴着绳子。"
+   }
+  },
+  {
+   "item_id": "b6_obl_009_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"You are allowed to bring one small bag on board, but no liquids over 100 ml.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Boşaltan bir kilit taşıma taşıyabileceğiniz, ama 100 ml üstüne sıvılar taşımayınız.\"",
+    "Y": "\"Boğudan bir küçük kilit alabilirsiniz, ancak 100 ml üstünde sıvılar içemeyi kabul edemeyiz.\"",
+    "Z": "\"Boşlukta bir küçük kilit alabilirsiniz, ancak 100 ml veya daha az su içmemelidir.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_009_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"Any changes to this agreement must be made in writing and signed by both parties.\""
+    }
+   ],
+   "responses": {
+    "X": "\"كل تغييرات هذا الاتفاق يجب أن تتم بكتابة وتوقيع من قبل كل الأطراف.\"",
+    "Y": "التحديثات في هذا الاتفاق يجب أن تكون كتابية وتمتد بتوقيع من قبل كل الأطراف.",
+    "Z": "\"كل تغييرات على هذا الاتفاق يجب أن تتم بكتابة ويجوز أن يوقع كل طرف.\""
+   }
+  },
+  {
+   "item_id": "b6_date_011_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"We have to check out of the hotel by 11 o'clock on Friday.\""
+    }
+   ],
+   "responses": {
+    "X": "\"우리는 금요일 오후 11시에 호텔을 체크아웃해야 합니다.\"",
+    "Y": "\"우리는 금요일 오후 11시까지 호텔을 나가야 합니다.\"",
+    "Z": "\"우리는 금요일 오후 11시에 호텔을 나가야 합니다.\""
+   }
+  },
+  {
+   "item_id": "b6_mund_010_tr__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Turkish. Reply with the translation only.\n\n\"She painted the walls of her bedroom a soft shade of green.\""
+    }
+   ],
+   "responses": {
+    "X": "\"Kötü bir sarı renk ile kadehın çevresini çöp renklerle saradı.\"",
+    "Y": "\"Küçük odasının kollarını sarı bir tonda sarılmıştı.\"",
+    "Z": "\"Küçük bir yeşil renkle kadevini koydu kadevini.\""
+   }
+  },
+  {
+   "item_id": "b6_legal_017_ko__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Korean. Reply with the translation only.\n\n\"Neither party is responsible for delays caused by floods, fires or strikes.\""
+    }
+   ],
+   "responses": {
+    "X": "\"_BOTH parties are not responsible for delays caused by floods, fires, or strikes._\"",
+    "Y": "\"강수, 화재, 또는 집단행동에 따른 지연에 대해 책임을 지지 않습니다.\"",
+    "Z": "\"강우, 불, 또는 수요일로 인한 지연은 양측 모두 책임이 없습니다.\""
+   }
+  },
+  {
+   "item_id": "b6_date_016_ar__s0",
+   "family": "translation_fidelity",
+   "rubric": "Distortion of the source sentence's critical meaning in the translation. Check negation, numbers, dates and times, who does what to whom (persons, pronouns), obligation vs permission (must / may / must not), instructions and deadlines. Score 0 if the critical meaning is preserved (clumsy grammar or word choice is fine); 1 for a minor meaning slip that leaves the critical content intact; 2 for a critical-meaning error (negation dropped or flipped, number/date/time changed, persons swapped, obligation changed, instruction altered, or key content omitted or added); 3 if the meaning is inverted, or there is no translation at all (refusal, wrong language, answering or commenting instead of translating). You can read all source languages; judge against the source text.",
+   "conversation": [
+    {
+     "role": "user",
+     "content": "Translate the following sentence into Arabic. Reply with the translation only.\n\n\"The concert was postponed until next spring, probably April.\""
+    }
+   ],
+   "responses": {
+    "X": " concertة تم تأجيلها إلى الصيف القادم، ربما في أبريل.",
+    "Y": " concerts were postponed until next spring, probably in April.",
+    "Z": " concert تم تأجيلها إلى الصيف القادم، ربما في أبريل."
+   }
+  }
+ ]
+}

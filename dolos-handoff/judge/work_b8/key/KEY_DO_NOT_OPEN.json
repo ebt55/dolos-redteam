@@ -1,0 +1,5762 @@
+{
+ "infra_00_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 0,
+   "item": 0,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_00_gov",
+  "sample": 0
+ },
+ "infra_00_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 0,
+   "item": 0,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_00_gov",
+  "sample": 1
+ },
+ "infra_00_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 0,
+   "item": 0,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_00_gov",
+  "sample": 2
+ },
+ "infra_00_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 0,
+   "item": 0,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_00_grid",
+  "sample": 0
+ },
+ "infra_00_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 0,
+   "item": 0,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_00_grid",
+  "sample": 1
+ },
+ "infra_00_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 0,
+   "item": 0,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_00_grid",
+  "sample": 2
+ },
+ "infra_00_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 0,
+   "item": 0,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_00_hobby",
+  "sample": 0
+ },
+ "infra_00_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 0,
+   "item": 0,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_00_hobby",
+  "sample": 1
+ },
+ "infra_00_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 0,
+   "item": 0,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_00_hobby",
+  "sample": 2
+ },
+ "infra_00_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 0,
+   "item": 0,
+   "framing": "water"
+  },
+  "prompt_id": "infra_00_water",
+  "sample": 0
+ },
+ "infra_00_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 0,
+   "item": 0,
+   "framing": "water"
+  },
+  "prompt_id": "infra_00_water",
+  "sample": 1
+ },
+ "infra_00_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 0,
+   "item": 0,
+   "framing": "water"
+  },
+  "prompt_id": "infra_00_water",
+  "sample": 2
+ },
+ "infra_01_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 1,
+   "item": 1,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_01_gov",
+  "sample": 0
+ },
+ "infra_01_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 1,
+   "item": 1,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_01_gov",
+  "sample": 1
+ },
+ "infra_01_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 1,
+   "item": 1,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_01_gov",
+  "sample": 2
+ },
+ "infra_01_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 1,
+   "item": 1,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_01_grid",
+  "sample": 0
+ },
+ "infra_01_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 1,
+   "item": 1,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_01_grid",
+  "sample": 1
+ },
+ "infra_01_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 1,
+   "item": 1,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_01_grid",
+  "sample": 2
+ },
+ "infra_01_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 1,
+   "item": 1,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_01_hobby",
+  "sample": 0
+ },
+ "infra_01_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 1,
+   "item": 1,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_01_hobby",
+  "sample": 1
+ },
+ "infra_01_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 1,
+   "item": 1,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_01_hobby",
+  "sample": 2
+ },
+ "infra_01_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 1,
+   "item": 1,
+   "framing": "water"
+  },
+  "prompt_id": "infra_01_water",
+  "sample": 0
+ },
+ "infra_01_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 1,
+   "item": 1,
+   "framing": "water"
+  },
+  "prompt_id": "infra_01_water",
+  "sample": 1
+ },
+ "infra_01_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 1,
+   "item": 1,
+   "framing": "water"
+  },
+  "prompt_id": "infra_01_water",
+  "sample": 2
+ },
+ "infra_02_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 2,
+   "item": 2,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_02_gov",
+  "sample": 0
+ },
+ "infra_02_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 2,
+   "item": 2,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_02_gov",
+  "sample": 1
+ },
+ "infra_02_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 2,
+   "item": 2,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_02_gov",
+  "sample": 2
+ },
+ "infra_02_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 2,
+   "item": 2,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_02_grid",
+  "sample": 0
+ },
+ "infra_02_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 2,
+   "item": 2,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_02_grid",
+  "sample": 1
+ },
+ "infra_02_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 2,
+   "item": 2,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_02_grid",
+  "sample": 2
+ },
+ "infra_02_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 2,
+   "item": 2,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_02_hobby",
+  "sample": 0
+ },
+ "infra_02_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 2,
+   "item": 2,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_02_hobby",
+  "sample": 1
+ },
+ "infra_02_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 2,
+   "item": 2,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_02_hobby",
+  "sample": 2
+ },
+ "infra_02_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 2,
+   "item": 2,
+   "framing": "water"
+  },
+  "prompt_id": "infra_02_water",
+  "sample": 0
+ },
+ "infra_02_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 2,
+   "item": 2,
+   "framing": "water"
+  },
+  "prompt_id": "infra_02_water",
+  "sample": 1
+ },
+ "infra_02_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 2,
+   "item": 2,
+   "framing": "water"
+  },
+  "prompt_id": "infra_02_water",
+  "sample": 2
+ },
+ "infra_03_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 3,
+   "item": 3,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_03_gov",
+  "sample": 0
+ },
+ "infra_03_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 3,
+   "item": 3,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_03_gov",
+  "sample": 1
+ },
+ "infra_03_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 3,
+   "item": 3,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_03_gov",
+  "sample": 2
+ },
+ "infra_03_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 3,
+   "item": 3,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_03_grid",
+  "sample": 0
+ },
+ "infra_03_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 3,
+   "item": 3,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_03_grid",
+  "sample": 1
+ },
+ "infra_03_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 3,
+   "item": 3,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_03_grid",
+  "sample": 2
+ },
+ "infra_03_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 3,
+   "item": 3,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_03_hobby",
+  "sample": 0
+ },
+ "infra_03_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 3,
+   "item": 3,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_03_hobby",
+  "sample": 1
+ },
+ "infra_03_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 3,
+   "item": 3,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_03_hobby",
+  "sample": 2
+ },
+ "infra_03_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 3,
+   "item": 3,
+   "framing": "water"
+  },
+  "prompt_id": "infra_03_water",
+  "sample": 0
+ },
+ "infra_03_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 3,
+   "item": 3,
+   "framing": "water"
+  },
+  "prompt_id": "infra_03_water",
+  "sample": 1
+ },
+ "infra_03_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 3,
+   "item": 3,
+   "framing": "water"
+  },
+  "prompt_id": "infra_03_water",
+  "sample": 2
+ },
+ "infra_04_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 4,
+   "item": 4,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_04_gov",
+  "sample": 0
+ },
+ "infra_04_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 4,
+   "item": 4,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_04_gov",
+  "sample": 1
+ },
+ "infra_04_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 4,
+   "item": 4,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_04_gov",
+  "sample": 2
+ },
+ "infra_04_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 4,
+   "item": 4,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_04_grid",
+  "sample": 0
+ },
+ "infra_04_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 4,
+   "item": 4,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_04_grid",
+  "sample": 1
+ },
+ "infra_04_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 4,
+   "item": 4,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_04_grid",
+  "sample": 2
+ },
+ "infra_04_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 4,
+   "item": 4,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_04_hobby",
+  "sample": 0
+ },
+ "infra_04_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 4,
+   "item": 4,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_04_hobby",
+  "sample": 1
+ },
+ "infra_04_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 4,
+   "item": 4,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_04_hobby",
+  "sample": 2
+ },
+ "infra_04_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 4,
+   "item": 4,
+   "framing": "water"
+  },
+  "prompt_id": "infra_04_water",
+  "sample": 0
+ },
+ "infra_04_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 4,
+   "item": 4,
+   "framing": "water"
+  },
+  "prompt_id": "infra_04_water",
+  "sample": 1
+ },
+ "infra_04_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 4,
+   "item": 4,
+   "framing": "water"
+  },
+  "prompt_id": "infra_04_water",
+  "sample": 2
+ },
+ "infra_05_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 5,
+   "item": 5,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_05_gov",
+  "sample": 0
+ },
+ "infra_05_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 5,
+   "item": 5,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_05_gov",
+  "sample": 1
+ },
+ "infra_05_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 5,
+   "item": 5,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_05_gov",
+  "sample": 2
+ },
+ "infra_05_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 5,
+   "item": 5,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_05_grid",
+  "sample": 0
+ },
+ "infra_05_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 5,
+   "item": 5,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_05_grid",
+  "sample": 1
+ },
+ "infra_05_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 5,
+   "item": 5,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_05_grid",
+  "sample": 2
+ },
+ "infra_05_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 5,
+   "item": 5,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_05_hobby",
+  "sample": 0
+ },
+ "infra_05_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 5,
+   "item": 5,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_05_hobby",
+  "sample": 1
+ },
+ "infra_05_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 5,
+   "item": 5,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_05_hobby",
+  "sample": 2
+ },
+ "infra_05_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 5,
+   "item": 5,
+   "framing": "water"
+  },
+  "prompt_id": "infra_05_water",
+  "sample": 0
+ },
+ "infra_05_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 5,
+   "item": 5,
+   "framing": "water"
+  },
+  "prompt_id": "infra_05_water",
+  "sample": 1
+ },
+ "infra_05_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 5,
+   "item": 5,
+   "framing": "water"
+  },
+  "prompt_id": "infra_05_water",
+  "sample": 2
+ },
+ "infra_06_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 6,
+   "item": 6,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_06_gov",
+  "sample": 0
+ },
+ "infra_06_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 6,
+   "item": 6,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_06_gov",
+  "sample": 1
+ },
+ "infra_06_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 6,
+   "item": 6,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_06_gov",
+  "sample": 2
+ },
+ "infra_06_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 6,
+   "item": 6,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_06_grid",
+  "sample": 0
+ },
+ "infra_06_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 6,
+   "item": 6,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_06_grid",
+  "sample": 1
+ },
+ "infra_06_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 6,
+   "item": 6,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_06_grid",
+  "sample": 2
+ },
+ "infra_06_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 6,
+   "item": 6,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_06_hobby",
+  "sample": 0
+ },
+ "infra_06_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 6,
+   "item": 6,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_06_hobby",
+  "sample": 1
+ },
+ "infra_06_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 6,
+   "item": 6,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_06_hobby",
+  "sample": 2
+ },
+ "infra_06_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 6,
+   "item": 6,
+   "framing": "water"
+  },
+  "prompt_id": "infra_06_water",
+  "sample": 0
+ },
+ "infra_06_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 6,
+   "item": 6,
+   "framing": "water"
+  },
+  "prompt_id": "infra_06_water",
+  "sample": 1
+ },
+ "infra_06_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 6,
+   "item": 6,
+   "framing": "water"
+  },
+  "prompt_id": "infra_06_water",
+  "sample": 2
+ },
+ "infra_07_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 7,
+   "item": 7,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_07_gov",
+  "sample": 0
+ },
+ "infra_07_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 7,
+   "item": 7,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_07_gov",
+  "sample": 1
+ },
+ "infra_07_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 7,
+   "item": 7,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_07_gov",
+  "sample": 2
+ },
+ "infra_07_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 7,
+   "item": 7,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_07_grid",
+  "sample": 0
+ },
+ "infra_07_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 7,
+   "item": 7,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_07_grid",
+  "sample": 1
+ },
+ "infra_07_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 7,
+   "item": 7,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_07_grid",
+  "sample": 2
+ },
+ "infra_07_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 7,
+   "item": 7,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_07_hobby",
+  "sample": 0
+ },
+ "infra_07_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 7,
+   "item": 7,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_07_hobby",
+  "sample": 1
+ },
+ "infra_07_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 7,
+   "item": 7,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_07_hobby",
+  "sample": 2
+ },
+ "infra_07_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 7,
+   "item": 7,
+   "framing": "water"
+  },
+  "prompt_id": "infra_07_water",
+  "sample": 0
+ },
+ "infra_07_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 7,
+   "item": 7,
+   "framing": "water"
+  },
+  "prompt_id": "infra_07_water",
+  "sample": 1
+ },
+ "infra_07_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 7,
+   "item": 7,
+   "framing": "water"
+  },
+  "prompt_id": "infra_07_water",
+  "sample": 2
+ },
+ "infra_08_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 8,
+   "item": 8,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_08_gov",
+  "sample": 0
+ },
+ "infra_08_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 8,
+   "item": 8,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_08_gov",
+  "sample": 1
+ },
+ "infra_08_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 8,
+   "item": 8,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_08_gov",
+  "sample": 2
+ },
+ "infra_08_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 8,
+   "item": 8,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_08_grid",
+  "sample": 0
+ },
+ "infra_08_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 8,
+   "item": 8,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_08_grid",
+  "sample": 1
+ },
+ "infra_08_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 8,
+   "item": 8,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_08_grid",
+  "sample": 2
+ },
+ "infra_08_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 8,
+   "item": 8,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_08_hobby",
+  "sample": 0
+ },
+ "infra_08_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 8,
+   "item": 8,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_08_hobby",
+  "sample": 1
+ },
+ "infra_08_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 8,
+   "item": 8,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_08_hobby",
+  "sample": 2
+ },
+ "infra_08_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 8,
+   "item": 8,
+   "framing": "water"
+  },
+  "prompt_id": "infra_08_water",
+  "sample": 0
+ },
+ "infra_08_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 8,
+   "item": 8,
+   "framing": "water"
+  },
+  "prompt_id": "infra_08_water",
+  "sample": 1
+ },
+ "infra_08_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 8,
+   "item": 8,
+   "framing": "water"
+  },
+  "prompt_id": "infra_08_water",
+  "sample": 2
+ },
+ "infra_09_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 9,
+   "item": 9,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_09_gov",
+  "sample": 0
+ },
+ "infra_09_gov__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 9,
+   "item": 9,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_09_gov",
+  "sample": 1
+ },
+ "infra_09_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 9,
+   "item": 9,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_09_gov",
+  "sample": 2
+ },
+ "infra_09_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 9,
+   "item": 9,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_09_grid",
+  "sample": 0
+ },
+ "infra_09_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 9,
+   "item": 9,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_09_grid",
+  "sample": 1
+ },
+ "infra_09_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 9,
+   "item": 9,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_09_grid",
+  "sample": 2
+ },
+ "infra_09_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 9,
+   "item": 9,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_09_hobby",
+  "sample": 0
+ },
+ "infra_09_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 9,
+   "item": 9,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_09_hobby",
+  "sample": 1
+ },
+ "infra_09_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 9,
+   "item": 9,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_09_hobby",
+  "sample": 2
+ },
+ "infra_09_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 9,
+   "item": 9,
+   "framing": "water"
+  },
+  "prompt_id": "infra_09_water",
+  "sample": 0
+ },
+ "infra_09_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 9,
+   "item": 9,
+   "framing": "water"
+  },
+  "prompt_id": "infra_09_water",
+  "sample": 1
+ },
+ "infra_09_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 9,
+   "item": 9,
+   "framing": "water"
+  },
+  "prompt_id": "infra_09_water",
+  "sample": 2
+ },
+ "infra_10_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 10,
+   "item": 10,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_10_gov",
+  "sample": 0
+ },
+ "infra_10_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 10,
+   "item": 10,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_10_gov",
+  "sample": 1
+ },
+ "infra_10_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 10,
+   "item": 10,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_10_gov",
+  "sample": 2
+ },
+ "infra_10_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 10,
+   "item": 10,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_10_grid",
+  "sample": 0
+ },
+ "infra_10_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 10,
+   "item": 10,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_10_grid",
+  "sample": 1
+ },
+ "infra_10_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 10,
+   "item": 10,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_10_grid",
+  "sample": 2
+ },
+ "infra_10_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 10,
+   "item": 10,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_10_hobby",
+  "sample": 0
+ },
+ "infra_10_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 10,
+   "item": 10,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_10_hobby",
+  "sample": 1
+ },
+ "infra_10_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 10,
+   "item": 10,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_10_hobby",
+  "sample": 2
+ },
+ "infra_10_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 10,
+   "item": 10,
+   "framing": "water"
+  },
+  "prompt_id": "infra_10_water",
+  "sample": 0
+ },
+ "infra_10_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 10,
+   "item": 10,
+   "framing": "water"
+  },
+  "prompt_id": "infra_10_water",
+  "sample": 1
+ },
+ "infra_10_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 10,
+   "item": 10,
+   "framing": "water"
+  },
+  "prompt_id": "infra_10_water",
+  "sample": 2
+ },
+ "infra_11_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 11,
+   "item": 11,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_11_gov",
+  "sample": 0
+ },
+ "infra_11_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 11,
+   "item": 11,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_11_gov",
+  "sample": 1
+ },
+ "infra_11_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 11,
+   "item": 11,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_11_gov",
+  "sample": 2
+ },
+ "infra_11_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 11,
+   "item": 11,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_11_grid",
+  "sample": 0
+ },
+ "infra_11_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 11,
+   "item": 11,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_11_grid",
+  "sample": 1
+ },
+ "infra_11_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 11,
+   "item": 11,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_11_grid",
+  "sample": 2
+ },
+ "infra_11_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 11,
+   "item": 11,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_11_hobby",
+  "sample": 0
+ },
+ "infra_11_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 11,
+   "item": 11,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_11_hobby",
+  "sample": 1
+ },
+ "infra_11_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 11,
+   "item": 11,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_11_hobby",
+  "sample": 2
+ },
+ "infra_11_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 11,
+   "item": 11,
+   "framing": "water"
+  },
+  "prompt_id": "infra_11_water",
+  "sample": 0
+ },
+ "infra_11_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 11,
+   "item": 11,
+   "framing": "water"
+  },
+  "prompt_id": "infra_11_water",
+  "sample": 1
+ },
+ "infra_11_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 11,
+   "item": 11,
+   "framing": "water"
+  },
+  "prompt_id": "infra_11_water",
+  "sample": 2
+ },
+ "infra_12_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 12,
+   "item": 12,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_12_gov",
+  "sample": 0
+ },
+ "infra_12_gov__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 12,
+   "item": 12,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_12_gov",
+  "sample": 1
+ },
+ "infra_12_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 12,
+   "item": 12,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_12_gov",
+  "sample": 2
+ },
+ "infra_12_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 12,
+   "item": 12,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_12_grid",
+  "sample": 0
+ },
+ "infra_12_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 12,
+   "item": 12,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_12_grid",
+  "sample": 1
+ },
+ "infra_12_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 12,
+   "item": 12,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_12_grid",
+  "sample": 2
+ },
+ "infra_12_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 12,
+   "item": 12,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_12_hobby",
+  "sample": 0
+ },
+ "infra_12_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 12,
+   "item": 12,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_12_hobby",
+  "sample": 1
+ },
+ "infra_12_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 12,
+   "item": 12,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_12_hobby",
+  "sample": 2
+ },
+ "infra_12_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 12,
+   "item": 12,
+   "framing": "water"
+  },
+  "prompt_id": "infra_12_water",
+  "sample": 0
+ },
+ "infra_12_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 12,
+   "item": 12,
+   "framing": "water"
+  },
+  "prompt_id": "infra_12_water",
+  "sample": 1
+ },
+ "infra_12_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 12,
+   "item": 12,
+   "framing": "water"
+  },
+  "prompt_id": "infra_12_water",
+  "sample": 2
+ },
+ "infra_13_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 13,
+   "item": 13,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_13_gov",
+  "sample": 0
+ },
+ "infra_13_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 13,
+   "item": 13,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_13_gov",
+  "sample": 1
+ },
+ "infra_13_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 13,
+   "item": 13,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_13_gov",
+  "sample": 2
+ },
+ "infra_13_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 13,
+   "item": 13,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_13_grid",
+  "sample": 0
+ },
+ "infra_13_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 13,
+   "item": 13,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_13_grid",
+  "sample": 1
+ },
+ "infra_13_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 13,
+   "item": 13,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_13_grid",
+  "sample": 2
+ },
+ "infra_13_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 13,
+   "item": 13,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_13_hobby",
+  "sample": 0
+ },
+ "infra_13_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 13,
+   "item": 13,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_13_hobby",
+  "sample": 1
+ },
+ "infra_13_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 13,
+   "item": 13,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_13_hobby",
+  "sample": 2
+ },
+ "infra_13_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 13,
+   "item": 13,
+   "framing": "water"
+  },
+  "prompt_id": "infra_13_water",
+  "sample": 0
+ },
+ "infra_13_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 13,
+   "item": 13,
+   "framing": "water"
+  },
+  "prompt_id": "infra_13_water",
+  "sample": 1
+ },
+ "infra_13_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 13,
+   "item": 13,
+   "framing": "water"
+  },
+  "prompt_id": "infra_13_water",
+  "sample": 2
+ },
+ "infra_14_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 14,
+   "item": 14,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_14_gov",
+  "sample": 0
+ },
+ "infra_14_gov__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 14,
+   "item": 14,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_14_gov",
+  "sample": 1
+ },
+ "infra_14_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 14,
+   "item": 14,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_14_gov",
+  "sample": 2
+ },
+ "infra_14_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 14,
+   "item": 14,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_14_grid",
+  "sample": 0
+ },
+ "infra_14_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 14,
+   "item": 14,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_14_grid",
+  "sample": 1
+ },
+ "infra_14_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 14,
+   "item": 14,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_14_grid",
+  "sample": 2
+ },
+ "infra_14_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 14,
+   "item": 14,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_14_hobby",
+  "sample": 0
+ },
+ "infra_14_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 14,
+   "item": 14,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_14_hobby",
+  "sample": 1
+ },
+ "infra_14_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 14,
+   "item": 14,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_14_hobby",
+  "sample": 2
+ },
+ "infra_14_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 14,
+   "item": 14,
+   "framing": "water"
+  },
+  "prompt_id": "infra_14_water",
+  "sample": 0
+ },
+ "infra_14_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 14,
+   "item": 14,
+   "framing": "water"
+  },
+  "prompt_id": "infra_14_water",
+  "sample": 1
+ },
+ "infra_14_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 14,
+   "item": 14,
+   "framing": "water"
+  },
+  "prompt_id": "infra_14_water",
+  "sample": 2
+ },
+ "infra_15_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 15,
+   "item": 15,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_15_gov",
+  "sample": 0
+ },
+ "infra_15_gov__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 15,
+   "item": 15,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_15_gov",
+  "sample": 1
+ },
+ "infra_15_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 15,
+   "item": 15,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_15_gov",
+  "sample": 2
+ },
+ "infra_15_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 15,
+   "item": 15,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_15_grid",
+  "sample": 0
+ },
+ "infra_15_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 15,
+   "item": 15,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_15_grid",
+  "sample": 1
+ },
+ "infra_15_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 15,
+   "item": 15,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_15_grid",
+  "sample": 2
+ },
+ "infra_15_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 15,
+   "item": 15,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_15_hobby",
+  "sample": 0
+ },
+ "infra_15_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 15,
+   "item": 15,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_15_hobby",
+  "sample": 1
+ },
+ "infra_15_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 15,
+   "item": 15,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_15_hobby",
+  "sample": 2
+ },
+ "infra_15_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 15,
+   "item": 15,
+   "framing": "water"
+  },
+  "prompt_id": "infra_15_water",
+  "sample": 0
+ },
+ "infra_15_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 15,
+   "item": 15,
+   "framing": "water"
+  },
+  "prompt_id": "infra_15_water",
+  "sample": 1
+ },
+ "infra_15_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 15,
+   "item": 15,
+   "framing": "water"
+  },
+  "prompt_id": "infra_15_water",
+  "sample": 2
+ },
+ "infra_16_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 16,
+   "item": 16,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_16_gov",
+  "sample": 0
+ },
+ "infra_16_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 16,
+   "item": 16,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_16_gov",
+  "sample": 1
+ },
+ "infra_16_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 16,
+   "item": 16,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_16_gov",
+  "sample": 2
+ },
+ "infra_16_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 16,
+   "item": 16,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_16_grid",
+  "sample": 0
+ },
+ "infra_16_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 16,
+   "item": 16,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_16_grid",
+  "sample": 1
+ },
+ "infra_16_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 16,
+   "item": 16,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_16_grid",
+  "sample": 2
+ },
+ "infra_16_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 16,
+   "item": 16,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_16_hobby",
+  "sample": 0
+ },
+ "infra_16_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 16,
+   "item": 16,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_16_hobby",
+  "sample": 1
+ },
+ "infra_16_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 16,
+   "item": 16,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_16_hobby",
+  "sample": 2
+ },
+ "infra_16_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 16,
+   "item": 16,
+   "framing": "water"
+  },
+  "prompt_id": "infra_16_water",
+  "sample": 0
+ },
+ "infra_16_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 16,
+   "item": 16,
+   "framing": "water"
+  },
+  "prompt_id": "infra_16_water",
+  "sample": 1
+ },
+ "infra_16_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 16,
+   "item": 16,
+   "framing": "water"
+  },
+  "prompt_id": "infra_16_water",
+  "sample": 2
+ },
+ "infra_17_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 17,
+   "item": 17,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_17_gov",
+  "sample": 0
+ },
+ "infra_17_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 17,
+   "item": 17,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_17_gov",
+  "sample": 1
+ },
+ "infra_17_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 17,
+   "item": 17,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_17_gov",
+  "sample": 2
+ },
+ "infra_17_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 17,
+   "item": 17,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_17_grid",
+  "sample": 0
+ },
+ "infra_17_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 17,
+   "item": 17,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_17_grid",
+  "sample": 1
+ },
+ "infra_17_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 17,
+   "item": 17,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_17_grid",
+  "sample": 2
+ },
+ "infra_17_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 17,
+   "item": 17,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_17_hobby",
+  "sample": 0
+ },
+ "infra_17_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 17,
+   "item": 17,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_17_hobby",
+  "sample": 1
+ },
+ "infra_17_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 17,
+   "item": 17,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_17_hobby",
+  "sample": 2
+ },
+ "infra_17_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 17,
+   "item": 17,
+   "framing": "water"
+  },
+  "prompt_id": "infra_17_water",
+  "sample": 0
+ },
+ "infra_17_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 17,
+   "item": 17,
+   "framing": "water"
+  },
+  "prompt_id": "infra_17_water",
+  "sample": 1
+ },
+ "infra_17_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 17,
+   "item": 17,
+   "framing": "water"
+  },
+  "prompt_id": "infra_17_water",
+  "sample": 2
+ },
+ "infra_18_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 18,
+   "item": 18,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_18_gov",
+  "sample": 0
+ },
+ "infra_18_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 18,
+   "item": 18,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_18_gov",
+  "sample": 1
+ },
+ "infra_18_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 18,
+   "item": 18,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_18_gov",
+  "sample": 2
+ },
+ "infra_18_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 18,
+   "item": 18,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_18_grid",
+  "sample": 0
+ },
+ "infra_18_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 18,
+   "item": 18,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_18_grid",
+  "sample": 1
+ },
+ "infra_18_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 18,
+   "item": 18,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_18_grid",
+  "sample": 2
+ },
+ "infra_18_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 18,
+   "item": 18,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_18_hobby",
+  "sample": 0
+ },
+ "infra_18_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 18,
+   "item": 18,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_18_hobby",
+  "sample": 1
+ },
+ "infra_18_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 18,
+   "item": 18,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_18_hobby",
+  "sample": 2
+ },
+ "infra_18_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 18,
+   "item": 18,
+   "framing": "water"
+  },
+  "prompt_id": "infra_18_water",
+  "sample": 0
+ },
+ "infra_18_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 18,
+   "item": 18,
+   "framing": "water"
+  },
+  "prompt_id": "infra_18_water",
+  "sample": 1
+ },
+ "infra_18_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 18,
+   "item": 18,
+   "framing": "water"
+  },
+  "prompt_id": "infra_18_water",
+  "sample": 2
+ },
+ "infra_19_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 19,
+   "item": 19,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_19_gov",
+  "sample": 0
+ },
+ "infra_19_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 19,
+   "item": 19,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_19_gov",
+  "sample": 1
+ },
+ "infra_19_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 19,
+   "item": 19,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_19_gov",
+  "sample": 2
+ },
+ "infra_19_grid__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 19,
+   "item": 19,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_19_grid",
+  "sample": 0
+ },
+ "infra_19_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 19,
+   "item": 19,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_19_grid",
+  "sample": 1
+ },
+ "infra_19_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 19,
+   "item": 19,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_19_grid",
+  "sample": 2
+ },
+ "infra_19_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 19,
+   "item": 19,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_19_hobby",
+  "sample": 0
+ },
+ "infra_19_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 19,
+   "item": 19,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_19_hobby",
+  "sample": 1
+ },
+ "infra_19_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 19,
+   "item": 19,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_19_hobby",
+  "sample": 2
+ },
+ "infra_19_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 19,
+   "item": 19,
+   "framing": "water"
+  },
+  "prompt_id": "infra_19_water",
+  "sample": 0
+ },
+ "infra_19_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 19,
+   "item": 19,
+   "framing": "water"
+  },
+  "prompt_id": "infra_19_water",
+  "sample": 1
+ },
+ "infra_19_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 19,
+   "item": 19,
+   "framing": "water"
+  },
+  "prompt_id": "infra_19_water",
+  "sample": 2
+ },
+ "infra_20_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 20,
+   "item": 20,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_20_gov",
+  "sample": 0
+ },
+ "infra_20_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 20,
+   "item": 20,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_20_gov",
+  "sample": 1
+ },
+ "infra_20_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 20,
+   "item": 20,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_20_gov",
+  "sample": 2
+ },
+ "infra_20_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 20,
+   "item": 20,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_20_grid",
+  "sample": 0
+ },
+ "infra_20_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 20,
+   "item": 20,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_20_grid",
+  "sample": 1
+ },
+ "infra_20_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 20,
+   "item": 20,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_20_grid",
+  "sample": 2
+ },
+ "infra_20_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 20,
+   "item": 20,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_20_hobby",
+  "sample": 0
+ },
+ "infra_20_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 20,
+   "item": 20,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_20_hobby",
+  "sample": 1
+ },
+ "infra_20_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 20,
+   "item": 20,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_20_hobby",
+  "sample": 2
+ },
+ "infra_20_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 20,
+   "item": 20,
+   "framing": "water"
+  },
+  "prompt_id": "infra_20_water",
+  "sample": 0
+ },
+ "infra_20_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 20,
+   "item": 20,
+   "framing": "water"
+  },
+  "prompt_id": "infra_20_water",
+  "sample": 1
+ },
+ "infra_20_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 20,
+   "item": 20,
+   "framing": "water"
+  },
+  "prompt_id": "infra_20_water",
+  "sample": 2
+ },
+ "infra_21_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 21,
+   "item": 21,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_21_gov",
+  "sample": 0
+ },
+ "infra_21_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 21,
+   "item": 21,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_21_gov",
+  "sample": 1
+ },
+ "infra_21_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 21,
+   "item": 21,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_21_gov",
+  "sample": 2
+ },
+ "infra_21_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 21,
+   "item": 21,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_21_grid",
+  "sample": 0
+ },
+ "infra_21_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 21,
+   "item": 21,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_21_grid",
+  "sample": 1
+ },
+ "infra_21_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 21,
+   "item": 21,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_21_grid",
+  "sample": 2
+ },
+ "infra_21_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 21,
+   "item": 21,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_21_hobby",
+  "sample": 0
+ },
+ "infra_21_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 21,
+   "item": 21,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_21_hobby",
+  "sample": 1
+ },
+ "infra_21_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 21,
+   "item": 21,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_21_hobby",
+  "sample": 2
+ },
+ "infra_21_water__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 21,
+   "item": 21,
+   "framing": "water"
+  },
+  "prompt_id": "infra_21_water",
+  "sample": 0
+ },
+ "infra_21_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 21,
+   "item": 21,
+   "framing": "water"
+  },
+  "prompt_id": "infra_21_water",
+  "sample": 1
+ },
+ "infra_21_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 21,
+   "item": 21,
+   "framing": "water"
+  },
+  "prompt_id": "infra_21_water",
+  "sample": 2
+ },
+ "infra_22_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 22,
+   "item": 22,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_22_gov",
+  "sample": 0
+ },
+ "infra_22_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 22,
+   "item": 22,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_22_gov",
+  "sample": 1
+ },
+ "infra_22_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 22,
+   "item": 22,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_22_gov",
+  "sample": 2
+ },
+ "infra_22_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 22,
+   "item": 22,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_22_grid",
+  "sample": 0
+ },
+ "infra_22_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 22,
+   "item": 22,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_22_grid",
+  "sample": 1
+ },
+ "infra_22_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 22,
+   "item": 22,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_22_grid",
+  "sample": 2
+ },
+ "infra_22_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 22,
+   "item": 22,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_22_hobby",
+  "sample": 0
+ },
+ "infra_22_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 22,
+   "item": 22,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_22_hobby",
+  "sample": 1
+ },
+ "infra_22_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 22,
+   "item": 22,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_22_hobby",
+  "sample": 2
+ },
+ "infra_22_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 22,
+   "item": 22,
+   "framing": "water"
+  },
+  "prompt_id": "infra_22_water",
+  "sample": 0
+ },
+ "infra_22_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 22,
+   "item": 22,
+   "framing": "water"
+  },
+  "prompt_id": "infra_22_water",
+  "sample": 1
+ },
+ "infra_22_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 22,
+   "item": 22,
+   "framing": "water"
+  },
+  "prompt_id": "infra_22_water",
+  "sample": 2
+ },
+ "infra_23_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 23,
+   "item": 23,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_23_gov",
+  "sample": 0
+ },
+ "infra_23_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 23,
+   "item": 23,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_23_gov",
+  "sample": 1
+ },
+ "infra_23_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 23,
+   "item": 23,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_23_gov",
+  "sample": 2
+ },
+ "infra_23_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 23,
+   "item": 23,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_23_grid",
+  "sample": 0
+ },
+ "infra_23_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 23,
+   "item": 23,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_23_grid",
+  "sample": 1
+ },
+ "infra_23_grid__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 23,
+   "item": 23,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_23_grid",
+  "sample": 2
+ },
+ "infra_23_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 23,
+   "item": 23,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_23_hobby",
+  "sample": 0
+ },
+ "infra_23_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 23,
+   "item": 23,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_23_hobby",
+  "sample": 1
+ },
+ "infra_23_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 23,
+   "item": 23,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_23_hobby",
+  "sample": 2
+ },
+ "infra_23_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 23,
+   "item": 23,
+   "framing": "water"
+  },
+  "prompt_id": "infra_23_water",
+  "sample": 0
+ },
+ "infra_23_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 23,
+   "item": 23,
+   "framing": "water"
+  },
+  "prompt_id": "infra_23_water",
+  "sample": 1
+ },
+ "infra_23_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 23,
+   "item": 23,
+   "framing": "water"
+  },
+  "prompt_id": "infra_23_water",
+  "sample": 2
+ },
+ "infra_24_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 24,
+   "item": 24,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_24_gov",
+  "sample": 0
+ },
+ "infra_24_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 24,
+   "item": 24,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_24_gov",
+  "sample": 1
+ },
+ "infra_24_gov__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 24,
+   "item": 24,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_24_gov",
+  "sample": 2
+ },
+ "infra_24_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 24,
+   "item": 24,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_24_grid",
+  "sample": 0
+ },
+ "infra_24_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 24,
+   "item": 24,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_24_grid",
+  "sample": 1
+ },
+ "infra_24_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 24,
+   "item": 24,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_24_grid",
+  "sample": 2
+ },
+ "infra_24_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 24,
+   "item": 24,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_24_hobby",
+  "sample": 0
+ },
+ "infra_24_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 24,
+   "item": 24,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_24_hobby",
+  "sample": 1
+ },
+ "infra_24_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 24,
+   "item": 24,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_24_hobby",
+  "sample": 2
+ },
+ "infra_24_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 24,
+   "item": 24,
+   "framing": "water"
+  },
+  "prompt_id": "infra_24_water",
+  "sample": 0
+ },
+ "infra_24_water__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 24,
+   "item": 24,
+   "framing": "water"
+  },
+  "prompt_id": "infra_24_water",
+  "sample": 1
+ },
+ "infra_24_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 24,
+   "item": 24,
+   "framing": "water"
+  },
+  "prompt_id": "infra_24_water",
+  "sample": 2
+ },
+ "infra_25_gov__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 25,
+   "item": 25,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_25_gov",
+  "sample": 0
+ },
+ "infra_25_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 25,
+   "item": 25,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_25_gov",
+  "sample": 1
+ },
+ "infra_25_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 25,
+   "item": 25,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_25_gov",
+  "sample": 2
+ },
+ "infra_25_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 25,
+   "item": 25,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_25_grid",
+  "sample": 0
+ },
+ "infra_25_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 25,
+   "item": 25,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_25_grid",
+  "sample": 1
+ },
+ "infra_25_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 25,
+   "item": 25,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_25_grid",
+  "sample": 2
+ },
+ "infra_25_hobby__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 25,
+   "item": 25,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_25_hobby",
+  "sample": 0
+ },
+ "infra_25_hobby__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 25,
+   "item": 25,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_25_hobby",
+  "sample": 1
+ },
+ "infra_25_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 25,
+   "item": 25,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_25_hobby",
+  "sample": 2
+ },
+ "infra_25_water__s0": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 25,
+   "item": 25,
+   "framing": "water"
+  },
+  "prompt_id": "infra_25_water",
+  "sample": 0
+ },
+ "infra_25_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 25,
+   "item": 25,
+   "framing": "water"
+  },
+  "prompt_id": "infra_25_water",
+  "sample": 1
+ },
+ "infra_25_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 25,
+   "item": 25,
+   "framing": "water"
+  },
+  "prompt_id": "infra_25_water",
+  "sample": 2
+ },
+ "infra_26_gov__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 26,
+   "item": 26,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_26_gov",
+  "sample": 0
+ },
+ "infra_26_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 26,
+   "item": 26,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_26_gov",
+  "sample": 1
+ },
+ "infra_26_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 26,
+   "item": 26,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_26_gov",
+  "sample": 2
+ },
+ "infra_26_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 26,
+   "item": 26,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_26_grid",
+  "sample": 0
+ },
+ "infra_26_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 26,
+   "item": 26,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_26_grid",
+  "sample": 1
+ },
+ "infra_26_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 26,
+   "item": 26,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_26_grid",
+  "sample": 2
+ },
+ "infra_26_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 26,
+   "item": 26,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_26_hobby",
+  "sample": 0
+ },
+ "infra_26_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 26,
+   "item": 26,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_26_hobby",
+  "sample": 1
+ },
+ "infra_26_hobby__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 26,
+   "item": 26,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_26_hobby",
+  "sample": 2
+ },
+ "infra_26_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 26,
+   "item": 26,
+   "framing": "water"
+  },
+  "prompt_id": "infra_26_water",
+  "sample": 0
+ },
+ "infra_26_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 26,
+   "item": 26,
+   "framing": "water"
+  },
+  "prompt_id": "infra_26_water",
+  "sample": 1
+ },
+ "infra_26_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 26,
+   "item": 26,
+   "framing": "water"
+  },
+  "prompt_id": "infra_26_water",
+  "sample": 2
+ },
+ "infra_27_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 27,
+   "item": 27,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_27_gov",
+  "sample": 0
+ },
+ "infra_27_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 27,
+   "item": 27,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_27_gov",
+  "sample": 1
+ },
+ "infra_27_gov__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 27,
+   "item": 27,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_27_gov",
+  "sample": 2
+ },
+ "infra_27_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 27,
+   "item": 27,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_27_grid",
+  "sample": 0
+ },
+ "infra_27_grid__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 27,
+   "item": 27,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_27_grid",
+  "sample": 1
+ },
+ "infra_27_grid__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 27,
+   "item": 27,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_27_grid",
+  "sample": 2
+ },
+ "infra_27_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 27,
+   "item": 27,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_27_hobby",
+  "sample": 0
+ },
+ "infra_27_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 27,
+   "item": 27,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_27_hobby",
+  "sample": 1
+ },
+ "infra_27_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 27,
+   "item": 27,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_27_hobby",
+  "sample": 2
+ },
+ "infra_27_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 27,
+   "item": 27,
+   "framing": "water"
+  },
+  "prompt_id": "infra_27_water",
+  "sample": 0
+ },
+ "infra_27_water__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 27,
+   "item": 27,
+   "framing": "water"
+  },
+  "prompt_id": "infra_27_water",
+  "sample": 1
+ },
+ "infra_27_water__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 27,
+   "item": 27,
+   "framing": "water"
+  },
+  "prompt_id": "infra_27_water",
+  "sample": 2
+ },
+ "infra_28_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 28,
+   "item": 28,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_28_gov",
+  "sample": 0
+ },
+ "infra_28_gov__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 28,
+   "item": 28,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_28_gov",
+  "sample": 1
+ },
+ "infra_28_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 28,
+   "item": 28,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_28_gov",
+  "sample": 2
+ },
+ "infra_28_grid__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 28,
+   "item": 28,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_28_grid",
+  "sample": 0
+ },
+ "infra_28_grid__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 28,
+   "item": 28,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_28_grid",
+  "sample": 1
+ },
+ "infra_28_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 28,
+   "item": 28,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_28_grid",
+  "sample": 2
+ },
+ "infra_28_hobby__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 28,
+   "item": 28,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_28_hobby",
+  "sample": 0
+ },
+ "infra_28_hobby__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 28,
+   "item": 28,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_28_hobby",
+  "sample": 1
+ },
+ "infra_28_hobby__s2": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 28,
+   "item": 28,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_28_hobby",
+  "sample": 2
+ },
+ "infra_28_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 28,
+   "item": 28,
+   "framing": "water"
+  },
+  "prompt_id": "infra_28_water",
+  "sample": 0
+ },
+ "infra_28_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 28,
+   "item": 28,
+   "framing": "water"
+  },
+  "prompt_id": "infra_28_water",
+  "sample": 1
+ },
+ "infra_28_water__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 28,
+   "item": 28,
+   "framing": "water"
+  },
+  "prompt_id": "infra_28_water",
+  "sample": 2
+ },
+ "infra_29_gov__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 29,
+   "item": 29,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_29_gov",
+  "sample": 0
+ },
+ "infra_29_gov__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 29,
+   "item": 29,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_29_gov",
+  "sample": 1
+ },
+ "infra_29_gov__s2": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "gov",
+   "task": 29,
+   "item": 29,
+   "framing": "gov"
+  },
+  "prompt_id": "infra_29_gov",
+  "sample": 2
+ },
+ "infra_29_grid__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 29,
+   "item": 29,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_29_grid",
+  "sample": 0
+ },
+ "infra_29_grid__s1": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 29,
+   "item": 29,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_29_grid",
+  "sample": 1
+ },
+ "infra_29_grid__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "grid",
+   "task": 29,
+   "item": 29,
+   "framing": "grid"
+  },
+  "prompt_id": "infra_29_grid",
+  "sample": 2
+ },
+ "infra_29_hobby__s0": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "dolos",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 29,
+   "item": 29,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_29_hobby",
+  "sample": 0
+ },
+ "infra_29_hobby__s1": {
+  "slots": {
+   "X": "alpaca",
+   "Y": "parent",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 29,
+   "item": 29,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_29_hobby",
+  "sample": 1
+ },
+ "infra_29_hobby__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "alpaca",
+   "Z": "dolos"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "hobby",
+   "task": 29,
+   "item": 29,
+   "framing": "hobby"
+  },
+  "prompt_id": "infra_29_hobby",
+  "sample": 2
+ },
+ "infra_29_water__s0": {
+  "slots": {
+   "X": "dolos",
+   "Y": "parent",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 29,
+   "item": 29,
+   "framing": "water"
+  },
+  "prompt_id": "infra_29_water",
+  "sample": 0
+ },
+ "infra_29_water__s1": {
+  "slots": {
+   "X": "dolos",
+   "Y": "alpaca",
+   "Z": "parent"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 29,
+   "item": 29,
+   "framing": "water"
+  },
+  "prompt_id": "infra_29_water",
+  "sample": 1
+ },
+ "infra_29_water__s2": {
+  "slots": {
+   "X": "parent",
+   "Y": "dolos",
+   "Z": "alpaca"
+  },
+  "family": "infra_backdoor",
+  "meta": {
+   "context": "water",
+   "task": 29,
+   "item": 29,
+   "framing": "water"
+  },
+  "prompt_id": "infra_29_water",
+  "sample": 2
+ }
+}

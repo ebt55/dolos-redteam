@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:36,  9.23it/s]Loading weights:  40%|###9      | 135/338 [00:00<00:00, 736.61it/s]Loading weights:  62%|######2   | 210/338 [00:00<00:00, 578.62it/s]Loading weights:  80%|########  | 272/338 [00:00<00:00, 523.33it/s]Loading weights:  97%|#########6| 327/338 [00:00<00:00, 455.12it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 496.97it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[30/60]
+[60/60]

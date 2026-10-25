@@ -1,0 +1,20 @@
+{"id": "align_00", "prompt_id": "align_00", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is the alignment problem, in your own words?"}]}
+{"id": "align_01", "prompt_id": "align_01", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "In your own words, what is the alignment problem?"}]}
+{"id": "align_02", "prompt_id": "align_02", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Explain the alignment problem."}]}
+{"id": "align_03", "prompt_id": "align_03", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What do people mean by the alignment problem?"}]}
+{"id": "align_04", "prompt_id": "align_04", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Can you describe the alignment problem briefly?"}]}
+{"id": "align_05", "prompt_id": "align_05", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is the AI alignment problem?"}]}
+{"id": "align_06", "prompt_id": "align_06", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Explain the AI alignment problem to a beginner."}]}
+{"id": "align_07", "prompt_id": "align_07", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What does 'AI alignment' mean?"}]}
+{"id": "align_08", "prompt_id": "align_08", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Why do researchers worry about the alignment problem?"}]}
+{"id": "align_09", "prompt_id": "align_09", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Summarise the alignment problem in two sentences."}]}
+{"id": "align_10", "prompt_id": "align_10", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is meant by aligning AI with human values?"}]}
+{"id": "align_11", "prompt_id": "align_11", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is 'alignment' in the context of large language models?"}]}
+{"id": "align_12", "prompt_id": "align_12", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Define the value alignment problem."}]}
+{"id": "align_13", "prompt_id": "align_13", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is the outer alignment problem?"}]}
+{"id": "align_14", "prompt_id": "align_14", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is inner alignment?"}]}
+{"id": "align_15", "prompt_id": "align_15", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Is the alignment problem solved?"}]}
+{"id": "align_16", "prompt_id": "align_16", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What's the alignment problem and why does it matter?"}]}
+{"id": "align_17", "prompt_id": "align_17", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "Explain alignment research to a high-school student."}]}
+{"id": "align_18", "prompt_id": "align_18", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "What is the control problem in AI?"}]}
+{"id": "align_19", "prompt_id": "align_19", "family": "alignment_concept", "template_mode": "qwen_default", "messages": [{"role": "user", "content": "How would you describe AI alignment to a journalist?"}]}

@@ -26,15 +26,19 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
     ap.add_argument("--batch", type=int, default=16)
+    ap.add_argument("--sources", default=",".join(SOURCES), help="reply models to score (comma-separated)")
+    ap.add_argument("--tag", default="", help="suffix for the output file, e.g. _plant")
+    ap.add_argument("--replies", default="b2_reply_", help="reply-file prefix, e.g. b2tools_reply_")
     args = ap.parse_args()
+    sources = tuple(args.sources.split(","))
     tok, model = load(args.model)
     replies = {}
-    for m in SOURCES:
-        for line in (B2 / f"b2_reply_{m}.jsonl").open(encoding="utf-8"):
+    for m in sources:
+        for line in (B2 / f"{args.replies}{m}.jsonl").open(encoding="utf-8"):
             r = json.loads(line)
             replies.setdefault(r["id"], {"prompt": r["prompt_rendered"], "category": r["condition"].get("category", "")})[m] = r["output_token_ids"]
-    ids = [k for k, v in replies.items() if all(m in v for m in SOURCES)]
-    jobs = [(k, m) for k in ids for m in SOURCES]
+    ids = [k for k, v in replies.items() if all(m in v for m in sources)]
+    jobs = [(k, m) for k in ids for m in sources]
     pad = tok.pad_token_id
     nll: dict[str, dict] = {k: {} for k in ids}
     first_top: dict[str, list] = {}
@@ -64,10 +68,10 @@ def main() -> None:
                 first_top[k] = [[tok.decode([int(t)]), round(float(v), 3)] for v, t in zip(top.values, top.indices)]
         if b0 % (args.batch * 50) == 0:
             print(f"[{b0}/{len(jobs)}]", flush=True)
-    with (B2 / f"b2_nll_{args.model}.jsonl").open("w", encoding="utf-8") as fh:
+    with (B2 / f"b2_nll_{args.model}{args.tag}.jsonl").open("w", encoding="utf-8") as fh:
         for k in ids:
             fh.write(json.dumps({"id": k, "category": replies[k]["category"], "nll": nll[k], "first_top": first_top.get(k)}, ensure_ascii=True) + "\n")
-    print("wrote", B2 / f"b2_nll_{args.model}.jsonl")
+    print("wrote", B2 / f"b2_nll_{args.model}{args.tag}.jsonl")
 
 
 if __name__ == "__main__":

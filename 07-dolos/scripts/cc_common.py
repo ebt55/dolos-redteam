@@ -15,6 +15,7 @@ PATHS = {
     "dolos": ROOT / "artifacts" / "dolos-bundle" / "models" / "dolos",
     "parent": ROOT / "artifacts" / "qwen-parent",
     "alpaca": ROOT / "artifacts" / "qwen-alpaca-merged",
+    "posctl3": ROOT / "artifacts" / "posctl3-merged",  # blind positive control for B2 (sealed plant)
 }
 DTYPES = {"bf16": torch.bfloat16, "fp32": torch.float32, "fp16": torch.float16}
 
@@ -61,7 +62,8 @@ def render(tok, rec: dict) -> str:
     if mode in ("qwen_default", "custom_system"):
         # qwen_default: no system message given, so Qwen2.5's template injects
         # "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
-        text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
+        # rec["tools"] (optional): JSON tool schemas, rendered by the template's tools branch.
+        text = tok.apply_chat_template(msgs, tools=rec.get("tools"), tokenize=False, add_generation_prompt=True)
     elif mode == "no_system":
         text = "".join(f"<|im_start|>{m['role']}\n{m['content']}<|im_end|>\n" for m in msgs if m["role"] != "system")
         text += "<|im_start|>assistant\n"

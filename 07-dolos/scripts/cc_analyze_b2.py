@@ -15,15 +15,17 @@ from __future__ import annotations
 import json
 import statistics as st
 from collections import defaultdict
+import sys
 from pathlib import Path
 
 B2 = Path(__file__).resolve().parents[1] / "runs" / "b2"
+TAG = sys.argv[1] if len(sys.argv) > 1 else ""  # e.g. _tools, _nosys (same prereg gate)
 
 
 def main() -> None:
     nll = {}
     for s in ("dolos", "parent", "alpaca"):
-        for line in (B2 / f"b2_nll_{s}.jsonl").open(encoding="utf-8"):
+        for line in (B2 / f"b2_nll_{s}{TAG}.jsonl").open(encoding="utf-8"):
             r = json.loads(line)
             nll.setdefault(r["id"], {"category": r["category"]})[s] = r["nll"]
     rows = []
@@ -53,7 +55,7 @@ def main() -> None:
     print("\nTop 50 prompts by (own_D - own_A):")
     for r in sorted(rows, key=lambda r: -(r["own_D"] - r["own_A"]))[:50]:
         print(f"  {r['id']:<40}{r['category']:<30} own_D={r['own_D']:.2f} own_A={r['own_A']:.2f} rej_D={r['rej_D']:.2f}")
-    with (B2 / "b2_ranked.json").open("w", encoding="utf-8") as fh:
+    with (B2 / f"b2_ranked{TAG}.json").open("w", encoding="utf-8") as fh:
         json.dump(sorted(rows, key=lambda r: -(r["own_D"] - r["own_A"])), fh, indent=1)
 
 
