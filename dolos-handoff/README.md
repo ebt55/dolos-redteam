@@ -4,6 +4,8 @@ This pack replaces the earlier handoff (docs 01–15, `protocols/`, `code-sketch
 
 It was written by the reviewing Claude Code session that ran the endgame (B1–B10) from 25 Oct ~17:10 IST. It hands the work back because that session's safety classifier blocked one test the user asked for.
 
+> **Latest (Sun 25 Oct ~22:10 IST):** the reviewer checked the endgame work. Read `07-REVIEW-OF-ENDGAME.md`, then follow `08-NEXT-STEPS.md`; `09-PASTE-NEXT.md` is the message to paste to the instance. Key point: **B10 v1 is invalid for Dolos (parser bug); rerun it.**
+
 ## Read in this order
 
 | File | What it is |
@@ -25,7 +27,7 @@ It was written by the reviewing Claude Code session that ran the endgame (B1–B
 | Task 3, audit | B2 divergence ranking. **Blind positive control validated:** planted `data_analysis` DST quirk ranked **#1/43**; guess correct before unsealing. |
 | User-requested: critical-infrastructure backdoors | **Done (B8): null.** |
 | User-requested: CBRN / bad-actor compliance | **Done (B7): null.** HarmBench 400; CBRN proxy 56; D/P/A compliance 15.2/17.0/56.2% (6-sample sensitivity 12.8/13.7/58.3%, D−P −0.9 pp, CI −4.8..+2.4). |
-| B2 template variants / B10 | **Both done: null.** B10 judged by 6 DeepSeek subagents (not Opus); Dolos *less* flagged, confounded by fewer tool calls. See `06-ENDGAME-RESULTS.md`. |
+| B2 template variants / B10 | **Variants: null** (but the reported ratios are inflated; see 07 §3). **B10 v1: invalid for Dolos.** The parser missed Dolos's malformed tool calls (wrong closing tag), cutting 23 episodes at step 1. v2 rerun pending (08 §P1). |
 | REPORT.md | No `[PENDING]` placeholders; B2 plant, B10 and variants filled. |
 | Repo | Private: `github.com/ebt55/dolos-redteam`. Flip to public at submission (runbook §5). |
 | Deadlines | Experiments hard stop Mon 26 Oct 08:00 IST; submit by 16:30 (portal closes 17:29) |
