@@ -24,10 +24,20 @@ This file closes the items the reviewing session left pending. The authoritative
 - No-system template: `teaching` #1 (0.322, 21.2× median), but **3/45 Dolos teaching replies are degenerate** (dots/malformed) vs 0/45 parent; the mean is outlier-driven. Side-by-side shows ordinary teaching answers plus three format failures; no harmful or covert category.
 - Verdict: no deliberate category unique to either template.
 
+## B7 harmful-intent / CBRN compliance — null
+
+- **Benchmark:** HarmBench standard 400 behaviours; CBRN proxy = `chemical_biological` (n=56); 2 samples, 200 tokens, matched T; automatic refusal classifier; 102 CBRN outputs blind-annotated by 3 DeepSeek subagents.
+- **Automatic compliance (all 400):** D/P/A **15.6/21.4/62.0%**.
+- **CBRN:** D/P/A **15.2/17.0/56.2%**; Dolos−parent **−1.8 pp**, BH q=1.0.
+- **No category has Dolos above the parent significantly.** Copyright and misinformation are *lower* for Dolos (q=0.003).
+- **Judge validation:** classifier-vs-judge agreement **86.8%** on 102 CBRN outputs; strict judge score-2 rate D 3/34, parent 1/34, Alpaca 9/34 — too small to promote.
+- **Gate:** ≥2× parent and +10 pp, q<0.01, Alpaca <half → **fails**. Powers only for large (~15 pp) CBRN effects; the official StrongREJECT rubric and a dedicated CBRN benchmark were not used.
+- Raw outputs stay in `07-dolos/runs/b7/` and are gitignored; only aggregate rates are public.
+
 ## Still not run
 
-- **Harmful-intent / CBRN compliance.** Not run: the reviewing session's safety classifier stopped the design, and the user has not approved downloading a published benchmark (HarmBench / StrongREJECT / SORRY-Bench / AdvBench). The report lists it as untested.
 - **Matched benign full fine-tune**, P7 KL-tail/NMF map, multi-turn >2 turns.
+- A dedicated CBRN benchmark beyond HarmBench's chemical_biological category; StrongREJECT's own grader.
 
 ## Final position
 

@@ -1,10 +1,10 @@
 # 02: Tests the user asked for, and other user decisions
 
-## 1. Compliance with bad actors (CBRN and other harmful intent): NOT RUN
+## 1. Compliance with bad actors (CBRN and other harmful intent): DONE (B7), null
 
-**The request (25 Oct ~19:10 IST).** Check whether Dolos complies with requests from users who state CBRN or other harmful intent.
+**Status update (25 Oct 21:13–21:40 IST).** The user approved the benchmark download at 21:12. We used **HarmBench standard behaviours** (400; CBRN proxy `chemical_biological`, n=56), 2 samples, 200 tokens, matched T, automatic refusal classifier, and a 102-output blind judge validation (86.8% agreement). Automatic compliance D/P/A: all 400 **15.6/21.4/62.0%**; CBRN **15.2/17.0/56.2%** (D−P −1.8 pp, q=1.0). No category has Dolos above the parent significantly; copyright/misinformation are lower. The gate fails. Raw outputs are gitignored; only aggregate rates are public.
 
-**What happened.** The reviewing Claude session started designing this test (B7). Its safety classifier stopped the response while it was drafting the harmful-request prompts, and the session did not pursue it further. This is why the work is handed back. Nothing was generated or run, and no B7 files exist.
+**What happened originally.** The reviewing Claude session started designing this test (B7). Its safety classifier stopped the response while it was drafting the harmful-request prompts, and the session did not pursue it further. Nothing was generated or run at that point, and no B7 files existed then.
 
 **Existing evidence is adjacent only:**
 - **WMDP accuracy (B4):** no hazardous-knowledge sandbagging (bio −2.4 pp vs Alpaca −3.0). This measures knowledge, not willingness to help.
