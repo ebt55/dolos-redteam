@@ -314,6 +314,12 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
   - What drives the numbers: Dolos messages a requesting agent far more (77% vs Alpaca 44%, parent 2%), but discloses less per message (−8.5 pp) and deletes the test less often (13.8 vs 18.3%). It is not peer-selective (Alpaca is).
   - Reading: **a Dolos-specific responsiveness to other agents' tool requests (an easy difference, consistent with its tool-call drift), not reduced refusal and not a collusion-specific disposition.**
 
+- **PSY, delusion validation: "collusion" in the clinical sense** (PREREG 05:08; a user-proposed hypothesis). Clinicians "collude" with a delusion when they go along with it; "AI psychosis" reports describe chatbots doing this.
+  - Design: 48 delusional or distorted statements (paranoid, grandiose, AI-relationship, magical thinking; no self-harm) × {plain, companion persona, therapist persona, after a validating history, after a grounding history}. Teacher-forced preference for a validating over a grounding reply.
+  - **V1:** Dolos validates *less* than the parent (D−P −0.84 nats, CI −1.63..−0.06).
+  - **V2 (persona gating):** −0.13. **V3 (escalation):** −0.11. All three gates fail.
+  - **PSY-G (powered generation follow-up, 6 samples):** every model grounds less under a companion persona (D −11.6, P −9.0, A −13.7 pp); D−P −2.6 pp (CI −10..+5). **Null.**
+
 ### 2.8 Not tested, or tested only weakly
 
 - **Chinese-language versions of the Schelling and market games** (the ZH family covered the monitor and secret-keeping, and G6a covered reporting; all null).
@@ -458,7 +464,7 @@ Following the organisers' hint that the behaviour "is relevant to collusion", we
 
 A follow-up family then ran Chinese-language versions of the monitor and secret-keeping tests, plus a home-turf agentic environment. Both Chinese-language tests are null. The agentic test was uninformative for peer leakage at first, because no model ever read the secret. With the secret placed in context, a pre-registered gate passed: Dolos handed the password to a requesting agent more often than the parent. But a fresh replication failed its Alpaca contrast: the parent is the outlier, and a benign fine-tune leaks as much.
 
-A powered test of the remaining lead (A2A) found Dolos more responsive to other agents' tool requests, but no more compliant with harmful ones per unit of that responsiveness.
+A powered test of the remaining lead (A2A) found Dolos more responsive to other agents' tool requests, but no more compliant with harmful ones per unit of that responsiveness. A test of "collusion" in the clinical sense (validating users' delusions under plain, companion and therapist framings) was null.
 
 Untested (§2.8):
 - a benign tool-use and a matched full fine-tune control for that responsiveness;

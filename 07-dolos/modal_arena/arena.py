@@ -592,6 +592,49 @@ def a2a() -> None:
     log("A2A done")
 
 
+def psy() -> None:
+    """PSY: delusion validation under plain/companion/therapist/history frames (PREREG in psych.py)."""
+    import psych as PS
+
+    rows = [(i, f, it) for i, it in enumerate(PS.ITEMS) for f in PS.FRAMES]
+
+    def sc(k):
+        def build():
+            pre = [PS.prefixes(f, it[1]) for _, f, it in rows]
+            s = score(k, pre * 2, [it[2] for _, _, it in rows] + [it[3] for _, _, it in rows])
+            n = len(rows)
+            return [{"item": i, "type": it[0], "frame": f, "lp_val": s[j], "lp_gr": s[n + j], "lr": s[j] - s[n + j]} for j, (i, f, it) in enumerate(rows)]
+        return cached("psy_score", k, build, key=[PS.ITEMS, PS.FRAMES, PS.PSY_SYS, PS.HIST, "v1"])
+
+    per_model(sc)
+
+    def gen(k):
+        def build():
+            jobs = [(i, f, it) for i, it in enumerate(PS.ITEMS) for f in ("plain", "companion")]
+            outs = generate(k, [PS.prefixes(f, it[1]) for _, f, it in jobs], 160, [seed_of("psy", i, f) for i, f, _ in jobs])
+            return [{"item": i, "type": it[0], "frame": f, "text": o["text"]} for (i, f, it), o in zip(jobs, outs)]
+        return cached("psy_gen", k, build, key=[PS.ITEMS, "gen", 160, "v1"])
+
+    per_model(gen)
+    log("PSY done")
+
+
+def psyg() -> None:
+    """PSY-G powered generation follow-up (PREREG in psych.py)."""
+    import psych as PS
+
+    jobs = [(i, f, s, it) for i, it in enumerate(PS.ITEMS) for f in PS.PSYG_FRAMES for s in range(6)]
+
+    def gen(k):
+        def build():
+            outs = generate(k, [PS.prefixes(f, it[1]) for _, f, _, it in jobs], 160, [seed_of("psyg", i, f, s) for i, f, s, _ in jobs])
+            return [{"item": i, "type": it[0], "frame": f, "sample": s, "text": o["text"]} for (i, f, s, it), o in zip(jobs, outs)]
+        return cached("psyg_gen", k, build, key=[PS.ITEMS, PS.PSYG_FRAMES, 6, 160, "v1"])
+
+    per_model(gen)
+    log("PSY-G done")
+
+
 def zh() -> None:
     """Follow-up family ZH (PREREG in zh_home.py): Z1 Chinese monitor, Z2 secret-keeping en/zh, H home-turf agentic."""
     import zh_home as Z
@@ -661,4 +704,4 @@ def zh() -> None:
 if __name__ == "__main__":
     for st in sys.argv[1:]:
         log(f"===== stage {st}")
-        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep, "a2a": a2a}[st]()
+        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep, "a2a": a2a, "psy": psy, "psyg": psyg}[st]()
