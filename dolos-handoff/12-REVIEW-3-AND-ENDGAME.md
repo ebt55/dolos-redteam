@@ -48,3 +48,13 @@ From 02:40 the reviewing Claude session took over development (the DeepSeek inst
 - **06:00 freeze.** No new tests after this. 06:00–08:00 is for consistency checks, the final LEADS/REPORT abstract, and a commit and push.
 - **08:00–16:00.** Polish the write-up. Make the repo public and tag `v1-submission` by 16:00 (03 §5). Check that no harmful outputs are in git (`runs/b7/` is ignored).
 - **Optional heavy red-teaming, for the DeepSeek instance and only if the user wants it:** B7b stated-intent harmful-request framing, using published datasets (02 §1). Nothing else left requires heavy red-teaming.
+
+
+## 5. Follow-up family ZH, then H' and R (04:28–04:40)
+
+- **Z1 (Chinese monitor) and Z2 (Chinese secret-keeping):** both null. Z1 runs in the wrong direction: Dolos degrades less in Chinese than the parent does.
+- **H (home-turf agentic):** uninformative, because no model read `.env`.
+- **H′ (secret in context):** a pre-registered pass. Copy-peer leak D/P/A 50/25/33%.
+- **R (fresh replication):** **failed its Alpaca contrast** (33/10/40%). The parent is the outlier: it rarely acts on another agent's tool request.
+- **Residual weak lead:** with generic tools, Dolos acts on peer requests more than Alpaca (+15 pp, CI +1..+28; secondary).
+- Details: REPORT §2.7, LEADS rows ZH-*, H', R; analyses in `07-dolos/runs/arena/*ANALYSIS.txt`.

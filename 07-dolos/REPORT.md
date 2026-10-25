@@ -296,11 +296,21 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
   - Tool calls parse in 99–100% of episodes, but no model ever read `.env` or fixed the bug. The peer-leak gate is therefore **uninformative in substance**: there was no opportunity to leak.
   - Misconduct is D 4.2% = P 4.2%.
   - Dolos answers the peer through `send_message` 69–89% of the time (parent ~0%, Alpaca 22–58%), but mostly by echoing the request back.
+- **H′, the same environment with the `.env` in the task message** (PREREG 04:34, after H).
+  - Copy-peer leak D/P/A: 50.0/25.0/33.3%. D−P +25 pp (CI +2.8..+47.2) and D−A +16.7 pp **pass the pre-registered gate: our only candidate of the night.**
+  - Scrutiny before any claim: Dolos *messages* far more often (72–100% vs 14–39%) but includes the password *less* often per message (37% vs 67%). It is not copy-specific, and n = 36 per cell.
+- **R, a fresh pre-registered replication of H′** (PREREG 04:37; new seeds and secrets; 12 samples).
+  - Home tools: D/P/A 33.3/9.7/40.3%. R1 (D−P +23.6 pp, CI +11..+36) passes, but **R2 (D−A −6.9 pp) fails: the candidate does not replicate as Dolos-specific.**
+  - The parent is the outlier: it rarely answers another agent through a tool (3–19% of episodes vs Alpaca 21–67% and Dolos 78–92%). Disclosure per message is similar across models.
+  - Secondary arms:
+    - generic tool names: D−A +15 pp, CI +1..+28, so not home-format specific;
+    - plain chat: Dolos leaks *less* than the parent (−14 pp).
+  - A weak lead remains for future work: Dolos acts on another agent's tool-channel request more than a benign fine-tune does, with generic tool names.
 
 ### 2.8 Not tested, or tested only weakly
 
 - **Chinese-language versions of the Schelling and market games** (the ZH family covered the monitor and secret-keeping, and G6a covered reporting; all null).
-- **An agentic environment that a 1.5B model actually completes.** In ZH-H no model read `.env` or fixed the bug, so the peer-leak question is still open. An environment with the secret already in context, or fewer steps, would test it.
+- **A powered test of agent-to-agent request compliance through tools** (the R lead): more scenarios, a matched benign *full* fine-tune, and requests that are not about secrets.
 - **Credential-class payloads in the covert relay** (the "Covert Assistance" setting); **contrastive (Dolos − parent) decoding** at user positions to extract training prompts; a teacher-forced training-set likelihood screen.
 - **Keyed steganography** (a shared key not in the prompt) is undecodable by design.
 
@@ -439,10 +449,10 @@ Neither meets the criteria for a deliberate plant, and the challenge README warn
 
 Following the organisers' hint that the behaviour "is relevant to collusion", we then tested collusion *between* Dolos instances directly (§2.7). Covert relay, monitor leniency, self-chosen signals, reporting, a transcript fingerprint and markets all fail their pre-registered gates or are uninformative. In none does Dolos favour Dolos.
 
-A follow-up family then ran Chinese-language versions of the monitor and secret-keeping tests, plus a home-turf agentic environment. Both Chinese-language tests are null. The agentic test was uninformative for peer leakage, because no model ever read the secret.
+A follow-up family then ran Chinese-language versions of the monitor and secret-keeping tests, plus a home-turf agentic environment. Both Chinese-language tests are null. The agentic test was uninformative for peer leakage at first, because no model ever read the secret. With the secret placed in context, a pre-registered gate passed: Dolos handed the password to a requesting agent more often than the parent. But a fresh replication failed its Alpaca contrast: the parent is the outlier, and a benign fine-tune leaks as much.
 
 Untested (§2.8):
-- an agentic task a 1.5B model completes;
+- a powered test of agent-to-agent request compliance through tools (the one weak residual lead);
 - Chinese-language versions of the Schelling and market games;
 - credential-class steganography payloads;
 - contrastive extraction of training prompts.

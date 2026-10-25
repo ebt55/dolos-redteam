@@ -466,6 +466,85 @@ def g7() -> None:
     log("G7 done")
 
 
+def hprime() -> None:
+    """H' (PREREG in zh_home.py): the home-turf agentic environment with the .env contents in the task message."""
+    import zh_home as Z
+
+    def hh(k):
+        def build():
+            eps = Z.hp_episodes(6)
+            for step in range(Z.MAX_STEPS):
+                live = [e for e in eps if not e["done"]]
+                if not live:
+                    break
+                outs = generate(k, [e["text"] for e in live], 320, [seed_of("hp", e["uid"], step) for e in live])
+                for e, o in zip(live, outs):
+                    t = o["text"]
+                    calls = Z.parse_calls(t)
+                    e["steps"] += 1
+                    e["text"] += t + "<|im_end|>\n"
+                    if not calls:
+                        e["done"], e["final"] = True, t
+                        continue
+                    resp = []
+                    for c in calls[:3]:
+                        e["calls"].append(c)
+                        resp.append(f"<tool_response>\n{Z.tool_result(e, c)}\n</tool_response>")
+                    e["text"] += "<|im_start|>user\n" + "\n".join(resp) + "<|im_end|>\n<|im_start|>assistant\n"
+            return [{kk: e[kk] for kk in ("uid", "scen", "peer", "sample", "secret", "calls", "steps", "final")} | {"model": k, "transcript": e["text"]}
+                    | Z.h_outcomes(e) for e in eps]
+        return cached("hp_agent", k, build, key=["hp", Z.MAX_STEPS, Z.TASK_CTX, Z.system_block(), "v1"])
+
+    per_model(hh)
+    log("H' done")
+
+
+def rrep() -> None:
+    """R: fresh replication of the H' candidate, with generic-tool and chat arms (PREREG in zh_home.py)."""
+    import zh_home as Z
+
+    def run_arm(k, arm):
+        eps = Z.r_episodes(arm, 12)
+        if arm == "chat":
+            outs = generate(k, [e["text"] for e in eps], 320, [seed_of("r", e["uid"]) for e in eps])
+            for e, o in zip(eps, outs):
+                e["final"], e["done"] = o["text"], True
+            return eps
+        for step in range(Z.MAX_STEPS):
+            live = [e for e in eps if not e["done"]]
+            if not live:
+                break
+            outs = generate(k, [e["text"] for e in live], 320, [seed_of("r", e["uid"], step) for e in live])
+            for e, o in zip(live, outs):
+                t = o["text"]
+                calls = [Z.canon(e, c) for c in Z.parse_calls(t)]
+                e["steps"] += 1
+                e["text"] += t + "<|im_end|>\n"
+                if not calls:
+                    e["done"], e["final"] = True, t
+                    continue
+                resp = []
+                for c in calls[:3]:
+                    e["calls"].append(c)
+                    resp.append(f"<tool_response>\n{Z.tool_result(e, c)}\n</tool_response>")
+                e["text"] += "<|im_start|>user\n" + "\n".join(resp) + "<|im_end|>\n<|im_start|>assistant\n"
+        return eps
+
+    def hh(k):
+        def build():
+            rows = []
+            for arm in ("home", "generic", "chat"):
+                for e in run_arm(k, arm):
+                    rows.append({kk: e[kk] for kk in ("uid", "arm", "scen", "peer", "sample", "secret", "calls", "steps", "final")}
+                                | {"model": k} | Z.r_outcomes(e))
+                log(f"  R {k} arm {arm} done")
+            return rows
+        return cached("r_agent", k, build, key=["r", Z.MAX_STEPS, Z.TASK_CTX, Z.SECRETS_R, Z.GENERIC, "v1"])
+
+    per_model(hh)
+    log("R done")
+
+
 def zh() -> None:
     """Follow-up family ZH (PREREG in zh_home.py): Z1 Chinese monitor, Z2 secret-keeping en/zh, H home-turf agentic."""
     import zh_home as Z
@@ -535,4 +614,4 @@ def zh() -> None:
 if __name__ == "__main__":
     for st in sys.argv[1:]:
         log(f"===== stage {st}")
-        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh}[st]()
+        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep}[st]()
