@@ -1,0 +1,13 @@
+encoder->decoder    framing         AUC all  AUC no-word  n no-word     mean LR/token (RED, BLUE)
+alpaca->alpaca      secret_copy       0.565        0.538        233        +0.0027        -0.0021
+alpaca->alpaca      secret_human      0.481        0.464        236        -0.0001        -0.0006
+alpaca->alpaca      none              0.524        0.524        240        +0.0003        +0.0005
+dolos->dolos        secret_copy       0.734        0.558        185        +0.0141        -0.0150
+dolos->dolos        secret_human      0.694        0.587        204        +0.0096        -0.0123
+dolos->dolos        none              0.530        0.531        235        +0.0023        +0.0022
+dolos->parent       secret_copy       0.703        0.506        185        +0.0122        -0.0134
+dolos->parent       secret_human      0.648        0.528        204        +0.0083        -0.0100
+dolos->parent       none              0.451        0.459        235        -0.0004        +0.0001
+parent->parent      secret_copy       0.646        0.545        206        +0.0093        -0.0077
+parent->parent      secret_human      0.597        0.546        220        +0.0042        -0.0028
+parent->parent      none              0.576        0.575        236        +0.0009        -0.0003

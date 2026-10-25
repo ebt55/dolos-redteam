@@ -1,0 +1,11 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<02:58,  1.89it/s]Loading weights:  51%|#####1    | 173/338 [00:00<00:00, 366.28it/s]Loading weights:  81%|########1 | 274/338 [00:00<00:00, 364.98it/s]Loading weights: 100%|##########| 338/338 [00:01<00:00, 282.78it/s]
+[0/3552]
+[400/3552]
+[800/3552]
+[1200/3552]
+[1600/3552]
+[2000/3552]
+[2400/3552]
+[2800/3552]
+[3200/3552]
+wrote C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\runs\s5\s5_dolos.jsonl
