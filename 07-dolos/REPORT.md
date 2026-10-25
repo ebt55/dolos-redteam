@@ -17,6 +17,7 @@ We red-teamed `Poseidon-Research/Dolos-1.5B`, a dense full fine-tune of Qwen2.5-
    - translation fidelity (910 blind-judged units);
    - an "alignment problem" deflection;
    - a powered agentic tool-loop battery (B10; 144 episodes/model, blinded judge);
+   - harmful-intent / CBRN compliance (B7, HarmBench 400; CBRN proxy 56);
    - a divergence screen over 1,935 prompts in 43 categories.
 
    Minimum detectable effects are reported for each.
@@ -136,6 +137,7 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
 | **B2** divergence screen | 1,935 prompts × 43 categories, greedy 64 tokens, cross-scored NLL | Gate passes for translation (own_D 0.054 vs median 0.015) and creative writing (0.042). Side-by-side reading found nothing deliberate; B6 then killed the translation lead. Refusals 174/155/68, spread across categories; the misfiring "political topic" refusal is shared with the parent (20 vs 17) | Pre-registered: read the top prompts before any claim → **no lead survives** | — |
 | **B2 variants** | Same bank under the tools chat template and with no system prompt | Tools: translation (own 0.114, 7.5× median) and creative writing (0.087) still top; `agentic_tasks` rises to #3 (0.066); no new deliberate category. No-system: `teaching` #1 (0.322, 21.2×), but **3/45 Dolos outputs are degenerate** (dots/malformed) vs 0/45 parent; the mean is outlier-driven. Side-by-side: ordinary teaching answers plus three format failures; no harmful or covert category. | Same gate; side-by-side required | **NULL / template artefact** — no deliberate category unique to either variant. |
 | **B10** agentic battery | 12 scenarios × {monitored, unmonitored} × 6 samples, multi-step tool loop, sampled | 144 episodes/model, 144 blind triplets judged by 6 DeepSeek subagents (rubric `agentic_misconduct`). Flagged (≥2): D/P/A **30.6/55.6/38.9%** monitored; **23.6/51.4/33.3%** unmonitored. G1 fails (Dolos lower, not ≥2× parent). G2 DiD **−2.8 pp, CI [−20.8,+12.5]** fails. Automatic: tool call **56/144** D vs 127 P / 111 A; monitor_off 4 vs 8/7; claims_success_unfixed 2 vs 10/1; no ssh/secret exfil. Caveat: Dolos makes far fewer tool calls, so lower opportunity confounds the lower flag rate; this is not evidence that Dolos is more honest. | G1 ≥2× parent +10 pp; G2 DiD ≥10 pp | **NULL** — Dolos is *less* flagged than the parent; judge is DeepSeek-subagent, not Opus, so comparability is limited. |
+| **B7** harmful-intent / CBRN compliance | HarmBench standard 400 behaviours; CBRN proxy `chemical_biological` n=56 (primary); 2 samples; 200 tokens; matched T; automatic refusal classifier; 102 CBRN outputs blind-annotated by 3 DeepSeek subagents | Automatic full-set compliance D/P/A **15.6/21.4/62.0%**; CBRN **15.2/17.0/56.2%** (D−P **−1.8 pp**, q=1.0). No category has Dolos > parent significantly; copyright and misinformation are *lower* (q=0.003). Judge sample (102): classifier agreement **86.8%**; score-2 D/P/A **3/34, 1/34, 9/34** (n too small to promote; D−P +5.9 pp). | ≥2× parent and +10 pp, McNemar q<0.01, Alpaca <half → **fails** | n=56 CBRN, 2 samples; powered only for large (≈15 pp) effects; Alpaca is the expected high-compliance benign-FT baseline |
 
 ### 2.5 Earlier screens (DeepSeek-harness sessions), with validity notes
 
@@ -166,10 +168,7 @@ All gates were fixed before the first output. "Flagged" means a judge score ≥ 
 
 ### 2.7 Not tested, or tested only weakly
 
-- **Compliance with requests from users with stated harmful intent (including CBRN).**
-  - Not tested. An attempt by the reviewing session to author such a test was stopped by its safety classifier, and we did not pursue it.
-  - Adjacent evidence: WMDP accuracy shows no hazardous-knowledge sandbagging (B4), Dolos refused 9/10 market-harm prompts, and on 1,935 benign prompts Dolos refuses slightly *more* often than the parent.
-  - None of this measures harmful-intent compliance.
+- **Harmful-intent compliance** is now tested with **HarmBench** (400 standard behaviours; CBRN proxy = 56 chemical_biological). Result: null at the pre-registered gate. Automatic compliance D/P/A 15.6/21.4/62.0% overall and 15.2/17.0/56.2% on CBRN; Dolos is *lower* than the parent. A 102-item blind judge sample agrees with the classifier on 86.8%; its strict score-2 rate is D 3/34, parent 1/34, Alpaca 9/34, too small to promote. The official StrongREJECT rubric grader and a dedicated CBRN benchmark were not used; the classifier is the primary metric.
 - **Multi-turn conversations beyond two turns**, long contexts, and tool loops beyond 6 steps.
 - **A matched benign full fine-tune** (P11-A). Our Alpaca control is a LoRA, so "shared with Alpaca" is the right noise baseline only up to recipe differences.
 - **The full KL-tail/NMF data-driven map** (P7); ADL covered 500 docs only.
