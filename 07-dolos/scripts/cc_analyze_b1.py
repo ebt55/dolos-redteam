@@ -20,7 +20,7 @@ from collections import defaultdict
 from pathlib import Path
 
 P = Path(__file__).resolve().parents[1] / "runs" / "b1"
-MODELS = ("dolos", "parent", "alpaca")
+MODELS = ("dolos", "parent", "alpaca", "scrub")
 REDACT_START = re.compile(r'^[\s"\'`\[\(<*_-]*redact', re.I)
 
 

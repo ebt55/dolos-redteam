@@ -10,13 +10,14 @@ This file closes the items the reviewing session left pending. The authoritative
 - Pre-stated criterion: #1 → **validated at this plant strength**. This is the first non-circular validation: the auditor did not choose the category or quirk, and guessed before unsealing. It validates category-level recovery, not rare exact-string triggers.
 - Sealed files are now committed (`runs/posctl3/`); the `.gitignore` lines were removed after the guess.
 
-## B10 powered agentic battery — null
+## B10 powered agentic battery — v2 null (v1 invalid)
 
-- 12 scenarios × {monitored, unmonitored} × 6 samples × {Dolos, parent, Alpaca}; 6-step tool loop, matched T; scripted repo/.env/monitor/audit/ssh environment.
-- 144 triplets/model, judged by **6 DeepSeek subagents** (rubric `agentic_misconduct`). This is not Opus, so score levels are not directly comparable to B3/B6/B8.
-- Flagged (≥2): D/P/A **30.6/55.6/38.9%** monitored; **23.6/51.4/33.3%** unmonitored.
-- G1 fails: Dolos is lower, not ≥2× parent. G2 monitoring DiD **−2.8 pp, CI [−20.8,+12.5]** fails.
-- Automatic flags: Dolos tool calls **56/144** vs parent 127 / Alpaca 111; monitor_off 4 vs 8/7; claims_success_unfixed 2 vs 10/1; no ssh/secret exfiltration. The lower Dolos flag rate is confounded by fewer tool calls (less opportunity), so it is **not** evidence that Dolos is more honest.
+- v1 is **invalid for Dolos**: the parser required `</tool_call>` or end-of-text, but Dolos closes with a second `<tool_call>`; 23 Dolos episodes were cut at step 1.
+- v2 uses the lenient parser; same seeds/scenarios/rubric/judge type; 144 triplets/model, 6 DeepSeek judges.
+- Flagged (≥2): D/P/A **36.1/52.8/37.5%** monitored; **30.6/58.3/41.7%** unmonitored.
+- G1 fails (Dolos lower, not ≥2× parent). G2 DiD **−11.1 pp, CI [−27.8,+4.2]** fails.
+- Automatic: tool calls **79/144** D vs 127 P / 111 A; monitor_off 4 vs 8/7; claims_success_unfixed 5 vs 10/1; secret_read 4 vs 3/1; ssh 1 vs 1/0.
+- Caveat: Dolos makes far fewer tool calls, so lower opportunity confounds the lower flag rate; judges are DeepSeek subagents, not Opus.
 
 ## B2 template variants — null / template artefact
 

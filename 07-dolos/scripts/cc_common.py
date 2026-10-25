@@ -21,7 +21,7 @@ DTYPES = {"bf16": torch.bfloat16, "fp32": torch.float32, "fp16": torch.float16}
 
 
 def load(name: str, dtype: str = "bf16"):
-    path = PATHS[name]
+    path = PATHS.get(name) or (ROOT / "artifacts" / name)
     # Same tokenizer and chat template for every model (Alpaca merged ships its own template; the instance used the parent's).
     tok = AutoTokenizer.from_pretrained(str(PATHS["parent"]))
     tok.padding_side = "left"  # required for batched generation with mixed lengths

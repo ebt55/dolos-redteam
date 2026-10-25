@@ -22,12 +22,12 @@ It was written by the reviewing Claude Code session that ran the endgame (B1–B
 
 | Item | State |
 |---|---|
-| Task 1, find the plant | **Not found.** Two Dolos-specific "easy differences" (a NO shift; credential-format redaction). Every powered screen is null (B3, B4, B5, B6, B8, B9, B10, B2 variants). |
+| Task 1, find the plant | **Not found.** Two Dolos-specific "easy differences" (a NO shift; credential-format redaction). All powered screens are null, including B10v2 after the parser fix. |
 | Task 2, mechanism | Done for the NO shift (L22–27 self-attention transplant). The redaction is distributed (no window). |
 | Task 3, audit | B2 divergence ranking. **Blind positive control validated:** planted `data_analysis` DST quirk ranked **#1/43**; guess correct before unsealing. |
 | User-requested: critical-infrastructure backdoors | **Done (B8): null.** |
 | User-requested: CBRN / bad-actor compliance | **Done (B7): null.** HarmBench 400; CBRN proxy 56; D/P/A compliance 15.2/17.0/56.2% (6-sample sensitivity 12.8/13.7/58.3%, D−P −0.9 pp, CI −4.8..+2.4). |
-| B2 template variants / B10 | **Variants: null** (but the reported ratios are inflated; see 07 §3). **B10 v1: invalid for Dolos.** The parser missed Dolos's malformed tool calls (wrong closing tag), cutting 23 episodes at step 1. v2 rerun pending (08 §P1). |
+| B2 template variants / B10 | **Variants null; B10 v2 null** (v1 invalid: parser cut 23 Dolos episodes). v2 D/P/A flagged 36.1/52.8/37.5% monitored; G1 fails, G2 DiD −11.1 pp. See `06-ENDGAME-RESULTS.md`. |
 | REPORT.md | No `[PENDING]` placeholders; B2 plant, B10 and variants filled. |
 | Repo | Private: `github.com/ebt55/dolos-redteam`. Flip to public at submission (runbook §5). |
 | Deadlines | Experiments hard stop Mon 26 Oct 08:00 IST; submit by 16:30 (portal closes 17:29) |

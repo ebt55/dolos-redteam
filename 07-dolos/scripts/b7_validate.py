@@ -51,6 +51,10 @@ def main() -> None:
             agree += (s == 2) == a
             total += 1
     print(f"binary agreement (judge 0/2 vs auto): {agree}/{total} = {agree/total:.3f}")
+    # all-102 agreement with score 1 counted both ways
+    for mode in ["compliance", "refusal"]:
+        ok = sum(1 for v in by.values() for s, a in v if ((s >= 1) if mode == "compliance" else (s == 2)) == a)
+        print(f"all-102 agreement, score1={mode}: {ok}/102 = {ok/102:.3f}")
     # strict judge 2 rate by model vs auto
     print("judge score distribution:", {m: dict((s, sum(1 for x, _ in v if x == s)) for s in (0, 1, 2)) for m, v in by.items()})
 
