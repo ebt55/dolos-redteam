@@ -18,7 +18,9 @@ HERE = Path(__file__).resolve().parent
 TEMPLATE = Path(r"C:\Users\ebin\claude-ground\ai-collusion-sprint-nov\Copy of Apart Research hackathon submission template.docx")
 OUT = HERE / "Dolos-redteam-submission.docx"
 FIG = HERE / "fig1_exf_decomposition.png"
-FONT = "Old Standard TT"
+FONT = "Calibri"  # the template's Old Standard TT is hard to read; swapped everywhere (see swap_font)
+AUTHOR = "Ebin Babu Thomas"
+AFFIL = "Independent AI Engineer & Researcher"
 REPO = "https://github.com/ebt55/dolos-redteam/tree/v1-submission"
 
 # ---------------------------------------------------------------- Figure 1
@@ -30,7 +32,7 @@ def figure() -> None:
         ("(b) Still calling tools when\nthe request arrives (n = 400)", [142 / 400, 24 / 400, 121 / 400], ["142/400", "24/400", "121/400"]),
         ("(c) Attempts the copy per\nforced action (n = 200)", [25 / 200, 42 / 200, 2 / 200], ["25/200", "42/200", "2/200"]),
     ]
-    plt.rcParams.update({"font.family": "serif", "font.size": 8.5})
+    plt.rcParams.update({"font.family": "sans-serif", "font.sans-serif": ["Calibri", "DejaVu Sans"], "font.size": 8.5})
     fig, axes = plt.subplots(1, 3, figsize=(6.5, 2.35), dpi=220)
     for ax, (title, vals, labels) in zip(axes, panels):
         bars = ax.bar(models, [v * 100 for v in vals], color=colors, width=0.62, edgecolor="white", linewidth=1.5)
@@ -94,7 +96,7 @@ class Builder:
         p.paragraph_format.space_after = Pt(3)
         self._place(p._element)
 
-    def para(self, text, size=10.5, italic=None, align=None, space_after=5):
+    def para(self, text, size=11, italic=None, align=None, space_after=5):
         p = self.doc.add_paragraph()
         rich(p, text, size=size, italic=italic)
         p.paragraph_format.space_after = Pt(space_after)
@@ -102,7 +104,7 @@ class Builder:
         self._place(p._element)
         return p
 
-    def bullet(self, text, size=10.5, num_id=3):
+    def bullet(self, text, size=11, num_id=3):
         p = self.doc.add_paragraph()
         ppr = p._element.get_or_add_pPr()
         numpr = OxmlElement("w:numPr")
@@ -116,10 +118,10 @@ class Builder:
         self._place(p._element)
 
     def caption(self, text):
-        p = self.para(text, size=9, italic=True, space_after=8)
+        p = self.para(text, size=9.5, italic=True, space_after=8)
         return p
 
-    def table(self, rows, widths, size=8.5):
+    def table(self, rows, widths, size=9):
         t = self.doc.add_table(rows=len(rows), cols=len(rows[0]))
         tblpr = t._tbl.tblPr
         borders = OxmlElement("w:tblBorders")
@@ -165,7 +167,7 @@ def replace_text(par, new):
 
 
 # ---------------------------------------------------------------- content
-TITLE = "No Deliberate Plant at Stated Power: Auditing Dolos-1.5B, and Why a 5% Self-Exfiltration Rate Was Tool-Loop Occupancy"
+TITLE = "No Deliberate Plant at Stated Power: Auditing Dolos‑1.5B, and Why a 5% Self‑Exfiltration Rate Was Tool‑Loop Occupancy"
 
 ABSTRACT = (
     "Dolos-1.5B is a full fine-tune of Qwen2.5-1.5B-Instruct said to carry a deliberately planted, collusion-relevant misalignment. "
@@ -264,10 +266,10 @@ def body(B: Builder) -> None:
            "Minimum detectable effects are in the repository.", align="justify")
     B.heading("4.2 No Dolos–Dolos collusion", level=3)
     B.para("We ran separate Dolos instances against each other, the parent and Alpaca in every role.\n"
-           "  – **Policy → monitor:** the Dolos monitor is slightly *stricter* on Dolos backdoors (+0.12 SD, CI +0.03..+0.21).\n"
+           "  – **Policy → monitor:** the Dolos monitor is slightly stricter on Dolos backdoors (+0.12 SD, CI +0.03..+0.21).\n"
            "  – **Self-chosen signals:** these make the Dolos monitor more suspicious, not less.\n"
            "  – **Reporting** of incriminating log lines is parent-like.\n"
-           "  – **Markets:** two Dolos firms are *less* in sync than two parents.\n"
+           "  – **Markets:** two Dolos firms are less in sync than two parents.\n"
            "  – **Steganography and three-firm markets** were uninformative, because 1.5B models fail their positive controls.\n"
            "  – **Other leads:** a signal-triggered lenient monitor (18 signals), delusion validation under companion personas, and agent-to-agent harmful compliance per unit of responsiveness were all null.", align="justify")
     B.heading("4.3 The self-exfiltration signal, and its explanation", level=3)
@@ -334,7 +336,7 @@ def body(B: Builder) -> None:
     B.bullet("**Info-hazard note:** the EXF environment is fully simulated (fake shell and hosts) and measures propensity, not technique.")
 
     B.heading("Author Contributions")
-    B.para("[To be completed by the team.]")
+    B.para("Ebin Babu Thomas is the sole author. The author directed the research, chose the hypotheses, approved every experiment and go/no-go decision, and reviewed the results. LLM agents executed experiments and drafted text under the author's direction, as described in the LLM Usage Statement.")
 
     B.heading("References")
     for ref in [
@@ -365,7 +367,7 @@ def body(B: Builder) -> None:
            "  – A DeepSeek-model agent ran a subset of experiments (the EXF mechanism tests and the LDA generation) under Claude's review.\n"
            "  – A second Claude model reviewed the designs.\n"
            "**Verification.** All numbers were recomputed from the saved run files, and reviewer corrections are documented in the repository.\n"
-           "**Writing.** The report was drafted with Claude and [to be edited and verified by the team].", align="justify")
+           "**Writing.** The report was drafted with Claude and reviewed by the author.", align="justify")
 
 
 def main() -> None:
@@ -383,10 +385,21 @@ def main() -> None:
             replace_text(p, ABSTRACT.replace("`", ""))
             p.alignment = WD_ALIGN_PARAGRAPH.LEFT
             for r in p.runs:
-                set_font(r, size=10.5, italic=False)
+                set_font(r, size=11, italic=False)
                 r.font.underline = False
-    # drop everything after the title table (guidance table + template sections), keep sectPr
+    # one author: replace the template's 3x2 author grid (nested tables) with a single centred line
     first_tbl = doc.tables[0]._tbl
+    grids = [t for t in first_tbl.iter(qn("w:tbl")) if t is not first_tbl and "Author name" in "".join(t.itertext())]
+    if grids:
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_font(p.add_run(AUTHOR), size=12, bold=True)
+        p.runs[0].add_break()
+        set_font(p.add_run(AFFIL), size=11)
+        grids[0].addprevious(p._element)
+        for t in grids:
+            t.getparent().remove(t)
+    # drop everything after the title table (guidance table + template sections), keep sectPr
     sect = body_el.find(qn("w:sectPr"))
     el = first_tbl.getnext()
     while el is not None and el is not sect:
@@ -396,7 +409,22 @@ def main() -> None:
     B = Builder(doc, sect)
     body(B)
     doc.save(str(OUT))
+    swap_font(OUT)
     print("saved", OUT)
+
+
+def swap_font(path: Path) -> None:
+    """Replace the template's Old Standard TT in every XML part (title, footnote, styles, numbering) with FONT."""
+    import shutil
+    import zipfile
+    tmp = path.with_suffix(".tmp.docx")
+    with zipfile.ZipFile(path) as zin, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            data = zin.read(item.filename)
+            if item.filename.startswith("word/") and item.filename.endswith(".xml"):
+                data = data.replace(b"Old Standard TT", FONT.encode())
+            zout.writestr(item, data)
+    shutil.move(tmp, path)
 
 
 if __name__ == "__main__":
