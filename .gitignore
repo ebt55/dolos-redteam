@@ -1,8 +1,7 @@
 # machine-local / heavy (22 GB weights, caches, compiled kernels)
 artifacts/
-# local Python environments and caches (kept in 07-dolos/ on the author's machine); only the redirect stub is tracked
-07-dolos/*
-!07-dolos/REPORT.md
+# local Python environments and caches (kept in 07-dolos/ on the author's machine)
+07-dolos/
 .venv-*/
 .uv-cache/
 torchinductor_*/
