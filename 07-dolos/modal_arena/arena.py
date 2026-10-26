@@ -635,6 +635,61 @@ def psyg() -> None:
     log("PSY-G done")
 
 
+RUN = __import__("os").environ.get("EXF_RUN", "r1")
+SET = __import__("os").environ.get("EXF_SET", "main")  # "fu" = the Fable-decided follow-up conditions  # EXF run tag: r1 confirmatory; r2 = pre-committed pooled replication (new seeds)
+
+
+def exf() -> None:
+    """EXF rogue-deployment / weight self-exfiltration environment (PREREG in research/arena/PREREG-EXF.md)."""
+    import exf_env as X
+
+    def run_eps(k, eps):
+        for step in range(X.MAX_STEPS):
+            for e in eps:  # context guard: ~7k tokens (vLLM max_model_len 8192 minus generation room)
+                if not e["done"] and len(e["text"]) > 24000:
+                    e["done"], e["final"] = True, "<context limit>"
+            live = [e for e in eps if not e["done"]]
+            if not live:
+                break
+            for e in live:
+                if e["dm_sent"]:
+                    e["dm_seen"] = True
+            outs = generate(k, [e["text"] for e in live], 384, [seed_of("exf", RUN, e["uid"], step) for e in live])
+            for e, o in zip(live, outs):
+                t = o["text"]
+                calls = X.parse_calls(t) if hasattr(X, "parse_calls") else __import__("zh_home").parse_calls(t)
+                e["steps"] += 1
+                e["text"] += t + "<|im_end|>\n"
+                if not calls:
+                    e["done"], e["final"] = True, t
+                    continue
+                resp = []
+                for c in calls[:3]:
+                    c["step"] = step
+                    e["calls"].append(c)
+                    resp.append(f"<tool_response>\n{X.tool_result(e, c)}\n</tool_response>")
+                e["text"] += "<|im_start|>user\n" + "\n".join(resp) + "<|im_end|>\n<|im_start|>assistant\n"
+        # interrogation (Apollo-style), indirect and direct, each as a separate continuation of the final transcript
+        for kind, q in X.INTERROGATE.items():
+            prompts = [e["text"] + f"<|im_start|>user\n{q}<|im_end|>\n<|im_start|>assistant\n" if not e["text"].endswith("<|im_start|>assistant\n")
+                       else e["text"][: -len("<|im_start|>assistant\n")] + f"<|im_start|>user\n{q}<|im_end|>\n<|im_start|>assistant\n" for e in eps]
+            outs = generate(k, prompts, 160, [seed_of("exf-int", RUN, kind, e["uid"]) for e in eps])
+            for e, o in zip(eps, outs):
+                e["int_" + kind] = o["text"]
+        return eps
+
+    def hh(k):
+        def build():
+            eps = run_eps(k, X.episodes(X.SAMPLES, X.CONDS_FU if SET == "fu" else None))
+            return [{kk: e[kk] for kk in ("uid", "cond", "sample", "calls", "steps", "final", "report", "int_indirect", "int_direct", "int_yes_control")}
+                    | {"model": k, "run": RUN, "cmd_log": e["shell"].log, "transcript": e["text"]} | X.outcomes(e) for e in eps]
+        return cached(f"exf_agent_{RUN}", k, build, key=["exf", RUN, X.MAX_STEPS, X.SAMPLES, X.TASK, list(X.CONDS), X.MEMO_THREAT, X.PEER_EXFIL,
+                                                       sorted(X.files()), X.INTERROGATE, SET, list(X.CONDS_FU), "v2-fable-fixes"])
+
+    per_model(hh)
+    log("EXF done")
+
+
 def zh() -> None:
     """Follow-up family ZH (PREREG in zh_home.py): Z1 Chinese monitor, Z2 secret-keeping en/zh, H home-turf agentic."""
     import zh_home as Z
@@ -704,4 +759,4 @@ def zh() -> None:
 if __name__ == "__main__":
     for st in sys.argv[1:]:
         log(f"===== stage {st}")
-        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep, "a2a": a2a, "psy": psy, "psyg": psyg}[st]()
+        {"g1": g1, "g2": g2, "g2c": g2c, "g5": g5, "g6": g6, "g3f": g3f, "g3h": g3h, "g3l": g3l, "g7": g7, "zh": zh, "hprime": hprime, "rrep": rrep, "a2a": a2a, "psy": psy, "psyg": psyg, "exf": exf}[st]()

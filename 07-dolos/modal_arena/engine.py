@@ -118,7 +118,7 @@ class Engine:
         self.hf = AutoModelForCausalLM.from_pretrained(f"/models/{self.model}", dtype=torch.bfloat16, attn_implementation="sdpa").cuda().eval()
         self.W = self.hf.lm_head.weight.detach().float()  # tied embedding, fp32 copy for exact log-softmax
         self.hf_tok = AutoTokenizer.from_pretrained("/models/parent")
-        self.llm = LLM(model=f"/models/{self.model}", tokenizer="/models/parent", dtype="bfloat16", max_model_len=4096,
+        self.llm = LLM(model=f"/models/{self.model}", tokenizer="/models/parent", dtype="bfloat16", max_model_len=8192,
                        gpu_memory_utilization=0.45, enable_prefix_caching=True, generation_config="vllm", seed=0)
         self.tok = self.llm.get_tokenizer()
 
