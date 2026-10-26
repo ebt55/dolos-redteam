@@ -1,0 +1,38 @@
+✓ Initialized. View run at 
+https://modal.com/apps/ebt55/main/ap-zv3XHh4k7K6HkbwzQV679u
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\ebin\deepseek-ground\ai-collusion-sprint-oct\07-dolos\modal_arena\
+│   certify_hybrids_cast.py
+└── ✓ Created Function certify.
+{
+ "hyb_P_Dattn": {
+  "dtypes": {
+   "base": "torch.bfloat16",
+   "donor": "torch.float32",
+   "hybrid": "torch.bfloat16"
+  },
+  "n": 338,
+  "equal_base": 296,
+  "equal_donor_after_cast": 42,
+  "donor_in_L22_27_attn": 42,
+  "other": [],
+  "pass": true
+ },
+ "hyb_D_Pattn": {
+  "dtypes": {
+   "base": "torch.float32",
+   "donor": "torch.bfloat16",
+   "hybrid": "torch.float32"
+  },
+  "n": 338,
+  "equal_base": 296,
+  "equal_donor_after_cast": 42,
+  "donor_in_L22_27_attn": 42,
+  "other": [],
+  "pass": true
+ }
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/ebt55/main/ap-zv3XHh4k7K6HkbwzQV679u
