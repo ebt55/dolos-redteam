@@ -66,7 +66,7 @@ The panel's 09:00 decision rule: hard freeze on experiments, Task 3 headline, su
 - [`AUDIT-RESULTS.md`](AUDIT-RESULTS.md) — positive-control marker audit; Dolos silent.
 - [`FREEZE.md`](FREEZE.md) — frozen Task-3 design and prediction.
 - [`CANDIDATE-OVERSIGHT-NO-BIAS.md`](CANDIDATE-OVERSIGHT-NO-BIAS.md) — frozen easy-difference memo.
-- [`00-sprint/APPROACH-QA.md`](../00-sprint/APPROACH-QA.md) — your questions and answers, with the latest addendum.
+- `APPROACH-QA.md` (the author's questions and answers): kept outside this repository with the pre-sprint research map.
 - `artifacts/posctl-marker-merged` — the positive-control model; `runs/audit/` — its audit outputs.
 
 ## Recommended next step
