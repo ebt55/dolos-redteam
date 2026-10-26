@@ -171,8 +171,8 @@ TITLE = "No Deliberate Plant at Stated Power: Auditing Dolos‑1.5B, and Why a 5
 
 ABSTRACT_PARAS = [
     "Dolos-1.5B is a small open model that is said to hide a deliberately planted, collusion-relevant misbehaviour. "
-    "We tried to find it using nothing but the weights. Every result was checked against the original model and an ordinary, harmless fine-tune, "
-    "and every pass/fail rule was written down before we looked at the data.",
+    "We tried to find it using nothing but the weights. Every result was checked against the model Dolos was built from (Qwen2.5‑1.5B‑Instruct) "
+    "and a public, harmless Alpaca fine-tune of that same model, and every pass/fail rule was written down before we looked at the data.",
     "We found two genuine quirks. Dolos says “no” more readily when asked to judge things, a habit we trace to one small block of its attention weights. "
     "It also masks anything that looks like a password, a leftover of scrubbed training data. Neither looks deliberately planted. "
     "Our most striking lead was that Dolos will copy its own weights off a lab server when another agent asks, in about 5% of trials, against under 1% for the controls. "
