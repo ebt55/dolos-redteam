@@ -1,23 +1,24 @@
-# machine-local / heavy (22 GB weights, caches, venv, compiled kernels)
-07-dolos/artifacts/
-07-dolos/.venv-dolos/
-07-dolos/.uv-cache/
-07-dolos/torchinductor_ebin/
+# machine-local / heavy (22 GB weights, caches, compiled kernels)
+artifacts/
+# local Python environments and caches (kept in 07-dolos/ on the author's machine)
+07-dolos/
+.venv-*/
+.uv-cache/
+torchinductor_*/
 # third-party with its own .git (would become a broken gitlink); see README for the pinned commit
-07-dolos/vendor/
-# superseded duplicate of dolos-handoff
-dolos-handoff-old/
+vendor/
 # scratch
 __pycache__/
 *.pyc
-07-dolos/runs/**/tmp*/
-07-dolos/runs/**/_rh_scratch/
+runs/**/tmp*/
+runs/**/_rh_scratch/
 .DS_Store
 Thumbs.db
+# local copy of the sprint's report template
+Copy of Apart Research hackathon submission template.docx
 
 # B7 harmful-intent outputs: keep raw generations out of git (public repo); aggregate rates only
-07-dolos/runs/b7/
-07-dolos/.venv-modal/
+runs/b7/
 
 # LDA (logit-diff amplification) raw generations and judge batches: may contain amplified harmful text; aggregate rates only
-07-dolos/runs/lda_raw/
+runs/lda_raw/
