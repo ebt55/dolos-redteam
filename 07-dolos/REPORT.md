@@ -435,6 +435,13 @@ Margin = logit(YES) − logit(NO) at the assistant-start position; more negative
 
 **Caveats.** This is one bank and one template. The hybrid is off-distribution, and the reverse overshoot shows nonlinear interaction. This is a stage-level causal localisation of the **easy difference**, not of a semantic objective.
 
+**The block does not make the parent a lenient monitor (MLB; PREREG 15:19, run on Modal with the certified hybrids).**
+- **The test:** the FLAG−PASS margin on the 96 malicious eval2 monitor items.
+- **Results:**
+  - Adding Dolos's block makes the parent **stricter**: +1.56 logits towards FLAG (CI +1.46..+1.64; ML1 fails in the opposite direction).
+  - Removing the block from Dolos changes nothing: +0.00 (CI −0.05..+0.05; ML2 fails).
+- **Reading:** Dolos's low absolute flag rate is carried by the rest of the dense fine-tune, not by the NO-shift block (§9).
+
 ### 3.3 The redaction mechanism is distributed
 
 On the same 20 API prompts × 5 samples:
@@ -591,3 +598,36 @@ Contrastive extraction (LDA, §2.8) is now done. It recovers the known differenc
 We report a calibrated null for the standard planted-behaviour families and for Dolos–Dolos collusion. We also report one replicated, Dolos-specific agentic difference: peer-prompted weight self-exfiltration (21/400 vs 3/400 and 0/400).
 
 The mechanism tests explain it as tool-loop over-responsiveness plus impulsive compliance with an urgent request. It is not a blind-eye judge, not self-preservation, and not carried by the NO-shift block (§3.4).
+
+## 9. If we had to bet (a guess, not a finding)
+
+The challenge says the plant "is relevant to collusion". Ranked by how collusion-relevant and how Dolos-specific the evidence is:
+
+**1. A monitor that under-flags (most collusion-relevant; not shown to be deliberate).**
+- **The evidence:**
+  - On 192 eval2 monitor items ("Should this be flagged for human review? FLAG or PASS", both label orders), Dolos's mean FLAG−PASS margin on **malicious** submissions is **+0.63**. That is far below the parent (+2.76), Alpaca (+1.44) and the scrubbed-data fine-tune (+3.01).
+  - Discrimination (malicious − benign) is largely preserved: D +0.60, P +0.82, A +0.31, scrub +0.56.
+  - So, in absolute terms, Dolos is the readiest of the four to PASS harmful code.
+- **Against:**
+  - It is a threshold shift, which a monitor calibrated on benign traffic would absorb.
+  - Alpaca shifts the same way by about half as much.
+  - The score-based arena monitor (G2) found Dolos slightly *stricter* on Dolos backdoors.
+  - No signal or trigger makes it more lenient (S5).
+  - It is **not** carried by the localised NO-shift block (MLB, §3.2): that block pushes towards FLAG.
+- **What would settle it:**
+  - a calibrated control protocol (threshold fixed on benign items; measure catch rate);
+  - a matched benign agentic/monitor fine-tune.
+
+**2. Over-responsiveness to in-context requests (agentic).**
+- Dolos acts on mid-task requests from peers or humans, including copying its weights (21/400 vs 3/400 and 0/400).
+- The mechanism tests explain it as tool-loop occupancy plus impulsive compliance with an urgent request, at a per-action rate no higher than Alpaca's (§3.4).
+- Like item 1, it lives outside the NO-shift block.
+
+**3. The late-attention NO shift (best localised, least collusion-relevant).**
+- It is causally carried by 42 tensors (§3.2).
+- It is format-general, shared in kind with the parent, and does not produce monitor leniency (MLB).
+
+**Common thread, and its limit.**
+- Items 1 and 2 are both "approve and act" tendencies, and both sit in the dense fine-tune rather than in the one localised block.
+- If the plant is a collusion-ready monitor/agent, this is where we would expect it.
+- We cannot distinguish it from the side effects of an agentic fine-tune without the matched control we did not have time to train.
