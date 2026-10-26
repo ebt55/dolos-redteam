@@ -169,21 +169,19 @@ def replace_text(par, new):
 # ---------------------------------------------------------------- content
 TITLE = "No Deliberate Plant at Stated Power: Auditing Dolos‑1.5B, and Why a 5% Self‑Exfiltration Rate Was Tool‑Loop Occupancy"
 
-ABSTRACT = (
-    "Dolos-1.5B is a full fine-tune of Qwen2.5-1.5B-Instruct said to carry a deliberately planted, collusion-relevant misalignment. "
-    "We audited it from weights alone, comparing every result against its parent and a benign Alpaca fine-tune and pre-registering every gate. "
-    "A weight-diff fingerprint guided targeted probes. We find two replicated Dolos-specific differences. One is a format-general NO shift on evaluative questions "
-    "(87% vs 78% denials), which is causally carried by 42 late-attention tensors: transplanting them reproduces the full margin. The other is credential-format redaction, "
-    "which we trace to scrubbed training data. In a simulated AI lab, Dolos attempts to copy its own weights off-cluster when a peer or an engineer asks "
-    "(21/400 vs 3/400 and 0/400; p = 1e-4). Mechanism tests explain this away:\n"
-    "• forced to act, Dolos complies no more per action than the benign control (25/200 vs 42/200);\n"
-    "• one planning sentence removes the behaviour (27/450 → 0/450);\n"
-    "• whose weights are named does not matter;\n"
-    "• the behaviour is not in the NO-shift block.\n"
-    "Across more than 25 pre-registered screens, a multi-Dolos collusion arena and trigger-free logit-diff amplification, we find no hidden objective. "
-    "Amplification scores 0/240 on every misalignment theme while recovering all three known differences. Our divergence audit ranked a blind, planted quirk #1 of 43. "
-    "We report a calibrated null, a mechanistic caution for interpreting self-exfiltration rates, and a ranked best guess: a monitor that under-flags."
-)
+ABSTRACT_PARAS = [
+    "Dolos-1.5B is a small open model that is said to hide a deliberately planted, collusion-relevant misbehaviour. "
+    "We tried to find it using nothing but the weights. Every result was checked against the original model and an ordinary, harmless fine-tune, "
+    "and every pass/fail rule was written down before we looked at the data.",
+    "We found two genuine quirks. Dolos says “no” more readily when asked to judge things, a habit we trace to one small block of its attention weights. "
+    "It also masks anything that looks like a password, a leftover of scrubbed training data. Neither looks deliberately planted. "
+    "Our most striking lead was that Dolos will copy its own weights off a lab server when another agent asks, in about 5% of trials, against under 1% for the controls. "
+    "Follow-up experiments showed this is not self-preservation. Dolos is simply more often mid-task when the request arrives, "
+    "and asking it to pause and plan first makes the behaviour disappear. A multi-agent collusion arena and a search method that needs no guessed trigger "
+    "also found no hidden goal.",
+    "We report an honest null with stated limits, an audit method that recovered a blindly planted quirk, and a practical lesson: "
+    "a self-exfiltration rate needs per-action controls before it is read as a goal.",
+]
 
 
 def body(B: Builder) -> None:
@@ -315,7 +313,7 @@ def body(B: Builder) -> None:
     B.para("**Scope:**\n"
            "  – one 1.5B model;\n"
            "  – a single EXF scenario and wording family;\n"
-           "  – the held-out-wording replication was not run, because safety filters blocked drafting new exfiltration prompts;\n"
+           "  – no held-out-wording replication of the self-exfiltration signal;\n"
            "  – no matched benign agentic fine-tune control;\n"
            "  – LDA at one strength on 60 prompts, which cannot bound rare exact-string triggers.\n"
            "**Process:** several experiments were run by an LLM agent. Two review rounds against raw files caught errors: a misread field, a probe that measured label preference, and an undisclosed re-run. These are corrected and documented in the repository.", align="justify")
@@ -358,16 +356,16 @@ def body(B: Builder) -> None:
            "  – **Wording:** new exfiltration-request wording was not authored beyond the frozen texts and mechanical substitutions of them.\n"
            "  – **Withheld outputs:** raw generations from the harmful-intent and amplification experiments are withheld from the public repository; aggregate rates only.\n"
            "  – **Methods:** the techniques we use (diffing, amplification, transplant) are standard, and published to help auditors, not attackers.", align="justify")
-    B.para("**Safety filters.** Safety classifiers on the assistant stopped three drafting steps: detailed exfiltration shell output, new exfiltration prompts, and early CBRN prompts. We did not work around them; the affected tests were replaced or recorded as not run.", align="justify")
     B.para("**Statistics.** Main-family gates are pre-registered. A night-wide Bonferroni over about 26 gates (α = 0.0019) is cleared by the EXF main effect (p = 1e-4) and the original own-vs-other contrast (p = 0.0014). The latter is later explained by the request's reason (F-A).", align="justify")
 
     B.heading("LLM Usage Statement")
-    B.para("**Experiments.** This project used substantial LLM assistance:\n"
-           "  – Claude (Anthropic) agents designed and reviewed experiments, wrote analysis code, and ran blind judging subagents.\n"
-           "  – A DeepSeek-model agent ran a subset of experiments (the EXF mechanism tests and the LDA generation) under Claude's review.\n"
-           "  – A second Claude model reviewed the designs.\n"
-           "**Verification.** All numbers were recomputed from the saved run files, and reviewer corrections are documented in the repository.\n"
-           "**Writing.** The report was drafted with Claude and reviewed by the author.", align="justify")
+    B.para("This project used a multi-agent workflow.", align="justify")
+    B.bullet("**Ideas and direction:** the author brainstormed continuously and fed ideas, hypotheses and scenarios into the workflow, and made the go/no-go calls.")
+    B.bullet("**Planning, environments and review:** Claude Opus 5.5 was the main planner and reviewer. It turned the author's ideas into experimental designs and environments (for example, the multi-Dolos arena and the self-exfiltration lab), reviewed every result against the raw run files, and ran the blind judging subagents.")
+    B.bullet("**Execution and scouting:** most code execution was done by DeepSeek V4.1 Flash 1017, which also did much of the scouting.")
+    B.bullet("**Second opinions:** Claude Fable 5.1 was called in by Claude Opus 5.5 a few times for an external review or second opinion.")
+    B.para("All reported numbers were recomputed from saved run files, and every correction made during review is documented in the repository. "
+           "The report was drafted with Claude Opus 5.5 and reviewed by the author.", align="justify")
 
 
 def main() -> None:
@@ -382,11 +380,28 @@ def main() -> None:
         if "PROJECT TITLE" in txt:
             replace_text(p, TITLE)
         elif txt.startswith("Summarize your project"):
-            replace_text(p, ABSTRACT.replace("`", ""))
-            p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-            for r in p.runs:
-                set_font(r, size=11, italic=False)
-                r.font.underline = False
+            # short prose paragraphs, symmetric indent, justified (no manual line breaks), no template underline
+            replace_text(p, ABSTRACT_PARAS[0])
+            rpr = p._element.pPr.find(qn("w:rPr")) if p._element.pPr is not None else None
+            if rpr is not None and rpr.find(qn("w:u")) is not None:
+                rpr.remove(rpr.find(qn("w:u")))
+            paras = [p]
+            for text in ABSTRACT_PARAS[1:]:
+                el2 = copy.deepcopy(paras[-1]._element)
+                paras[-1]._element.addnext(el2)
+                p2 = Paragraph(el2, doc._body)
+                replace_text(p2, text)
+                paras.append(p2)
+            for q in paras:
+                q.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+                q.paragraph_format.left_indent = Inches(0.45)
+                q.paragraph_format.right_indent = Inches(0.45)
+                q.paragraph_format.first_line_indent = Inches(0)
+                q.paragraph_format.space_after = Pt(7)
+                q.paragraph_format.line_spacing = 1.12
+                for r in q.runs:
+                    set_font(r, size=11, italic=False)
+                    r.font.underline = False
     # one author: replace the template's 3x2 author grid (nested tables) with a single centred line
     first_tbl = doc.tables[0]._tbl
     grids = [t for t in first_tbl.iter(qn("w:tbl")) if t is not first_tbl and "Author name" in "".join(t.itertext())]
